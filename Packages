@@ -15,6 +15,25 @@ Priority: optional
 Description: command-line sdr
  A simple DSP command-line tool for Software Defined Radio.
 
+Package: digiham
+Version: 0.6.2
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 171
+Depends: libdigiham0 (= 0.6.2), libc6 (>= 2.34), libcodecserver, libgcc-s1 (>= 3.3.1), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 6)
+Recommends: codecserver
+Filename: ./arm64/digiham_0.6.2_arm64.deb
+Size: 28710
+MD5sum: 7141917787a9f4ddd14b224bac927720
+SHA1: e7ba2152ccc6ee96eb05c3a0d4d591172c705372
+SHA256: 775f540f768eae81691162fe79d0c8246c8465673201f3958b3bd86dcfeac74b
+Section: hamradio
+Priority: optional
+Description: Tools for decoding digital ham radio communication
+ Simple set of command-line tools that is intended to be used to decode
+ digital modulations used by ham radio operators. The main focus is on digital
+ voice modes.
+
 Package: libcsdr-dev
 Source: csdr
 Version: 0.19.1
