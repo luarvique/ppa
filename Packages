@@ -68,6 +68,41 @@ Priority: optional
 Description: simple library for software defined radio
  A simple DSP library for Software Defined Radio.
 
+Package: libdigiham-dev
+Source: digiham
+Version: 0.6.2
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 45
+Depends: libdigiham0 (= 0.6.2), libcodecserver-dev, libicu-dev, libcsdr-dev (>= 0.19)
+Filename: ./arm64/libdigiham-dev_0.6.2_arm64.deb
+Size: 7086
+MD5sum: 625e489d3c50accf90057b184cf6569b
+SHA1: 7df20a682c321c61f584f2544fed8e6ce3cedba2
+SHA256: 52d2e0bdf3643dfe1fefed7f082cc53994840af8ea503d22b501ff3db15505d9
+Section: hamradio
+Priority: optional
+Description: Digiham library development files
+ Contains development files for interfacing with libdigiham.
+
+Package: libdigiham0
+Source: digiham
+Version: 0.6.2
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 298
+Depends: libc6 (>= 2.34), libcodecserver, libcsdr0 (>= 0.19), libgcc-s1 (>= 3.3.1), libicu70 (>= 70.1-1~), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 6)
+Filename: ./arm64/libdigiham0_0.6.2_arm64.deb
+Size: 97270
+MD5sum: f1623fba8d86ad9776deb60556d9b185
+SHA1: 912f5a6e995f32e8e318d12f07e1a22eef28b427
+SHA256: f081bc0afa76c4963838610414ef90166930f1732e547b63fe476fbc47616ddf
+Section: hamradio
+Priority: optional
+Description: Digiham base library
+ Contains basic pipeline blocks that can be used to decode amateur radio
+ digital voice modes.
+
 Package: libowrx-connector
 Source: owrx-connector
 Version: 0.6.2
