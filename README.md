@@ -1,4 +1,4 @@
-# Extended OpenWebRX Package Repository
+# Improved OpenWebRX Package Repository
 This is the package repository for the improved version of the OpenWebRX online SDR.
 
 In order to add this repository to your system, do the following, **as root**:
