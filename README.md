@@ -13,4 +13,6 @@ Features available in this version of OpenWebRX:
 * Waterfall panning on touchscreen based devices.
 * Improved tuning in CW mode.
 * More reliable SDRPlay devices operation.
+* Better APRS information on the map.
+* APRS weather information on the map.
     
