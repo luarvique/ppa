@@ -23,12 +23,3 @@ You should also have the original OpenWebRX repository added, since it contains 
 Finally, in order to install OpenWebRX, do the following, **as root**:
 
     apt install openwebrx
-    apt install aprs-symbols
-    apt install nmux
-    apt install codecserver
-    apt install m17-demod
-    apt install direwolf
-    apt install wsjtx
-    apt install js8call
-    apt install python3-js8py
-    apt install python3-digiham
