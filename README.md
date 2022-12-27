@@ -10,7 +10,7 @@ This is the package repository for the improved version of the OpenWebRX online 
     
 In order to add this repository to your system, do the following, **as root**:
 
-    wget -O - https://luarvique.github.io/ppa/openwebrx-plus.gpg | gpg --dearmor -o /usr/share/keyrings/openwebrx-plus.gpg
+    wget -O - https://luarvique.github.io/ppa/openwebrx-plus.gpg | gpg --dearmor -o /etc/apt/trusted.gpg.d/openwebrx-plus.gpg
     echo "deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa ./" > /etc/apt/sources.list.d/openwebrx-plus.list
     apt update
 
