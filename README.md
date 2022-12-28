@@ -23,3 +23,9 @@ You should also have the original OpenWebRX repository added, since it contains 
 Finally, in order to install OpenWebRX, do the following, **as root**:
 
     apt install openwebrx
+
+To make sure OpenWebRX is running, direct your local web browser to the following address:
+
+    http://localhost:8073/
+    
+You should see the OpenWebRX web interface, with the noise filter (NR) and tuning step (>-<) controls.
