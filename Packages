@@ -420,3 +420,22 @@ Priority: optional
 Description: OpenWebRX connector for SoapySDR devices
  Provides connector functionality for devices supported by the SoapySDR library
 
+Package: soapysdr0.8-module-sdrplay3
+Source: soapysdrplay3
+Version: 0.8.1
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 132
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
+Filename: ./amd64/soapysdr0.8-module-sdrplay3_0.8.1_amd64.deb
+Size: 47914
+MD5sum: 052fd0e5d85474c60d1eb8b90fe140c2
+SHA1: d3770b7cd4399786011fe8dcf00bd25bed30a80d
+SHA256: 68958dcd73eec9d4bdb5b5a12089356be8c868d1c011c8af6f2c945ff441b1f3
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
+Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
+ A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
+
