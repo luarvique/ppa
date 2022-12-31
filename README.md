@@ -10,7 +10,7 @@ This is the package repository for the improved version of the OpenWebRX online 
 
 This repository contains packages for the following Linux distributions:
 * Ubuntu 22.04 (Jammy Jellifysh) for amd64, arm64 architectures
-* Debian 22 (Bullseye) for amd64, arm64, armhf architectures
+* Debian 11 (Bullseye) for amd64, arm64, armhf architectures
 
 In order to add this repository to your **Ubuntu** system, do the following, **as root**:
 
