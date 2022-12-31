@@ -8,10 +8,16 @@ This is the package repository for the improved version of the OpenWebRX online 
 * Better map information, with distances.
 * Better APRS map information, with weather.
     
-In order to add this repository to your system, do the following, **as root**:
+In order to add this repository to your **Ubuntu** system, do the following, **as root**:
 
     wget -O - https://luarvique.github.io/ppa/openwebrx-plus.gpg | gpg --dearmor -o /etc/apt/trusted.gpg.d/openwebrx-plus.gpg
-    echo "deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa ./" > /etc/apt/sources.list.d/openwebrx-plus.list
+    echo "deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/ubuntu jammy main" > /etc/apt/sources.list.d/openwebrx-plus.list
+    apt update
+
+In order to add this repository to your **Debian** system, do the following, **as root**:
+
+    wget -O - https://luarvique.github.io/ppa/openwebrx-plus.gpg | gpg --dearmor -o /etc/apt/trusted.gpg.d/openwebrx-plus.gpg
+    echo "deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/debian bullseye main" > /etc/apt/sources.list.d/openwebrx-plus.list
     apt update
 
 You should also have the original OpenWebRX repository added, since it contains some necessary packages. In order to add the original OpenWebRX repository to your system, do the following, **as root**:
