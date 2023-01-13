@@ -242,6 +242,42 @@ Homepage: https://www.openwebrx.de/
 Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
+Package: openwebrx
+Version: 1.2.3
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 1807
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6), soapysdr-tools, python3-csdr (>= 0.18), python3:any, debconf (>= 0.5) | debconf-2.0
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1)
+Filename: ./amd64/openwebrx_1.2.3_all.deb
+Size: 615428
+MD5sum: 85d45ba11f8cfda16f8d374f9f93457a
+SHA1: f77db3d82949f25135cb12b059375712a40a870d
+SHA256: aa48b50debf89623b16c9b074ff1f263d7986249dad1891f3d3537a29c602009
+Section: hamradio
+Priority: optional
+Homepage: https://www.openwebrx.de/
+Description: multi-user web sdr
+ Open source, multi-user SDR receiver with a web interface
+
+Package: openwebrx
+Version: 1.2.3
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 1807
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6), soapysdr-tools, python3-csdr (>= 0.18), python3:any, debconf (>= 0.5) | debconf-2.0
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1)
+Filename: ./arm64/openwebrx_1.2.3_all.deb
+Size: 615544
+MD5sum: 3203dd7a3a8b2e52e6e239b8e8e273ca
+SHA1: 5d62b0e33effa059216964fd0c195dca3e518a43
+SHA256: 2ffa3b6dfac8eb67735a977b3d2d296d457722c1618bdbdedd7a13cbcd3f705c
+Section: hamradio
+Priority: optional
+Homepage: https://www.openwebrx.de/
+Description: multi-user web sdr
+ Open source, multi-user SDR receiver with a web interface
+
 Package: owrx-connector
 Version: 0.6.2
 Architecture: amd64
