@@ -7,7 +7,7 @@ This is the package repository for the improved version of the OpenWebRX online 
 * More reliable SDRPlay devices operation.
 * Better map information, with distances.
 * Better APRS map information, with weather.
-* Configurable session timeout limit.
+* Configurable session time limit.
 
 This repository contains packages for the following Linux distributions:
 * Ubuntu 22.04 (Jammy Jellyfish) for amd64, arm64 architectures
