@@ -1,5 +1,5 @@
 # OpenWebRX+ Package Repository
-This is the package repository for the improved version of the OpenWebRX online SDR. Features available in this version of OpenWebRX:
+This is the package repository for the improved version of the OpenWebRX online SDR. The new and original features available in this version of OpenWebRX:
 * Built-in CW decoder.
 * Built-in RTTY decoder (coming).
 * Adjustable noise filtering based on spectral subtraction.
@@ -47,12 +47,12 @@ You should also have the original OpenWebRX repository added, since it contains 
 
 # ... and, finally, ...
 
-Finally, in order to install OpenWebRX, do the following, **as root**:
+Finally, in order to install OpenWebRX+, do the following, **as root**:
 
     apt install openwebrx
 
-To make sure OpenWebRX is running, direct your local web browser to the following address:
+To make sure OpenWebRX+ is running, direct your local web browser to the following address:
 
     http://localhost:8073/
     
-You should see the OpenWebRX web interface, with the noise filter (NR) and tuning step (>-<) controls.
+You should see the OpenWebRX+ web interface, with the noise filter (NR) and tuning step (>-<) controls.
