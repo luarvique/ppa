@@ -41,7 +41,7 @@ You should also have the original OpenWebRX repository added, since it contains 
     echo "deb [signed-by=/usr/share/keyrings/openwebrx.gpg] https://repo.openwebrx.de/debian/ bullseye main" > /etc/apt/sources.list.d/openwebrx.list
     apt update
 
-# ...and, finally...
+# ...and, finally, ...
 
 Finally, in order to install OpenWebRX, do the following, **as root**:
 
