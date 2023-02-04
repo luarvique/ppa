@@ -1,7 +1,7 @@
 # OpenWebRX+ Package Repository
 This is the package repository for the improved version of the OpenWebRX online SDR. The new and original features available in this version of OpenWebRX:
 * Built-in CW decoder.
-* Built-in RTTY decoder (coming).
+* Built-in RTTY decoder.
 * Adjustable noise filtering based on spectral subtraction.
 * Adjustable tuning step.
 * Improved touch screen operation, with panning and zooming.
