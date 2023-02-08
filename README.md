@@ -1,6 +1,6 @@
 # OpenWebRX+ Package Repository
 
-__You can discuss OpenWebRX+ features, problems, get news and support in the [OpenWebRX Telegram channel](https://t.me/openwebrx)__ and [its chat](https://t.me/openwebrx_chat)__.
+__You can discuss OpenWebRX+ features, problems, get news and support in the [OpenWebRX Telegram channel](https://t.me/openwebrx) and [its chat](https://t.me/openwebrx_chat).__
 
 This is the package repository for the improved version of the OpenWebRX online SDR. The new and original features available in this version of OpenWebRX:
 * Built-in CW decoder.
