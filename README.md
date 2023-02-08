@@ -1,6 +1,6 @@
 # OpenWebRX+ Package Repository
 
-__You can discuss OpenWebRX+ features, problems, get news and support in the [OpenWebRX Telegram channel](https://t.me/openwebrx).__
+__You can discuss OpenWebRX+ features, problems, get news and support in the [OpenWebRX Telegram channel](https://t.me/openwebrx)__ and [its chat](https://t.me/openwebrx_chat)__.
 
 This is the package repository for the improved version of the OpenWebRX online SDR. The new and original features available in this version of OpenWebRX:
 * Built-in CW decoder.
@@ -14,7 +14,8 @@ This is the package repository for the improved version of the OpenWebRX online 
 * More reliable SDRPlay devices operation.
 * Better map information, with distances.
 * Better APRS map information, with weather.
-* Configurable session time limit.
+* Configurable session timeout, with a policy page.
+* HTTPS protocol support (requires SSL certificate).
 
 This repository contains packages for the following Linux distributions:
 * Ubuntu 22.04 (Jammy Jellyfish) for amd64, arm64 architectures
