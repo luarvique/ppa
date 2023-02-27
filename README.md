@@ -25,7 +25,7 @@ This repository contains packages for the following Linux distributions:
 * Debian 11 (Bullseye) for amd64, arm64, armhf architectures
 
 # If you have RaspberryPi 4 and no clue ...
-Jochen (DC9DD) has built an [SD card image for RaspberryPi 4](https://workupload.com/file/MbqecRGZPCM), containing a clean OpenWebRX+ installation. The Linux user name is "pi" and the password is "raspberry". When accessing OpenWebRX+ Settings page, the user name is "admin" and the password is "raspberry". __Make sure you change these passwords__ immediately after booting the image for the first time. Please, keep in mind that __this may not be the latest version__ of OpenWebRX+. Read on for the latest version.
+Jochen (DC9DD) has built an [SD card image for RaspberryPi 4](https://github.com/luarvique/openwebrx/releases/tag/image-rpi4-1.2.7), containing a clean OpenWebRX+ installation. The Linux user name is "pi" and the password is "raspberry". When accessing OpenWebRX+ Settings page, the user name is "admin" and the password is "raspberry". __Make sure you change these passwords__ immediately after booting the image for the first time. Please, keep in mind that __this may not be the latest version__ of OpenWebRX+. Read on for the latest version.
 
 # If you are an Ubuntu user ...
 
