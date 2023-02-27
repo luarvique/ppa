@@ -24,6 +24,9 @@ This repository contains packages for the following Linux distributions:
 * Ubuntu 22.04 (Jammy Jellyfish) for amd64, arm64 architectures
 * Debian 11 (Bullseye) for amd64, arm64, armhf architectures
 
+# If you have RaspberryPi 4 and no clue ...
+Jochen (DC9DD) has built an [SD card image for RaspberryPi 4](https://workupload.com/file/MbqecRGZPCM), containing a clean OpenWebRX+ installation. The Linux user name is "pi" and the password is "raspberry". When accessing OpenWebRX+ Settings page, the user name is "admin" and the password is "raspberry". Please, keep in mind that __this may not be the latest version__ of OpenWebRX+. Read on for the latest version.
+
 # If you are an Ubuntu user ...
 
 In order to add this repository to your **Ubuntu** system, do the following, **as root**:
