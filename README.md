@@ -67,3 +67,10 @@ To make sure OpenWebRX+ is running, direct your local web browser to the followi
     http://localhost:8073/
     
 You should see the OpenWebRX+ web interface, with the noise filter (NR) and tuning step (>-<) controls.
+
+# Docker Way
+
+- (Clone this repository)
+- `cd docker`
+- `docker build -t mod-openwebrx-image .`
+- `docker run --name openwebrxcontainer-mod --device /dev/bus/usb -p 8073:8073  -v openwebrx-settings-mb:/var/lib/openwebrx mod-openwebrx-image`
