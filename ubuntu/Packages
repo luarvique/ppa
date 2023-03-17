@@ -126,9 +126,9 @@ Installed-Size: 81
 Depends: libcsdr0 (>= 0.18), libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 6)
 Filename: ./arm64/libowrx-connector_0.6.3_arm64.deb
 Size: 24084
-MD5sum: 1bb83cc8de639b23b3ea41c2c1efb08f
-SHA1: 80153183520b7ab976107b089c8ebf586f44e04f
-SHA256: 637e868f1aa535b66e0b89509022648671fc87dc26c9ead08ad4b70ed5e1047b
+MD5sum: 89418cfc924b26f2f1e4c23f2eef7a51
+SHA1: 363e8910e2a6cbcbe156ac25c9081fe500da22f8
+SHA256: 637568414f875afed28a87838062bac76ae3fc9111a004f49095ac942fb2b541
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector base library
@@ -159,10 +159,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 22
 Depends: libowrx-connector (= 0.6.3), libcsdr-dev (>= 0.18)
 Filename: ./arm64/libowrx-connector-dev_0.6.3_arm64.deb
-Size: 3820
-MD5sum: 1412ec1450725443c24d1b919dc9ebde
-SHA1: 0669b45de98c1ce8ba1feb8653d5703b1ed69a07
-SHA256: a603449adb2dbc2d433ff6a60ecbfe994cf03be6bff75b7def7147a1ab28b0ba
+Size: 3808
+MD5sum: f47fcefdc303014f1ce688f4d6720033
+SHA1: e8fdfeef512251eb86277af8d982db6fd342bcc5
+SHA256: fdc5c03350ee7f389a9ce1968b30dd4d1b3d66bad0dd371a802d056a0f1396c1
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector base library - development files
@@ -265,10 +265,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 10
 Depends: rtl-connector (= 0.6.3), rtl-tcp-connector (= 0.6.3), soapy-connector (= 0.6.3)
 Filename: ./arm64/owrx-connector_0.6.3_arm64.deb
-Size: 2360
-MD5sum: 2b4cfbc1a5fb0153c2f7e22a5376d7d4
-SHA1: aedc722fe0c9a5311ce45682450a56257c856cf1
-SHA256: 1e88d2111cee6ae7d805b7804d093f7277c57691e64942891b253d5bcc5d6171
+Size: 2352
+MD5sum: 1b5b291821e6d35d4388bb7048fd40d8
+SHA1: b9bcbb7c7fd0904f6f9974bce66f3905fd84e631
+SHA256: 6af517a18ef159d0e67d62ad8837071a60fefb75c4f5cfa0536dddd4c97e7d1b
 Section: hamradio
 Priority: optional
 Description: Virtual bundle dependency package
@@ -337,10 +337,10 @@ Installed-Size: 38
 Depends: libowrx-connector (= 0.6.3), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), librtlsdr0 (>= 0.6.0), libstdc++6 (>= 5.2)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./arm64/rtl-connector_0.6.3_arm64.deb
-Size: 9872
-MD5sum: 93504c7c965b3951c30f0ab65ef513d1
-SHA1: a0d9b13f7f0766160ccfd2ee0c384072b08e0e10
-SHA256: aaa116be40ddd78976e7314916694e356b8c6aa47349c706fd135504861c4fb5
+Size: 9844
+MD5sum: 01988c57d0fb5971964277bb918748ab
+SHA1: 99c0d058f90d473c11fc61e1e2fdab70af2f8cd2
+SHA256: 7c98989136b6b8a68b731df67a05b2e5d6d784be17a012f27152b1e073167323
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for RTL-SDR devices
@@ -374,10 +374,10 @@ Installed-Size: 38
 Depends: libowrx-connector (= 0.6.3), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./arm64/rtl-tcp-connector_0.6.3_arm64.deb
-Size: 9948
-MD5sum: fa7532ab25181870ab80170c011549e0
-SHA1: d3a7a607babcf18ee566fa8e6c2abe6b5aa178c8
-SHA256: 04337ae409da7824f295031212aff271c67ae31ba8d6a4c0577b90fddbc74779
+Size: 9956
+MD5sum: f2137e5bd9f32a0872d141ef2d5f512d
+SHA1: 9aa34011a7a3d52a3fd80142d0ccc5fe97d943dd
+SHA256: 5a3ad04da8fbdd38269aeb22a1cb6d5b47aecd2a92aae1923b8b55dd21c0a226
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for rtl_tcp remote devices
@@ -411,10 +411,10 @@ Installed-Size: 42
 Depends: libowrx-connector (= 0.6.3), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 5.2)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./arm64/soapy-connector_0.6.3_arm64.deb
-Size: 12124
-MD5sum: 2183331c5229ced15493dc444e8f685f
-SHA1: fadf171b90dc594f08f1d6871c48c3a35a5f96cb
-SHA256: 5d1da72ef9e433aeaae32cf92bb2a09f643b7e855e5246c69597a983ccd3bda8
+Size: 12120
+MD5sum: 3ec070a5c5d2d2950a64b468bcdfae3a
+SHA1: 001a1ebc488f08deb310e292223f6fb12f319372
+SHA256: fa6f339022167c510b4062dba187eabcbe84283d7afe41cec574a786dbf4e72b
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for SoapySDR devices
@@ -449,10 +449,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 10
 Depends: soapysdr0.8-module-sdrplay3
 Filename: ./arm64/soapysdr-module-sdrplay3_0.8.2_all.deb
-Size: 2832
-MD5sum: f22a54b8ffc097b53008faf97a09ec2a
-SHA1: 2a6505a9dacd0084116daf2fa20e45ed9d936692
-SHA256: ac00d7821803505a734b7106195fa99c22540ca67a59a46f6d6500ecc8b9d655
+Size: 2820
+MD5sum: 9e33c477aa9c122e4adba1f9b9abd7b2
+SHA1: c08ab94042f91f92a1f6d8f73ff0d516b017132f
+SHA256: c7724b06db84bb0f0fb4415f6d5c8eb0f2d374632bdaa1d799186685efa225b1
 Section: libs
 Priority: optional
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
@@ -487,12 +487,12 @@ Version: 0.8.2
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 122
-Depends: libsoapysdr0.8 (>= 0.8.1), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
 Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.2_arm64.deb
-Size: 39240
-MD5sum: d29f9d077071ee716053011b5b764a00
-SHA1: bd57b3478558aa26ed8af799248635e5a7c72e61
-SHA256: 50a3f2d84019fd52e3fe34fc963f10cf1134d32070d0ba062029efa119026037
+Size: 39352
+MD5sum: 9a51ed57b18617a2e110637ed60d9077
+SHA1: 37824209e63373ca4061711cb2f1734198641c63
+SHA256: 5563b7736c2fd33c7cd704d8c488e4532cdf3cb6687a7c7f512e2734b6e6c2c0
 Section: libs
 Priority: optional
 Multi-Arch: same
