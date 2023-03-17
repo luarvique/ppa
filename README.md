@@ -67,3 +67,23 @@ To make sure OpenWebRX+ is running, direct your local web browser to the followi
     http://localhost:8073/
     
 You should see the OpenWebRX+ web interface, with the noise filter (NR) and tuning step (>-<) controls.
+
+# If you have an SDRPlay device or clone ...
+
+This repository offers the **improved SoapySDRPlay3 device driver** with the following changes from the original version:
+* Fixed generic gain control, limiting it to the IFGR setting.
+* Made RFGR setting a separate, optional prameter named "rf_gain".
+* Fixed frequency correction (ppm) parameter.
+* Fixed problems when switching from LIF to wideband ZIF mode.
+* Fixed deadlocks when sending settings to the device.
+* Added multiple retries when device does not accept a setting.
+* Widened filters a little bit, reducing the "hump" size for most bandwidths.
+* Added 1.536MHz bandwidth.
+
+In order to install the improved SoapySDRPlay3 package, do the following, **as root**:
+
+    apt install soapysdr-module-sdrplay3
+
+During installation, the SoapySDRPlay3 package should also install the latest SoapySDR and remove all locally built SoapySDR files from /usr/local. **You will still need to download and install SDRPlay API** from this page:
+
+    https://www.sdrplay.com/api3-software/
