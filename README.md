@@ -3,12 +3,9 @@
 __You can discuss OpenWebRX+ features, problems, get news and support in the [OpenWebRX Telegram channel](https://t.me/openwebrx) and [its chat](https://t.me/openwebrx_chat).__
 
 This is the package repository for the improved version of the OpenWebRX online SDR. The new and original features available in this version of OpenWebRX:
-* Built-in SSTV decoder with background decoding.
-* Built-in AIS decoder.
-* Built-in CW decoder.
-* Built-in RTTY decoder.
+* Built-in SSTV, AIS, CW, RTTY decoders.
 * Built-in MP3 recorder for received audio.
-* Image browser for received SSTV images.
+* Background SSTV decoding with the browser for received images.
 * Adjustable noise filtering based on spectral subtraction.
 * Adjustable tuning step.
 * Improved touch screen operation, with panning and zooming.
@@ -16,8 +13,7 @@ This is the package repository for the improved version of the OpenWebRX online 
 * Improved tuning in CW mode.
 * Bandpass filter adjustable with scroll wheel.
 * More reliable SDRPlay devices operation.
-* Better map information, with distances.
-* Better APRS map information, with paths, weather, equipment info.
+* Better map information, with distances, APRS paths, weather, etc.
 * Configurable session timeout, with a policy page.
 * HTTPS protocol support (requires SSL certificate).
 * Foldable receiver panel with configurable opacity.
