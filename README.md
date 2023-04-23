@@ -5,7 +5,7 @@ __You can discuss OpenWebRX+ features, problems, get news and support in the [Op
 This is the package repository for the improved version of the OpenWebRX online SDR. The new and original features available in this version of OpenWebRX:
 * Built-in FAX, SSTV, AIS, CW, RTTY decoders.
 * Built-in MP3 recorder for received audio.
-* Background SSTV decoding with the browser for received images.
+* Background SSTV and FAX decoding with the browser for received images.
 * Adjustable noise filtering based on spectral subtraction.
 * Adjustable tuning step.
 * Improved touch screen operation, with panning and zooming.
