@@ -317,24 +317,6 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 2085
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6), soapysdr-tools, python3-csdr (>= 0.18.10), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, multimon-ng, rtl-433, imagemagick
-Filename: ./openwebrx_1.2.19_all.deb
-Size: 687164
-MD5sum: c06d1cf2b03289611093a2cc0c3a9d56
-SHA1: aa8dd7799514678cbf7af32228d8b74d48908661
-SHA256: eef8e21c1ccce335b9f64c2d8d18b742cab2507287a4cea579c8760bd39a1dec
-Section: hamradio
-Priority: optional
-Homepage: https://www.openwebrx.de/
-Description: multi-user web sdr
- Open source, multi-user SDR receiver with a web interface
-
-Package: openwebrx
-Version: 1.2.19
-Architecture: all
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 2085
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6), soapysdr-tools, python3-csdr (>= 0.18.10), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, multimon-ng, rtl-433, imagemagick
 Filename: ./amd64/openwebrx_1.2.19_all.deb
 Size: 687164
 MD5sum: c06d1cf2b03289611093a2cc0c3a9d56
@@ -651,16 +633,16 @@ Description: OpenWebRX connector for SoapySDR devices
 
 Package: soapysdr-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.2
+Version: 0.8.3
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 10
 Depends: soapysdr0.7-module-sdrplay3
-Filename: ./amd64/soapysdr-module-sdrplay3_0.8.2_all.deb
-Size: 2816
-MD5sum: f5aee4efa74189de0a31f895bc50bd56
-SHA1: 584cb8daf59ea2febcff45f0bb79bcfab9962831
-SHA256: f3a429fdfb2b7fe0968c4484af62c47c9cdbfdedaefa12d5a2526c68576ab35c
+Filename: ./amd64/soapysdr-module-sdrplay3_0.8.3_all.deb
+Size: 3136
+MD5sum: 85ec4baa8326346e23b589ce1f13365e
+SHA1: df81b95cfe8741e8c0e32434f57b3ac9d8fa5ad7
+SHA256: acd3a26089500cb4ddf6cebea35eb5cabd3772194b16d168ec86be0cd74b4b76
 Section: libs
 Priority: optional
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
@@ -672,16 +654,16 @@ Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.2
+Version: 0.8.3
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 10
 Depends: soapysdr0.7-module-sdrplay3
-Filename: ./armhf/soapysdr-module-sdrplay3_0.8.2_all.deb
-Size: 2816
-MD5sum: f5aee4efa74189de0a31f895bc50bd56
-SHA1: 584cb8daf59ea2febcff45f0bb79bcfab9962831
-SHA256: f3a429fdfb2b7fe0968c4484af62c47c9cdbfdedaefa12d5a2526c68576ab35c
+Filename: ./armhf/soapysdr-module-sdrplay3_0.8.3_all.deb
+Size: 3136
+MD5sum: 85ec4baa8326346e23b589ce1f13365e
+SHA1: df81b95cfe8741e8c0e32434f57b3ac9d8fa5ad7
+SHA256: acd3a26089500cb4ddf6cebea35eb5cabd3772194b16d168ec86be0cd74b4b76
 Section: libs
 Priority: optional
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
@@ -693,16 +675,16 @@ Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.2
+Version: 0.8.3
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 10
 Depends: soapysdr0.7-module-sdrplay3
-Filename: ./arm64/soapysdr-module-sdrplay3_0.8.2_all.deb
-Size: 2816
-MD5sum: f5aee4efa74189de0a31f895bc50bd56
-SHA1: 584cb8daf59ea2febcff45f0bb79bcfab9962831
-SHA256: f3a429fdfb2b7fe0968c4484af62c47c9cdbfdedaefa12d5a2526c68576ab35c
+Filename: ./arm64/soapysdr-module-sdrplay3_0.8.3_all.deb
+Size: 3136
+MD5sum: 85ec4baa8326346e23b589ce1f13365e
+SHA1: df81b95cfe8741e8c0e32434f57b3ac9d8fa5ad7
+SHA256: acd3a26089500cb4ddf6cebea35eb5cabd3772194b16d168ec86be0cd74b4b76
 Section: libs
 Priority: optional
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
@@ -714,16 +696,16 @@ Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr0.7-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.2
+Version: 0.8.3
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 162
+Installed-Size: 165
 Depends: libc6 (>= 2.30), libgcc-s1 (>= 3.0), libsoapysdr0.7 (>= 0.7.2), libstdc++6 (>= 5.2)
-Filename: ./amd64/soapysdr0.7-module-sdrplay3_0.8.2_amd64.deb
-Size: 49732
-MD5sum: 467cc8d23150ce4c58e2fc14c2db2d73
-SHA1: b61c76cc157b79f39991b1e9d81839da4db0897a
-SHA256: a2e0065085b4c0f7ee636c3e9afd3adb518df77c6f46dc1edd4b47ea8a9aaa08
+Filename: ./amd64/soapysdr0.7-module-sdrplay3_0.8.3_amd64.deb
+Size: 50624
+MD5sum: 7625566ad646ea384d1122d3f048aa15
+SHA1: 7864c99d9b14b844fb4487f6f33933e61d119f04
+SHA256: 9d1f4e07fe6cbb0a07e33a3e8e982f02b8f8bb2c78d78453b2ade710ed1a0dd7
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -733,16 +715,16 @@ Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr0.7-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.2
+Version: 0.8.3
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 133
+Installed-Size: 136
 Depends: libc6 (>= 2.30), libgcc-s1 (>= 3.5), libsoapysdr0.7 (>= 0.7.2), libstdc++6 (>= 5.2)
-Filename: ./armhf/soapysdr0.7-module-sdrplay3_0.8.2_armhf.deb
-Size: 42324
-MD5sum: 5f03f279858cf376ddbc775c2c57a872
-SHA1: 3a03889f134328996f8a33ffbec23ec704474ce7
-SHA256: 74709d00bd27c47b1573932082d4a09e73e0434fd86299762e38ca906a98a519
+Filename: ./armhf/soapysdr0.7-module-sdrplay3_0.8.3_armhf.deb
+Size: 42824
+MD5sum: 1a6eb69d1178ea1cbcd317f50de50129
+SHA1: d70a281c540cf7c168c48ac7a1746bb86d2c6b37
+SHA256: 2aee5046383b3bf7e0af609df5a886653abca1ef3dd7785a5d0fe056e4d93f1a
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -752,20 +734,77 @@ Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr0.7-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.2
+Version: 0.8.3
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 146
+Installed-Size: 149
 Depends: libc6 (>= 2.30), libgcc-s1 (>= 3.0), libsoapysdr0.7 (>= 0.7.2), libstdc++6 (>= 5.2)
-Filename: ./arm64/soapysdr0.7-module-sdrplay3_0.8.2_arm64.deb
-Size: 44508
-MD5sum: a6bb0967b20963cfe5d574cf63eee412
-SHA1: 3a9bc1df492b23f69e661ecf5c9edd21556033d0
-SHA256: 1dc57535fe8a77b6b2dbe69ab91773353a868593a721d06b64bda02f28c67742
+Filename: ./arm64/soapysdr0.7-module-sdrplay3_0.8.3_arm64.deb
+Size: 45336
+MD5sum: f4c2b059532e5be4ce7f9f89affa49f9
+SHA1: 7f73623087b8b2c7477e4b5fda0c8c90f10420c8
+SHA256: 4fb592af2095e18d44e3eaeae9403b0185c375e15f7abf13d2f2fa1014174d54
 Section: libs
 Priority: optional
 Multi-Arch: same
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
 Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
  A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
+
+Package: soapysdr0.7-module-sdrplay3-dbgsym
+Source: soapysdrplay3
+Version: 0.8.3
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 704
+Depends: soapysdr0.7-module-sdrplay3 (= 0.8.3)
+Filename: ./packages/soapysdr0.7-module-sdrplay3-dbgsym_0.8.3_armhf.deb
+Size: 671336
+MD5sum: 06474123dd3fb433592d414de3a2d9d1
+SHA1: bfe125463581dd679acce9545661b15723bde12d
+SHA256: 428865cabf7a5dd7ed73f06b4373c522b88e1cab10732ffb570004307857a5f5
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for soapysdr0.7-module-sdrplay3
+Build-Ids: 091fa8941127771784c419daa9a2b02aaaa1e123
+
+Package: soapysdr0.7-module-sdrplay3-dbgsym
+Source: soapysdrplay3
+Version: 0.8.3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 729
+Depends: soapysdr0.7-module-sdrplay3 (= 0.8.3)
+Filename: ./packages/soapysdr0.7-module-sdrplay3-dbgsym_0.8.3_amd64.deb
+Size: 691056
+MD5sum: 4c5fccfc7de6bf2cf6ee74e9a42dc34b
+SHA1: 2e5f4d271dc85f47b9b6442471cdaaf02cca12b6
+SHA256: fe786b8f3be443b1a15fe7b01c5978fe6343432db31e456f12af23d250f57cc2
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for soapysdr0.7-module-sdrplay3
+Build-Ids: d4f8976f4aa62c61786a2a978647949f29708dae
+
+Package: soapysdr0.7-module-sdrplay3-dbgsym
+Source: soapysdrplay3
+Version: 0.8.3
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 704
+Depends: soapysdr0.7-module-sdrplay3 (= 0.8.3)
+Filename: ./packages/soapysdr0.7-module-sdrplay3-dbgsym_0.8.3_arm64.deb
+Size: 669236
+MD5sum: 7591b951a3d757c0adb106b96fd10344
+SHA1: f8b0b559dc83374f9a19db5c3eb2377d7f3de2f2
+SHA256: 7fe97eec71c75d6f579b30b54c1777093494543b1c42ecd892ec741dc8488508
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for soapysdr0.7-module-sdrplay3
+Build-Ids: b65542cadd3ab04f32cd2b12d19b3fd372af85bd
 
