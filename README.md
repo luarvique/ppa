@@ -28,6 +28,9 @@ This repository contains packages for the following Linux distributions:
 # If you have RaspberryPi 4 and no clue ...
 Jochen (DC9DD) has built an [SD card image for RaspberryPi 4](https://github.com/luarvique/openwebrx/releases/), containing a clean OpenWebRX+ installation. The same image has been reported to work on RaspberryPi 3 and PiZero 2 as well. The Linux user name is "pi" and the password is "raspberry". When accessing OpenWebRX+ Settings page, the user name is "admin" and the password is "raspberry". __Make sure you change these passwords__ immediately after booting the image for the first time. Please, keep in mind that __this may not be the latest version__ of OpenWebRX+. Read on for the latest version.
 
+# If you are using Docker ...
+Stanislav (LZ2SLL) has made two OpenWebRX+ Docker images that should run on any x64 PC. The [nightly image](https://hub.docker.com/r/slechev/openwebrxplus-nightly) is updated daily and based on the latest OpenWebRX+ sources. The [versioned image](https://hub.docker.com/r/slechev/openwebrxplus) is based on the latest published OpenWebRX+ packages and should be identical to a normal OpenWebRX+ installation on Debian. The versioned image is somewhat bigger in size, but is also more stable.
+
 # If you already have OpenWebRX+ installed ...
 
 In order to **upgrade from a previous OpenWebRX+** version, do the following, **as root**:
