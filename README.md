@@ -1,5 +1,7 @@
 # OpenWebRX+ Package Repository
 
+#### [RaspberryPi Images](#if-you-have-raspberrypi-4-and-no-clue-) | [Docker Images](#if-you-are-using-docker-) | [Upgrades](#if-you-already-have-openwebrx-installed-) | [Ubuntu Installs](#if-you-are-an-ubuntu-user-) | [Debian Installs](#if-you-are-a-debian-user-) | [SDRPlay Driver](#if-you-have-an-sdrplay-device-or-clone-)
+
 __You can discuss OpenWebRX+ features, problems, get news and support in the [OpenWebRX Telegram channel](https://t.me/openwebrx) and [its chat](https://t.me/openwebrx_chat).__
 
 This is the package repository for the improved version of the OpenWebRX online SDR. The new and original features available in this version of OpenWebRX:
