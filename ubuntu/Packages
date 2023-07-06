@@ -207,17 +207,17 @@ Description: TCP stream multiplexer
  through TCP sockets.
 
 Package: openwebrx
-Version: 1.2.21
+Version: 1.2.22
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 2128
+Installed-Size: 2140
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6), soapysdr-tools, python3-csdr (>= 0.18.11), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, multimon-ng, rtl-433, imagemagick
-Filename: ./amd64/openwebrx_1.2.21_all.deb
-Size: 690952
-MD5sum: dcb61018fa5c1a8921597ba738655a43
-SHA1: 191a06cdacbbedcbe99d1dddcddfb4faf3c176b8
-SHA256: b060991dc814d79f151664f6fb3deec0a20bfbae7d54d646e8c1922002fb9930
+Filename: ./amd64/openwebrx_1.2.22_all.deb
+Size: 692400
+MD5sum: da2edf350ff49d328df0f1e5f5619e33
+SHA1: 04ef39388b318d2d29889c520e9a11c6f12d6da1
+SHA256: 38e03805a94e3755c850f23fd872b72b9f84724b5987775bc48b89038d0b59ad
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -225,17 +225,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.21
+Version: 1.2.22
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 2128
+Installed-Size: 2140
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6), soapysdr-tools, python3-csdr (>= 0.18.11), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, multimon-ng, rtl-433, imagemagick
-Filename: ./arm64/openwebrx_1.2.21_all.deb
-Size: 690812
-MD5sum: 20634da4d6d4926005d31021125c6dc1
-SHA1: 8949a836f3de8f5c565a3fa812cd6b8627c556de
-SHA256: 4fe6bdef3049700be0bba473d92f9c7c9c94cfe106919ab5ccab0c43b40fad56
+Filename: ./arm64/openwebrx_1.2.22_all.deb
+Size: 692188
+MD5sum: 1090226ad2b7e3342eee3ad1647e7d37
+SHA1: 5c7f30ed86c3e900071b436ff6126e31928cf6bb
+SHA256: 783714f2dbac1d7b9c8d00ab4ef89bfab9f068116ea19d1b1cc7a71abea6f84d
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -422,16 +422,16 @@ Description: OpenWebRX connector for SoapySDR devices
 
 Package: soapysdr-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.3
+Version: 0.8.4
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 10
 Depends: soapysdr0.8-module-sdrplay3
-Filename: ./amd64/soapysdr-module-sdrplay3_0.8.3_all.deb
-Size: 3144
-MD5sum: 0f2708d39e5e0bb04b970e1dd01df43a
-SHA1: b5256f7b27b3e261bf5163f95cba0e1b3c50262b
-SHA256: 35fc2f121364e19dd0b0f03303979d7f934db465c4185c8e6c28dd91f680a796
+Filename: ./amd64/soapysdr-module-sdrplay3_0.8.4_all.deb
+Size: 3288
+MD5sum: 275ec2dc4f36757590100ef6c8cf0a80
+SHA1: d5e7bd6ee7e99c67939672fc776974ff3e8187f9
+SHA256: 78d7b7322fa223ddd3bebcb5e9aa10ef8e089b3922b0de50b09be3aab63d4ff9
 Section: libs
 Priority: optional
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
@@ -443,16 +443,16 @@ Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.3
+Version: 0.8.4
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 10
 Depends: soapysdr0.8-module-sdrplay3
-Filename: ./arm64/soapysdr-module-sdrplay3_0.8.3_all.deb
-Size: 3144
-MD5sum: 7b6645217b0cb4f4f4f4a71db4bd7110
-SHA1: 3afe6db07373dc0590f28b2b7c051934313cd6a5
-SHA256: abfb8bb67bd7c3ebea84332548b5acd90c868878af933b81aa42a178a3acc0e4
+Filename: ./arm64/soapysdr-module-sdrplay3_0.8.4_all.deb
+Size: 3304
+MD5sum: 0799272f023e97fe127cf9e29b367132
+SHA1: 1d6d11d4c323aaa005e030f2fecf7fa023c75bb2
+SHA256: 0be9f6a930f46acb9268f0f336f3f6910a0deff5e51b0c0c2e8557bbf7c3c0df
 Section: libs
 Priority: optional
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
@@ -464,16 +464,16 @@ Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr0.8-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.3
+Version: 0.8.4
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 136
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
-Filename: ./amd64/soapysdr0.8-module-sdrplay3_0.8.3_amd64.deb
-Size: 45068
-MD5sum: 8d684bf86e8b52ae596a172649a629bd
-SHA1: 861651e17292d2ea4684002cad22df5db3c3c9f8
-SHA256: 63d6e35b33b434b738273d17a6635e0671b307abfb0be976c8bacdebce9959b6
+Filename: ./amd64/soapysdr0.8-module-sdrplay3_0.8.4_amd64.deb
+Size: 45444
+MD5sum: fd53d6c271cd24aa0ab2e8b6a6eb03f6
+SHA1: dc0cf6b8f5743e10681de23cf75c2e2432ba8b6a
+SHA256: 58f96881289e05428f6dc52159638f883e394f9d83fe86b78570789711fea99b
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -483,16 +483,16 @@ Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr0.8-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.3
+Version: 0.8.4
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 125
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
-Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.3_arm64.deb
-Size: 40168
-MD5sum: 7f25cc83ebb08bc1b96fee20b8ff7ba0
-SHA1: fcf00cbb11e295d65e16f5973e1d5d4b4c5f5db3
-SHA256: 16e6cbde8ff207af457cf08f1007370774b9807e6a227495fe87c151c600a881
+Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.4_arm64.deb
+Size: 40452
+MD5sum: a3fa8eef3b2c3655d1d897fd99970247
+SHA1: 2e1e2c1dca48ea5d65cb519db7fd476f778fafb6
+SHA256: 3af38637100a906f2fdae334222289a280493d78d01386b36594f61ec738ca9f
 Section: libs
 Priority: optional
 Multi-Arch: same
