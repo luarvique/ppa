@@ -17,6 +17,7 @@ This is the package repository for the improved version of the OpenWebRX online 
 * Improved tuning in CW mode.
 * Bandpass filter adjustable with scroll wheel.
 * More reliable SDRPlay devices operation.
+* Map shows other pulbic web SDRs from all around the world.
 * Better map information, with distances, APRS paths, weather, etc.
 * Configurable session timeout, with a policy page.
 * HTTPS protocol support (requires SSL certificate).
