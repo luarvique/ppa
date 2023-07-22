@@ -99,4 +99,4 @@ In order to install the improved SoapySDRPlay3 package, do the following, **as r
 
 During installation, the SoapySDRPlay3 package should also install the latest SoapySDR and remove all locally built SoapySDR files from /usr/local. **You will still need to download and install SDRPlay API** from this page:
 
-    https://www.sdrplay.com/api3-software/
+    https://www.sdrplay.com/dlfinishs/
