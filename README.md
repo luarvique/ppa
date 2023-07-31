@@ -100,3 +100,5 @@ In order to install the improved SoapySDRPlay3 package, do the following, **as r
 During installation, the SoapySDRPlay3 package should also install the latest SoapySDR and remove all locally built SoapySDR files from /usr/local. **You will still need to download and install SDRPlay API** from this page:
 
     https://www.sdrplay.com/downloads/
+
+**RaspberryPi users need the 32bit ARM version of the SDRPlay API.** Do not try installing any other SDRPlay API binaries on your RaspberryPi.
