@@ -5,19 +5,23 @@
 __You can discuss OpenWebRX+ features, problems, get news and support in the [OpenWebRX Telegram channel](https://t.me/openwebrx) and [its chat](https://t.me/openwebrx_chat).__
 
 This is the package repository for the improved version of the OpenWebRX online SDR. The new and original features available in this version of OpenWebRX:
-* Built-in FAX, SSTV, AIS, FLEX, POCSAG, HFDL, ISM, CW, RTTY, and SAM decoders.
+* Built-in FAX, SSTV, AIS, FLEX, POCSAG, HFDL, VDL2, ISM, CW, RTTY, and SAM decoders.
 * Built-in DTMF, EEA, EIA, CCIR, and several ZVEY SELCALL decoders.
 * Built-in MP3 recorder for received audio.
 * Built-in scanner.
 * Background SSTV and FAX decoding with the browser for received images.
 * Adjustable noise filtering based on spectral subtraction.
 * Adjustable tuning step.
+* Automatically generated bookmarks for shortwave broadcasts.
+* Automatically generated bookmarks for nearby HAM repeaters.
 * Improved touch screen operation, with panning and zooming.
 * Improved scroll wheel support, with tuning and zooming.
 * Improved tuning in CW mode.
 * Bandpass filter adjustable with scroll wheel.
 * More reliable SDRPlay devices operation.
 * Map shows other pulbic web SDRs from all around the world.
+* Map shows shortwave broadcasters from all around the world.
+* Map shows nearby HAM repeaters.
 * Better map information, with distances, APRS paths, weather, etc.
 * Configurable session timeout, with a policy page.
 * HTTPS protocol support (requires SSL certificate).
