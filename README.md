@@ -105,4 +105,6 @@ During installation, the SoapySDRPlay3 package should also install the latest So
 
     https://www.sdrplay.com/downloads/
 
-**RaspberryPi users need the 32bit ARM version of the SDRPlay API.** Do not try installing any other SDRPlay API binaries on your RaspberryPi.
+**SDRPlay API can also be installed as an unofficial package, by following these instructions:**
+
+    https://gitlab.com/martin.herren/libsdrplay-api
