@@ -105,6 +105,6 @@ During installation, the SoapySDRPlay3 package should also install the latest So
 
     https://www.sdrplay.com/downloads/
 
-**SDRPlay API can also be installed as an unofficial package, by following these instructions:**
+**SDRPlay API can also be installed as an unofficial package**, by following these instructions:
 
     https://gitlab.com/martin.herren/libsdrplay-api
