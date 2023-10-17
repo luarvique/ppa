@@ -63,17 +63,25 @@ You should also have the original OpenWebRX repository added, since it contains 
 
 # If you are a Debian user ...
 
-In order to add this repository to your **Debian** system, do the following, **as root**:
+In order to add this repository to your **Debian Bullseye** system, do the following, **as root**:
 
     wget -O - https://luarvique.github.io/ppa/openwebrx-plus.gpg | gpg --dearmor -o /etc/apt/trusted.gpg.d/openwebrx-plus.gpg
     echo "deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/debian ./" > /etc/apt/sources.list.d/openwebrx-plus.list
     apt update
 
-You should also have the original OpenWebRX repository added, since it contains some necessary packages. In order to add the original OpenWebRX repository to your **Debian** system, do the following, **as root**:
+You should also have the original OpenWebRX repository added, since it contains some necessary packages. In order to add the original OpenWebRX repository to your **Debian Bullseye** system, do the following, **as root**:
 
     wget -O - https://repo.openwebrx.de/debian/key.gpg.txt | gpg --dearmor -o /usr/share/keyrings/openwebrx.gpg
     echo "deb [signed-by=/usr/share/keyrings/openwebrx.gpg] https://repo.openwebrx.de/debian/ bullseye main" > /etc/apt/sources.list.d/openwebrx.list
     apt update
+
+If you have a **Debian Bookworm** system, there is now an experimental OpenWebRX+ build available for you. Do the following, **as root**:
+
+    wget -O - https://luarvique.github.io/ppa/openwebrx-plus.gpg | gpg --dearmor -o /etc/apt/trusted.gpg.d/openwebrx-plus.gpg
+    echo "deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/bookworm ./" > /etc/apt/sources.list.d/openwebrx-plus.list
+    apt update
+
+**Debian Bookworm** users **must not** add the original OpenWebRX repository to their system, since it contains Bullseye packages.    
 
 # ... and, finally, ...
 
