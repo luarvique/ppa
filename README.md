@@ -78,7 +78,7 @@ You should also have the original OpenWebRX repository added, since it contains 
 If you have a **Debian Bookworm** system, there is now an experimental OpenWebRX+ build available for you. Do the following, **as root**:
 
     wget -O - https://luarvique.github.io/ppa/openwebrx-plus.gpg | gpg --dearmor -o /etc/apt/trusted.gpg.d/openwebrx-plus.gpg
-    echo "deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/debian bookworm" > /etc/apt/sources.list.d/openwebrx-plus.list
+    echo "deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/debian/ bookworm" > /etc/apt/sources.list.d/openwebrx-plus.list
     apt update
 
 **Debian Bookworm** users **must not** add the original OpenWebRX repository to their system, since it contains Bullseye packages.    
