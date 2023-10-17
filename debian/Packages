@@ -1,91 +1,3 @@
-Package: codecserver
-Version: 0.2.0
-Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 78
-Depends: adduser, libcodecserver (= 0.2.0), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libprotobuf32 (>= 3.21.12), libstdc++6 (>= 6)
-Recommends: codecserver-driver-all (= 0.2.0)
-Filename: ./bookworm/amd64/codecserver_0.2.0_amd64.deb
-Size: 21308
-MD5sum: e4f1470367c5e18e2d4233f502a06206
-SHA1: 2abecdbd229b071bd1e28e77ea8df191e976ee23
-SHA256: 9b32616f71caf844e3825c2f48c481c7bff0f6554bbe42d979e79089dcb4744b
-Section: hamradio
-Priority: optional
-Description: Modular network codec dispatching system
- Provides a modular server that can take over audio encoding and decoding over
- the network
-
-Package: codecserver-dbgsym
-Source: codecserver
-Version: 0.2.0
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 447
-Depends: codecserver (= 0.2.0)
-Filename: ./bookworm/amd64/codecserver-dbgsym_0.2.0_amd64.deb
-Size: 424136
-MD5sum: 2c2e9a341fb55c076cbf2e13646f47ae
-SHA1: e83abad9f85d172cec8e83883b0ccbd1520809af
-SHA256: 6a296f129210abd0d4bf7af8061d3754ee233604d78835a57409f04d3b6e97d1
-Section: debug
-Priority: optional
-Description: debug symbols for codecserver
-Build-Ids: 1c975f351bd56952ffd7bf6c23c3a81138018689
-
-Package: codecserver-driver-all
-Source: codecserver
-Version: 0.2.0
-Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 9
-Depends: codecserver-driver-ambe3k (= 0.2.0)
-Filename: ./bookworm/amd64/codecserver-driver-all_0.2.0_amd64.deb
-Size: 1976
-MD5sum: 825254e0d6dfbb841ad41aa305050820
-SHA1: 16c39756fe9def145bc10bd055cf4fdf6e7cf7c8
-SHA256: 5b01ae31293836f6bb9e8f18caa21fb6b4c7ed2619dc9b306a57c7c773325a4d
-Section: hamradio
-Priority: optional
-Description: Virtual codecserver driver bundle dependency package
- This package installs all available codecserver drivers
-
-Package: codecserver-driver-ambe3k
-Source: codecserver
-Version: 0.2.0
-Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 148
-Depends: libcodecserver (= 0.2.0), libc6 (>= 2.15), libgcc-s1 (>= 3.0), libprotobuf32 (>= 3.21.12), libstdc++6 (>= 12), libudev1 (>= 183)
-Filename: ./bookworm/amd64/codecserver-driver-ambe3k_0.2.0_amd64.deb
-Size: 37952
-MD5sum: 6a575f3fbbcaa4343a947f51b9ce8365
-SHA1: 807c0cdaf49bc43ce399846aae49b21c5ee0d9c7
-SHA256: 10a247500bd68e159c3a66b104d405e1871db59da61e2f89f07bb54152730fbe
-Section: hamradio
-Priority: optional
-Description: Codecserver driver for AMBE-3000 devices
- Adds support for AMBE-3000 devices over serial to Codecserver
-
-Package: codecserver-driver-ambe3k-dbgsym
-Source: codecserver
-Version: 0.2.0
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 651
-Depends: codecserver-driver-ambe3k (= 0.2.0)
-Filename: ./bookworm/amd64/codecserver-driver-ambe3k-dbgsym_0.2.0_amd64.deb
-Size: 617940
-MD5sum: 9b8782a0065071f83ddac705e22a887d
-SHA1: ccaaa8ddec13f203c2a4e87ed43a48ec80ead781
-SHA256: 4cae513a3e23a4359587dd0d4ace9bb18d323afc39b65feb8462f6a09c03ca22
-Section: debug
-Priority: optional
-Description: debug symbols for codecserver-driver-ambe3k
-Build-Ids: 93bed9b08f81a3130306b374caa12909b02e62af
-
 Package: csdr
 Version: 0.18.15
 Architecture: amd64
@@ -132,23 +44,6 @@ Size: 155308
 MD5sum: 48455a89480f3c0ba46b84d069014628
 SHA1: 193c71465a39819d98cc9fe2591288e44d2467d5
 SHA256: cfa6bdd1485911d354b741e743ab70afab7dc25d868ca7c94222c9238cbb4fd1
-Section: hamradio
-Priority: optional
-Description: command-line sdr
- A simple DSP command-line tool for Software Defined Radio.
-
-Package: csdr
-Version: 0.18.15
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 648
-Depends: libcsdr0 (= 0.18.15), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
-Recommends: nmux (= 0.18.15)
-Filename: ./bookworm/amd64/csdr_0.18.15_amd64.deb
-Size: 175480
-MD5sum: 099a32cc792447cd5cfa03b3b7273aa1
-SHA1: 1db94c486351fae6aba254065cb4fb35ab8c2b3b
-SHA256: 9ee57284a256b406957fd118c14ba76ede7d9c489000019a4cd2f2f1deb388f1
 Section: hamradio
 Priority: optional
 Description: command-line sdr
@@ -208,113 +103,6 @@ Priority: optional
 Description: debug symbols for csdr
 Build-Ids: a04180834491735a872a1f9343decb46f300654e
 
-Package: csdr-dbgsym
-Source: csdr
-Version: 0.18.15
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3209
-Depends: csdr (= 0.18.15)
-Filename: ./bookworm/amd64/csdr-dbgsym_0.18.15_amd64.deb
-Size: 3075176
-MD5sum: fe6eef197370bb1b5419a735c69ba94e
-SHA1: bbf80ded3f7bd2731dd3d4032def21216fd310ee
-SHA256: e96ec3f9f945c1da4af8b6648b10f133f25093ae9051caa6e40ead54363d7246
-Section: debug
-Priority: optional
-Description: debug symbols for csdr
-Build-Ids: b51cc69634f5c3ae3363bccfb3ae22797071357a
-
-Package: digiham
-Version: 0.6.2
-Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 244
-Depends: libdigiham0 (= 0.6.2), libc6 (>= 2.34), libcodecserver, libgcc-s1 (>= 3.0), libprotobuf32 (>= 3.21.12), libstdc++6 (>= 6)
-Recommends: codecserver
-Filename: ./bookworm/amd64/digiham_0.6.2_amd64.deb
-Size: 27476
-MD5sum: 52546d6ac4b37ed1d6274f846dda9dea
-SHA1: 27059b48644ea1161e101c32e532692b48cd151f
-SHA256: a223ed9fe89655213ac8928a8d63c56968b3e9e82a0675d62a9ff15962f67dfa
-Section: hamradio
-Priority: optional
-Description: Tools for decoding digital ham radio communication
- Simple set of command-line tools that is intended to be used to decode
- digital modulations used by ham radio operators. The main focus is on digital
- voice modes.
-
-Package: digiham-dbgsym
-Source: digiham
-Version: 0.6.2
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 583
-Depends: digiham (= 0.6.2)
-Filename: ./bookworm/amd64/digiham-dbgsym_0.6.2_amd64.deb
-Size: 494520
-MD5sum: 4ada421b4e15facc9e33d6b437fe88c8
-SHA1: 388e60b5be12ff88bbc48bece742f24976bae89d
-SHA256: 7b243a44e4a4d3b815d5cce5c3f63427ddb1de0534834aeb175683cb04e4b9b9
-Section: debug
-Priority: optional
-Description: debug symbols for digiham
-Build-Ids: 008f1a31bc0439d899116dc007b999dbc6829827 0fa77d9d2c72380d347af3d495b0c3acda98fd18 1bfb23fda02a6d8b3aa2c95b78fe6cbf037fbae7 3145d69ad25d84049623c0abacc03573764477f6 5dfac1ae6a8b44c9287f8c659be94de9a711e4f5 93fb2ff2b9094697d9f9fb0835b8fea6129c6392 a95842175ec84975e05600ab3724df2695e68e9a c972efe4e66a090e39e1e4e4f894fb2ab75f7ea7 d5032df81bb60958b39cc975bc3065027c047b46 f1a9c2c4fb0c07127e352b411e9f848a41bc7f35 f21e57844d5d5ca36f5fd16a823ca9636998c70f
-
-Package: libcodecserver
-Source: codecserver
-Version: 0.2.0
-Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 231
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libprotobuf32 (>= 3.21.12), libstdc++6 (>= 11)
-Filename: ./bookworm/amd64/libcodecserver_0.2.0_amd64.deb
-Size: 62008
-MD5sum: df9120b043657fd53e26caeef621d9fb
-SHA1: 7d52fecc38213c83ffc0c265e3ab2d4c8f86264d
-SHA256: 9414aef607108244a04fc895abef66b3bde50b63393c0cf310950f0646b1b708
-Section: hamradio
-Priority: optional
-Description: Codecserver base library
- Contains basic connection and messaging functionality
-
-Package: libcodecserver-dbgsym
-Source: codecserver
-Version: 0.2.0
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 1259
-Depends: libcodecserver (= 0.2.0)
-Filename: ./bookworm/amd64/libcodecserver-dbgsym_0.2.0_amd64.deb
-Size: 1210448
-MD5sum: 4ad1f27ee427085ac031c1fa8ddfab09
-SHA1: bc1327618d5d9b9dafcae2906d1280c097be4cac
-SHA256: 66c0d198672bcaf01df0eddec67fb7698a79912145ae097c06666f3ab1617e4c
-Section: debug
-Priority: optional
-Description: debug symbols for libcodecserver
-Build-Ids: fd0a6cf932d94ca844d05fe6fdc92764d3d2ac30
-
-Package: libcodecserver-dev
-Source: codecserver
-Version: 0.2.0
-Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 150
-Depends: libcodecserver (= 0.2.0), libprotobuf-dev (>= 3)
-Filename: ./bookworm/amd64/libcodecserver-dev_0.2.0_amd64.deb
-Size: 15204
-MD5sum: c0338782b792f1f4dc170567bdcb61e8
-SHA1: a9a8a966cf14ec442a3fb33e5abeccaa9b92e708
-SHA256: 41615c8f0fb08c59f00b94ce43a6f6c76859081992ddebd1e3e4920287a1fdf8
-Section: hamradio
-Priority: optional
-Description: Codecserver base library - development files
- Provides includes and protobuf templates to facilitate codecserver integration
-
 Package: libcsdr-dev
 Source: csdr
 Version: 0.18.15
@@ -366,23 +154,6 @@ Priority: optional
 Description: development dependencies includes for libcsdr
  A simple DSP library for Software Defined Radio.
 
-Package: libcsdr-dev
-Source: csdr
-Version: 0.18.15
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 176
-Depends: libcsdr0 (= 0.18.15), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
-Filename: ./bookworm/amd64/libcsdr-dev_0.18.15_amd64.deb
-Size: 21856
-MD5sum: fc5b3eec8e0df420bdd7d2ffe0d4c6a6
-SHA1: 392cae7fbb8ccb6187e1526fb17125116c6edae2
-SHA256: 162bac6bef1c44065ad7f31debaff88d5e407680a77029099bd6eca0b86e2a06
-Section: hamradio
-Priority: optional
-Description: development dependencies includes for libcsdr
- A simple DSP library for Software Defined Radio.
-
 Package: libcsdr0
 Source: csdr
 Version: 0.18.15
@@ -429,23 +200,6 @@ Size: 122184
 MD5sum: c95cbf855a56a123ffe59334a1ced8bd
 SHA1: 8115ff2f52faaea11dae6f67760d342b27d0d164
 SHA256: a0154c8fde69a2c38414f66af819be5d8abab8e6d67a57a4cc4c5fdec35dbb0e
-Section: hamradio
-Priority: optional
-Description: simple library for software defined radio
- A simple DSP library for Software Defined Radio.
-
-Package: libcsdr0
-Source: csdr
-Version: 0.18.15
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 681
-Depends: libc6 (>= 2.35), libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
-Filename: ./bookworm/amd64/libcsdr0_0.18.15_amd64.deb
-Size: 139168
-MD5sum: 656d5ee0d0a51ad5e9b50c7823b590d9
-SHA1: ccfd9fdec2edb6c4c150ce3e272af945b86ee3fd
-SHA256: f3f2027056fb8854e6541b305ff1f745ee5492b25e4ff13b5bc18209bd582e89
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
@@ -505,77 +259,6 @@ Priority: optional
 Description: debug symbols for libcsdr0
 Build-Ids: 55a3017775e24654527504c03822eca41ffa101d
 
-Package: libcsdr0-dbgsym
-Source: csdr
-Version: 0.18.15
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 1174
-Depends: libcsdr0 (= 0.18.15)
-Filename: ./bookworm/amd64/libcsdr0-dbgsym_0.18.15_amd64.deb
-Size: 1014064
-MD5sum: 92d62177abaf750232aa9575d6eed205
-SHA1: 9978467dd7570b9386d8e95583f91cf323aff437
-SHA256: 6ace6596ace431976920225e8073af784a5e3ead4aa563045ade7f8c45457841
-Section: debug
-Priority: optional
-Description: debug symbols for libcsdr0
-Build-Ids: 59c00581835a7c894898a1f81b88f4de394d9026
-
-Package: libdigiham-dev
-Source: digiham
-Version: 0.6.2
-Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 46
-Depends: libdigiham0 (= 0.6.2), libcodecserver-dev, libicu-dev, libcsdr-dev (>= 0.18)
-Filename: ./bookworm/amd64/libdigiham-dev_0.6.2_amd64.deb
-Size: 7060
-MD5sum: 7fff4311e61f5c8741ed23ee82045a9e
-SHA1: 6500cb40d18167fc8893ef1a7597f74490a9f368
-SHA256: bd0af50b649a9c11ba96f9ed33e2ef1c441aabb5bd01d63f8455ece6c5269f6f
-Section: hamradio
-Priority: optional
-Description: Digiham library development files
- Contains development files for interfacing with libdigiham.
-
-Package: libdigiham0
-Source: digiham
-Version: 0.6.2
-Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 351
-Depends: libc6 (>= 2.34), libcodecserver, libcsdr0 (>= 0.18), libgcc-s1 (>= 3.0), libicu72 (>= 72.1~rc-1~), libprotobuf32 (>= 3.21.12), libstdc++6 (>= 6)
-Filename: ./bookworm/amd64/libdigiham0_0.6.2_amd64.deb
-Size: 96172
-MD5sum: 1cdc6d690babedabb2ead24eb46bb932
-SHA1: 50a6d58588cdc7d6a68b50ec61373d29c4b657d0
-SHA256: a1e069c3d5e99d20aba8029af9fcb5d0a014811d47166acd5e178b6547a9b8ce
-Section: hamradio
-Priority: optional
-Description: Digiham base library
- Contains basic pipeline blocks that can be used to decode amateur radio
- digital voice modes.
-
-Package: libdigiham0-dbgsym
-Source: digiham
-Version: 0.6.2
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 1298
-Depends: libdigiham0 (= 0.6.2)
-Filename: ./bookworm/amd64/libdigiham0-dbgsym_0.6.2_amd64.deb
-Size: 1236592
-MD5sum: ae0071d4d0d75582d0b98494355070ed
-SHA1: 64171be8405b5803bc83545485abb3210bf81d1f
-SHA256: c18ae0496acf34f6f51a41dc381d7a5249bd32c244ca5ddbb587796ab756f6f2
-Section: debug
-Priority: optional
-Description: debug symbols for libdigiham0
-Build-Ids: 46a604571125c9ffd9f8896b52e145da7681f02f
-
 Package: libowrx-connector
 Source: owrx-connector
 Version: 0.6.4
@@ -622,23 +305,6 @@ Size: 25776
 MD5sum: b2ec9ce3744ffaef2d5415c00f93a9ff
 SHA1: 99e655cb9444d145910860204afc0454213f526a
 SHA256: a366161756ec845160007cd9af275173ad8eebe86673620f203c36462054f38a
-Section: hamradio
-Priority: optional
-Description: OpenWebRX connector base library
- Base library used to provide basic connector functionality
-
-Package: libowrx-connector
-Source: owrx-connector
-Version: 0.6.4
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 118
-Depends: libcsdr0 (>= 0.18), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 6)
-Filename: ./bookworm/amd64/libowrx-connector_0.6.4_amd64.deb
-Size: 32952
-MD5sum: d2bab4e465e261fb008784f8f2c98355
-SHA1: e5a54ca6c4cf3b1102966aa5c9c09bc4c0b6cf75
-SHA256: 2dafeb084f02b5e0f39768f032e5501118d14f970d4f98dd1b21d328a75850b7
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector base library
@@ -698,24 +364,6 @@ Priority: optional
 Description: debug symbols for libowrx-connector
 Build-Ids: 02583560459999ac40c5784a173f96f9a4ac8bf6
 
-Package: libowrx-connector-dbgsym
-Source: owrx-connector
-Version: 0.6.4
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 351
-Depends: libowrx-connector (= 0.6.4)
-Filename: ./bookworm/amd64/libowrx-connector-dbgsym_0.6.4_amd64.deb
-Size: 326760
-MD5sum: b0f13e12ceb9f88cd1a6ebac442736d1
-SHA1: fbc4e27ad778a3550b9a3ab94219b4d550e569f7
-SHA256: 58d7379395f0a745448b548646374590dfa7f08f2bb82f591ba422925aea185f
-Section: debug
-Priority: optional
-Description: debug symbols for libowrx-connector
-Build-Ids: 17c45c7e176334d176fc8bf757098ff8da0674f5
-
 Package: libowrx-connector-dev
 Source: owrx-connector
 Version: 0.6.4
@@ -762,23 +410,6 @@ Size: 3832
 MD5sum: c4e98fd19c4e519b27fdda8a1455de8d
 SHA1: 21d56ed60cdc07a007545f1f950a365b046209e5
 SHA256: bd659a462c5232cc27c39fecf27fcbf03f7391a7dca97b1eb4867aa14fcf3a7a
-Section: hamradio
-Priority: optional
-Description: OpenWebRX connector base library - development files
- Provides includes and development files to build custom connectors
-
-Package: libowrx-connector-dev
-Source: owrx-connector
-Version: 0.6.4
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 22
-Depends: libowrx-connector (= 0.6.4), libcsdr-dev (>= 0.18)
-Filename: ./bookworm/amd64/libowrx-connector-dev_0.6.4_amd64.deb
-Size: 3820
-MD5sum: 29df18da4b8a0ae3572b2ba66281e746
-SHA1: 3a7482ee558c69710a5207c1067237ff21649198
-SHA256: a85b3fce9874f7aa4dd6f7e5820d9ded866aba7379504abfd7a3cf7c21de104d
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector base library - development files
@@ -841,25 +472,6 @@ Description: TCP stream multiplexer
  It reads data from the standard input, and sends it to each client connected
  through TCP sockets.
 
-Package: nmux
-Source: csdr
-Version: 0.18.15
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 40
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
-Conflicts: csdr (<= 0.18.0~133)
-Filename: ./bookworm/amd64/nmux_0.18.15_amd64.deb
-Size: 11412
-MD5sum: 28f85039fac65a8cec7289320283b69b
-SHA1: b6a60c7be11bf8e70b9920997a2d753890af0bf8
-SHA256: 14496655da7b8eb3603971910e6ac76d2823f4a34a5e2b1494aba08ff331233a
-Section: hamradio
-Priority: optional
-Description: TCP stream multiplexer
- It reads data from the standard input, and sends it to each client connected
- through TCP sockets.
-
 Package: nmux-dbgsym
 Source: csdr
 Version: 0.18.15
@@ -913,24 +525,6 @@ Section: debug
 Priority: optional
 Description: debug symbols for nmux
 Build-Ids: 916f010b276ff03cfc8ec63ca9ef3089a6ca9226
-
-Package: nmux-dbgsym
-Source: csdr
-Version: 0.18.15
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 70
-Depends: nmux (= 0.18.15)
-Filename: ./bookworm/amd64/nmux-dbgsym_0.18.15_amd64.deb
-Size: 55632
-MD5sum: 88bb9cc116fe1fd74728704d92f446ca
-SHA1: e59b261448d2b9c6e7e0d31b42131bc36d138e0d
-SHA256: 6604d1ee4600f82a2878f75a987f74b175178f171ba047074a85948128186577
-Section: debug
-Priority: optional
-Description: debug symbols for nmux
-Build-Ids: 0d39711293bf09f955c49b4b4575bbb2eb71faf7
 
 Package: openwebrx
 Version: 1.2.33
@@ -986,24 +580,6 @@ Homepage: https://www.openwebrx.de/
 Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
-Package: openwebrx
-Version: 1.2.33
-Architecture: all
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 2611
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6), soapysdr-tools, python3-csdr (>= 0.18.15), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, multimon-ng, rtl-433, dumphfdl, dumpvdl2, dump1090-fa-minimal, imagemagick
-Filename: ./bookworm/amd64/openwebrx_1.2.33_all.deb
-Size: 861284
-MD5sum: ee0f51ae8a8f05064e38464724f4b74d
-SHA1: 1fbd31a2749087c2d3a85c6fa76a79e5351ef75c
-SHA256: 0d1bb0c83bf3e52641a4589c3c77c3c42baa26c3be1a0c79b68e7e3e42ad159d
-Section: hamradio
-Priority: optional
-Homepage: https://www.openwebrx.de/
-Description: multi-user web sdr
- Open source, multi-user SDR receiver with a web interface
-
 Package: owrx-connector
 Version: 0.6.4
 Architecture: amd64
@@ -1047,22 +623,6 @@ Size: 2368
 MD5sum: e3f48aa4fc99b34a778237b0c515c23a
 SHA1: 65bcc77b4876e18e4fb00976083e3daaf03ac42e
 SHA256: 2dc82ba7838b4146873d1e1837cbb3570380138466f7241c49d010b505ebb414
-Section: hamradio
-Priority: optional
-Description: Virtual bundle dependency package
- This package installs the base connectors for RTL-SDR, SoapySDR and rtl_tcp
-
-Package: owrx-connector
-Version: 0.6.4
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 10
-Depends: rtl-connector (= 0.6.4), rtl-tcp-connector (= 0.6.4), soapy-connector (= 0.6.4)
-Filename: ./bookworm/amd64/owrx-connector_0.6.4_amd64.deb
-Size: 2352
-MD5sum: 874332187387d87cd671e9ff6a4183b5
-SHA1: 78e328305abe9c70f033d43974cc094f31846133
-SHA256: 476e5c7beaa9b4c3b895707abe63061c2656f08a95c58ac6b864a4657449ba4a
 Section: hamradio
 Priority: optional
 Description: Virtual bundle dependency package
@@ -1116,24 +676,6 @@ Size: 36624
 MD5sum: 133864bcbd09da0a97b0dd0e5a55f273
 SHA1: 9471893fa184b7cec6f1a23476a5460b8dadef4f
 SHA256: ca498301dbdf0caf5b6084cd2ee0b3ef792441bca58f7a7fb23e54fb32a7de14
-Section: hamradio
-Priority: optional
-Description: Python bindings for libcsdr
- Offers a variety of modules from the csdr software defined radio library for
- digital processing of radio transmission.
-
-Package: python3-csdr
-Source: pycsdr
-Version: 0.18.15
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 199
-Depends: libcsdr0 (>= 0.18.13), python3 (<< 3.12), python3 (>= 3.11~), python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
-Filename: ./bookworm/amd64/python3-csdr_0.18.15_amd64.deb
-Size: 39388
-MD5sum: 6bba8be80b4c5c778b702fc81abbd6f8
-SHA1: d75ef09b548bf48a1f5e2ef5f7db9073c865d765
-SHA256: 28e2712b5f13df51d6806beca3ba385b15b5b6d730cb30eca9f3163efa7eb1cb
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr
@@ -1194,24 +736,6 @@ Priority: optional
 Description: debug symbols for python3-csdr
 Build-Ids: e245af462720e79a90c5cc3e2e4e565e70642e1d
 
-Package: python3-csdr-dbgsym
-Source: pycsdr
-Version: 0.18.15
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 640
-Depends: python3-csdr (= 0.18.15)
-Filename: ./bookworm/amd64/python3-csdr-dbgsym_0.18.15_amd64.deb
-Size: 561696
-MD5sum: a3709dbd6918b8239a8f9eda6215627c
-SHA1: cf01f8e62ea113fe3c42e67bbf472c214c14bf6f
-SHA256: da44b5186f3d57a572d2142580ebda3a5da88982fbb7b753e092b086e2e7f9ae
-Section: debug
-Priority: optional
-Description: debug symbols for python3-csdr
-Build-Ids: d23ce124324888e1f869c27303d1dfffae747952
-
 Package: rtl-connector
 Source: owrx-connector
 Version: 0.6.4
@@ -1261,24 +785,6 @@ Size: 10148
 MD5sum: 65f457b6178ff435e1bb5a9b7cfb431f
 SHA1: fe0d574d7eac94ce5fac83c69019a342de1edae9
 SHA256: 2fbca85354c816370ef67fcf21e83520473372ea3162e6a1008ffdb170b8b4d9
-Section: hamradio
-Priority: optional
-Description: OpenWebRX connector for RTL-SDR devices
- Provides connector functionality for RTL-SDR based devices
-
-Package: rtl-connector
-Source: owrx-connector
-Version: 0.6.4
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 38
-Depends: libowrx-connector (= 0.6.4), libc6 (>= 2.34), libgcc-s1 (>= 3.0), librtlsdr0 (>= 0.6.0), libstdc++6 (>= 5.2)
-Conflicts: owrx-connector (<< 0.4)
-Filename: ./bookworm/amd64/rtl-connector_0.6.4_amd64.deb
-Size: 10136
-MD5sum: 7e3329d84fa770808332a179bb632f44
-SHA1: b52bc6e47ad9de6f14bcdce7e8f1a43094772744
-SHA256: 1ca0b8a29d781016f711fa1779150806fc152c2f0a984d054f1820cd95b72a6e
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for RTL-SDR devices
@@ -1338,24 +844,6 @@ Priority: optional
 Description: debug symbols for rtl-connector
 Build-Ids: 35fcc361e6ac472555689658040bf4ceb7f693fb
 
-Package: rtl-connector-dbgsym
-Source: owrx-connector
-Version: 0.6.4
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 71
-Depends: rtl-connector (= 0.6.4)
-Filename: ./bookworm/amd64/rtl-connector-dbgsym_0.6.4_amd64.deb
-Size: 54608
-MD5sum: 20e6d962c397671b3d6b60adcc85a9c0
-SHA1: 8b4827cc06eac3fb42a8e50b4acb74c7031bc5f7
-SHA256: cd8777bb00a5d75d4ecd3c6c3d997139cd8f7777bb02bbe1d59a404b439b6e41
-Section: debug
-Priority: optional
-Description: debug symbols for rtl-connector
-Build-Ids: a5ab89f13520c257a2f49cd24985e43f3eb2e123
-
 Package: rtl-tcp-connector
 Source: owrx-connector
 Version: 0.6.4
@@ -1407,25 +895,6 @@ Size: 10244
 MD5sum: 80987c8212b9f59d8fa02fae0e298845
 SHA1: d524a4aa89eb0d6942f6cb8bfaf9d7458aad9e1b
 SHA256: a4933e08ddd1b2c1d20b0f20d0912e355b719f56eebb917d7e3ba229e6ccdd68
-Section: hamradio
-Priority: optional
-Description: OpenWebRX connector for rtl_tcp remote devices
- Provides connector functionality for (potentially) remote SDR devices that are
- available on the network using the rtl_tcp protocol.
-
-Package: rtl-tcp-connector
-Source: owrx-connector
-Version: 0.6.4
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 38
-Depends: libowrx-connector (= 0.6.4), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
-Conflicts: owrx-connector (<< 0.4)
-Filename: ./bookworm/amd64/rtl-tcp-connector_0.6.4_amd64.deb
-Size: 10360
-MD5sum: fcdb791eecd6efdb951964fab8aeac91
-SHA1: aaf1442a283662fc2ae625956c10f2b16cc8dd14
-SHA256: ccb4c70bd86d9d6eea52ab278ee8c194ccdd8002eebc0a626ad65b8b1eb2c148
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for rtl_tcp remote devices
@@ -1486,24 +955,6 @@ Priority: optional
 Description: debug symbols for rtl-tcp-connector
 Build-Ids: cce785918bab1b819bf8d871371bc50b2768669b
 
-Package: rtl-tcp-connector-dbgsym
-Source: owrx-connector
-Version: 0.6.4
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 84
-Depends: rtl-tcp-connector (= 0.6.4)
-Filename: ./bookworm/amd64/rtl-tcp-connector-dbgsym_0.6.4_amd64.deb
-Size: 68056
-MD5sum: 735962c99e66c9a899bb72e5de9fc6e2
-SHA1: e53d54c88319dcba907e2ca50fc3ee7875b5fee6
-SHA256: 01be29b4d19d77af1ec9ff63f7f2894704888790f3324ae9cbeecf8d8b0c9ccb
-Section: debug
-Priority: optional
-Description: debug symbols for rtl-tcp-connector
-Build-Ids: 54b83398977ab451cda45d4c8e2fc26996511646
-
 Package: soapy-connector
 Source: owrx-connector
 Version: 0.6.4
@@ -1553,24 +1004,6 @@ Size: 12204
 MD5sum: fbc8337bd1d6d5184d5a0680b8527d81
 SHA1: 1eaef5073f8da2caaf61346a7f1d475ec816295f
 SHA256: a7d344d12e762af01e7326cbce7b2080d2449130b6069a72dcd8504b012d7c99
-Section: hamradio
-Priority: optional
-Description: OpenWebRX connector for SoapySDR devices
- Provides connector functionality for devices supported by the SoapySDR library
-
-Package: soapy-connector
-Source: owrx-connector
-Version: 0.6.4
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 46
-Depends: libowrx-connector (= 0.6.4), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 5.2)
-Conflicts: owrx-connector (<< 0.4)
-Filename: ./bookworm/amd64/soapy-connector_0.6.4_amd64.deb
-Size: 12800
-MD5sum: 09f2bbd95863ec69f08824c945f7d03c
-SHA1: d60b6b0f140d90e49aabfbabb57a0e9da0741d5a
-SHA256: 506a653650e8e35024ad2c63dcebf9db988aabb4f506dabf8b5e053d710ef3c4
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for SoapySDR devices
@@ -1630,24 +1063,6 @@ Priority: optional
 Description: debug symbols for soapy-connector
 Build-Ids: 6e649b057fd18dc62032776dc886af5f3276cb98
 
-Package: soapy-connector-dbgsym
-Source: owrx-connector
-Version: 0.6.4
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 135
-Depends: soapy-connector (= 0.6.4)
-Filename: ./bookworm/amd64/soapy-connector-dbgsym_0.6.4_amd64.deb
-Size: 118912
-MD5sum: 6b7164eef2c811fa1ccf3ef8b8840455
-SHA1: c70bb0f8c00b803665407ba9348467a6075bb5cc
-SHA256: 0aa826f54c6b7b23eb5b9043ede86e7fa5db045c08a365df773f86a8a7186886
-Section: debug
-Priority: optional
-Description: debug symbols for soapy-connector
-Build-Ids: e641def5f21cc38d968483cbe1b4f0f07b72a943
-
 Package: soapysdr-module-sdrplay3
 Source: soapysdrplay3
 Version: 0.8.6
@@ -1702,27 +1117,6 @@ Size: 3508
 MD5sum: f941775c16eaf9eea0f9ed47b4782bca
 SHA1: 62d15f26543dc42e1b5bcfda4197c994e724e44e
 SHA256: 58a410b19b6ff6f73e65fb307ca46aa4a1874b2afb347e787fdec08ca8b0e83c
-Section: libs
-Priority: optional
-Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
-Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
- A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
- .
- This is an empty dependency package that pulls in the SDRPlay3 module
- for the default version of libsoapysdr.
-
-Package: soapysdr-module-sdrplay3
-Source: soapysdrplay3
-Version: 0.8.6
-Architecture: all
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 10
-Depends: soapysdr0.8-module-sdrplay3
-Filename: ./bookworm/amd64/soapysdr-module-sdrplay3_0.8.6_all.deb
-Size: 3508
-MD5sum: 9bfa7f8c7889a88f61e305b2a7c6a351
-SHA1: 024fa1745314efd1a76c26983e837d8e255f1de6
-SHA256: 3ed9803ec0b1d88095c1de740a594d2dbc541740446fd1ed8c93d590fe07667c
 Section: libs
 Priority: optional
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
@@ -1845,42 +1239,4 @@ Priority: optional
 Multi-Arch: same
 Description: debug symbols for soapysdr0.7-module-sdrplay3
 Build-Ids: c17f0c4446062756f0b0854c9fd9d7da7b9a2668
-
-Package: soapysdr0.8-module-sdrplay3
-Source: soapysdrplay3
-Version: 0.8.6
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 156
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
-Filename: ./bookworm/amd64/soapysdr0.8-module-sdrplay3_0.8.6_amd64.deb
-Size: 49260
-MD5sum: 531d81a325df087051432c3cb4d45903
-SHA1: 61a605085969fbbb942a1829b6f872cf15bd7b65
-SHA256: cf717cfe1c700345f7ec5b7d03883da48c4909f646295f28f08596c507db2ea3
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
-Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
- A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
-
-Package: soapysdr0.8-module-sdrplay3-dbgsym
-Source: soapysdrplay3
-Version: 0.8.6
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 720
-Depends: soapysdr0.8-module-sdrplay3 (= 0.8.6)
-Filename: ./bookworm/amd64/soapysdr0.8-module-sdrplay3-dbgsym_0.8.6_amd64.deb
-Size: 685624
-MD5sum: 3470f87a9cf8b58d3151b849fb557d50
-SHA1: 94c9bd43fc22600a6f1cb818041c7c2524eb325a
-SHA256: 7833dc812688aac7ffb685130f9fdc2698276276a0d330b53e3385e2a556a4f4
-Section: debug
-Priority: optional
-Multi-Arch: same
-Description: debug symbols for soapysdr0.8-module-sdrplay3
-Build-Ids: a3a42a66761abc041473f39657b9ae7debedd3e7
 
