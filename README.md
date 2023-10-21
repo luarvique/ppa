@@ -37,6 +37,10 @@ This repository contains packages for the following Linux distributions:
 # If you have RaspberryPi 4 and no clue ...
 Stanislav (LZ2SLL) has built an [SD card image for RaspberryPi 4](https://github.com/luarvique/openwebrx/releases/), containing a clean OpenWebRX+ installation. This image should support all common SDR devices out of the box. The RTL-SDR and SDRPlay devices have been confirmed to work with no additional modifications to the image. Please, keep in mind that __this may not be the latest version__ of OpenWebRX+. Read on for the latest version.
 
+Please note that this SD card image comes without the software support for digital modes (DMR, NXDN, etc), since the software decoder for these modes (mbelib) has questionable origins. **In order to enable digital modes** in this image, ssh into the user account you created while installing the image and type:
+
+    sudo install-softmbe.sh
+
 # If you are using Docker ...
 Stanislav (LZ2SLL) has made two OpenWebRX+ Docker images that should run on any x64 PC, arm32 SBC, or arm64 SBC. The [nightly image](https://hub.docker.com/r/slechev/openwebrxplus-nightly) is updated daily and based on the latest OpenWebRX+ sources. The [versioned image](https://hub.docker.com/r/slechev/openwebrxplus) is based on the latest published OpenWebRX+ packages and should be identical to a normal OpenWebRX+ installation on Debian. The versioned image is somewhat bigger in size, but is also more stable.
 
