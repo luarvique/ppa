@@ -218,10 +218,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 176
 Depends: libcsdr0 (= 0.18.15), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
 Filename: ./amd64/libcsdr-dev_0.18.15_amd64.deb
-Size: 21856
-MD5sum: fc5b3eec8e0df420bdd7d2ffe0d4c6a6
-SHA1: 392cae7fbb8ccb6187e1526fb17125116c6edae2
-SHA256: 162bac6bef1c44065ad7f31debaff88d5e407680a77029099bd6eca0b86e2a06
+Size: 21848
+MD5sum: c4fc4e0dc2df11c1c1a23e7df2a1caf8
+SHA1: 477a9001edfdb121af27e7845f37c2237e72f2b9
+SHA256: af3a4c22d8195d5dfbcf223da064e8f8c9ebb6b420a9d02dea2fa81773cb7397
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
@@ -235,10 +235,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 681
 Depends: libc6 (>= 2.35), libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
 Filename: ./amd64/libcsdr0_0.18.15_amd64.deb
-Size: 139168
-MD5sum: 656d5ee0d0a51ad5e9b50c7823b590d9
-SHA1: ccfd9fdec2edb6c4c150ce3e272af945b86ee3fd
-SHA256: f3f2027056fb8854e6541b305ff1f745ee5492b25e4ff13b5bc18209bd582e89
+Size: 139132
+MD5sum: bfdab112b66a88a3073b3df3bfdaa7db
+SHA1: 5ef272c682bccc9708f633e5549430441e900e2f
+SHA256: 71df77eaa03343e4dd1b1e18db8c3647cd4a694727fa66a131615768e8d1b649
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
@@ -253,14 +253,14 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 1174
 Depends: libcsdr0 (= 0.18.15)
 Filename: ./amd64/libcsdr0-dbgsym_0.18.15_amd64.deb
-Size: 1014064
-MD5sum: 92d62177abaf750232aa9575d6eed205
-SHA1: 9978467dd7570b9386d8e95583f91cf323aff437
-SHA256: 6ace6596ace431976920225e8073af784a5e3ead4aa563045ade7f8c45457841
+Size: 1014248
+MD5sum: 2281edec1559bfb406daccef262fed9a
+SHA1: d2635d66e6bc47b0c6d085b8d35d98c2e1b02816
+SHA256: ce179e319b5bf741c9450ddd3b720427c2bd94c1fb268be7cd29475cc4b8ef13
 Section: debug
 Priority: optional
 Description: debug symbols for libcsdr0
-Build-Ids: 59c00581835a7c894898a1f81b88f4de394d9026
+Build-Ids: 738c70c1aa31317a05dc9a23198b6c4898969663
 
 Package: libdigiham-dev
 Source: digiham
@@ -405,17 +405,17 @@ Description: debug symbols for nmux
 Build-Ids: 0d39711293bf09f955c49b4b4575bbb2eb71faf7
 
 Package: openwebrx
-Version: 1.2.33
+Version: 1.2.34
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 2611
+Installed-Size: 2636
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6), soapysdr-tools, python3-csdr (>= 0.18.15), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, multimon-ng, rtl-433, dumphfdl, dumpvdl2, dump1090-fa-minimal, imagemagick
-Filename: ./amd64/openwebrx_1.2.33_all.deb
-Size: 861284
-MD5sum: ee0f51ae8a8f05064e38464724f4b74d
-SHA1: 1fbd31a2749087c2d3a85c6fa76a79e5351ef75c
-SHA256: 0d1bb0c83bf3e52641a4589c3c77c3c42baa26c3be1a0c79b68e7e3e42ad159d
+Filename: ./amd64/openwebrx_1.2.34_all.deb
+Size: 866124
+MD5sum: 4a9fe89153200e594c299092318d3bba
+SHA1: 2a2675984297872f1fbd599bd486ea000c9a951f
+SHA256: 71745175b00374f945edc2f5321c5946122ff56e5eec8f2035ab535d5ae510e6
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -473,6 +473,58 @@ Section: debug
 Priority: optional
 Description: debug symbols for python3-csdr
 Build-Ids: d23ce124324888e1f869c27303d1dfffae747952
+
+Package: python3-digiham
+Source: pydigiham
+Version: 0.6.2
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 68
+Depends: libdigiham0 (>= 0.6), python3-csdr (>= 0.18), python3 (<< 3.12), python3 (>= 3.11~), python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Filename: ./amd64/python3-digiham_0.6.2_amd64.deb
+Size: 15128
+MD5sum: 1c4343caeade3141aca9f507afc49e31
+SHA1: 81d80184e3daf26882886c29590916e797e84cd6
+SHA256: 76fc99c64d470b1f8c39402e3678eb6be28f3e0263319a9cea49c529ebbd718e
+Section: hamradio
+Priority: optional
+Description: Python bindings for the digiham library
+ Offers a python interface to the various decoders included in digiham
+
+Package: python3-digiham-dbgsym
+Source: pydigiham
+Version: 0.6.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 274
+Depends: python3-digiham (= 0.6.2)
+Filename: ./amd64/python3-digiham-dbgsym_0.6.2_amd64.deb
+Size: 249720
+MD5sum: 01ad228fbe8b7c3adee1826a5a87dc8d
+SHA1: ed1b79b67acff1ba38fec4692960feb0b92bc099
+SHA256: 7b8de590932bff65d7e4d4aaf200d0eee031a6b3c247d1668f6d9370cb036c8e
+Section: debug
+Priority: optional
+Description: debug symbols for python3-digiham
+Build-Ids: 53a1e8dc880729788811993e58a465afa8a647a8
+
+Package: python3-js8py
+Source: js8py
+Version: 0.1.1
+Architecture: all
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 2421
+Depends: python3 (>= 3.5), python3-pkg-resources, python3:any
+Filename: ./amd64/python3-js8py_0.1.1_all.deb
+Size: 992648
+MD5sum: dcfcb4acb961f4b3a7df805f1d766ff9
+SHA1: 786451033abeaa5cadca5a45d1c43ac0506cc154
+SHA256: 67ee2df3fa3123858cde84eb69f1687a7b6613d5f55a81b180bc6251533b5c44
+Section: hamradio
+Priority: optional
+Description: JS8 frame parser
+ python module for parsing messages from the "js8" command line decoder
 
 Package: rtl-connector
 Source: owrx-connector
