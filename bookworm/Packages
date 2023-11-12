@@ -1324,6 +1324,60 @@ Homepage: https://www.openwebrx.de/
 Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
+Package: openwebrx
+Version: 1.2.37
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 2655
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6), soapysdr-tools, python3-csdr (>= 0.18.15), python3:any, debconf (>= 0.5) | debconf-2.0
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, multimon-ng, rtl-433, dumphfdl, dumpvdl2, dump1090-fa-minimal, imagemagick
+Filename: ./amd64/openwebrx_1.2.37_all.deb
+Size: 869212
+MD5sum: e2c840a3024a5198f17da657e73da847
+SHA1: 1df01320926757c7e2c077f1cf52ab4d5ec78c3f
+SHA256: a52430f863132c9cb46cf5f758893d3eff12b1d55dacbc868b705c7d1c776c8f
+Section: hamradio
+Priority: optional
+Homepage: https://www.openwebrx.de/
+Description: multi-user web sdr
+ Open source, multi-user SDR receiver with a web interface
+
+Package: openwebrx
+Version: 1.2.37
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 2657
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6), soapysdr-tools, python3-csdr (>= 0.18.15), python3:any, debconf (>= 0.5) | debconf-2.0
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, multimon-ng, rtl-433, dumphfdl, dumpvdl2, dump1090-fa-minimal, imagemagick
+Filename: ./armhf/openwebrx_1.2.37_all.deb
+Size: 869524
+MD5sum: ae6149c684125dba64328ce9a0641951
+SHA1: a29cdd8533cd04eb041f9c33c04b7844863aa716
+SHA256: 907bac43ca51c94fec6a8a65bfa0791e63471a4ab7dffdcaf1b110b6762842b2
+Section: hamradio
+Priority: optional
+Homepage: https://www.openwebrx.de/
+Description: multi-user web sdr
+ Open source, multi-user SDR receiver with a web interface
+
+Package: openwebrx
+Version: 1.2.37
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 2657
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6), soapysdr-tools, python3-csdr (>= 0.18.15), python3:any, debconf (>= 0.5) | debconf-2.0
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, multimon-ng, rtl-433, dumphfdl, dumpvdl2, dump1090-fa-minimal, imagemagick
+Filename: ./arm64/openwebrx_1.2.37_all.deb
+Size: 869524
+MD5sum: ae6149c684125dba64328ce9a0641951
+SHA1: a29cdd8533cd04eb041f9c33c04b7844863aa716
+SHA256: 907bac43ca51c94fec6a8a65bfa0791e63471a4ab7dffdcaf1b110b6762842b2
+Section: hamradio
+Priority: optional
+Homepage: https://www.openwebrx.de/
+Description: multi-user web sdr
+ Open source, multi-user SDR receiver with a web interface
+
 Package: owrx-connector
 Version: 0.6.4
 Architecture: amd64
@@ -1971,10 +2025,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 10
 Depends: soapysdr0.8-module-sdrplay3
 Filename: ./amd64/soapysdr-module-sdrplay3_0.8.6_all.deb
-Size: 3508
-MD5sum: 9bfa7f8c7889a88f61e305b2a7c6a351
-SHA1: 024fa1745314efd1a76c26983e837d8e255f1de6
-SHA256: 3ed9803ec0b1d88095c1de740a594d2dbc541740446fd1ed8c93d590fe07667c
+Size: 3544
+MD5sum: 735eea8377c4fb67c76d98b84beb5210
+SHA1: a5090849afc5c28ad11ffe443499cf1e83b456e8
+SHA256: 2d62fa809ac87fe0dd09697052848673a6c49e33269487d4f88c53ec855a46e1
 Section: libs
 Priority: optional
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
@@ -1992,10 +2046,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 10
 Depends: soapysdr0.8-module-sdrplay3
 Filename: ./armhf/soapysdr-module-sdrplay3_0.8.6_all.deb
-Size: 3508
-MD5sum: 9bfa7f8c7889a88f61e305b2a7c6a351
-SHA1: 024fa1745314efd1a76c26983e837d8e255f1de6
-SHA256: 3ed9803ec0b1d88095c1de740a594d2dbc541740446fd1ed8c93d590fe07667c
+Size: 3544
+MD5sum: 735eea8377c4fb67c76d98b84beb5210
+SHA1: a5090849afc5c28ad11ffe443499cf1e83b456e8
+SHA256: 2d62fa809ac87fe0dd09697052848673a6c49e33269487d4f88c53ec855a46e1
 Section: libs
 Priority: optional
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
@@ -2013,10 +2067,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 10
 Depends: soapysdr0.8-module-sdrplay3
 Filename: ./arm64/soapysdr-module-sdrplay3_0.8.6_all.deb
-Size: 3508
-MD5sum: 9bfa7f8c7889a88f61e305b2a7c6a351
-SHA1: 024fa1745314efd1a76c26983e837d8e255f1de6
-SHA256: 3ed9803ec0b1d88095c1de740a594d2dbc541740446fd1ed8c93d590fe07667c
+Size: 3544
+MD5sum: 735eea8377c4fb67c76d98b84beb5210
+SHA1: a5090849afc5c28ad11ffe443499cf1e83b456e8
+SHA256: 2d62fa809ac87fe0dd09697052848673a6c49e33269487d4f88c53ec855a46e1
 Section: libs
 Priority: optional
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
@@ -2034,10 +2088,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 156
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
 Filename: ./amd64/soapysdr0.8-module-sdrplay3_0.8.6_amd64.deb
-Size: 49256
-MD5sum: b2a1068aaea01984488a1cb786fa0d8f
-SHA1: bf0ed4a7e5f4706c19fd444f958b6bb7fc497c99
-SHA256: 1cba72ff0c3c330f2c2636c077a5091ebb77cd4ad13ea0a54cbc5fea19585c24
+Size: 49280
+MD5sum: 3ed79693deafb03a06fd08b1c31da9d9
+SHA1: 00fcc346b54d037a4f96086bf07740da2a37f4a9
+SHA256: a1b653b12f7097263121ba22d746dd5f8cb5a855108a5480133b31474b79f0a7
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2053,10 +2107,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 103
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.5), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
 Filename: ./armhf/soapysdr0.8-module-sdrplay3_0.8.6_armhf.deb
-Size: 42096
-MD5sum: b26dc6bcaf9c096559a959ddc567816b
-SHA1: 3bd00be7f78194adca0e9f8858b3bf37c0d04567
-SHA256: b82e1368c94ec31c5cd22e71d96248ba933e740cc9b47ab8e166723b04422531
+Size: 41984
+MD5sum: dce85d77f869d253b6ebe38e345ecc3c
+SHA1: e5efc739c8c4389ee961127f01cceae031b5b95f
+SHA256: eeb9271b81625168fe2bdc846f0af711c42dcb0a3bc8e3785d235361a5bb9335
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2072,10 +2126,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 153
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
 Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.6_arm64.deb
-Size: 43976
-MD5sum: 6f1dfcaf6e476810ad68ceb4e3cbb821
-SHA1: 0fb37404b4b5d1a38531d254f373ace9c2f301a1
-SHA256: 6e423da1a235565a1592c9a9a8d985cd03ea6f286f7a9e5a3d9cf70a6064ff0f
+Size: 44008
+MD5sum: 0be104099e064f5a6cf7239c49513434
+SHA1: acbcf7c8a6da2202bb054e6bc1d6e6e3f32fd1cb
+SHA256: 100b06432208eac93c51522b9a475553e2e4b256f19a0fa97d6d81a58fadd80c
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2092,15 +2146,15 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 720
 Depends: soapysdr0.8-module-sdrplay3 (= 0.8.6)
 Filename: ./amd64/soapysdr0.8-module-sdrplay3-dbgsym_0.8.6_amd64.deb
-Size: 685620
-MD5sum: 0b56817a40bb690e996a65e09c753809
-SHA1: 6b099fd0e4002f952e05434dcf0db6dd2e89a047
-SHA256: ea2a5c055c3741e14b9f057d1ecf44530f3492a80659de5fae41e7e815fb5a6f
+Size: 685652
+MD5sum: f7b9da08254b251d6aa723985c2c0525
+SHA1: c4eaf4919a8b997a760b686a880a1735b3f866ee
+SHA256: 2d829135567b7b7233a9332528343c0fcc63ca196d2aaf0fd741c1eab1633b90
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for soapysdr0.8-module-sdrplay3
-Build-Ids: 01df685e6aa8ddab1aa8c996b5bab1f90b9fef38
+Build-Ids: 4ac99a62fe6ffde5391469d8959b17fc07721800
 
 Package: soapysdr0.8-module-sdrplay3-dbgsym
 Source: soapysdrplay3
@@ -2111,15 +2165,15 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 698
 Depends: soapysdr0.8-module-sdrplay3 (= 0.8.6)
 Filename: ./armhf/soapysdr0.8-module-sdrplay3-dbgsym_0.8.6_armhf.deb
-Size: 669488
-MD5sum: a22dee6eb913bca74e2ba7261daf96ff
-SHA1: 4af8025d71e37f548f13cd1a204b7bb0b8cb31f8
-SHA256: 197940c9382a306ad3239f82a249899d6e3d966e16476c4cc7f7de216fb08055
+Size: 669428
+MD5sum: 7ea7fd1e22eb1686b79c2d8c273cf877
+SHA1: 914aceba82115533af7bd6faa2c25d2a7c0d243d
+SHA256: 102024fa4840e9cd5d88721a24bf912c07948f1d5e5713ce3ad631f40abf23d3
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for soapysdr0.8-module-sdrplay3
-Build-Ids: 2b110040dc86182c651f6056c5a89b0f85e8db12
+Build-Ids: e64cd0d398b01ae14378ea6de331381d11473013
 
 Package: soapysdr0.8-module-sdrplay3-dbgsym
 Source: soapysdrplay3
@@ -2130,13 +2184,13 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 694
 Depends: soapysdr0.8-module-sdrplay3 (= 0.8.6)
 Filename: ./arm64/soapysdr0.8-module-sdrplay3-dbgsym_0.8.6_arm64.deb
-Size: 661944
-MD5sum: 0d14d185fceca5f3b8c8f75a4b9f11d6
-SHA1: 300ed4afba059516c6665f5676aa0fb88cbe0606
-SHA256: 5419e668d92c69a60124917270b23986a73344e6a4551732dc9aac24473fb5f7
+Size: 661940
+MD5sum: 5b607dfce1fd0469903b6e40960c4c38
+SHA1: 00b43a4acc787b7e5287852f2610708c95b5942d
+SHA256: 0595bc412f26e130c06ea6bd5d83c16fcb2e92e84c2c770c11894bd87805c9ba
 Section: debug
 Priority: optional
 Multi-Arch: same
 Description: debug symbols for soapysdr0.8-module-sdrplay3
-Build-Ids: 77fce13e579cd8969bc3f967d6c3eaaff655aea6
+Build-Ids: 124aff393b662b3302fa1504f860fb94002983a6
 
