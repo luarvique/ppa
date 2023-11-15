@@ -478,6 +478,435 @@ Priority: optional
 Description: debug symbols for digiham
 Build-Ids: 099fe87a6e0564b0b159b9765f9f6ec4d70e0edd 13e6d0474ff90bf28a236263862bcde146ed4b57 14ea371734ad430412a2a99fd42deb7cf9c924fc 1aa5bedd48020231bf4a1e29935a197ddcd58928 1b58ea43011bf659e49a0467583f29d1d7cac668 28e9bfe56eae9b0b7b8cebb54130f4ed6c0eed0a 7e9300a3ffa3e5aa7458ce05ab15befcebca115d 95b6824c9d848e5804008226bc0d78ccdec813db d3509e605cdb063885a11e473b9e5d20ee2f5206 de9f6d1c9b03d87432805f485be21f12f784b2b6 e8d2f1cf188c49b24bf12cf84bffab728dfdbb06
 
+Package: dump1090-fa
+Version: 8.2-2~7.gbp8adc70
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 11506
+Depends: dump1090-fa-minimal (= 8.2-2~7.gbp8adc70), libc6 (>= 2.34), libncurses6 (>= 6), libtinfo6 (>= 6), adduser, lighttpd
+Filename: ./amd64/dump1090-fa_8.2-2~7.gbp8adc70_amd64.deb
+Size: 2143714
+MD5sum: b97c951e394ce451cd9d023a4d034f08
+SHA1: 8ab1948436535121389ebb2a356a03c2be0fcba1
+SHA256: 497071a67fdac432782da9fd9fde65d7918468cd9871e6f5d659999e2a11eda1
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs
+ Networked Aviation Mode S / ADS-B decoder/translator with support
+ for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
+ device support.
+
+Package: dump1090-fa
+Version: 8.2-2~7.gbp8adc70
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 11426
+Depends: dump1090-fa-minimal (= 8.2-2~7.gbp8adc70), libc6 (>= 2.34), libncurses6 (>= 6), libtinfo6 (>= 6), adduser, lighttpd
+Filename: ./armhf/dump1090-fa_8.2-2~7.gbp8adc70_armhf.deb
+Size: 2138050
+MD5sum: 186229366c558f1cccceac2ff818d01c
+SHA1: 6887551b9b9b6689c41757eaf942ed53de0a753a
+SHA256: 45d74c3aed078fb343100da031d089be09990b16b4f6626dfba744dfede1834c
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs
+ Networked Aviation Mode S / ADS-B decoder/translator with support
+ for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
+ device support.
+
+Package: dump1090-fa
+Version: 8.2-2~7.gbp8adc70
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 11530
+Depends: dump1090-fa-minimal (= 8.2-2~7.gbp8adc70), libc6 (>= 2.34), libncurses6 (>= 6), libtinfo6 (>= 6), adduser, lighttpd
+Filename: ./arm64/dump1090-fa_8.2-2~7.gbp8adc70_arm64.deb
+Size: 2141086
+MD5sum: e0d7bfd905f56289ad47abbf38c24587
+SHA1: 70aece502b252eaa8ffcceabc2c00902bf3fbc51
+SHA256: ac1da289a7b6782a62203a4024855967aa3f70108b69e2bfb90c83aab7a3b808
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs
+ Networked Aviation Mode S / ADS-B decoder/translator with support
+ for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
+ device support.
+
+Package: dump1090-fa-dbgsym
+Source: dump1090-fa
+Version: 8.2-2~7.gbp8adc70
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 328
+Depends: dump1090-fa (= 8.2-2~7.gbp8adc70)
+Filename: ./amd64/dump1090-fa-dbgsym_8.2-2~7.gbp8adc70_amd64.deb
+Size: 292878
+MD5sum: 408ff9e72da5579d40a30d43764c2088
+SHA1: 20d245b5c903fef34d0bcb6b736e079b4dca35ab
+SHA256: da7878ed9504c82085efb7de74e9653b54c07de3314cf28a76e42f62c12a740c
+Section: debug
+Priority: optional
+Description: debug symbols for dump1090-fa
+Build-Ids: 0623debdb58aa49a9ca45b13ee8a0895acdfcef7 97f9879f3375b832be325c4b68f197d46a91d9fc
+
+Package: dump1090-fa-dbgsym
+Source: dump1090-fa
+Version: 8.2-2~7.gbp8adc70
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 345
+Depends: dump1090-fa (= 8.2-2~7.gbp8adc70)
+Filename: ./armhf/dump1090-fa-dbgsym_8.2-2~7.gbp8adc70_armhf.deb
+Size: 305854
+MD5sum: 211d04414ccdbe5601efe49628954561
+SHA1: be79a8f917807fd99be3c82cdcdf88ca2edaafd5
+SHA256: 80dd312ef3b0ec2c17061cea20175677a05d7766dd316b3c9a6e125af73cf46c
+Section: debug
+Priority: optional
+Description: debug symbols for dump1090-fa
+Build-Ids: 46ca06b4b5921c9d220d88bfac35fb3dfdcedab5 e7e3f42375b015c8dd29940406fa0b6e8678d242
+
+Package: dump1090-fa-dbgsym
+Source: dump1090-fa
+Version: 8.2-2~7.gbp8adc70
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 347
+Depends: dump1090-fa (= 8.2-2~7.gbp8adc70)
+Filename: ./arm64/dump1090-fa-dbgsym_8.2-2~7.gbp8adc70_arm64.deb
+Size: 305042
+MD5sum: 8be5e9e04f2a8380d9c382fb10a792c4
+SHA1: 4e22af6ddba9e7eb591d5a038412c3ebb7d3ce66
+SHA256: 652b178554202e8c88e0211e19ba5f30225bdeeb1b95fd8c88cec6fdd049353a
+Section: debug
+Priority: optional
+Description: debug symbols for dump1090-fa
+Build-Ids: 13449118b950a70fa1f8048955fda6f8d60d01a2 a3217484adae434a23b368708ed42d6b4032a283
+
+Package: dump1090-fa-minimal
+Source: dump1090-fa
+Version: 8.2-2~7.gbp8adc70
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 330
+Depends: libbladerf2 (>= 0.2022.11), libc6 (>= 2.34), libhackrf0 (>= 2022.09.1), liblimesuite22.09-1 (>= 22.09.1+dfsg), libncurses6 (>= 6), librtlsdr0 (>= 0.6.0), libtinfo6 (>= 6)
+Filename: ./amd64/dump1090-fa-minimal_8.2-2~7.gbp8adc70_amd64.deb
+Size: 115190
+MD5sum: e42bae6114e4f54dea47c607805b2795
+SHA1: d8b73ee9d7e6ba430ab0531f0727b38408f09ce9
+SHA256: 652732708941eebabddc782f428c75fb1a8eeddb4329dac8126154955079228d
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs - decoder only
+ Just the decoder binary without extras.
+
+Package: dump1090-fa-minimal
+Source: dump1090-fa
+Version: 8.2-2~7.gbp8adc70
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 248
+Depends: libbladerf2 (>= 0.2022.11), libc6 (>= 2.34), libhackrf0 (>= 2022.09.1), liblimesuite22.09-1 (>= 22.09.1+dfsg), libncurses6 (>= 6), librtlsdr0 (>= 0.6.0), libtinfo6 (>= 6)
+Filename: ./armhf/dump1090-fa-minimal_8.2-2~7.gbp8adc70_armhf.deb
+Size: 103658
+MD5sum: 8775ed556c60899385f9005b8bec64a7
+SHA1: a67d730fd2171ba96d697f54e10b9c30b9977e50
+SHA256: 5fab89c4e5727c078f71e3a9494e7ca560cd02c84404c4037978f779b090a129
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs - decoder only
+ Just the decoder binary without extras.
+
+Package: dump1090-fa-minimal
+Source: dump1090-fa
+Version: 8.2-2~7.gbp8adc70
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 327
+Depends: libbladerf2 (>= 0.2022.11), libc6 (>= 2.34), libhackrf0 (>= 2022.09.1), liblimesuite22.09-1 (>= 22.09.1+dfsg), libncurses6 (>= 6), librtlsdr0 (>= 0.6.0), libtinfo6 (>= 6)
+Filename: ./arm64/dump1090-fa-minimal_8.2-2~7.gbp8adc70_arm64.deb
+Size: 105822
+MD5sum: fc711f42cc17c3d1e7212313a85b4ec5
+SHA1: 7b035b423d71e7fe4cc2e57074837e788ca776da
+SHA256: 2bc136ff9e4c60cdf7b49315e76ae6864b40ad38bb5bbf928d3048b0cb615857
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs - decoder only
+ Just the decoder binary without extras.
+
+Package: dump1090-fa-minimal-dbgsym
+Source: dump1090-fa
+Version: 8.2-2~7.gbp8adc70
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 398
+Depends: dump1090-fa-minimal (= 8.2-2~7.gbp8adc70)
+Filename: ./amd64/dump1090-fa-minimal-dbgsym_8.2-2~7.gbp8adc70_amd64.deb
+Size: 360178
+MD5sum: 2332d1aa933cd3cd8225620e41c27987
+SHA1: 22cc6c611c7b0925fd114bd6fa906309854bb243
+SHA256: fa0cc88f02c7f94e5324c0bb8f8cc8fa49e4e22d057bb80ae014dfbabe58a3a6
+Section: debug
+Priority: optional
+Description: debug symbols for dump1090-fa-minimal
+Build-Ids: dff8cc9f32314c96e26034db17f1858d2b490935
+
+Package: dump1090-fa-minimal-dbgsym
+Source: dump1090-fa
+Version: 8.2-2~7.gbp8adc70
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 416
+Depends: dump1090-fa-minimal (= 8.2-2~7.gbp8adc70)
+Filename: ./armhf/dump1090-fa-minimal-dbgsym_8.2-2~7.gbp8adc70_armhf.deb
+Size: 373170
+MD5sum: 4a4d1b059e6f1c9d6e94627fbde11e3b
+SHA1: 12a5fb0dc257d063fff85c1f95eed6642859d3c3
+SHA256: 28b336d604701d10a4487e66b7cf6f434b4e963269ab5084aa9065b51c5bf021
+Section: debug
+Priority: optional
+Description: debug symbols for dump1090-fa-minimal
+Build-Ids: 206e286d592993841f9fce48bf8807c6138148c7
+
+Package: dump1090-fa-minimal-dbgsym
+Source: dump1090-fa
+Version: 8.2-2~7.gbp8adc70
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 417
+Depends: dump1090-fa-minimal (= 8.2-2~7.gbp8adc70)
+Filename: ./arm64/dump1090-fa-minimal-dbgsym_8.2-2~7.gbp8adc70_arm64.deb
+Size: 373114
+MD5sum: c0165c4779beae43ee039dbda09b9c73
+SHA1: 83e4ff1474ab322d43cd4d1e7be7854d1cca7037
+SHA256: f27dd59999f17e055c79eae7850892f2ad8596e023df8b274effda66b771ac86
+Section: debug
+Priority: optional
+Description: debug symbols for dump1090-fa-minimal
+Build-Ids: afa25f263606d0483f814ae0aa989350bcae4a64
+
+Package: dumphfdl
+Version: 1.4.1-1~4.gbp5f87c7
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 174
+Depends: libacars2, libc6 (>= 2.34), libconfig++9v5 (>= 1.5-0.4~), libfftw3-single3 (>= 3.3.10), libglib2.0-0 (>= 2.45.4), libliquid1 (>= 1.5.0), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./amd64/dumphfdl_1.4.1-1~4.gbp5f87c7_amd64.deb
+Size: 63150
+MD5sum: 3aea5b41221f49b879ad103e440fbbee
+SHA1: 981658e14ff699832a22d880dda6ce3cb902ccc8
+SHA256: 08d88cd8afed5c8a0af78839314467d55605056e2693cd6521f2056e6f73976d
+Section: embedded
+Priority: optional
+Homepage: https://github.com/szpajder/dumphfdl
+Description: Multichannel HFDL decoder
+ Multichannel HFDL decoder
+
+Package: dumphfdl
+Version: 1.4.1-1~4.gbp5f87c7
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 128
+Depends: libacars2, libc6 (>= 2.34), libconfig++9v5 (>= 1.5-0.4~), libfftw3-single3 (>= 3.3.10), libglib2.0-0 (>= 2.45.4), libliquid1 (>= 1.5.0), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./armhf/dumphfdl_1.4.1-1~4.gbp5f87c7_armhf.deb
+Size: 58322
+MD5sum: 60ee4299f95996d851ff3d951790f9a5
+SHA1: 5c9b5c9ca86bcbdc2ec48a61540e84c6e99aa3b8
+SHA256: 786c4563b170cfc2efc74866743f3fc4290c6bb857f56f5650fbc69d385e6671
+Section: embedded
+Priority: optional
+Homepage: https://github.com/szpajder/dumphfdl
+Description: Multichannel HFDL decoder
+ Multichannel HFDL decoder
+
+Package: dumphfdl
+Version: 1.4.1-1~4.gbp5f87c7
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 214
+Depends: libacars2, libc6 (>= 2.34), libconfig++9v5 (>= 1.5-0.4~), libfftw3-single3 (>= 3.3.10), libglib2.0-0 (>= 2.45.4), libliquid1 (>= 1.5.0), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./arm64/dumphfdl_1.4.1-1~4.gbp5f87c7_arm64.deb
+Size: 59718
+MD5sum: ad3ae0f55566ffa00340146fd816c5fb
+SHA1: c786e55e262da7623fa11616450a33ec345f6dd1
+SHA256: bf9c95b8e0175e32c91955f15947d76b8f4dd6ee6149dacc4187e809a287c883
+Section: embedded
+Priority: optional
+Homepage: https://github.com/szpajder/dumphfdl
+Description: Multichannel HFDL decoder
+ Multichannel HFDL decoder
+
+Package: dumphfdl-dbgsym
+Source: dumphfdl
+Version: 1.4.1-1~4.gbp5f87c7
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 227
+Depends: dumphfdl (= 1.4.1-1~4.gbp5f87c7)
+Filename: ./amd64/dumphfdl-dbgsym_1.4.1-1~4.gbp5f87c7_amd64.deb
+Size: 196362
+MD5sum: d7e7a1c6ef4efc0c92e5d50a4331c773
+SHA1: 679764f042dc0830c07152f9feb00648320ff4df
+SHA256: f832ddf5b39641868e369d710c15e7434c73e777ebd28e8064462b5238dc1604
+Section: debug
+Priority: optional
+Description: debug symbols for dumphfdl
+Build-Ids: ab373f91250a94038f1689d7b109cfb087743e1e
+
+Package: dumphfdl-dbgsym
+Source: dumphfdl
+Version: 1.4.1-1~4.gbp5f87c7
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 237
+Depends: dumphfdl (= 1.4.1-1~4.gbp5f87c7)
+Filename: ./armhf/dumphfdl-dbgsym_1.4.1-1~4.gbp5f87c7_armhf.deb
+Size: 205562
+MD5sum: 18775c7239fd9c18b7a43e47283e5b1a
+SHA1: 372c2e1dbfe8ee8981ab4925281d132c9438d73a
+SHA256: 418c7811787497e21ef186daf5f05a91589298187cac2288da5932e8744d0f9d
+Section: debug
+Priority: optional
+Description: debug symbols for dumphfdl
+Build-Ids: eadd820b8d05b20b0d14ac0d7c8eecae729668c5
+
+Package: dumphfdl-dbgsym
+Source: dumphfdl
+Version: 1.4.1-1~4.gbp5f87c7
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 239
+Depends: dumphfdl (= 1.4.1-1~4.gbp5f87c7)
+Filename: ./arm64/dumphfdl-dbgsym_1.4.1-1~4.gbp5f87c7_arm64.deb
+Size: 203338
+MD5sum: 45d9574614e81782a37d4f1f0d1d19f9
+SHA1: 649f0724943aff8a3474f1b358f98c114fcf21bf
+SHA256: ff9e85431e6f02c780e88a97978f34bf66d72bda211591519d14adf2703fff7b
+Section: debug
+Priority: optional
+Description: debug symbols for dumphfdl
+Build-Ids: 950440ee274d3dfc186d917642baee000cdafe80
+
+Package: dumpvdl2
+Version: 2.3.0-1~2.gbp809c98
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 1560
+Depends: libacars2, libc6 (>= 2.35), libglib2.0-0 (>= 2.12.0), librtlsdr0 (>= 0.6.0), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./amd64/dumpvdl2_2.3.0-1~2.gbp809c98_amd64.deb
+Size: 294082
+MD5sum: 5c34d5680752a35d250fddfdd921fdb1
+SHA1: 6132e502186b89823cb72eac1a57c01e0bbf9df4
+SHA256: 0e805e00cb15aaec5c92ff99b9ce0874e7b30407cd533c9d9db8c6a56f24ce24
+Section: embedded
+Priority: optional
+Homepage: https://github.com/szpajder/dumpvdl2
+Description: VDL Mode 2 message decoder and protocol analyzer
+ VDL Mode 2 message decoder and protocol analyzer
+
+Package: dumpvdl2
+Version: 2.3.0-1~2.gbp809c98
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 965
+Depends: libacars2, libc6 (>= 2.35), libglib2.0-0 (>= 2.12.0), librtlsdr0 (>= 0.6.0), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./armhf/dumpvdl2_2.3.0-1~2.gbp809c98_armhf.deb
+Size: 222306
+MD5sum: ecea2e5dad47aa5ef673fe7a601ff94c
+SHA1: 135c27f39f073fd71214709b69f394f40f747cb5
+SHA256: a07991406f24a6b6603c3b769a1b484ef666fa6478e5d65370eab32ea1151360
+Section: embedded
+Priority: optional
+Homepage: https://github.com/szpajder/dumpvdl2
+Description: VDL Mode 2 message decoder and protocol analyzer
+ VDL Mode 2 message decoder and protocol analyzer
+
+Package: dumpvdl2
+Version: 2.3.0-1~2.gbp809c98
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 1586
+Depends: libacars2, libc6 (>= 2.35), libglib2.0-0 (>= 2.12.0), librtlsdr0 (>= 0.6.0), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./arm64/dumpvdl2_2.3.0-1~2.gbp809c98_arm64.deb
+Size: 263394
+MD5sum: 6648fedc0cb433cb7aab580ec19058ec
+SHA1: d8724281bc776b3776b76a9231ea92d72095986f
+SHA256: dcc0b46a84cffa11a9d04a93d1bfed1c9bba7acde6fac20a4d15204237cef47e
+Section: embedded
+Priority: optional
+Homepage: https://github.com/szpajder/dumpvdl2
+Description: VDL Mode 2 message decoder and protocol analyzer
+ VDL Mode 2 message decoder and protocol analyzer
+
+Package: dumpvdl2-dbgsym
+Source: dumpvdl2
+Version: 2.3.0-1~2.gbp809c98
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 1247
+Depends: dumpvdl2 (= 2.3.0-1~2.gbp809c98)
+Filename: ./amd64/dumpvdl2-dbgsym_2.3.0-1~2.gbp809c98_amd64.deb
+Size: 961954
+MD5sum: 0d95465359e068acd282f517dc393610
+SHA1: 6e3142ed59a27c23733ddc001612bd50c31f4846
+SHA256: 3a12729ea803435e94bfb7add9ea45b02450f9cba091a0a6e168558a0e3ea5e6
+Section: debug
+Priority: optional
+Description: debug symbols for dumpvdl2
+Build-Ids: 74b7312d1f39765f22e31d1093026abfc4b2b3a2
+
+Package: dumpvdl2-dbgsym
+Source: dumpvdl2
+Version: 2.3.0-1~2.gbp809c98
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 1355
+Depends: dumpvdl2 (= 2.3.0-1~2.gbp809c98)
+Filename: ./armhf/dumpvdl2-dbgsym_2.3.0-1~2.gbp809c98_armhf.deb
+Size: 1005942
+MD5sum: d8311701353ad95327a79cdb3b8c13b4
+SHA1: 77c27232ec86b008be58f4e61b126458f2d2145c
+SHA256: 6c295073621eef14b2548d3664ae0efe1557fbabdec5d94f77b28020fd99b996
+Section: debug
+Priority: optional
+Description: debug symbols for dumpvdl2
+Build-Ids: 7c0e819035121f4ca16c1e40a9a43b03fca339ec
+
+Package: dumpvdl2-dbgsym
+Source: dumpvdl2
+Version: 2.3.0-1~2.gbp809c98
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 1346
+Depends: dumpvdl2 (= 2.3.0-1~2.gbp809c98)
+Filename: ./arm64/dumpvdl2-dbgsym_2.3.0-1~2.gbp809c98_arm64.deb
+Size: 1000518
+MD5sum: 1b52334bf8e382d605249e8e208f7061
+SHA1: ec549e3ceea488282067f291e7d501724a091205
+SHA256: 52116b8bef70c18c27849b94e1b9bf384452327d9b52ff8ac16197996b2c9e73
+Section: debug
+Priority: optional
+Description: debug symbols for dumpvdl2
+Build-Ids: 65435c3757093545a208d1c63c8eba2b5c39c414
+
 Package: hpsdrconnector
 Version: 0.6.6
 Architecture: amd64
