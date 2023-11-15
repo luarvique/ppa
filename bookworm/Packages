@@ -943,6 +943,276 @@ SHA1: 3ad48decb60b59bdc7068b32f68a42acaa863514
 SHA256: 83ff5a9e94f209d479838ca070b7a23dcd8945098e7b3050b814a64bcc4992a6
 Description: OpenWebRX connector for HPSDR radios
 
+Package: libacars-dev
+Source: libacars
+Version: 2.2.0-2~5.gbp2d4f9a
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 543
+Depends: libacars2 (= 2.2.0-2~5.gbp2d4f9a)
+Filename: ./amd64/libacars-dev_2.2.0-2~5.gbp2d4f9a_amd64.deb
+Size: 57458
+MD5sum: 4c1ad559084bdc4ba57651fb2b9a86e5
+SHA1: 08f954045efaca1e2291a7f738ca859844eccda0
+SHA256: 5ab1ad37a59e943abc0fd73fcd55408b05f2246f99a6976b4ff22a39113bed2f
+Section: libs
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: development dependencies includes for libacars
+ A library for decoding various ACARS message payloads
+
+Package: libacars-dev
+Source: libacars
+Version: 2.2.0-2~5.gbp2d4f9a
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 543
+Depends: libacars2 (= 2.2.0-2~5.gbp2d4f9a)
+Filename: ./armhf/libacars-dev_2.2.0-2~5.gbp2d4f9a_armhf.deb
+Size: 57470
+MD5sum: 48ea1c9ff8a22c6dfaf3fd3a0c3c3adc
+SHA1: 54a8d2b3f62e448410333449817616fa1609eb09
+SHA256: 8a4a616e6a0ace342197a8b31aef130b38b7d9d571914df819012442c3929f9f
+Section: libs
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: development dependencies includes for libacars
+ A library for decoding various ACARS message payloads
+
+Package: libacars-dev
+Source: libacars
+Version: 2.2.0-2~5.gbp2d4f9a
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 543
+Depends: libacars2 (= 2.2.0-2~5.gbp2d4f9a)
+Filename: ./arm64/libacars-dev_2.2.0-2~5.gbp2d4f9a_arm64.deb
+Size: 57486
+MD5sum: 6470f52bd574ef608aea9913e44542c9
+SHA1: 011f4171ff64cad137de834bbe7ea2e9013bc707
+SHA256: 6dd22d78cc82231233ab8f7ef931ae6bf3961d2961d9b9b17eb556e8b8be1228
+Section: libs
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: development dependencies includes for libacars
+ A library for decoding various ACARS message payloads
+
+Package: libacars-tools
+Source: libacars
+Version: 2.2.0-2~5.gbp2d4f9a
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 61
+Depends: libacars2 (= 2.2.0-2~5.gbp2d4f9a), libc6 (>= 2.34)
+Filename: ./amd64/libacars-tools_2.2.0-2~5.gbp2d4f9a_amd64.deb
+Size: 14602
+MD5sum: f22a78c895b982eb3415ad1b8ceb2eb4
+SHA1: eb2c27dbfb0ec799bd17b4e5dd0cefa51e343b55
+SHA256: 846eed8b68fbdd0625742dc97084ff74d76841c7c673239d2e86e4ed5f7c0952
+Section: libs
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: additional command line tools to decode acars messages
+ A library for decoding various ACARS message payloads
+
+Package: libacars-tools
+Source: libacars
+Version: 2.2.0-2~5.gbp2d4f9a
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 46
+Depends: libacars2 (= 2.2.0-2~5.gbp2d4f9a), libc6 (>= 2.34)
+Filename: ./armhf/libacars-tools_2.2.0-2~5.gbp2d4f9a_armhf.deb
+Size: 14314
+MD5sum: 1acc220467b050a2ef6357d7588bf8bd
+SHA1: 095556b89ad70b46bb31820644cdcdf26f1cafa2
+SHA256: f75ed5cba6137a552f6c1b80e8fc18cff24f4d9ffd44ae9a9ec26476a6f77fdc
+Section: libs
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: additional command line tools to decode acars messages
+ A library for decoding various ACARS message payloads
+
+Package: libacars-tools
+Source: libacars
+Version: 2.2.0-2~5.gbp2d4f9a
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 217
+Depends: libacars2 (= 2.2.0-2~5.gbp2d4f9a), libc6 (>= 2.34)
+Filename: ./arm64/libacars-tools_2.2.0-2~5.gbp2d4f9a_arm64.deb
+Size: 14830
+MD5sum: 046bb0f5702b4b0646d97d0840b2d5a3
+SHA1: f140fb6be359d5e3fd1e2dbfd2812d440db4aa88
+SHA256: aa68ac43602ce006796010660c8ae7787fb2cc9980c6e8f654fb9e5a71d7049d
+Section: libs
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: additional command line tools to decode acars messages
+ A library for decoding various ACARS message payloads
+
+Package: libacars-tools-dbgsym
+Source: libacars
+Version: 2.2.0-2~5.gbp2d4f9a
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 58
+Depends: libacars-tools (= 2.2.0-2~5.gbp2d4f9a)
+Filename: ./amd64/libacars-tools-dbgsym_2.2.0-2~5.gbp2d4f9a_amd64.deb
+Size: 31922
+MD5sum: bf037ceaf5eddd81c91a2110d6ce09da
+SHA1: 22ab7dc2932442785572615f7db120a92c46917f
+SHA256: 3c8a08d4623111299e703a2b06d7d519fd7737a36186a061703035611347e6b5
+Section: debug
+Priority: optional
+Description: debug symbols for libacars-tools
+Build-Ids: 2619de5c1d91c873af84a0074f5ade2f7ba8c3cc 2dd711812a34d2c82b87a633315a8c7e753df98c 432af8db84bdd3e4a4497c3ae1ada1f245b24c77
+
+Package: libacars-tools-dbgsym
+Source: libacars
+Version: 2.2.0-2~5.gbp2d4f9a
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 58
+Depends: libacars-tools (= 2.2.0-2~5.gbp2d4f9a)
+Filename: ./armhf/libacars-tools-dbgsym_2.2.0-2~5.gbp2d4f9a_armhf.deb
+Size: 32686
+MD5sum: 378626d0fabb3e747248acafa931a9e2
+SHA1: c0d55b0ff2706d2fdac4dfdd52dfa53356f45142
+SHA256: 7ed77d328c31cf45bac2c658a08b8737b988e2b75c5653ce5cbba8d0ab23038e
+Section: debug
+Priority: optional
+Description: debug symbols for libacars-tools
+Build-Ids: d4938d3bd85ae03ad0a035ed27a4818bdaef8b81 e9e63dac0aa609bb1d943a8858c9ea78ac21ed82 ebd021a8150317a12b29b2f230afc409cb9c14d9
+
+Package: libacars-tools-dbgsym
+Source: libacars
+Version: 2.2.0-2~5.gbp2d4f9a
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 62
+Depends: libacars-tools (= 2.2.0-2~5.gbp2d4f9a)
+Filename: ./arm64/libacars-tools-dbgsym_2.2.0-2~5.gbp2d4f9a_arm64.deb
+Size: 32386
+MD5sum: cd036f4e622eecf45e18131443f279f5
+SHA1: 978582ad6654eba6e7834db4d02428995a96ec0c
+SHA256: be9e059731ec2b5ff9b06b6b984778075491c112a5aa8b50e8993cfe783bf65d
+Section: debug
+Priority: optional
+Description: debug symbols for libacars-tools
+Build-Ids: 121c47453ca29c44a2d2e835a134581ad7de9eb7 904e887e13294cba1837ea2821461bd4d235a58e e8f54653af6b01803f3c26eaf45415d3bf50bf51
+
+Package: libacars2
+Source: libacars
+Version: 2.2.0-2~5.gbp2d4f9a
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 714
+Depends: libc6 (>= 2.14), libjansson4 (>= 2.14), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Filename: ./amd64/libacars2_2.2.0-2~5.gbp2d4f9a_amd64.deb
+Size: 142022
+MD5sum: 051cf9cc7fd3e04bdde1fc7977f85ffe
+SHA1: d9570b6aed4e149ef5696984fe402b15de7da3d6
+SHA256: 6bb55c41b3fc4b60e09a9dd6d6761c3a9b2882f65436f9b717cb5fdfa6aa4ada
+Section: libs
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: Library for decoding various ACARS message payloads
+ A library for decoding various ACARS message payloads
+
+Package: libacars2
+Source: libacars
+Version: 2.2.0-2~5.gbp2d4f9a
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 428
+Depends: libc6 (>= 2.4), libjansson4 (>= 2.14), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Filename: ./armhf/libacars2_2.2.0-2~5.gbp2d4f9a_armhf.deb
+Size: 111606
+MD5sum: be6ca1f7f70d4ea5a7fbd24389e81eb9
+SHA1: 3ab6d1f5d3d044a739d5d02271f57354a07029cb
+SHA256: 51fdccb3d01b4aa063db235ca90a964289712d069cb46943b2ebf9d6589e1500
+Section: libs
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: Library for decoding various ACARS message payloads
+ A library for decoding various ACARS message payloads
+
+Package: libacars2
+Source: libacars
+Version: 2.2.0-2~5.gbp2d4f9a
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 737
+Depends: libc6 (>= 2.17), libjansson4 (>= 2.14), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Filename: ./arm64/libacars2_2.2.0-2~5.gbp2d4f9a_arm64.deb
+Size: 132070
+MD5sum: 910300a229efdfdb88c1c2232c96c2b7
+SHA1: d80681870144fccc24fd61e1eaa11ffb92a1c2c7
+SHA256: d56dc4d9983e82a7d07b5a754349f908536ab8fb68ff0e674a029a0ff058d557
+Section: libs
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: Library for decoding various ACARS message payloads
+ A library for decoding various ACARS message payloads
+
+Package: libacars2-dbgsym
+Source: libacars
+Version: 2.2.0-2~5.gbp2d4f9a
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 705
+Depends: libacars2 (= 2.2.0-2~5.gbp2d4f9a)
+Filename: ./amd64/libacars2-dbgsym_2.2.0-2~5.gbp2d4f9a_amd64.deb
+Size: 562806
+MD5sum: 7c7306c3d29253cf82b39ff2b14b49ca
+SHA1: fad52bc6e0f9753e03a5895ebf41e445200262ca
+SHA256: c9368eeb1cf63794be67fea5fb7d521da2778aa90e080f389c2e4985470edf14
+Section: debug
+Priority: optional
+Description: debug symbols for libacars2
+Build-Ids: c42137621cbc53a284dc7caa821ba9b32c024d42
+
+Package: libacars2-dbgsym
+Source: libacars
+Version: 2.2.0-2~5.gbp2d4f9a
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 746
+Depends: libacars2 (= 2.2.0-2~5.gbp2d4f9a)
+Filename: ./armhf/libacars2-dbgsym_2.2.0-2~5.gbp2d4f9a_armhf.deb
+Size: 573698
+MD5sum: 4c1f5978c8d2baec766692be578ab97c
+SHA1: c8f0b01c7e60b6411fba7f0b0cef08445ae8e7f2
+SHA256: 30c7e5df314bd56745b586a997b0aa96a7d1eefe23176d5fa794bcbde4522670
+Section: debug
+Priority: optional
+Description: debug symbols for libacars2
+Build-Ids: 9240c9ebf79eeb60203839ceae0bd71537975e3e
+
+Package: libacars2-dbgsym
+Source: libacars
+Version: 2.2.0-2~5.gbp2d4f9a
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 742
+Depends: libacars2 (= 2.2.0-2~5.gbp2d4f9a)
+Filename: ./arm64/libacars2-dbgsym_2.2.0-2~5.gbp2d4f9a_arm64.deb
+Size: 573086
+MD5sum: 713d4d5c6641ab9540a0d98c2cb21fd4
+SHA1: 981f053aa5572bff9a066a75c292c9ba79daaeb2
+SHA256: 27bcb40f38d8fb1a6079e5fd9a764f8da488ce173e0bf5164752c401b0c1df9c
+Section: debug
+Priority: optional
+Description: debug symbols for libacars2
+Build-Ids: c8fbd28a5d94e73fea86daaa03e4773d4c2adfcf
+
 Package: libcodecserver
 Source: codecserver
 Version: 0.2.0
