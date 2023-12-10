@@ -104,39 +104,39 @@ Description: debug symbols for csdr
 Build-Ids: 86f3d2b47bd3bbddee2aa1ef17c143aef830b227
 
 Package: hpsdrconnector
-Version: 0.6.6
+Version: 0.7.0
 Architecture: amd64
 Maintainer: Jim Ancona <jim@anconafamily.com>
-Installed-Size: 3250
-Filename: ./amd64/hpsdrconnector_0.6.6_amd64.deb
-Size: 1921424
-MD5sum: 7ebd240899a3aebbaa6fac1340ee9932
-SHA1: 1b94bdc7bab6f0cea0336095840f956f1c99816a
-SHA256: 9e087d48ba4ee2d198638901aa8973c245282a1fa2b6ac7bdddb070a871a49be
+Installed-Size: 3263
+Filename: ./amd64/hpsdrconnector_0.7.0_amd64.deb
+Size: 1922572
+MD5sum: 484495fb1f3235eb116e7bbcd6c335ff
+SHA1: cb50ff26082c7ff343e1d91d0b5f5435dc7ca1ff
+SHA256: 63947290adb9794740231157896c16e09214f36566be71fe36c4d7521b09b5ea
 Description: OpenWebRX connector for HPSDR radios
 
 Package: hpsdrconnector
-Version: 0.6.6
+Version: 0.7.0
 Architecture: armhf
 Maintainer: Jim Ancona <jim@anconafamily.com>
-Installed-Size: 3150
-Filename: ./armhf/hpsdrconnector_0.6.6_armhf.deb
-Size: 1796704
-MD5sum: 143351c71cfa997676905f389ed45b5b
-SHA1: 4eb76c79e7b575fe4be011067ef88358d131802a
-SHA256: 891c3a93a6a790cf63d4d375d7d3dc8845d4e327d46848acf76552e59deace50
+Installed-Size: 3151
+Filename: ./armhf/hpsdrconnector_0.7.0_armhf.deb
+Size: 1798066
+MD5sum: 1511e415f26f81b5d8366ec5557a37a4
+SHA1: cd8ba069a476653b3034b9ccba4b74b6156f6df9
+SHA256: b1f0dd960df7b76676cd73e5bbbfee1a9f8935ed2525de45fcbbce2620584501
 Description: OpenWebRX connector for HPSDR radios
 
 Package: hpsdrconnector
-Version: 0.6.6
+Version: 0.7.0
 Architecture: arm64
 Maintainer: Jim Ancona <jim@anconafamily.com>
-Installed-Size: 3290
-Filename: ./arm64/hpsdrconnector_0.6.6_arm64.deb
-Size: 1820192
-MD5sum: c5a0eddf0dc7f990ac7308d4b58355fa
-SHA1: 3ad48decb60b59bdc7068b32f68a42acaa863514
-SHA256: 83ff5a9e94f209d479838ca070b7a23dcd8945098e7b3050b814a64bcc4992a6
+Installed-Size: 3291
+Filename: ./arm64/hpsdrconnector_0.7.0_arm64.deb
+Size: 1820850
+MD5sum: 1f960e74810d1759ec1a6af9049f17fb
+SHA1: 3d5da0dd83a352a8e315dd948e0ad09d86a1865e
+SHA256: 9aa87da7ab2a19797eaf4d4f18821ac0d4fe1cd0b542786d5dfa7a53ea3dc87b
 Description: OpenWebRX connector for HPSDR radios
 
 Package: libcsdr-dev
@@ -561,24 +561,6 @@ Section: debug
 Priority: optional
 Description: debug symbols for nmux
 Build-Ids: 916f010b276ff03cfc8ec63ca9ef3089a6ca9226
-
-Package: openwebrx
-Version: 1.2.42
-Architecture: all
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 2683
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6), soapysdr-tools, python3-csdr (>= 0.18.15), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, multimon-ng, rtl-433, dumphfdl, dumpvdl2, dump1090-fa-minimal, imagemagick
-Filename: ./openwebrx_1.2.42_all.deb
-Size: 874060
-MD5sum: c04c8ab7b6c2cd928d153dc946eb86dc
-SHA1: 683b42bf0433c389fa89a25d8eb888167721da01
-SHA256: 2c0bee149865f88a3c0e104dda9905be2a4c7c4f0d898e004036147fcb8460de
-Section: hamradio
-Priority: optional
-Homepage: https://www.openwebrx.de/
-Description: multi-user web sdr
- Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
 Version: 1.2.42
