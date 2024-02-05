@@ -90,6 +90,76 @@ Priority: optional
 Description: development dependencies includes for libcsdr
  A simple DSP library for Software Defined Radio.
 
+Package: libcsdr-eti-dev
+Source: csdr-eti
+Version: 0.0.9
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 20
+Depends: libcsdr-eti0 (= 0.0.9), libfftw3-dev (>= 3.3), libcsdr-dev (>= 0.18.18)
+Filename: ./amd64/libcsdr-eti-dev_0.0.9_amd64.deb
+Size: 3172
+MD5sum: cd784d680942bb7d50a1f976dc5070da
+SHA1: 79e6fed6500f9f69d2389ff9f3c0531495dfe0a5
+SHA256: ecd718fe5fc8c9719d682659e5506df73efe5cdb8daea2c2423350c6f0475580
+Section: hamradio
+Priority: optional
+Description: development debendencis for libcsdr-eti
+
+Package: libcsdr-eti-dev
+Source: csdr-eti
+Version: 0.0.9
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 20
+Depends: libcsdr-eti0 (= 0.0.9), libfftw3-dev (>= 3.3), libcsdr-dev (>= 0.18.18)
+Filename: ./arm64/libcsdr-eti-dev_0.0.9_arm64.deb
+Size: 3170
+MD5sum: 144e3a47653cef417abae45ded6e8866
+SHA1: 1a0071cc31959305ad1e2dbdc73db8dd2bc3fa9d
+SHA256: 5287a8168a58ef9e438deeffaf837890abf91913e6751cfda027981ec3621e21
+Section: hamradio
+Priority: optional
+Description: development debendencis for libcsdr-eti
+
+Package: libcsdr-eti0
+Source: csdr-eti
+Version: 0.0.9
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 97
+Depends: libc6 (>= 2.29), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Filename: ./amd64/libcsdr-eti0_0.0.9_amd64.deb
+Size: 30204
+MD5sum: f16c9f8949af58d7705e22002ec56e74
+SHA1: d58c62e4430286b38284414ea186c2f0a00a32d4
+SHA256: 109b4248b31faa7e50f2a5ef6f88243a29b44ed100ede7fbd4a249693ea0917d
+Section: hamradio
+Priority: optional
+Description: DAB ETI decoder as a csdr module
+ An implementation of a DAB ETI decoder that can be used as the first stage of
+ a DAB receiver pipeline. It cn demodulate a DAB Mode I Mux from IQ data and
+ output it as the corresponding ETI stream if successful.
+
+Package: libcsdr-eti0
+Source: csdr-eti
+Version: 0.0.9
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 89
+Depends: libc6 (>= 2.29), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Filename: ./arm64/libcsdr-eti0_0.0.9_arm64.deb
+Size: 29870
+MD5sum: 25ad2f316fd8cda475f5517befcf7bd2
+SHA1: 592071de98436c85969704b8b15378268203f615
+SHA256: 5bb81b9a6683e60262eaa0931d6336994680d62baa37cd6cebc646f2cd4182f2
+Section: hamradio
+Priority: optional
+Description: DAB ETI decoder as a csdr module
+ An implementation of a DAB ETI decoder that can be used as the first stage of
+ a DAB receiver pipeline. It cn demodulate a DAB Mode I Mux from IQ data and
+ output it as the corresponding ETI stream if successful.
+
 Package: libcsdr0
 Source: csdr
 Version: 0.18.18
@@ -239,9 +309,9 @@ Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, dablin, multimon-ng, imagemagick
 Filename: ./amd64/openwebrx_1.2.47_all.deb
 Size: 888176
-MD5sum: f5c2d34c822aeb0b38d4aabae254a20e
-SHA1: 28b5b8efe83e872846018bd3210873f3f4640383
-SHA256: cada64575293a7b9f13a0aee8889bceed8453cb00d7f5a650b727b7201a7ab46
+MD5sum: a9888710faec4659e4ac30c7015cc684
+SHA1: 0b5869ba489e758b6d6f9ba992fa7d3250b366c8
+SHA256: 47dde0f3e724a81bf508af90c0560363cde98b4ff732721cee530fb417821982
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -256,10 +326,10 @@ Installed-Size: 2763
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.18), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, dablin, multimon-ng, imagemagick
 Filename: ./arm64/openwebrx_1.2.47_all.deb
-Size: 888096
-MD5sum: dbfee01b860c5ab3efc30013a27dbc1e
-SHA1: ecd8ecfa29c144090f99ecb3b0035f163d6cdff3
-SHA256: d1781ccbaf3c38544d3efa0fed0d505c221e176122cb7fb7742a68cd4892f3a9
+Size: 888080
+MD5sum: ac5e17bc5bb709cedd5803b9fc8c2c6c
+SHA1: fb2761856225171d873a2e725f09597077f1bf56
+SHA256: 780760c0c7035700259d873829b4643ba225648546a4fca8a375b0dcb6eef1c2
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -333,6 +403,42 @@ Priority: optional
 Description: Python bindings for libcsdr
  Offers a variety of modules from the csdr software defined radio library for
  digital processing of radio transmission.
+
+Package: python3-csdr-eti
+Source: pycsdr-eti
+Version: 0.0.9
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 45
+Depends: libcsdr-eti0 (>= 0.0.9), python3 (<< 3.11), python3 (>= 3.10~), python3-csdr, python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
+Filename: ./amd64/python3-csdr-eti_0.0.9_amd64.deb
+Size: 10208
+MD5sum: e90da5044e21012bfd014938c48e9821
+SHA1: a38a6d8f93997569e03a1bb4139a1a9ac8fb2f0b
+SHA256: d04ce37c7ad9118e9acf593d68f90f8b6c14cc123d5eaac6206a5bc204814a61
+Section: hamradio
+Priority: optional
+Description: Python bindings for libcsdr-eti
+ Python bindings for libcsdr-eti, allowing it's DAB ETI decoder to be used in
+ python programs.
+
+Package: python3-csdr-eti
+Source: pycsdr-eti
+Version: 0.0.9
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 41
+Depends: libcsdr-eti0 (>= 0.0.9), python3 (<< 3.11), python3 (>= 3.10~), python3-csdr, python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
+Filename: ./arm64/python3-csdr-eti_0.0.9_arm64.deb
+Size: 9626
+MD5sum: 58bc29d79b2cafc5f34c451bf2e658f0
+SHA1: 5ecedca8e5b0eb96c3918f9c15ac3c562ccc3033
+SHA256: a630fcccaa1ed36808515ec434c9b4ac4ee86694dd2d9539a8b667cdc3f06f7b
+Section: hamradio
+Priority: optional
+Description: Python bindings for libcsdr-eti
+ Python bindings for libcsdr-eti, allowing it's DAB ETI decoder to be used in
+ python programs.
 
 Package: rtl-connector
 Source: owrx-connector
