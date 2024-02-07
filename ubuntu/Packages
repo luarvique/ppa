@@ -440,6 +440,40 @@ Description: Python bindings for libcsdr-eti
  Python bindings for libcsdr-eti, allowing it's DAB ETI decoder to be used in
  python programs.
 
+Package: redsea
+Version: 0.21
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 636
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libliquid2d, libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
+Filename: ./amd64/redsea_0.21_amd64.deb
+Size: 215600
+MD5sum: 7a36a4e5a86378f8f1eff6ce48be5b25
+SHA1: daa996b72558deded5532a06e7a82e218c86f42b
+SHA256: dc47a3016e9578797a51987b724379b2736b26478147446ed84e5593d690b5c3
+Section: hamradio
+Priority: optional
+Description: RDS decoder
+ Lightweight command-line FM-RDS decoder for Linux/macOS. It supports a
+ large subset of RDS features.
+
+Package: redsea
+Version: 0.21
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 560
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libliquid2d, libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
+Filename: ./arm64/redsea_0.21_arm64.deb
+Size: 207956
+MD5sum: c2a003b0a595122283fa3f3caf080337
+SHA1: bcc23eefd13f18efbadb8572f6d6a6c083ca6198
+SHA256: eaebbf3d1891e759ba0fbef741880e4765a40f3b85383fbc696571b727f4c8a8
+Section: hamradio
+Priority: optional
+Description: RDS decoder
+ Lightweight command-line FM-RDS decoder for Linux/macOS. It supports a
+ large subset of RDS features.
+
 Package: rtl-connector
 Source: owrx-connector
 Version: 0.6.5
