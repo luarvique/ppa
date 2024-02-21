@@ -92,48 +92,48 @@ Description: development dependencies includes for libcsdr
 
 Package: libcsdr-eti-dev
 Source: csdr-eti
-Version: 0.0.10
+Version: 0.0.11
 Architecture: amd64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 21
-Depends: libcsdr-eti0 (= 0.0.10), libfftw3-dev (>= 3.3), libcsdr-dev (>= 0.18.18)
-Filename: ./amd64/libcsdr-eti-dev_0.0.10_amd64.deb
-Size: 3268
-MD5sum: d81e2cb61cf6607279cc81155c0fe2fa
-SHA1: b19913a8023b89b22fc1fbf24000e50389105f7d
-SHA256: 40db04252c5ac0a291fc4e4c7935a62178df9ceea225ec10bab4214eca7889ce
+Depends: libcsdr-eti0 (= 0.0.11), libfftw3-dev (>= 3.3), libcsdr-dev (>= 0.18.18)
+Filename: ./amd64/libcsdr-eti-dev_0.0.11_amd64.deb
+Size: 3334
+MD5sum: 71931c03f11b96ba5c7cddbe7ff389b0
+SHA1: 6a7bb5fac5a7b4608fb185ea9159ee212faa2e79
+SHA256: 131348c06b9df4d2d2d5513e4fadb9ade8369a137e7b735f87d5226fb8fd181f
 Section: hamradio
 Priority: optional
 Description: development debendencis for libcsdr-eti
 
 Package: libcsdr-eti-dev
 Source: csdr-eti
-Version: 0.0.10
+Version: 0.0.11
 Architecture: arm64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 21
-Depends: libcsdr-eti0 (= 0.0.10), libfftw3-dev (>= 3.3), libcsdr-dev (>= 0.18.18)
-Filename: ./arm64/libcsdr-eti-dev_0.0.10_arm64.deb
-Size: 3292
-MD5sum: d85bc06c4addf86bc35977963ef417e1
-SHA1: 1af9b35828f9240a1ea1909a452f8b48b187c1d9
-SHA256: b899a8cce676cffe8ddec5a70a37207d4d43a902077a3fdf366b647fe2709371
+Depends: libcsdr-eti0 (= 0.0.11), libfftw3-dev (>= 3.3), libcsdr-dev (>= 0.18.18)
+Filename: ./arm64/libcsdr-eti-dev_0.0.11_arm64.deb
+Size: 3340
+MD5sum: e04ba0841ef7532de9a8f850beb8e1d3
+SHA1: 02a00768a5af53837ff95083e7c25df2e826bb40
+SHA256: d17b5f9463de262140d382d660143c2222829347c966c87475214354fcec30a2
 Section: hamradio
 Priority: optional
 Description: development debendencis for libcsdr-eti
 
 Package: libcsdr-eti0
 Source: csdr-eti
-Version: 0.0.10
+Version: 0.0.11
 Architecture: amd64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 105
 Depends: libc6 (>= 2.29), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
-Filename: ./amd64/libcsdr-eti0_0.0.10_amd64.deb
-Size: 34192
-MD5sum: e3830cc997aa24d72ba858dacd827a63
-SHA1: 5214c48ec33fb8918528047aecf6cbd459e41674
-SHA256: 3cb5278ed47ef15e842294950f48154307f06d0681552d914ccf95f2e5f01b0c
+Filename: ./amd64/libcsdr-eti0_0.0.11_amd64.deb
+Size: 34162
+MD5sum: c841bb2eaae58d6402fee9068fc5509b
+SHA1: fdfc19a7cc705ee0f7a612c0c810e64c047c2388
+SHA256: 7f54e86ed491e5d104d0fa55983cfddc4677e86a2969909423c4efd9aef5ffc3
 Section: hamradio
 Priority: optional
 Description: DAB ETI decoder as a csdr module
@@ -143,16 +143,16 @@ Description: DAB ETI decoder as a csdr module
 
 Package: libcsdr-eti0
 Source: csdr-eti
-Version: 0.0.10
+Version: 0.0.11
 Architecture: arm64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 97
 Depends: libc6 (>= 2.29), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
-Filename: ./arm64/libcsdr-eti0_0.0.10_arm64.deb
-Size: 33416
-MD5sum: 2a12170aa8e52953e4c113bdd5f6a4c2
-SHA1: f851ae87a9cde025141e41d236a7a5f4eaff1e64
-SHA256: 9a60051c2aacf4548c01963c46e844bf2e65fc9892c5963681f6a42ce12301ae
+Filename: ./arm64/libcsdr-eti0_0.0.11_arm64.deb
+Size: 33454
+MD5sum: cd40be4a5c733a6acfeed4fe0cd77d68
+SHA1: 443d7dac9264c73f22c5a6c5bb5e3d4d1dddbd8a
+SHA256: 8008d4ad0250ae1a1780b03d316c6d945ab2d32578701353a91eecb70095dadc
 Section: hamradio
 Priority: optional
 Description: DAB ETI decoder as a csdr module
@@ -406,16 +406,16 @@ Description: Python bindings for libcsdr
 
 Package: python3-csdr-eti
 Source: pycsdr-eti
-Version: 0.0.10
+Version: 0.0.11
 Architecture: amd64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 54
-Depends: libcsdr-eti0 (>= 0.0.10), python3 (<< 3.11), python3 (>= 3.10~), python3-csdr, python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
-Filename: ./amd64/python3-csdr-eti_0.0.10_amd64.deb
-Size: 11736
-MD5sum: e9bbd929042dbb92dcbfd2fdf99cb085
-SHA1: aa76ef990340adc7328df3c10b2a71af9fee9702
-SHA256: 23cee79accac18a5602c9008e11e4ba30c3c1da48568b47f23c88fb726f2f512
+Depends: libcsdr-eti0 (>= 0.0.11), python3 (<< 3.11), python3 (>= 3.10~), python3-csdr, python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
+Filename: ./amd64/python3-csdr-eti_0.0.11_amd64.deb
+Size: 11810
+MD5sum: bc91bd711b0eb8e7d8a240173accd183
+SHA1: 01327c08bc9821ab9a06adc5d03d995f76b80929
+SHA256: f725666c1f2fdd51a249d05ab07aaac8d8d0f39439ca263a5eb7892d62f65adb
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr-eti
@@ -424,16 +424,16 @@ Description: Python bindings for libcsdr-eti
 
 Package: python3-csdr-eti
 Source: pycsdr-eti
-Version: 0.0.10
+Version: 0.0.11
 Architecture: arm64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 45
-Depends: libcsdr-eti0 (>= 0.0.10), python3 (<< 3.11), python3 (>= 3.10~), python3-csdr, python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
-Filename: ./arm64/python3-csdr-eti_0.0.10_arm64.deb
-Size: 11056
-MD5sum: c7206ffb4c8777dd3d1ef45e5c935efd
-SHA1: 8f831ad893904dd15636ba1953ddc69ad6c5216a
-SHA256: 4f654470015db26a06bf2cfbe3c2fa714283e523c8725091a4f889507f430589
+Depends: libcsdr-eti0 (>= 0.0.11), python3 (<< 3.11), python3 (>= 3.10~), python3-csdr, python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
+Filename: ./arm64/python3-csdr-eti_0.0.11_arm64.deb
+Size: 11084
+MD5sum: 58d31c492a3de78a9519efa73a784f57
+SHA1: f051e76e7707c09b2899173727c3ea08dccce16c
+SHA256: 6737aa97b1a989c5ee339ac7bbc82f4ff3d2e597c29201e7608c3747d21960d8
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr-eti
