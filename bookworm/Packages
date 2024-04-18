@@ -1,3 +1,108 @@
+Package: acarsdec
+Version: 3.7-2
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 94
+Depends: libacars2, libc6 (>= 2.34), libsndfile1 (>= 1.0.20)
+Filename: ./amd64/acarsdec_3.7-2_amd64.deb
+Size: 34784
+MD5sum: 4a6eff3b146728bb38c4750ff4e7f915
+SHA1: 44542dfd15e3995a20e144dc28df28021af8a0bc
+SHA256: 9f3e9e11dfd339db8f669e835422fce40a7e6f91ce60fbb8e2814590f64a41ae
+Section: hamradio
+Priority: optional
+Description: ACARS SDR decoder
+ Acarsdec is a multi-channels acars decoder with built-in rtl_sdr, airspy front
+ end or sdrplay device.
+
+Package: acarsdec
+Version: 3.7-2
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 65
+Depends: libacars2, libc6 (>= 2.34)
+Filename: ./armhf/acarsdec_3.7-2_armhf.deb
+Size: 31076
+MD5sum: 2a10abe71ae71ec90a673c6934044f12
+SHA1: 579dcfce448f9c3aff9171930181e68af998b82e
+SHA256: 7ef4ff2118cc8547844cac577a244fb4d3a5c393847a64752648ba3c9a1d4d46
+Section: hamradio
+Priority: optional
+Description: ACARS SDR decoder
+ Acarsdec is a multi-channels acars decoder with built-in rtl_sdr, airspy front
+ end or sdrplay device.
+
+Package: acarsdec
+Version: 3.7-2
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 142
+Depends: libacars2, libc6 (>= 2.34), libsndfile1 (>= 1.0.20)
+Filename: ./arm64/acarsdec_3.7-2_arm64.deb
+Size: 33804
+MD5sum: 99d67265c0b8b17aeaaacde533bfe04e
+SHA1: e06b851465c559c86f3b230b68010ea82ced0db6
+SHA256: 0f6dbc469e8125d3dba2ecaa11e8198603a83f075b76fadfdf0001c85ef26efb
+Section: hamradio
+Priority: optional
+Description: ACARS SDR decoder
+ Acarsdec is a multi-channels acars decoder with built-in rtl_sdr, airspy front
+ end or sdrplay device.
+
+Package: acarsdec-dbgsym
+Source: acarsdec
+Version: 3.7-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 109
+Depends: acarsdec (= 3.7-2)
+Filename: ./amd64/acarsdec-dbgsym_3.7-2_amd64.deb
+Size: 90752
+MD5sum: 8bab5ea1dc3f91a1ae30fcd597641d70
+SHA1: 07e6a07391b800adda505afd6a97b81339997560
+SHA256: 805b5d35e227586b3f13c2bc2408deed2cf0b803a4255fb6bcad58a97a9a213c
+Section: debug
+Priority: optional
+Description: debug symbols for acarsdec
+Build-Ids: e6cdcb59c194485659dfb6a71863857b5c7c72d0
+
+Package: acarsdec-dbgsym
+Source: acarsdec
+Version: 3.7-2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 110
+Depends: acarsdec (= 3.7-2)
+Filename: ./armhf/acarsdec-dbgsym_3.7-2_armhf.deb
+Size: 92452
+MD5sum: e6c45614be3fb2cd721ab085d50cd26e
+SHA1: b7dd9bc1f52b5dc79a2933ae11ed5ffd5fe73c6d
+SHA256: 585d430a8a0483f8bff68b4ab0c43e14fa8ae2cdd935e6d4951080b9587b2fe5
+Section: debug
+Priority: optional
+Description: debug symbols for acarsdec
+Build-Ids: b9959f9dee24f1cf928a5644d51afbbe29e913e5
+
+Package: acarsdec-dbgsym
+Source: acarsdec
+Version: 3.7-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 112
+Depends: acarsdec (= 3.7-2)
+Filename: ./arm64/acarsdec-dbgsym_3.7-2_arm64.deb
+Size: 92544
+MD5sum: fb6760b414a2f378f9579b183956814c
+SHA1: 18f85c15d44e2f913981cfbe6577bbbbc51c56c2
+SHA256: 55296233249f6106881e195bdc157a1acb3d7cb85560170b638514edc5bebbee
+Section: debug
+Priority: optional
+Description: debug symbols for acarsdec
+Build-Ids: 46dcb62c928f81dac5bf21aabbe16c06e9769c18
+
 Package: aprs-symbols
 Version: 0.0.1-4~31.gbpef2289
 Architecture: all
