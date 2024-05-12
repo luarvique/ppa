@@ -49,6 +49,23 @@ Priority: optional
 Description: command-line sdr
  A simple DSP command-line tool for Software Defined Radio.
 
+Package: csdr
+Version: 0.18.23
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 638
+Depends: libcsdr0 (= 0.18.23), libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Recommends: nmux (= 0.18.23)
+Filename: ./packages/csdr_0.18.23_arm64.deb
+Size: 160736
+MD5sum: fa03ab6a7a12a5e316fff732827310cb
+SHA1: 28ca43c3098f0c444bc831ebe7012b0b747d6f40
+SHA256: 007c667454ebb846b85947cd2343e1bed95e17c0f5700a0a919c71f748fadc3a
+Section: hamradio
+Priority: optional
+Description: command-line sdr
+ A simple DSP command-line tool for Software Defined Radio.
+
 Package: csdr-dbgsym
 Source: csdr
 Version: 0.18.23
@@ -94,6 +111,24 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 3488
 Depends: csdr (= 0.18.23)
 Filename: ./arm64/csdr-dbgsym_0.18.23_arm64.deb
+Size: 3295236
+MD5sum: 7fda8f705ce45aee63014113e15f927e
+SHA1: abf7bd812ae72a17ff5c842f331ab82a28c8811c
+SHA256: 2c9cf9b9cc522060a71d828f49d1eee8aacd652c0fdb77a57f98ead3cb4a7f1d
+Section: debug
+Priority: optional
+Description: debug symbols for csdr
+Build-Ids: 3de23b5a2085fc8ced8029302a694dba8db83b63
+
+Package: csdr-dbgsym
+Source: csdr
+Version: 0.18.23
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 3488
+Depends: csdr (= 0.18.23)
+Filename: ./packages/csdr-dbgsym_0.18.23_arm64.deb
 Size: 3295236
 MD5sum: 7fda8f705ce45aee63014113e15f927e
 SHA1: abf7bd812ae72a17ff5c842f331ab82a28c8811c
@@ -190,6 +225,23 @@ Priority: optional
 Description: development dependencies includes for libcsdr
  A simple DSP library for Software Defined Radio.
 
+Package: libcsdr-dev
+Source: csdr
+Version: 0.18.23
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 191
+Depends: libcsdr0 (= 0.18.23), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
+Filename: ./packages/libcsdr-dev_0.18.23_arm64.deb
+Size: 23844
+MD5sum: d850d0a7524863edd0814dd124e8da9b
+SHA1: 1c0e44ebc9afda0bdcf0490b3a3f20b1ef8c2a0c
+SHA256: 440f85726d7e4b48f0c591f5f4168cd896e75d9549c3a80dbcbae353defddd03
+Section: hamradio
+Priority: optional
+Description: development dependencies includes for libcsdr
+ A simple DSP library for Software Defined Radio.
+
 Package: libcsdr-eti-dev
 Source: csdr-eti
 Version: 0.0.11
@@ -230,6 +282,22 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 21
 Depends: libcsdr-eti0 (= 0.0.11), libfftw3-dev (>= 3.3), libcsdr-dev (>= 0.18.18)
 Filename: ./arm64/libcsdr-eti-dev_0.0.11_arm64.deb
+Size: 3436
+MD5sum: 64859b0d8650e59906fbc7df8ce3c959
+SHA1: 6647eade237782d8bb81df8f99ac22efd56855cb
+SHA256: b5615723023f3593c7aa1088c41a4da1747964cf54fb0a7c5203fb42284da312
+Section: hamradio
+Priority: optional
+Description: development debendencis for libcsdr-eti
+
+Package: libcsdr-eti-dev
+Source: csdr-eti
+Version: 0.0.11
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 21
+Depends: libcsdr-eti0 (= 0.0.11), libfftw3-dev (>= 3.3), libcsdr-dev (>= 0.18.18)
+Filename: ./packages/libcsdr-eti-dev_0.0.11_arm64.deb
 Size: 3436
 MD5sum: 64859b0d8650e59906fbc7df8ce3c959
 SHA1: 6647eade237782d8bb81df8f99ac22efd56855cb
@@ -295,6 +363,25 @@ Description: DAB ETI decoder as a csdr module
  a DAB receiver pipeline. It cn demodulate a DAB Mode I Mux from IQ data and
  output it as the corresponding ETI stream if successful.
 
+Package: libcsdr-eti0
+Source: csdr-eti
+Version: 0.0.11
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 113
+Depends: libc6 (>= 2.29), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Filename: ./packages/libcsdr-eti0_0.0.11_arm64.deb
+Size: 32100
+MD5sum: 0f87241211cb43db5d726b9ef7818dea
+SHA1: c35fc006bfe4ab93eca8fa77e230ef1c53a5cb19
+SHA256: 6f0ea354c64842bbc35a51ffd1c91a2496021478afc23d1fda25d74569354d7b
+Section: hamradio
+Priority: optional
+Description: DAB ETI decoder as a csdr module
+ An implementation of a DAB ETI decoder that can be used as the first stage of
+ a DAB receiver pipeline. It cn demodulate a DAB Mode I Mux from IQ data and
+ output it as the corresponding ETI stream if successful.
+
 Package: libcsdr-eti0-dbgsym
 Source: csdr-eti
 Version: 0.0.11
@@ -349,6 +436,24 @@ Priority: optional
 Description: debug symbols for libcsdr-eti0
 Build-Ids: 7dc9e338e405f8460ae7561726c224453e0af4cb
 
+Package: libcsdr-eti0-dbgsym
+Source: csdr-eti
+Version: 0.0.11
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 488
+Depends: libcsdr-eti0 (= 0.0.11)
+Filename: ./packages/libcsdr-eti0-dbgsym_0.0.11_arm64.deb
+Size: 464588
+MD5sum: afde9c7d9303b30dde398cdfe55208c6
+SHA1: 687e162b00b871b8f492e164cc4f388fe0214373
+SHA256: 3c39d4e3259cf876a43860e3332ce4a7a66d43c65a3b1333662000399d7cce06
+Section: debug
+Priority: optional
+Description: debug symbols for libcsdr-eti0
+Build-Ids: 7dc9e338e405f8460ae7561726c224453e0af4cb
+
 Package: libcsdr0
 Source: csdr
 Version: 0.18.23
@@ -391,6 +496,23 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 707
 Depends: libc6 (>= 2.29), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 6)
 Filename: ./arm64/libcsdr0_0.18.23_arm64.deb
+Size: 133068
+MD5sum: 132a56e319e18afccda14dcb1585bae3
+SHA1: 3731ca92a74ea73159ea7e145daca71b83d6216d
+SHA256: 6643f0b6001c20e7ccf2aeb1718ef027fb2510e0a4536851cbf4b1f614311d03
+Section: hamradio
+Priority: optional
+Description: simple library for software defined radio
+ A simple DSP library for Software Defined Radio.
+
+Package: libcsdr0
+Source: csdr
+Version: 0.18.23
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 707
+Depends: libc6 (>= 2.29), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 6)
+Filename: ./packages/libcsdr0_0.18.23_arm64.deb
 Size: 133068
 MD5sum: 132a56e319e18afccda14dcb1585bae3
 SHA1: 3731ca92a74ea73159ea7e145daca71b83d6216d
@@ -454,6 +576,24 @@ Priority: optional
 Description: debug symbols for libcsdr0
 Build-Ids: 443e1f261e74d038637ae62ed09c9e8399b6f832
 
+Package: libcsdr0-dbgsym
+Source: csdr
+Version: 0.18.23
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 1380
+Depends: libcsdr0 (= 0.18.23)
+Filename: ./packages/libcsdr0-dbgsym_0.18.23_arm64.deb
+Size: 1167348
+MD5sum: 3402881389c479862e6f52045b50137d
+SHA1: 8c73265dca42c94485e40f456a91d5c9a272743a
+SHA256: a637fa8b8e96b1f3394011f30ed4ba858ec0cc9ac360a3596879260f0066d530
+Section: debug
+Priority: optional
+Description: debug symbols for libcsdr0
+Build-Ids: 443e1f261e74d038637ae62ed09c9e8399b6f832
+
 Package: libowrx-connector
 Source: owrx-connector
 Version: 0.6.5
@@ -496,6 +636,23 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 95
 Depends: libcsdr0 (>= 0.18), libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 6)
 Filename: ./arm64/libowrx-connector_0.6.5_arm64.deb
+Size: 26584
+MD5sum: c12316f20b4c96c72d914559cee199e7
+SHA1: 5ae4b0b9ad3de36bb06eb8a393b7ba8802bb10ec
+SHA256: 386c698104e3d937af0808048497d6738c4d9f5535c545ea5062718cd0b8104e
+Section: hamradio
+Priority: optional
+Description: OpenWebRX connector base library
+ Base library used to provide basic connector functionality
+
+Package: libowrx-connector
+Source: owrx-connector
+Version: 0.6.5
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 95
+Depends: libcsdr0 (>= 0.18), libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 6)
+Filename: ./packages/libowrx-connector_0.6.5_arm64.deb
 Size: 26584
 MD5sum: c12316f20b4c96c72d914559cee199e7
 SHA1: 5ae4b0b9ad3de36bb06eb8a393b7ba8802bb10ec
@@ -559,6 +716,24 @@ Priority: optional
 Description: debug symbols for libowrx-connector
 Build-Ids: 02a8da43164a02145ffa5094229d8e12d9675851
 
+Package: libowrx-connector-dbgsym
+Source: owrx-connector
+Version: 0.6.5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 361
+Depends: libowrx-connector (= 0.6.5)
+Filename: ./packages/libowrx-connector-dbgsym_0.6.5_arm64.deb
+Size: 334580
+MD5sum: 0025d9007b86e03104d383f8645e335c
+SHA1: 472e90f6656c6d21d74d7ceb765ba6ba56c0df01
+SHA256: 77cb188ae15ed96d9fdd24e137aebb7902c250102ada2fa461b1f9369ac5bf83
+Section: debug
+Priority: optional
+Description: debug symbols for libowrx-connector
+Build-Ids: 02a8da43164a02145ffa5094229d8e12d9675851
+
 Package: libowrx-connector-dev
 Source: owrx-connector
 Version: 0.6.5
@@ -601,6 +776,23 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 33
 Depends: libowrx-connector (= 0.6.5), libcsdr-dev (>= 0.18)
 Filename: ./arm64/libowrx-connector-dev_0.6.5_arm64.deb
+Size: 6392
+MD5sum: 1c8c2d5e421b208e94cfadcc9a82c96e
+SHA1: f9163d983686a6d069cd8d5a7ba106e7eb46cb88
+SHA256: ec0f6702c35b76fd3e86cd505c73810d963235f4c7fcc07c110d8c442f13d402
+Section: hamradio
+Priority: optional
+Description: OpenWebRX connector base library - development files
+ Provides includes and development files to build custom connectors
+
+Package: libowrx-connector-dev
+Source: owrx-connector
+Version: 0.6.5
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 33
+Depends: libowrx-connector (= 0.6.5), libcsdr-dev (>= 0.18)
+Filename: ./packages/libowrx-connector-dev_0.6.5_arm64.deb
 Size: 6392
 MD5sum: 1c8c2d5e421b208e94cfadcc9a82c96e
 SHA1: f9163d983686a6d069cd8d5a7ba106e7eb46cb88
@@ -667,6 +859,25 @@ Description: TCP stream multiplexer
  It reads data from the standard input, and sends it to each client connected
  through TCP sockets.
 
+Package: nmux
+Source: csdr
+Version: 0.18.23
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 37
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
+Conflicts: csdr (<= 0.18.0~133)
+Filename: ./packages/nmux_0.18.23_arm64.deb
+Size: 11880
+MD5sum: 17e816b6a613696ffea0c313c45bbbe7
+SHA1: 9ccd57dcd3a5baea578391472fd82f033e408ed4
+SHA256: 9db222d1ed4d63d1ea94d59663f00eb68a8f832cc30c193037b7de3af42118d5
+Section: hamradio
+Priority: optional
+Description: TCP stream multiplexer
+ It reads data from the standard input, and sends it to each client connected
+ through TCP sockets.
+
 Package: nmux-dbgsym
 Source: csdr
 Version: 0.18.23
@@ -721,23 +932,23 @@ Priority: optional
 Description: debug symbols for nmux
 Build-Ids: 916f010b276ff03cfc8ec63ca9ef3089a6ca9226
 
-Package: openwebrx
-Version: 1.2.58
-Architecture: all
+Package: nmux-dbgsym
+Source: csdr
+Version: 0.18.23
+Auto-Built-Package: debug-symbols
+Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 2808
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.23), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick
-Filename: ./openwebrx_1.2.58_all.deb
-Size: 895896
-MD5sum: c6a557d38714a0551fb8d1ba191ec594
-SHA1: b4370a2793faaa75f0da59e525aa2f68f7642f99
-SHA256: 8c73e816fd804d0d97d0b85129b2807422947569f8790b82ea2ff24ef9c447c8
-Section: hamradio
+Installed-Size: 72
+Depends: nmux (= 0.18.23)
+Filename: ./packages/nmux-dbgsym_0.18.23_arm64.deb
+Size: 56400
+MD5sum: 21477058ba4f35b16b45b538e2c9878c
+SHA1: 215ebb5e9a0ac2d1360ba8df55dfaf8304b5759e
+SHA256: f9364022ae1b73279bdfc8e1b6cca88cb99756ea116498fb038e5ae228909e59
+Section: debug
 Priority: optional
-Homepage: https://www.openwebrx.de/
-Description: multi-user web sdr
- Open source, multi-user SDR receiver with a web interface
+Description: debug symbols for nmux
+Build-Ids: 916f010b276ff03cfc8ec63ca9ef3089a6ca9226
 
 Package: openwebrx
 Version: 1.2.58
@@ -793,6 +1004,24 @@ Homepage: https://www.openwebrx.de/
 Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
+Package: openwebrx
+Version: 1.2.58
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 2808
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.23), python3:any, debconf (>= 0.5) | debconf-2.0
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick
+Filename: ./packages/openwebrx_1.2.58_all.deb
+Size: 896016
+MD5sum: 617647ce0f2b56abf259da1883877569
+SHA1: 1933fb1cf3deb47218a3a93bafd69da9b0c263ae
+SHA256: 73e65683c78afb76385390eb10f5b5dec03c410cb988c2beb0c47baf67a3f602
+Section: hamradio
+Priority: optional
+Homepage: https://www.openwebrx.de/
+Description: multi-user web sdr
+ Open source, multi-user SDR receiver with a web interface
+
 Package: owrx-connector
 Version: 0.6.5
 Architecture: amd64
@@ -832,6 +1061,22 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 10
 Depends: rtl-connector (= 0.6.5), rtl-tcp-connector (= 0.6.5), soapy-connector (= 0.6.5)
 Filename: ./arm64/owrx-connector_0.6.5_arm64.deb
+Size: 2440
+MD5sum: 1e6d3888f3cddd2833479ecff252c378
+SHA1: 958a6f2b37267ed73ba50153f6a2da8f10d4fe6c
+SHA256: 713b92faf31cd79cf4bec560c61831f4658c8f822d32e8ec0a29d6eebda0bc4b
+Section: hamradio
+Priority: optional
+Description: Virtual bundle dependency package
+ This package installs the base connectors for RTL-SDR, SoapySDR and rtl_tcp
+
+Package: owrx-connector
+Version: 0.6.5
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 10
+Depends: rtl-connector (= 0.6.5), rtl-tcp-connector (= 0.6.5), soapy-connector (= 0.6.5)
+Filename: ./packages/owrx-connector_0.6.5_arm64.deb
 Size: 2440
 MD5sum: 1e6d3888f3cddd2833479ecff252c378
 SHA1: 958a6f2b37267ed73ba50153f6a2da8f10d4fe6c
@@ -885,6 +1130,24 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 201
 Depends: libcsdr0 (>= 0.18.23), python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
 Filename: ./arm64/python3-csdr_0.18.23_arm64.deb
+Size: 38436
+MD5sum: e6a1f9ef5453d2e176e9bdd3dc7991be
+SHA1: 37713152467f811f7f47da63958f2c16b37488cd
+SHA256: 4707e15ba53f1d93bbdf1a4557276b95562c602c9edee1e45bec08585779367c
+Section: hamradio
+Priority: optional
+Description: Python bindings for libcsdr
+ Offers a variety of modules from the csdr software defined radio library for
+ digital processing of radio transmission.
+
+Package: python3-csdr
+Source: pycsdr
+Version: 0.18.23
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 201
+Depends: libcsdr0 (>= 0.18.23), python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Filename: ./packages/python3-csdr_0.18.23_arm64.deb
 Size: 38436
 MD5sum: e6a1f9ef5453d2e176e9bdd3dc7991be
 SHA1: 37713152467f811f7f47da63958f2c16b37488cd
@@ -949,6 +1212,24 @@ Priority: optional
 Description: debug symbols for python3-csdr
 Build-Ids: 64f3c2a676ceaa4559b26d56dcf391f7b151941d
 
+Package: python3-csdr-dbgsym
+Source: pycsdr
+Version: 0.18.23
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 782
+Depends: python3-csdr (= 0.18.23)
+Filename: ./packages/python3-csdr-dbgsym_0.18.23_arm64.deb
+Size: 690508
+MD5sum: 9432a98b79f8364ddc90ff734881137f
+SHA1: 20059eea85e02deb74d264898ca6f15a366a8198
+SHA256: 9905d0e66119f9dcd250aa70b4cf187674f50c8b178cb637f041f4565353c645
+Section: debug
+Priority: optional
+Description: debug symbols for python3-csdr
+Build-Ids: 64f3c2a676ceaa4559b26d56dcf391f7b151941d
+
 Package: python3-csdr-eti
 Source: pycsdr-eti
 Version: 0.0.11
@@ -993,6 +1274,24 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 45
 Depends: libcsdr-eti0 (>= 0.0.11), python3 (<< 3.10), python3 (>= 3.9~), python3-csdr, python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
 Filename: ./arm64/python3-csdr-eti_0.0.11_arm64.deb
+Size: 10388
+MD5sum: 66173b3e4b8a03f236f937b217b283b2
+SHA1: 210dbfa80fb121a8eb26d24621cd818d2ce1b2d6
+SHA256: 8b15026243d57c9ec94d441ba88e32b223e9c7fe281152b0031b7712749066c8
+Section: hamradio
+Priority: optional
+Description: Python bindings for libcsdr-eti
+ Python bindings for libcsdr-eti, allowing it's DAB ETI decoder to be used in
+ python programs.
+
+Package: python3-csdr-eti
+Source: pycsdr-eti
+Version: 0.0.11
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 45
+Depends: libcsdr-eti0 (>= 0.0.11), python3 (<< 3.10), python3 (>= 3.9~), python3-csdr, python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Filename: ./packages/python3-csdr-eti_0.0.11_arm64.deb
 Size: 10388
 MD5sum: 66173b3e4b8a03f236f937b217b283b2
 SHA1: 210dbfa80fb121a8eb26d24621cd818d2ce1b2d6
@@ -1057,6 +1356,24 @@ Priority: optional
 Description: debug symbols for python3-csdr-eti
 Build-Ids: a46cdd12df421ad825e9c571e97989a18c2ea236
 
+Package: python3-csdr-eti-dbgsym
+Source: pycsdr-eti
+Version: 0.0.11
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 141
+Depends: python3-csdr-eti (= 0.0.11)
+Filename: ./packages/python3-csdr-eti-dbgsym_0.0.11_arm64.deb
+Size: 123660
+MD5sum: 1ffd8025986b949aac645dea4039c4dd
+SHA1: 420841302c9dcdf698b2382b3f7069be6fa3b1b4
+SHA256: e46d579c9c7142d2da0619a44a8c7d8ee199defc5dc4c6e0710cb9185631e954
+Section: debug
+Priority: optional
+Description: debug symbols for python3-csdr-eti
+Build-Ids: a46cdd12df421ad825e9c571e97989a18c2ea236
+
 Package: redsea
 Version: 0.21
 Architecture: amd64
@@ -1098,6 +1415,23 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 738
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libliquid2d, libsndfile1 (>= 1.0.20), libstdc++6 (>= 9)
 Filename: ./arm64/redsea_0.21_arm64.deb
+Size: 222720
+MD5sum: b34a076efd2b8e67acc7f338901ff440
+SHA1: 74ba26e563d321523bf4523989515ea7c4e3b9f1
+SHA256: 6b1650927652dfe338243c8c5a5fefbc83dbd61591287b29e1f580dc6aed1f37
+Section: hamradio
+Priority: optional
+Description: RDS decoder
+ Lightweight command-line FM-RDS decoder for Linux/macOS. It supports a
+ large subset of RDS features.
+
+Package: redsea
+Version: 0.21
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 738
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libliquid2d, libsndfile1 (>= 1.0.20), libstdc++6 (>= 9)
+Filename: ./packages/redsea_0.21_arm64.deb
 Size: 222720
 MD5sum: b34a076efd2b8e67acc7f338901ff440
 SHA1: 74ba26e563d321523bf4523989515ea7c4e3b9f1
@@ -1162,6 +1496,24 @@ Priority: optional
 Description: debug symbols for redsea
 Build-Ids: afa16ec10f4dbac2669842b5c07060e4651d2b92
 
+Package: redsea-dbgsym
+Source: redsea
+Version: 0.21
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 3974
+Depends: redsea (= 0.21)
+Filename: ./packages/redsea-dbgsym_0.21_arm64.deb
+Size: 3851136
+MD5sum: 354a2e213adcb699b802594b36574ffd
+SHA1: d78133fb63cd978e14d3458276d5dc0598483ce8
+SHA256: e3c5e8118eb5982a6fe221fd06902479c5189fad76bcd9eea929ea68b3466db7
+Section: debug
+Priority: optional
+Description: debug symbols for redsea
+Build-Ids: afa16ec10f4dbac2669842b5c07060e4651d2b92
+
 Package: rtl-connector
 Source: owrx-connector
 Version: 0.6.5
@@ -1216,6 +1568,24 @@ Priority: optional
 Description: OpenWebRX connector for RTL-SDR devices
  Provides connector functionality for RTL-SDR based devices
 
+Package: rtl-connector
+Source: owrx-connector
+Version: 0.6.5
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 42
+Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.17), libgcc-s1 (>= 3.0), librtlsdr0 (>= 0.6.0), libstdc++6 (>= 5.2)
+Conflicts: owrx-connector (<< 0.4)
+Filename: ./packages/rtl-connector_0.6.5_arm64.deb
+Size: 11808
+MD5sum: a64d3c38fd591329bdb40e30862d29df
+SHA1: f5a9c3cb1d88522add4b4685cd07ebf64f8137a1
+SHA256: b208212f822328f1b4da61003b70746bcf4444c1f431bfdba6469f96dc2a9212
+Section: hamradio
+Priority: optional
+Description: OpenWebRX connector for RTL-SDR devices
+ Provides connector functionality for RTL-SDR based devices
+
 Package: rtl-connector-dbgsym
 Source: owrx-connector
 Version: 0.6.5
@@ -1261,6 +1631,24 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 84
 Depends: rtl-connector (= 0.6.5)
 Filename: ./arm64/rtl-connector-dbgsym_0.6.5_arm64.deb
+Size: 66080
+MD5sum: a4a6ed96cc06858da4b0b6419d2cc050
+SHA1: dce366a0bfbe6b266d8473db420bd96aa60378de
+SHA256: 083c708facb4de82b173ef4aecd80a324d03fcd6a8ecd5febdbe8ca2cc520fa9
+Section: debug
+Priority: optional
+Description: debug symbols for rtl-connector
+Build-Ids: b8e1f881f44ac1e55d0cb6c324f8fbaf6875b9e4
+
+Package: rtl-connector-dbgsym
+Source: owrx-connector
+Version: 0.6.5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 84
+Depends: rtl-connector (= 0.6.5)
+Filename: ./packages/rtl-connector-dbgsym_0.6.5_arm64.deb
 Size: 66080
 MD5sum: a4a6ed96cc06858da4b0b6419d2cc050
 SHA1: dce366a0bfbe6b266d8473db420bd96aa60378de
@@ -1327,6 +1715,25 @@ Description: OpenWebRX connector for rtl_tcp remote devices
  Provides connector functionality for (potentially) remote SDR devices that are
  available on the network using the rtl_tcp protocol.
 
+Package: rtl-tcp-connector
+Source: owrx-connector
+Version: 0.6.5
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 38
+Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Conflicts: owrx-connector (<< 0.4)
+Filename: ./packages/rtl-tcp-connector_0.6.5_arm64.deb
+Size: 10948
+MD5sum: 368096c65e5e9b604c8b355fe1762425
+SHA1: 64887e06315f018aedf273020fee1e16476c0d68
+SHA256: 485cbaeb2ae29b530569a73cea82e72e16cfb6c4d18f22334da9cff4e6d30ae4
+Section: hamradio
+Priority: optional
+Description: OpenWebRX connector for rtl_tcp remote devices
+ Provides connector functionality for (potentially) remote SDR devices that are
+ available on the network using the rtl_tcp protocol.
+
 Package: rtl-tcp-connector-dbgsym
 Source: owrx-connector
 Version: 0.6.5
@@ -1372,6 +1779,24 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 86
 Depends: rtl-tcp-connector (= 0.6.5)
 Filename: ./arm64/rtl-tcp-connector-dbgsym_0.6.5_arm64.deb
+Size: 68452
+MD5sum: 4c73c7786660036ece93e53649c76dc8
+SHA1: a2c542e4414cbad276e09c73230ac583fe88ed6a
+SHA256: 9e010ea90b8272db4ae4e5317d140148b5eac773db9ebac1f4e4d550d2589c8b
+Section: debug
+Priority: optional
+Description: debug symbols for rtl-tcp-connector
+Build-Ids: 031c0dc0f77db2777daf92ca06645dcbf4a4f424
+
+Package: rtl-tcp-connector-dbgsym
+Source: owrx-connector
+Version: 0.6.5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 86
+Depends: rtl-tcp-connector (= 0.6.5)
+Filename: ./packages/rtl-tcp-connector-dbgsym_0.6.5_arm64.deb
 Size: 68452
 MD5sum: 4c73c7786660036ece93e53649c76dc8
 SHA1: a2c542e4414cbad276e09c73230ac583fe88ed6a
@@ -1435,6 +1860,24 @@ Priority: optional
 Description: OpenWebRX connector for SoapySDR devices
  Provides connector functionality for devices supported by the SoapySDR library
 
+Package: soapy-connector
+Source: owrx-connector
+Version: 0.6.5
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 46
+Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.17), libgcc-s1 (>= 3.0), libsoapysdr0.7 (>= 0.7.2), libstdc++6 (>= 5.2)
+Conflicts: owrx-connector (<< 0.4)
+Filename: ./packages/soapy-connector_0.6.5_arm64.deb
+Size: 14388
+MD5sum: 59c82177d1da3e143f17360d697b34c0
+SHA1: 85ee07a8b0fb48b1b0ced5ba40cd450b9e7f0000
+SHA256: 039cc150149cfdc057326784a23db64f6c27c5bbf36e186fcd994692db1e6e8f
+Section: hamradio
+Priority: optional
+Description: OpenWebRX connector for SoapySDR devices
+ Provides connector functionality for devices supported by the SoapySDR library
+
 Package: soapy-connector-dbgsym
 Source: owrx-connector
 Version: 0.6.5
@@ -1480,6 +1923,24 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 168
 Depends: soapy-connector (= 0.6.5)
 Filename: ./arm64/soapy-connector-dbgsym_0.6.5_arm64.deb
+Size: 149940
+MD5sum: afec4534bef0159704696b067307b58b
+SHA1: e3f8ae39ab2e94eb81d774aca02453014d9bba57
+SHA256: c347744ddb64f38000d5be2a009f8d0ae1d98bc50613082bc8b22abe8472fd23
+Section: debug
+Priority: optional
+Description: debug symbols for soapy-connector
+Build-Ids: a146a49462f3f08359b5ad6a1674512936d7a976
+
+Package: soapy-connector-dbgsym
+Source: owrx-connector
+Version: 0.6.5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 168
+Depends: soapy-connector (= 0.6.5)
+Filename: ./packages/soapy-connector-dbgsym_0.6.5_arm64.deb
 Size: 149940
 MD5sum: afec4534bef0159704696b067307b58b
 SHA1: e3f8ae39ab2e94eb81d774aca02453014d9bba57
@@ -1636,6 +2097,48 @@ Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
  This is an empty dependency package that pulls in the SDRPlay3 module
  for the default version of libsoapysdr.
 
+Package: soapysdr-module-sdrplay3
+Source: soapysdrplay3
+Version: 0.8.9
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 11
+Depends: soapysdr0.7-module-sdrplay3
+Filename: ./amd64/soapysdr-module-sdrplay3_0.8.9_all.deb
+Size: 3980
+MD5sum: dbaad0a1e5bf07c4cfbc922008c4e99d
+SHA1: ea34e9aa99f0630f6fb79da4f7e1087c43b7e507
+SHA256: 2f86d31c5ebd882c6c7c1c6f3ab15b524b94d1785af48e95ad66a0b7c67f106d
+Section: libs
+Priority: optional
+Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
+Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
+ A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
+ .
+ This is an empty dependency package that pulls in the SDRPlay3 module
+ for the default version of libsoapysdr.
+
+Package: soapysdr-module-sdrplay3
+Source: soapysdrplay3
+Version: 0.8.9
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 11
+Depends: soapysdr0.7-module-sdrplay3
+Filename: ./arm64/soapysdr-module-sdrplay3_0.8.9_all.deb
+Size: 3972
+MD5sum: 2faf69ae4639fdd7d611a24658db8d55
+SHA1: 818e742a51bb071f019811fef1d9f9b057c22fe3
+SHA256: 209f8e4ca5f57a172e9250f95bd7d92fecb6c8d3518d11dd348a78b0a6fe235f
+Section: libs
+Priority: optional
+Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
+Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
+ A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
+ .
+ This is an empty dependency package that pulls in the SDRPlay3 module
+ for the default version of libsoapysdr.
+
 Package: soapysdr0.7-module-sdrplay3
 Source: soapysdrplay3
 Version: 0.8.6
@@ -1762,6 +2265,44 @@ Size: 46784
 MD5sum: fac9a8b82694bd2719ed28f953ff2427
 SHA1: dbda23303532712b2728c6eafb0d5a2185032c99
 SHA256: f5505c0a208973b183ae7099d947462f8961a76e7e080d90ff0d922346842fb7
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
+Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
+ A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
+
+Package: soapysdr0.7-module-sdrplay3
+Source: soapysdrplay3
+Version: 0.8.9
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 170
+Depends: libc6 (>= 2.30), libgcc-s1 (>= 3.0), libsoapysdr0.7 (>= 0.7.2), libstdc++6 (>= 5.2)
+Filename: ./amd64/soapysdr0.7-module-sdrplay3_0.8.9_amd64.deb
+Size: 53356
+MD5sum: 5d512f5d7bc13616f18ae4a89616e877
+SHA1: 509c1fc6d419a4b37651783b99b2124d39d87774
+SHA256: f98d863c9a98c64b488d2e7d5bedc3297e83461d1f582228f5093685e47b1ac7
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
+Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
+ A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
+
+Package: soapysdr0.7-module-sdrplay3
+Source: soapysdrplay3
+Version: 0.8.9
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 154
+Depends: libc6 (>= 2.30), libgcc-s1 (>= 3.0), libsoapysdr0.7 (>= 0.7.2), libstdc++6 (>= 5.2)
+Filename: ./arm64/soapysdr0.7-module-sdrplay3_0.8.9_arm64.deb
+Size: 47492
+MD5sum: ae54e030b6b81c365cd402d5d711975e
+SHA1: 37bd3c7d4b40a97b64453ec55089556dc86b4fcf
+SHA256: c9cd13f70eb76f1675ce495966f81eb2388cd0be8c3b098b7076c6e6c05d25cf
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1901,4 +2442,42 @@ Priority: optional
 Multi-Arch: same
 Description: debug symbols for soapysdr0.7-module-sdrplay3
 Build-Ids: ea473b51fb4bfa293a80af4ced732ced88e81ad4
+
+Package: soapysdr0.7-module-sdrplay3-dbgsym
+Source: soapysdrplay3
+Version: 0.8.9
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 746
+Depends: soapysdr0.7-module-sdrplay3 (= 0.8.9)
+Filename: ./amd64/soapysdr0.7-module-sdrplay3-dbgsym_0.8.9_amd64.deb
+Size: 704804
+MD5sum: c2390191a10555ff79f0bf944a174bd2
+SHA1: bcc1dcb9ab24a57cb03f42d5d83f0285140282d5
+SHA256: 7a8b7272d098e6ec00cef405b12e9ded8263822c72cab103f17b447038268974
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for soapysdr0.7-module-sdrplay3
+Build-Ids: 23e9d687aef4c2bd1a2178dad594e99eeee8d91e
+
+Package: soapysdr0.7-module-sdrplay3-dbgsym
+Source: soapysdrplay3
+Version: 0.8.9
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 720
+Depends: soapysdr0.7-module-sdrplay3 (= 0.8.9)
+Filename: ./arm64/soapysdr0.7-module-sdrplay3-dbgsym_0.8.9_arm64.deb
+Size: 683904
+MD5sum: 0b3f21e2823f5c9cf14c8e2a4e4e3612
+SHA1: 417ae2a705dc864f4df0149ea2e0540a8bf84188
+SHA256: 2b68bdc5e7bacb1e62b4bd050d0c810483c98c4499e98a5ae4bec6c60ecab343
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for soapysdr0.7-module-sdrplay3
+Build-Ids: 247e78ef5fa71a0ebfafafa9c7537659df4fe0b3
 
