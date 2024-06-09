@@ -586,6 +586,48 @@ Description: OpenWebRX connector for SoapySDR devices
 
 Package: soapysdr-module-sdrplay3
 Source: soapysdrplay3
+Version: 0.8.10
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 11
+Depends: soapysdr0.8-module-sdrplay3
+Filename: ./amd64/soapysdr-module-sdrplay3_0.8.10_all.deb
+Size: 4108
+MD5sum: 3b483b7ea8003861431d6555b8a0751e
+SHA1: 40644ecff960986b44d2ba5eaff99a341a1f07b9
+SHA256: 47a4ce48da09c618109455d0f6c2242353c02ecc32932ec4292162960e951e82
+Section: libs
+Priority: optional
+Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
+Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
+ A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
+ .
+ This is an empty dependency package that pulls in the SDRPlay3 module
+ for the default version of libsoapysdr.
+
+Package: soapysdr-module-sdrplay3
+Source: soapysdrplay3
+Version: 0.8.10
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 11
+Depends: soapysdr0.8-module-sdrplay3
+Filename: ./arm64/soapysdr-module-sdrplay3_0.8.10_all.deb
+Size: 4112
+MD5sum: 6a5c922d8e370645b963473d51b6f26b
+SHA1: 771055919fdd602d1e9c17a9ca9a2495d3061595
+SHA256: 3af713621498c5ab95dd2bea6bd48b2b5fbee8d909a78714c266344a81bc6d0e
+Section: libs
+Priority: optional
+Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
+Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
+ A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
+ .
+ This is an empty dependency package that pulls in the SDRPlay3 module
+ for the default version of libsoapysdr.
+
+Package: soapysdr-module-sdrplay3
+Source: soapysdrplay3
 Version: 0.8.6
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
@@ -751,6 +793,44 @@ Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
  .
  This is an empty dependency package that pulls in the SDRPlay3 module
  for the default version of libsoapysdr.
+
+Package: soapysdr0.8-module-sdrplay3
+Source: soapysdrplay3
+Version: 0.8.10
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 146
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
+Filename: ./amd64/soapysdr0.8-module-sdrplay3_0.8.10_amd64.deb
+Size: 48388
+MD5sum: 267f8947e93d399cfdbd41acb1f0ef54
+SHA1: 534170f2e805d32873c60cee3618c554c50057b5
+SHA256: a255236bccf0140ad2a74932fb94c37067be211f3ce0a6d2ffc931397b5719e5
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
+Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
+ A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
+
+Package: soapysdr0.8-module-sdrplay3
+Source: soapysdrplay3
+Version: 0.8.10
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 131
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
+Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.10_arm64.deb
+Size: 42680
+MD5sum: 2d7a33e703157d745675c845ea60aba6
+SHA1: 6c2b5225e3fcebd2daf4c7e62dd18e4c6a9c725b
+SHA256: 6841f733cbd0d2585e258f5b0a11d541af6ce4c8aa395608685fbad024dec0ed
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
+Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
+ A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
 
 Package: soapysdr0.8-module-sdrplay3
 Source: soapysdrplay3
