@@ -1,107 +1,110 @@
 Package: acarsdec
-Version: 3.7-2~1.gbpc69285
+Version: 3.7-1
 Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 94
-Depends: libacars2, libc6 (>= 2.34), libsndfile1 (>= 1.0.20)
-Filename: ./amd64/acarsdec_3.7-2~1.gbpc69285_amd64.deb
-Size: 35140
-MD5sum: 2f1a8a7a7af2e9b24715a09f771cb1a3
-SHA1: 9ab1997dfa103c6be01b7374d412a9c8a5859567
-SHA256: 04fb422af8b1989abf7b7d2ba87cc54ea877cb51e9cc2ddc167b5e12d53c72aa
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 93
+Depends: libacars2 (>= 2.2.0), libc6 (>= 2.34), libsndfile1 (>= 1.0.20)
+Filename: ./amd64/acarsdec_3.7-1_amd64.deb
+Size: 34820
+MD5sum: c32428d209e9177fc4b48084d78fd1bd
+SHA1: c12e37de8e52f352342f41318a5b4fa067dab31a
+SHA256: 3f2f75d1bc5c11373c78e119fc9a07e0be975c8c3319fb76bb14ae83410bf905
 Section: hamradio
 Priority: optional
+Homepage: https://github.com/TLeconte/acarsdec
 Description: ACARS SDR decoder
  Acarsdec is a multi-channels acars decoder with built-in rtl_sdr, airspy front
  end or sdrplay device.
 
 Package: acarsdec
-Version: 3.7-2~1.gbpc69285
+Version: 3.7-1
 Architecture: armhf
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 65
-Depends: libacars2, libc6 (>= 2.34), libsndfile1 (>= 1.0.20)
-Filename: ./armhf/acarsdec_3.7-2~1.gbpc69285_armhf.deb
-Size: 31860
-MD5sum: 306b4f46197a62aa77b4daaebdb88437
-SHA1: 6a3082b696d0a68d1d41798438a0237b49a86291
-SHA256: 3852712ed4bc55ea46c7d82beaba0bd60952774a9366271d51eb5e84f43b0c71
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 64
+Depends: libacars2 (>= 2.2.0), libc6 (>= 2.34)
+Filename: ./armhf/acarsdec_3.7-1_armhf.deb
+Size: 30800
+MD5sum: 6b01bf764466396def05c6d528fcfc89
+SHA1: 81c9ba287635ac15691780b961e6af84c69defd8
+SHA256: 3c8e4c9a00a1e96e2ddfc9ab5577bdf5e49ff953f6593c4a6bd98a12f3379894
 Section: hamradio
 Priority: optional
+Homepage: https://github.com/TLeconte/acarsdec
 Description: ACARS SDR decoder
  Acarsdec is a multi-channels acars decoder with built-in rtl_sdr, airspy front
  end or sdrplay device.
 
 Package: acarsdec
-Version: 3.7-2~1.gbpc69285
+Version: 3.7-1
 Architecture: arm64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 142
-Depends: libacars2, libc6 (>= 2.34), libsndfile1 (>= 1.0.20)
-Filename: ./arm64/acarsdec_3.7-2~1.gbpc69285_arm64.deb
-Size: 33916
-MD5sum: 6984780d8d5107b68c8111c016f5319f
-SHA1: ae9c1ea596b8f607d0453d10e716a3bf1f792e13
-SHA256: e583c0e8fecd502d356ac6dbeb1078ced5b1cfa15dc7d5e2164e4f91bdfc79e1
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 141
+Depends: libacars2 (>= 2.2.0), libc6 (>= 2.34), libsndfile1 (>= 1.0.20)
+Filename: ./arm64/acarsdec_3.7-1_arm64.deb
+Size: 33512
+MD5sum: f921ac5d3ec48072bafd27af0b83cc6c
+SHA1: d348d809d41f04375bfa367e25b1cec42ad6903e
+SHA256: e6b4c9df2416f5cfe14c9c0332b162209bdb3781d3c9e1fd16201e6ec9fb9175
 Section: hamradio
 Priority: optional
+Homepage: https://github.com/TLeconte/acarsdec
 Description: ACARS SDR decoder
  Acarsdec is a multi-channels acars decoder with built-in rtl_sdr, airspy front
  end or sdrplay device.
 
 Package: acarsdec-dbgsym
 Source: acarsdec
-Version: 3.7-2~1.gbpc69285
+Version: 3.7-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 109
-Depends: acarsdec (= 3.7-2~1.gbpc69285)
-Filename: ./amd64/acarsdec-dbgsym_3.7-2~1.gbpc69285_amd64.deb
-Size: 91044
-MD5sum: 9acb311e77da914623b64f52771af68e
-SHA1: 76e69978cfad3ff2feb29b844c07916fe58e5780
-SHA256: 6620f17ace0e13866bbe9fd6337f2a5dceab3e87a16857282ca39e595b8727d9
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 110
+Depends: acarsdec (= 3.7-1)
+Filename: ./amd64/acarsdec-dbgsym_3.7-1_amd64.deb
+Size: 91756
+MD5sum: ba9c2cdd5584c5a280990bb7b8c3079e
+SHA1: 02d1b1815f6fe5ed6255df696f25c3d7e2cdb942
+SHA256: 6895cee45d79abd05223e67dd945bd9ad8c9f8a6fe8c67087217bab1daf5883f
 Section: debug
 Priority: optional
 Description: debug symbols for acarsdec
-Build-Ids: 7a064e0c72e3882cca111cd66ea524f0abe61364
+Build-Ids: 27eb142682c0c903ed0d1546e1dd94444d14bb26
 
 Package: acarsdec-dbgsym
 Source: acarsdec
-Version: 3.7-2~1.gbpc69285
+Version: 3.7-1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 112
-Depends: acarsdec (= 3.7-2~1.gbpc69285)
-Filename: ./armhf/acarsdec-dbgsym_3.7-2~1.gbpc69285_armhf.deb
-Size: 94208
-MD5sum: 0179c9d2bbaa5a344c0f6551dcc69368
-SHA1: 0532160c33199eebad9939020daa835ae178e085
-SHA256: fbd3dab1ac3187a8cb30a1373b6274229cb72ce4315ef16e285d2b71efff4283
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 111
+Depends: acarsdec (= 3.7-1)
+Filename: ./armhf/acarsdec-dbgsym_3.7-1_armhf.deb
+Size: 93140
+MD5sum: 2b1adbcd9da68d22c08c19facb3aeb24
+SHA1: 8dd2ef9c5f7750b1c1f872fede942463b23f86e4
+SHA256: 0932bee415577846a7d74eb14a519a9af65a7032386103cb868493d32e1ab1c3
 Section: debug
 Priority: optional
 Description: debug symbols for acarsdec
-Build-Ids: 26a99f6aba3b6e9d8f77f0085e7cd32fb5ee0d03
+Build-Ids: 616ddf5516aa5fc76d0a17c1d4ff6f027804001b
 
 Package: acarsdec-dbgsym
 Source: acarsdec
-Version: 3.7-2~1.gbpc69285
+Version: 3.7-1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 112
-Depends: acarsdec (= 3.7-2~1.gbpc69285)
-Filename: ./arm64/acarsdec-dbgsym_3.7-2~1.gbpc69285_arm64.deb
-Size: 92548
-MD5sum: a40b23dba0f9e72e0f58ec1dfd15c91c
-SHA1: eaf3f480334b8e29a126eb9aa51ed7762ec6228a
-SHA256: 0a3144c747a5cce712654a220a0aca2c143e6aa956ee3a9d4f8a724aac93b57d
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 113
+Depends: acarsdec (= 3.7-1)
+Filename: ./arm64/acarsdec-dbgsym_3.7-1_arm64.deb
+Size: 93164
+MD5sum: 6fc7fa34fd6d00b4bce4c4c72eb097a8
+SHA1: 20ee09ba88e1be4ee459c9d41cb56b278a8528ac
+SHA256: 9b96b970dde1a27be3cbace293630bb89e5d02bcba44d075d8606ded82a4bff0
 Section: debug
 Priority: optional
 Description: debug symbols for acarsdec
-Build-Ids: 46dcb62c928f81dac5bf21aabbe16c06e9769c18
+Build-Ids: 6c65c7f6e196245e97bb3932ffe2cadd0d9df719
 
 Package: aprs-symbols
 Version: 0.0.1-4~31.gbpef2289
@@ -1107,16 +1110,16 @@ Description: OpenWebRX connector for HPSDR radios
 
 Package: libacars-dev
 Source: libacars
-Version: 2.2.0-3~1.gbp2b4715
+Version: 2.2.0-4
 Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 543
-Depends: libacars2 (= 2.2.0-3~1.gbp2b4715)
-Filename: ./amd64/libacars-dev_2.2.0-3~1.gbp2b4715_amd64.deb
-Size: 56880
-MD5sum: 77672ca9e6437895764849faad34e8f6
-SHA1: 4b436c7795d4af173b98a9a187eb97e14bfadc7e
-SHA256: cb19eaf660ea4fad091606992b4db75648060123d0b1a3fae45e0ae524466505
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 577
+Depends: libacars2 (= 2.2.0-4)
+Filename: ./amd64/libacars-dev_2.2.0-4_amd64.deb
+Size: 89756
+MD5sum: 3ea9081674a65fbbf84cc2f718d6fbe0
+SHA1: b454fb38b854c199d1df2fffe763bc377ea484d0
+SHA256: 283be6d22a85ba084ddbc9b4c9afc475dca99d47168968c22263cfbf36b4fc42
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -1125,16 +1128,16 @@ Description: development dependencies includes for libacars
 
 Package: libacars-dev
 Source: libacars
-Version: 2.2.0-3~1.gbp2b4715
+Version: 2.2.0-4
 Architecture: armhf
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 543
-Depends: libacars2 (= 2.2.0-3~1.gbp2b4715)
-Filename: ./armhf/libacars-dev_2.2.0-3~1.gbp2b4715_armhf.deb
-Size: 56848
-MD5sum: ba43f60657c9f805d5a02f5a0ccc5429
-SHA1: 86d26d8e95834c2f584dc4d54ae2b49392b5594b
-SHA256: 4decc7c51526eaabfdd967b1b9458358487b32a90fd978a312eedad0945f38fa
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 577
+Depends: libacars2 (= 2.2.0-4)
+Filename: ./armhf/libacars-dev_2.2.0-4_armhf.deb
+Size: 89756
+MD5sum: 011defe110eb602cd17380a75effe728
+SHA1: b45734309c72adfd5655b8600f48d3f4c6797d81
+SHA256: 100ed6bf193484775835e9f4e0a9b75233c97736f8fe8f67c8fa46d9186d6553
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -1143,16 +1146,16 @@ Description: development dependencies includes for libacars
 
 Package: libacars-dev
 Source: libacars
-Version: 2.2.0-3~1.gbp2b4715
+Version: 2.2.0-4
 Architecture: arm64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 543
-Depends: libacars2 (= 2.2.0-3~1.gbp2b4715)
-Filename: ./arm64/libacars-dev_2.2.0-3~1.gbp2b4715_arm64.deb
-Size: 56912
-MD5sum: 4e2c62c02ccb8c8ed727b39f5305c966
-SHA1: e08d8f56a490ad60629ea3251d302f7f6b6bcb02
-SHA256: e062c8e10a244ad45186ac60cead603869f1ccb7296794c1e459fc2a81eca3cf
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 577
+Depends: libacars2 (= 2.2.0-4)
+Filename: ./arm64/libacars-dev_2.2.0-4_arm64.deb
+Size: 89752
+MD5sum: 9fdd791166ced0b9a7c6e141924d4f93
+SHA1: 66c0b6da2d9af42f4da22199c8ebbdb586b3efcc
+SHA256: f81661b22cdaaf62ca668fac060306378775889a07896a36d2fc8ebc36a3dd64
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -1161,16 +1164,16 @@ Description: development dependencies includes for libacars
 
 Package: libacars-tools
 Source: libacars
-Version: 2.2.0-3~1.gbp2b4715
+Version: 2.2.0-4
 Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 61
-Depends: libacars2 (= 2.2.0-3~1.gbp2b4715), libc6 (>= 2.34)
-Filename: ./amd64/libacars-tools_2.2.0-3~1.gbp2b4715_amd64.deb
-Size: 13960
-MD5sum: b36b0cb7ce1bd489c69288fad9e5bbc1
-SHA1: 56cfb4aa8abeb7b70e76f4603017cf539543387a
-SHA256: c04ee80c108f03f5c07b06836b26b673ef615ef61fe5548336c615da373efebf
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 59
+Depends: libacars2 (= 2.2.0-4), libc6 (>= 2.34)
+Filename: ./amd64/libacars-tools_2.2.0-4_amd64.deb
+Size: 12812
+MD5sum: 7881d73bf65f8cd4c1a61b9061efffc3
+SHA1: d04e7eb40fd97a27786267c3874fc30ce704b961
+SHA256: d29337b03ff2315d2b616d4d295ba899fbc5316cbe4cefb94c58c706e4f236af
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -1179,16 +1182,16 @@ Description: additional command line tools to decode acars messages
 
 Package: libacars-tools
 Source: libacars
-Version: 2.2.0-3~1.gbp2b4715
+Version: 2.2.0-4
 Architecture: armhf
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 46
-Depends: libacars2 (= 2.2.0-3~1.gbp2b4715), libc6 (>= 2.34)
-Filename: ./armhf/libacars-tools_2.2.0-3~1.gbp2b4715_armhf.deb
-Size: 13692
-MD5sum: 615389e6542bb267c9bdfc238a971b48
-SHA1: 66043f60051b2045670dbb7eaad819219561f91c
-SHA256: cf0a50c62d50add163f57554e9423c1d4a38ec123f3e14f42109dfd53719a70e
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 44
+Depends: libacars2 (= 2.2.0-4), libc6 (>= 2.34)
+Filename: ./armhf/libacars-tools_2.2.0-4_armhf.deb
+Size: 12548
+MD5sum: b2c68d4ebbaace7e1fc650b9b03e9245
+SHA1: 00d7de95224a445432283a4e3cb29019fa6c3c5c
+SHA256: 4b813479a885942971a1bf722bc7795703bed42715d1e2b80bdb80cf8bfc7a21
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -1197,16 +1200,16 @@ Description: additional command line tools to decode acars messages
 
 Package: libacars-tools
 Source: libacars
-Version: 2.2.0-3~1.gbp2b4715
+Version: 2.2.0-4
 Architecture: arm64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 217
-Depends: libacars2 (= 2.2.0-3~1.gbp2b4715), libc6 (>= 2.34)
-Filename: ./arm64/libacars-tools_2.2.0-3~1.gbp2b4715_arm64.deb
-Size: 14188
-MD5sum: 5242fe3661d544f9cc93f3b2fc01cdad
-SHA1: 6a1f4023bab6ae7120e7f710f490800e030622ab
-SHA256: d5b78b6ae86a35e47970910378dbf6da64b24508a9d53ace436a76347d891c22
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 215
+Depends: libacars2 (= 2.2.0-4), libc6 (>= 2.34)
+Filename: ./arm64/libacars-tools_2.2.0-4_arm64.deb
+Size: 13056
+MD5sum: 0e5fdd35d4a3b5e65d36091482c3dc48
+SHA1: be93271e741f45520e091c1f3d5ae09f3a8f0932
+SHA256: 95cee3d98e71ab0563f8afce524488867a04fbb1a42d8629a9f5b4c9b2aa59e2
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -1215,70 +1218,70 @@ Description: additional command line tools to decode acars messages
 
 Package: libacars-tools-dbgsym
 Source: libacars
-Version: 2.2.0-3~1.gbp2b4715
+Version: 2.2.0-4
 Auto-Built-Package: debug-symbols
 Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 58
-Depends: libacars-tools (= 2.2.0-3~1.gbp2b4715)
-Filename: ./amd64/libacars-tools-dbgsym_2.2.0-3~1.gbp2b4715_amd64.deb
-Size: 31264
-MD5sum: 8a88399ada8ecf0675ada8bb0e39f408
-SHA1: 0777c93505dab3974b6e0628d5318a5b74a3946f
-SHA256: bf4f1d74df368d4324d3ffa8b9231f46e0e1c033982ee1d9314d6d68af774de3
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 60
+Depends: libacars-tools (= 2.2.0-4)
+Filename: ./amd64/libacars-tools-dbgsym_2.2.0-4_amd64.deb
+Size: 29268
+MD5sum: 5553c7c8ff53b45ed646f1705d1d1149
+SHA1: 257d4a57e0a4c1453bed4c95bb695e34edc217c4
+SHA256: 310cdb3f6c3b6028d3a85c61040655cc99fcef184154f41bbb4793dc38c41451
 Section: debug
 Priority: optional
 Description: debug symbols for libacars-tools
-Build-Ids: 490b244a8165649e5895d04fefbd4a2c933edccf c9cf26cb475f1d6f2fe5c1df0b308ad1b69b3f98 f1871ca5d514103e2ae16351ba512ba307316218
+Build-Ids: 010f0d8e9d12743c01c55e1ff092186adde77323 87ba40ebdfb8261f2e28931cd83162dfd498bf40 b165c7d6e11e66cc9bc4e0eea659958eb7577a1e
 
 Package: libacars-tools-dbgsym
 Source: libacars
-Version: 2.2.0-3~1.gbp2b4715
+Version: 2.2.0-4
 Auto-Built-Package: debug-symbols
 Architecture: armhf
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 58
-Depends: libacars-tools (= 2.2.0-3~1.gbp2b4715)
-Filename: ./armhf/libacars-tools-dbgsym_2.2.0-3~1.gbp2b4715_armhf.deb
-Size: 32112
-MD5sum: bbed47c8f02496c2d5a693b8ad92abea
-SHA1: c7bdd420b8853e26df4ce49fcf09aca09504603b
-SHA256: cc612d1e394dacf66d40434ebb1ebc04c4c4dbea0bee46789c03719564a9e01f
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 57
+Depends: libacars-tools (= 2.2.0-4)
+Filename: ./armhf/libacars-tools-dbgsym_2.2.0-4_armhf.deb
+Size: 28788
+MD5sum: 84ac9b9aeeed94fdc7da9bbf07bfe139
+SHA1: 226977cee498e121490ed113486bf77587268647
+SHA256: 21a3ad6f22c85d4e320c31a26e345f011b60630b78ddd1599e12429bf42e60b9
 Section: debug
 Priority: optional
 Description: debug symbols for libacars-tools
-Build-Ids: 58fd1794999215d7fd9f0a045ca4ffa7b982d23b 99a0815850ba1e777ba27bcd2ef4bfc72ec52fae a6b0a76c6a9c6b2f1d19ed89fb92e276de2ddace
+Build-Ids: 54880c07c4cafbcc950ed273e097c69f440ffbd9 815bd07cb582e277e24c51d4ca170d817ce9c68c dacc9111fdb97e87a11e4c21d2abd3e4696afb1f
 
 Package: libacars-tools-dbgsym
 Source: libacars
-Version: 2.2.0-3~1.gbp2b4715
+Version: 2.2.0-4
 Auto-Built-Package: debug-symbols
 Architecture: arm64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 62
-Depends: libacars-tools (= 2.2.0-3~1.gbp2b4715)
-Filename: ./arm64/libacars-tools-dbgsym_2.2.0-3~1.gbp2b4715_arm64.deb
-Size: 31756
-MD5sum: 7201ca2dad48b4e32a4b587e3aed9cfc
-SHA1: d6bd1225b2df28dec819accba8b0543610af28a0
-SHA256: c8b67ece5a159b09f6d5d2d117862f1f59b8ccae1d64c007f183795982c1317a
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 63
+Depends: libacars-tools (= 2.2.0-4)
+Filename: ./arm64/libacars-tools-dbgsym_2.2.0-4_arm64.deb
+Size: 29780
+MD5sum: cc23ad783ce7f93ef32b0c4010eb45df
+SHA1: b5bb76943255439663e18602bc0e0b5e0939a053
+SHA256: 891608d17d57aff27a460324e8a38e199f0ca2231c9202642dafebe86f6611cd
 Section: debug
 Priority: optional
 Description: debug symbols for libacars-tools
-Build-Ids: 0c95edfc0ac52013a22583df7f907bbfb3493db1 762b96928754da4b91af8172efc24feb8c9375d2 be68bb3780ba63edbd307961cc96277755d04ece
+Build-Ids: 1a6779e48b720ef57041f8e83fef69e08a17a535 33435d064ae9ceb3f2c5891f3d4b7cb2e9e0a7d5 e0026c216528e5b28cad03551cebf4848bf6a284
 
 Package: libacars2
 Source: libacars
-Version: 2.2.0-3~1.gbp2b4715
+Version: 2.2.0-4
 Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 714
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 712
 Depends: libc6 (>= 2.14), libjansson4 (>= 2.14), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
-Filename: ./amd64/libacars2_2.2.0-3~1.gbp2b4715_amd64.deb
-Size: 141332
-MD5sum: 5d3d243787a1718143b2af5d70f06eb1
-SHA1: 9646c932e275bba04f0abc92c849b33a3851bb60
-SHA256: de613be2cda18192c2904afb88027972b53a18b02271eacbb9d1b6ab8303dd7b
+Filename: ./amd64/libacars2_2.2.0-4_amd64.deb
+Size: 140100
+MD5sum: 3b3a8180d70266f409e2243f3d922494
+SHA1: 430188ae483a2595c21a37f17681dc4711d00feb
+SHA256: 405df36a259a4e60ed32825033f65ef0583a782ff7e0c373a62b2e8a9a6b2062
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -1287,16 +1290,16 @@ Description: Library for decoding various ACARS message payloads
 
 Package: libacars2
 Source: libacars
-Version: 2.2.0-3~1.gbp2b4715
+Version: 2.2.0-4
 Architecture: armhf
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 428
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 426
 Depends: libc6 (>= 2.4), libjansson4 (>= 2.14), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
-Filename: ./armhf/libacars2_2.2.0-3~1.gbp2b4715_armhf.deb
-Size: 110980
-MD5sum: 231f69fe948f251b16e0c470a43629fa
-SHA1: 7154c99a7581c98b450ce3ead1d6d93e3fac10fb
-SHA256: 35ace8b3f1f552135dd6185b59e86c3f9cba54027b6cf7745ded3eb325c50069
+Filename: ./armhf/libacars2_2.2.0-4_armhf.deb
+Size: 109816
+MD5sum: 97dd61bc4d71e5627ae33d852f86283c
+SHA1: 759e4086c0111c07fbf37051a9715f99416c607d
+SHA256: 08a61a89026e1c15864f08797954df33a7f340dbaa3ff6599dc9994c53523f41
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -1305,16 +1308,16 @@ Description: Library for decoding various ACARS message payloads
 
 Package: libacars2
 Source: libacars
-Version: 2.2.0-3~1.gbp2b4715
+Version: 2.2.0-4
 Architecture: arm64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 737
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 735
 Depends: libc6 (>= 2.17), libjansson4 (>= 2.14), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
-Filename: ./arm64/libacars2_2.2.0-3~1.gbp2b4715_arm64.deb
-Size: 132204
-MD5sum: a5dbd9f626ba4af6597ac448a09dcba2
-SHA1: 9ee52915d8a79f7a8102b447f365a4f642fac429
-SHA256: d90472dc9c03cd39002efc317db9467f76d70f0e5085c1cda118868017624d8c
+Filename: ./arm64/libacars2_2.2.0-4_arm64.deb
+Size: 130212
+MD5sum: cab76a8d41545cf5a93b90c2f67f3ebc
+SHA1: 831eb236539d171bd4b15ceee467153ebcd62ffa
+SHA256: 847722382b79088e8d520f5ec20befb3a978ea730e3c0ae95215200176b76459
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -1323,57 +1326,57 @@ Description: Library for decoding various ACARS message payloads
 
 Package: libacars2-dbgsym
 Source: libacars
-Version: 2.2.0-3~1.gbp2b4715
+Version: 2.2.0-4
 Auto-Built-Package: debug-symbols
 Architecture: amd64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 705
-Depends: libacars2 (= 2.2.0-3~1.gbp2b4715)
-Filename: ./amd64/libacars2-dbgsym_2.2.0-3~1.gbp2b4715_amd64.deb
-Size: 562240
-MD5sum: 47c3848d63ca61926451527ec7f59d9f
-SHA1: a5429ec8e06ece1886d1f56391974ff1ef04c1f1
-SHA256: 15a6c93f3557ecfc80564d694d3f67e3c7a3f43adc211e3a3ef48f52c4cf7103
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 577
+Depends: libacars2 (= 2.2.0-4)
+Filename: ./amd64/libacars2-dbgsym_2.2.0-4_amd64.deb
+Size: 436932
+MD5sum: 675dd873e95594469bce34fb784614c0
+SHA1: d3484b909a488afbfc6b5bdaaee552e3692b645f
+SHA256: d86a5c360bca61c5eddefd62329991f4590dd6327c8d80cb6592e091f6bc0dbd
 Section: debug
 Priority: optional
 Description: debug symbols for libacars2
-Build-Ids: 8d7a3fb2174243bf181eccab8c9270fb43f6d9cb
+Build-Ids: 24983880a09a1cfbcfc21f158a264ed64b12c5b0
 
 Package: libacars2-dbgsym
 Source: libacars
-Version: 2.2.0-3~1.gbp2b4715
+Version: 2.2.0-4
 Auto-Built-Package: debug-symbols
 Architecture: armhf
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 746
-Depends: libacars2 (= 2.2.0-3~1.gbp2b4715)
-Filename: ./armhf/libacars2-dbgsym_2.2.0-3~1.gbp2b4715_armhf.deb
-Size: 573028
-MD5sum: 2cc9f5a0e1591295547167eaa4d02d34
-SHA1: 1efd07efe3d212b295c39970d6d6a6af8fed144c
-SHA256: 2392811495621d3fd5743140f0428e6b232bd2134b53129b2ad1f333edbe1dc1
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 620
+Depends: libacars2 (= 2.2.0-4)
+Filename: ./armhf/libacars2-dbgsym_2.2.0-4_armhf.deb
+Size: 449936
+MD5sum: 299c7515dc9958c4c16b64a13b79542d
+SHA1: 982c6716bbf01c8c132ad3be8c5f01967763cf19
+SHA256: 82162168a38083048b6b42be71c1317ac46f0ed426c35251b00626476f652f26
 Section: debug
 Priority: optional
 Description: debug symbols for libacars2
-Build-Ids: 8efe76d014c98cb5de931f7139ffe10606e00b01
+Build-Ids: da7dd7a977e1fbd1887ddb56e83ff30fbdf09a11
 
 Package: libacars2-dbgsym
 Source: libacars
-Version: 2.2.0-3~1.gbp2b4715
+Version: 2.2.0-4
 Auto-Built-Package: debug-symbols
 Architecture: arm64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 742
-Depends: libacars2 (= 2.2.0-3~1.gbp2b4715)
-Filename: ./arm64/libacars2-dbgsym_2.2.0-3~1.gbp2b4715_arm64.deb
-Size: 572472
-MD5sum: baa1b650bbf561bfe46a13a84887e6c0
-SHA1: 05e51effa72c543d588bd174fb6b81b58fac3740
-SHA256: 3380e8f35bdc80e64713b90dbd40af584533bd8e06b45d6e84a8b11d33545e74
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 614
+Depends: libacars2 (= 2.2.0-4)
+Filename: ./arm64/libacars2-dbgsym_2.2.0-4_arm64.deb
+Size: 446604
+MD5sum: f2320e4c2a591eb6fd718a3936853766
+SHA1: 197fff669e4b35bf0ca89a777232553c514d398b
+SHA256: a069c02e08ed42a5d449c54a460bb31b2fb41fe5517a18cf1956b4773c0797d9
 Section: debug
 Priority: optional
 Description: debug symbols for libacars2
-Build-Ids: 1fce0493754c961f14eabc549ab2c277efa535a6
+Build-Ids: 7b8fbe66b8cb6f3a45ef6cb25275c932a300a7bd
 
 Package: libcodecserver
 Source: codecserver
@@ -2271,114 +2274,6 @@ Section: debug
 Priority: optional
 Description: debug symbols for nmux
 Build-Ids: 28f7ac9603a326d144b3a4e8cc80e8428ea05b94
-
-Package: openwebrx
-Version: 1.2.60
-Architecture: all
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 2834
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.23), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick
-Filename: ./amd64/openwebrx_1.2.60_all.deb
-Size: 900892
-MD5sum: 50e332ab8bce23472ef7c256b4327675
-SHA1: ce8ac6cbe9c6be4d0cb6e7a16d2afcf2e2f44682
-SHA256: 85fe02fddf359fbe29bfdb8484b27ab99b03065b894d87d3dad5f8b9a9945215
-Section: hamradio
-Priority: optional
-Homepage: https://www.openwebrx.de/
-Description: multi-user web sdr
- Open source, multi-user SDR receiver with a web interface
-
-Package: openwebrx
-Version: 1.2.60
-Architecture: all
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 2834
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.23), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick
-Filename: ./armhf/openwebrx_1.2.60_all.deb
-Size: 900848
-MD5sum: 52e47ad393a80d5627efa34aa0efd631
-SHA1: 85fef154892b35d29c25d67100491069d381c1bc
-SHA256: ee5cf3e3ff76d623f971d8117596724cc52d5607f19bc324cd507b5945a95a49
-Section: hamradio
-Priority: optional
-Homepage: https://www.openwebrx.de/
-Description: multi-user web sdr
- Open source, multi-user SDR receiver with a web interface
-
-Package: openwebrx
-Version: 1.2.60
-Architecture: all
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 2834
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.23), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick
-Filename: ./arm64/openwebrx_1.2.60_all.deb
-Size: 900900
-MD5sum: afb5a880933e3929fd07c1d585fc88f3
-SHA1: 36fbaa4e883b4eae362133c56b1386b9f53ad6f1
-SHA256: a51e1834374206f33edbe95e9663f92d4dcd98858bfbb5de4c4d22f076ffaa11
-Section: hamradio
-Priority: optional
-Homepage: https://www.openwebrx.de/
-Description: multi-user web sdr
- Open source, multi-user SDR receiver with a web interface
-
-Package: openwebrx
-Version: 1.2.61
-Architecture: all
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3159
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.23), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick
-Filename: ./amd64/openwebrx_1.2.61_all.deb
-Size: 964764
-MD5sum: cdfe1f032ecc9baf167a978ddb9073ec
-SHA1: d5f0546ddef3bbbc3b22970efc7338f2122b81ac
-SHA256: 2ef58c178128243ada9d0643b9eb891edca08c0df553f3782a6af43703cb9ead
-Section: hamradio
-Priority: optional
-Homepage: https://www.openwebrx.de/
-Description: multi-user web sdr
- Open source, multi-user SDR receiver with a web interface
-
-Package: openwebrx
-Version: 1.2.61
-Architecture: all
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3159
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.23), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick
-Filename: ./armhf/openwebrx_1.2.61_all.deb
-Size: 964764
-MD5sum: cdfe1f032ecc9baf167a978ddb9073ec
-SHA1: d5f0546ddef3bbbc3b22970efc7338f2122b81ac
-SHA256: 2ef58c178128243ada9d0643b9eb891edca08c0df553f3782a6af43703cb9ead
-Section: hamradio
-Priority: optional
-Homepage: https://www.openwebrx.de/
-Description: multi-user web sdr
- Open source, multi-user SDR receiver with a web interface
-
-Package: openwebrx
-Version: 1.2.61
-Architecture: all
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3159
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.23), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick
-Filename: ./arm64/openwebrx_1.2.61_all.deb
-Size: 964764
-MD5sum: cdfe1f032ecc9baf167a978ddb9073ec
-SHA1: d5f0546ddef3bbbc3b22970efc7338f2122b81ac
-SHA256: 2ef58c178128243ada9d0643b9eb891edca08c0df553f3782a6af43703cb9ead
-Section: hamradio
-Priority: optional
-Homepage: https://www.openwebrx.de/
-Description: multi-user web sdr
- Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
 Version: 1.2.62
