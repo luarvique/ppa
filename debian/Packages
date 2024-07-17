@@ -723,6 +723,22 @@ Build-Ids: 916f010b276ff03cfc8ec63ca9ef3089a6ca9226
 
 Package: nrsc5
 Version: 0.1
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 966
+Depends: libao4 (>= 1.1.0), libc6 (>= 2.29), libfftw3-single3 (>= 3.3.5), librtlsdr0 (>= 0.6.0)
+Filename: ./amd64/nrsc5_0.1_amd64.deb
+Size: 213620
+MD5sum: bb7f7228eca6635a9b6d4c00ac1e9a9b
+SHA1: 795bf30a456c2379286178873ddaafb874b8b59d
+SHA256: d816f4905d8489221225035ed4459ebd97612dc28f94ffce9e906903e0456abd
+Section: hamradio
+Priority: optional
+Description: NRSC5 decoder
+ Command-line NRSC5 decoder, with a library.
+
+Package: nrsc5
+Version: 0.1
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 777
@@ -815,10 +831,10 @@ Installed-Size: 3201
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.24), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5
 Filename: ./amd64/openwebrx_1.2.64_all.deb
-Size: 972156
-MD5sum: d9e9c8d147f1bb3631883b3c4f87f4b7
-SHA1: fd8518a2c7321fb2f1882cd1117c9a05c6a02ece
-SHA256: 28f7a337b3233790c8235bf9640a6ce3ed154d171032ed17a95907208d5fdc86
+Size: 972128
+MD5sum: 9c3a481efafb1cc53eb5ee19e4677b07
+SHA1: 8588ca996bdeb4764220cea98036ba79c6c08bf4
+SHA256: 0ba4fdd72a7c6c2795ccebc74407a56a8765ff465c82169298d74f6f39c9ca79
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -833,10 +849,10 @@ Installed-Size: 3201
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.24), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5
 Filename: ./armhf/openwebrx_1.2.64_all.deb
-Size: 972200
-MD5sum: 8bc112819a60a640df75a61913955a1f
-SHA1: 17fd6610e14220fd0869e77db3a044ff98f439a0
-SHA256: 8c8d1ccfc34aaef261a63414c663689c99fbf61a2b551314178292c8a8109a55
+Size: 972128
+MD5sum: 9c3a481efafb1cc53eb5ee19e4677b07
+SHA1: 8588ca996bdeb4764220cea98036ba79c6c08bf4
+SHA256: 0ba4fdd72a7c6c2795ccebc74407a56a8765ff465c82169298d74f6f39c9ca79
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -851,10 +867,10 @@ Installed-Size: 3201
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.24), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5
 Filename: ./arm64/openwebrx_1.2.64_all.deb
-Size: 972132
-MD5sum: 02ada0e5b6f2e2429ca7ba9e38f1f717
-SHA1: 127d624ff5b16fc614feb20be9d388510bb8f21a
-SHA256: b38fa65b73d27711656fd1992db75d9f38f6295507170cdb6ebad44e6069d523
+Size: 972128
+MD5sum: 9c3a481efafb1cc53eb5ee19e4677b07
+SHA1: 8588ca996bdeb4764220cea98036ba79c6c08bf4
+SHA256: 0ba4fdd72a7c6c2795ccebc74407a56a8765ff465c82169298d74f6f39c9ca79
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
