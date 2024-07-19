@@ -2275,6 +2275,108 @@ Priority: optional
 Description: debug symbols for nmux
 Build-Ids: 28f7ac9603a326d144b3a4e8cc80e8428ea05b94
 
+Package: nrsc5
+Version: 0.1
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 977
+Depends: libao4 (>= 1.1.0), libc6 (>= 2.34), libfftw3-single3 (>= 3.3.10), librtlsdr0 (>= 0.6.0)
+Filename: ./amd64/nrsc5_0.1_amd64.deb
+Size: 216044
+MD5sum: db1a1f2dc96e2f068d3211c9c5437ac4
+SHA1: ff67c2723246f873b7b506fac4c74bae07d7eae2
+SHA256: 8286821cefe726cf7175d3800554ea3a3c1af6bb4a670b9337b8b3e5e5dfed63
+Section: hamradio
+Priority: optional
+Description: NRSC5 decoder
+ Command-line NRSC5 decoder, with a library.
+
+Package: nrsc5
+Version: 0.1
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 663
+Depends: libao4 (>= 1.1.0), libc6 (>= 2.34), libfftw3-single3 (>= 3.3.10), librtlsdr0 (>= 0.6.0)
+Filename: ./armhf/nrsc5_0.1_armhf.deb
+Size: 182928
+MD5sum: a7ce543ccb9c56e8ec6a612c6caa244e
+SHA1: 02b0fa558a02b41207e9a2f22b40c41cf8f10429
+SHA256: df32b4924826aec52dee06e68af083193375ad60e4028a3aa36f49eef8da4401
+Section: hamradio
+Priority: optional
+Description: NRSC5 decoder
+ Command-line NRSC5 decoder, with a library.
+
+Package: nrsc5
+Version: 0.1
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 977
+Depends: libao4 (>= 1.1.0), libc6 (>= 2.34), libfftw3-single3 (>= 3.3.10), librtlsdr0 (>= 0.6.0)
+Filename: ./arm64/nrsc5_0.1_arm64.deb
+Size: 200100
+MD5sum: 126c9ed2c82cf86a5d3a2d942ca3535d
+SHA1: 8418d8a0d44bc09365a42b7dc3909117241cdb40
+SHA256: c8eaae6003452ef72b42ddc40f10042990d88d24b1dd23cc7bac5099cd8b77c6
+Section: hamradio
+Priority: optional
+Description: NRSC5 decoder
+ Command-line NRSC5 decoder, with a library.
+
+Package: nrsc5-dbgsym
+Source: nrsc5
+Version: 0.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 841
+Depends: nrsc5 (= 0.1)
+Filename: ./amd64/nrsc5-dbgsym_0.1_amd64.deb
+Size: 798016
+MD5sum: 949b1b9d73fdc5eb1d2fa637ca60a215
+SHA1: f363ebac614fd21a57b6df427693986381545318
+SHA256: a19e71f1b9fb8ea2ae8c5cca0042a4385fc14770488a720f18ca4c58185f3a9b
+Section: debug
+Priority: optional
+Description: debug symbols for nrsc5
+Build-Ids: ad1efec204143483f02852fc79ab1579e4692cc8 d77e797caedd00dd8c69c88af5ece69cfb08c00a
+
+Package: nrsc5-dbgsym
+Source: nrsc5
+Version: 0.1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 744
+Depends: nrsc5 (= 0.1)
+Filename: ./armhf/nrsc5-dbgsym_0.1_armhf.deb
+Size: 694792
+MD5sum: ffe7c4c2b69de065762d7e85e4aef9cc
+SHA1: a0442541b6f831a985e9ac5c318f9891f02ad8a8
+SHA256: e083f1028e59062260bf1f26cf4279eec4070957c7e987a4bd5fb5bebe789914
+Section: debug
+Priority: optional
+Description: debug symbols for nrsc5
+Build-Ids: 65e6d346ed0f22af239f91a36c067de26319b570 e99fd1cf691e34e2529a8c0d548a5f5366fd7b01
+
+Package: nrsc5-dbgsym
+Source: nrsc5
+Version: 0.1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 791
+Depends: nrsc5 (= 0.1)
+Filename: ./arm64/nrsc5-dbgsym_0.1_arm64.deb
+Size: 737332
+MD5sum: e3eda3c07a0feaaeba2c069c456452f2
+SHA1: a428217c48d28778e1cf672bc263dc0d3cff8fb2
+SHA256: da21aa916249d1aa7737280b15c7542a0504336bdcd41f577a6c6d4881df5395
+Section: debug
+Priority: optional
+Description: debug symbols for nrsc5
+Build-Ids: 9b7842f9a546b8286b5337db5be9efaa8ff81e71 a7f7e0ba28be7fba179075d939962f07e7e8a092
+
 Package: openwebrx
 Version: 1.2.64
 Architecture: all
