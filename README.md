@@ -72,7 +72,7 @@ If you have a **Ubuntu 24.04** system, there is now an experimental OpenWebRX+ b
     echo "deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/noble ./" > /etc/apt/sources.list.d/openwebrx-plus.list
     apt update
 
-**Ubuntu 24.04** users **must not** add the original OpenWebRX repository to their system, since it contains Bullseye packages.   
+**Ubuntu 24.04** users **must not** add the original OpenWebRX repository to their system, since it contains Ubuntu 22.04 packages.   
 
 # If you are a Debian Bullseye user ...
 In order to add this repository to your **Debian Bullseye** system, do the following, **as root**:
