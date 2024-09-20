@@ -5,10 +5,10 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 93
 Depends: libacars2 (>= 2.2.0), libc6 (>= 2.34), libsndfile1 (>= 1.0.20)
 Filename: ./amd64/acarsdec_3.7-1_amd64.deb
-Size: 37988
-MD5sum: 8959791f3502fa4eea721d8e5ed773a8
-SHA1: e1a47f6994f30ad045dfcdddc07d5d75ba9c6ba4
-SHA256: fa2defc6a074575e52a0a92a9a672c33e830b947fc532a40fe026e6734bfae12
+Size: 37826
+MD5sum: a595908d8ce4c526b613d855199d2fb9
+SHA1: 638da1529c7671de919324a5e7ba6d7878a439ef
+SHA256: 3f8ec4f43893d72d45c4eba35c396b60945359ea6d361a3f3cf8730ff39f1ad2
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/TLeconte/acarsdec
@@ -23,10 +23,10 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 64
 Depends: libacars2 (>= 2.2.0), libc6 (>= 2.34), libsndfile1 (>= 1.0.20)
 Filename: ./armhf/acarsdec_3.7-1_armhf.deb
-Size: 32920
-MD5sum: 19256e52d3e7bf22637b8195d20e0012
-SHA1: 52fc31b9b16bdc18b094cad6fce7355895025dcd
-SHA256: f48dee945bdda6659b1e02b7d404f3abeb3e583d905c136721488fd71d5a7260
+Size: 34900
+MD5sum: 53a07c90bcb578d155ef0cc4374324f4
+SHA1: c7123b32834a31dbb2a385c35890c8712b066fca
+SHA256: b1667d5195fa16c4de55c67c7771e1be113fc36b22beca9f1a829f7f8adedf5d
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/TLeconte/acarsdec
@@ -38,13 +38,13 @@ Package: acarsdec
 Version: 3.7-1
 Architecture: arm64
 Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
-Installed-Size: 85
+Installed-Size: 141
 Depends: libacars2 (>= 2.2.0), libc6 (>= 2.34), libsndfile1 (>= 1.0.20)
 Filename: ./arm64/acarsdec_3.7-1_arm64.deb
-Size: 37820
-MD5sum: c2aee1eb04ffd2737ba73e8a85e2ffe2
-SHA1: 0c2e284a6072a33a673bbfc6ad26ae30af35b4df
-SHA256: 716b073023a9f9d462a29b378d0472698a7e8407ed0d5f0afbe052222a43f81a
+Size: 37768
+MD5sum: ea1f0e7111a104a9171beb71b51d278e
+SHA1: 1025722a402b6a32eb57621b8fcf97745b871db6
+SHA256: b26e8e8ab0f376298599187528b28d6b74c8b12d50627e0ecdcaf7e7303be58e
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/TLeconte/acarsdec
@@ -57,13 +57,13 @@ Version: 0.2.0
 Architecture: amd64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 77
-Depends: adduser, libcodecserver (= 0.2.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 6)
+Depends: adduser, libcodecserver (= 0.2.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
 Recommends: codecserver-driver-all (= 0.2.0)
 Filename: ./amd64/codecserver_0.2.0_amd64.deb
-Size: 21030
-MD5sum: 2743c38d2b50370b3fc1c124721e8243
-SHA1: 55f44593e1c0565718e5b8fd3bce7693229e83a8
-SHA256: 7e68e12e2351a0b819cdca897363bfb4d5a6fb175ce6aaba8d28f90d9a90cfb9
+Size: 21228
+MD5sum: af95f3a05046deaa6f7cab94aedcf1f9
+SHA1: b1b804cbec3be095f21cc351ba4b34366ca08cf0
+SHA256: ac47c54dd6a7e91c3cbeae2351772dc9be5f6f453d4ad74d95774753070e6313
 Section: hamradio
 Priority: optional
 Description: Modular network codec dispatching system
@@ -75,13 +75,13 @@ Version: 0.2.0
 Architecture: armhf
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 60
-Depends: adduser, libcodecserver (= 0.2.0), libc6 (>= 2.34), libgcc-s1 (>= 3.5), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 6)
+Depends: adduser, libcodecserver (= 0.2.0), libc6 (>= 2.38), libgcc-s1 (>= 3.5), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
 Recommends: codecserver-driver-all (= 0.2.0)
 Filename: ./armhf/codecserver_0.2.0_armhf.deb
-Size: 21384
-MD5sum: a3b1b79508be4e77fbf122bc004a3b1d
-SHA1: cb4d10ad9bc8fbc344849251c80497dddb5a8b90
-SHA256: 724a9d8461960ea4ac18b918146e5c3a188c6cd7549e199a6dc1565fffb1cbf4
+Size: 20316
+MD5sum: 9a9d9a3fa3e38403931bfcbf81a6ac0e
+SHA1: a1efc02372062d880bb4fde9918843ae0f7e8c2b
+SHA256: bea46eab2e9c73fb02921b154ccee1e8ac6f3cb948719d91d0f81815593d6300
 Section: hamradio
 Priority: optional
 Description: Modular network codec dispatching system
@@ -92,14 +92,14 @@ Package: codecserver
 Version: 0.2.0
 Architecture: arm64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 69
-Depends: adduser, libcodecserver (= 0.2.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 6)
+Installed-Size: 89
+Depends: adduser, libcodecserver (= 0.2.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
 Recommends: codecserver-driver-all (= 0.2.0)
 Filename: ./arm64/codecserver_0.2.0_arm64.deb
-Size: 20000
-MD5sum: 795c4ecd7c0a8283de64af828b8b73f5
-SHA1: 28e7deb6e20df7411f4fc089e5ab4b7e953413d4
-SHA256: 8cef9c7160a254d13b0c56f09bb833a1abc17406979237bd9bd2154eb05be35a
+Size: 19946
+MD5sum: 1b8209fe6154dfedfc595163de014094
+SHA1: 016fac69e26624d8f0847477567e399ebeafdffa
+SHA256: 612085cffc49fbbec96b65181a520d94000bb5e3383cff92ac556f1811110de2
 Section: hamradio
 Priority: optional
 Description: Modular network codec dispatching system
@@ -114,10 +114,10 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 9
 Depends: codecserver-driver-ambe3k (= 0.2.0)
 Filename: ./amd64/codecserver-driver-all_0.2.0_amd64.deb
-Size: 1838
-MD5sum: 888dbd00a5db975efc9ae80393f91712
-SHA1: a78ddfc076dc655ac386297e00ea1d99601f3b93
-SHA256: d73e7f83a2e75ad5982c694e61b64d5d03b67f5cd808a24ee943ce7d925cf051
+Size: 1844
+MD5sum: 9eb2fd8c0b1f7ccf1ccf543dc47b6ec3
+SHA1: 12dff6080527d880d6a66801e6012ae426496b4a
+SHA256: 3da594da483d2b6b2fc18c3b7992442dd8661e6acadc698cd881ac83ff753398
 Section: hamradio
 Priority: optional
 Description: Virtual codecserver driver bundle dependency package
@@ -131,10 +131,10 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 9
 Depends: codecserver-driver-ambe3k (= 0.2.0)
 Filename: ./armhf/codecserver-driver-all_0.2.0_armhf.deb
-Size: 1838
-MD5sum: 5b074892fb05240c886e45eca58ee883
-SHA1: 5b3e8a762756a3eb7a6e924745d11f174e6b7ef0
-SHA256: 7c55bab8a45062309b4d5272cad814ea3daceabda3b21177cc7d082d0f1f32ef
+Size: 1844
+MD5sum: 376d7ef7ded93f38b86f4ec7f4355af4
+SHA1: c49628d9edf613640993366ef36bd5a632b96989
+SHA256: 1758efbf22aaf7278bdeb52d2137d458b391212a33452555ade4683d1c275e8d
 Section: hamradio
 Priority: optional
 Description: Virtual codecserver driver bundle dependency package
@@ -148,10 +148,10 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 9
 Depends: codecserver-driver-ambe3k (= 0.2.0)
 Filename: ./arm64/codecserver-driver-all_0.2.0_arm64.deb
-Size: 1838
-MD5sum: ce95a426c974f30ac00e35b459406eb7
-SHA1: dc7e1aff2279ef79b16b4e6f0baea1c7365cf0e6
-SHA256: 02015fffe50d09a40d93e12005b217b84b112cf2f0f9ce86cef641dc7958e7bf
+Size: 1844
+MD5sum: e3188a8b47384aabca6e532ca6797310
+SHA1: 8691ebaf82dc7feb6d1e671cf3f513648c65e3e3
+SHA256: 51d8dd4480050a314deb9db838c328ecc2ac8f66497f5ca22ae774e028bf88ec
 Section: hamradio
 Priority: optional
 Description: Virtual codecserver driver bundle dependency package
@@ -162,13 +162,13 @@ Source: codecserver
 Version: 0.2.0
 Architecture: amd64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 128
-Depends: libcodecserver (= 0.2.0), libc6 (>= 2.15), libgcc-s1 (>= 3.3.1), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 12), libudev1 (>= 183)
+Installed-Size: 132
+Depends: libcodecserver (= 0.2.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1), libudev1 (>= 183)
 Filename: ./amd64/codecserver-driver-ambe3k_0.2.0_amd64.deb
-Size: 39826
-MD5sum: 226917ea50f815f3d69f4e97fdc8207a
-SHA1: 450e86fa746847aefabd665ff67c8ec76f0469bb
-SHA256: 6367919afe8fe70ad272d8dbf3f5663cbf9881e412f77b20674010c7c146fdae
+Size: 39510
+MD5sum: 1e61db24399c22796fde28110b965417
+SHA1: 5def3087f78afe2f96e89efc63373786b9d48562
+SHA256: 7a9a3fe95d03f9dd4a52df89ac4880695ba6fa4b81d19a0d78f9bee64bdc1428
 Section: hamradio
 Priority: optional
 Description: Codecserver driver for AMBE-3000 devices
@@ -180,12 +180,12 @@ Version: 0.2.0
 Architecture: armhf
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 91
-Depends: libcodecserver (= 0.2.0), libc6 (>= 2.15), libgcc-s1 (>= 3.5), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 12), libudev1 (>= 183)
+Depends: libcodecserver (= 0.2.0), libc6 (>= 2.38), libgcc-s1 (>= 3.5), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1), libudev1 (>= 183)
 Filename: ./armhf/codecserver-driver-ambe3k_0.2.0_armhf.deb
-Size: 34420
-MD5sum: 1fbb3cc52b5ca015951a2c38f01c4ccb
-SHA1: 2f58617bba7248fe922156cb154dbffebae750fc
-SHA256: 6f805aa4238ab5e9bf356d2f0b774146412d91a6d7923f2741fb156438fdbb41
+Size: 34518
+MD5sum: 1267047ce6bde6be7db89be50bb3cee7
+SHA1: c56141e3cb5d1cb7cfd9c24c485a8ddea76e56d6
+SHA256: c761b9aa5fc2df599fb4628e5cc5fdf5e027a8c2a9e14fb92a65bfd0cb2bd15c
 Section: hamradio
 Priority: optional
 Description: Codecserver driver for AMBE-3000 devices
@@ -196,13 +196,13 @@ Source: codecserver
 Version: 0.2.0
 Architecture: arm64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 119
-Depends: libcodecserver (= 0.2.0), libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 12), libudev1 (>= 183)
+Installed-Size: 143
+Depends: libcodecserver (= 0.2.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1), libudev1 (>= 183)
 Filename: ./arm64/codecserver-driver-ambe3k_0.2.0_arm64.deb
-Size: 37290
-MD5sum: cf7f91a00c343378e730b319bec9b020
-SHA1: 761f038fae354b5b58cd4600183b5923d041ad3c
-SHA256: 9cd3ca1009c63182f86966cf58670616f83b5972e96b93ea401fea0bc048ad5f
+Size: 36974
+MD5sum: a1715b539f3e769c0af74720ee6a12ef
+SHA1: 8a42db28a70e03c9f3db22106fac7784ae7c70b7
+SHA256: 3b651b9070ab7a483287632b71fff3170a5b088be802d2fa3b8c68186d978f5b
 Section: hamradio
 Priority: optional
 Description: Codecserver driver for AMBE-3000 devices
@@ -212,14 +212,14 @@ Package: csdr
 Version: 0.18.24
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 696
-Depends: libcsdr0 (= 0.18.24), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Installed-Size: 684
+Depends: libcsdr0 (= 0.18.24), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Recommends: nmux (= 0.18.24)
 Filename: ./amd64/csdr_0.18.24_amd64.deb
-Size: 183208
-MD5sum: d929ce983640d463885347da004f6d37
-SHA1: b1e158eb0056ca843be0b97c3b1081411542bde6
-SHA256: 6232c4fbaba55348ecdf8ea3bfa48d20958514eea925300adfeba5c80f7117c4
+Size: 177900
+MD5sum: e2fe3bf993b7221ba75c904277e2eee2
+SHA1: c945079950d29f86f8d6490a2304b9af84bdf965
+SHA256: 374f8e206103de5517d210cb139911c7e9d5e685466904568a69e7204ce28041
 Section: hamradio
 Priority: optional
 Description: command-line sdr
@@ -229,14 +229,14 @@ Package: csdr
 Version: 0.18.24
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 451
-Depends: libcsdr0 (= 0.18.24), libc6 (>= 2.34), libgcc-s1 (>= 3.5), libstdc++6 (>= 11)
+Installed-Size: 455
+Depends: libcsdr0 (= 0.18.24), libc6 (>= 2.38), libgcc-s1 (>= 3.5), libstdc++6 (>= 13.1)
 Recommends: nmux (= 0.18.24)
 Filename: ./armhf/csdr_0.18.24_armhf.deb
-Size: 152368
-MD5sum: 2a2fe4b14f5a41ea938f3e3a7b5a64a5
-SHA1: 7b6cbf98df1b5158c9160df5bd77e74d884f6768
-SHA256: ad080c69793cdef9ae3dd8c3bc467fed7e55ecf0a48fe7fb10f9114b42d5f114
+Size: 150524
+MD5sum: fc4ff3a51546b234e75781c509dd703e
+SHA1: f08a6c6373f64cd47771e8e12a120053adb26a38
+SHA256: e15259c352d07c0de914979178aa2a28729afecdc598a3c6e0ec6247327111f2
 Section: hamradio
 Priority: optional
 Description: command-line sdr
@@ -246,14 +246,14 @@ Package: csdr
 Version: 0.18.24
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 644
-Depends: libcsdr0 (= 0.18.24), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Installed-Size: 660
+Depends: libcsdr0 (= 0.18.24), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Recommends: nmux (= 0.18.24)
 Filename: ./arm64/csdr_0.18.24_arm64.deb
-Size: 161220
-MD5sum: bd821cf8a856fe92b16497b02cea7ba7
-SHA1: 20b4993673e13f6c9cac92e541d3c444f2ad57df
-SHA256: 762665544a867b13f0210d479937ba611e2f5fc61e7048c2ab30ac29f7fb3eeb
+Size: 154944
+MD5sum: 7a99493417eb66f08aacbe069826598a
+SHA1: 8ce2f9260d9be72bc78ec96a4f96807b45328ed9
+SHA256: 47043c1f87e83a454356372bdf588f4669078834a5674080df908ed7fd6ec8d1
 Section: hamradio
 Priority: optional
 Description: command-line sdr
@@ -264,13 +264,13 @@ Version: 0.6.2
 Architecture: amd64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 219
-Depends: libdigiham0 (= 0.6.2), libc6 (>= 2.34), libcodecserver, libgcc-s1 (>= 3.3.1), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 6)
+Depends: libdigiham0 (= 0.6.2), libc6 (>= 2.38), libcodecserver, libgcc-s1 (>= 3.3.1), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
 Recommends: codecserver
 Filename: ./amd64/digiham_0.6.2_amd64.deb
-Size: 29062
-MD5sum: 0b2979979fd11c47c42fae52666ca259
-SHA1: 2e7a98ebb248bfa9a309d8d05c544a993af8af72
-SHA256: 604b3d0c33cfb297261c09b43718053102fb1dcd72c448214726dada71b1e9b2
+Size: 29530
+MD5sum: 5414ce3a137c32975ac207896b523607
+SHA1: 85c7376abc617060517c980da6f563043d647476
+SHA256: 7ce07213a8256dd0c5f1340f84b8ab76f032ea26a5c739b24d85afc7ec04f0a1
 Section: hamradio
 Priority: optional
 Description: Tools for decoding digital ham radio communication
@@ -283,13 +283,13 @@ Version: 0.6.2
 Architecture: armhf
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 136
-Depends: libdigiham0 (= 0.6.2), libc6 (>= 2.34), libcodecserver, libgcc-s1 (>= 3.5), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 6)
+Depends: libdigiham0 (= 0.6.2), libc6 (>= 2.38), libcodecserver, libgcc-s1 (>= 3.5), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
 Recommends: codecserver
 Filename: ./armhf/digiham_0.6.2_armhf.deb
-Size: 28142
-MD5sum: 41c980b5561a3dd1d7e0a20f5c7a0d48
-SHA1: 3691c9e85f96060bf1a6ad10fbe6c920fed0befd
-SHA256: 6d0af945d17c6740bf1dff0e189d1e1deff4fc2de982584bd2c728dda8d240d9
+Size: 28388
+MD5sum: 0b0c28963ede596be208d7b8b9f622f4
+SHA1: 36b44c772b0307be3024af8cd8b1511e47a0be6f
+SHA256: 860752e2ecbd2ad6a74924ade58dc0545327d405ad7603dbd31abe8e99e52b09
 Section: hamradio
 Priority: optional
 Description: Tools for decoding digital ham radio communication
@@ -301,14 +301,14 @@ Package: digiham
 Version: 0.6.2
 Architecture: arm64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 171
-Depends: libdigiham0 (= 0.6.2), libc6 (>= 2.34), libcodecserver, libgcc-s1 (>= 3.3.1), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 6)
+Installed-Size: 747
+Depends: libdigiham0 (= 0.6.2), libc6 (>= 2.38), libcodecserver, libgcc-s1 (>= 3.3.1), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
 Recommends: codecserver
 Filename: ./arm64/digiham_0.6.2_arm64.deb
-Size: 28542
-MD5sum: baafc094ec1b169fb910d28b568d9f26
-SHA1: c5570a693ca6bba4e23042a514d0b961d2c88080
-SHA256: c794291e6c7a01d850f9d96a972cd67dc8770e0e499f9b8e63cce51c9ac76208
+Size: 30052
+MD5sum: 499b32d6155269cb849d5dbf9851c9fe
+SHA1: 400bc2e830b766348bdf918eef059a85320b4041
+SHA256: 32f70d6e1bc6041b68a8da8c7e36f0c027bd0d9b8bc49ccfe9a7006d6ef5de80
 Section: hamradio
 Priority: optional
 Description: Tools for decoding digital ham radio communication
@@ -324,10 +324,10 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 573
 Depends: libacars2 (= 2.2.0-4)
 Filename: ./amd64/libacars-dev_2.2.0-4_amd64.deb
-Size: 85972
-MD5sum: a7f57edb48d1dc24380209179730da6e
-SHA1: d637b67f0f58eea3fb71da223597868ef04dc700
-SHA256: 3719fde9bc4420f0e693673d0d836a6f2668dd8c66159b32157d2a0a40c4f669
+Size: 85764
+MD5sum: c68377eee08d35d7b55dfe86e0087e39
+SHA1: a21a42de8b0658d083ed80ac9eca936a4a7bc403
+SHA256: 1c2a4647b62a50b957565b9164ee2841dfcebedda96f989f0b397729376be1b2
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -342,10 +342,10 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 573
 Depends: libacars2 (= 2.2.0-4)
 Filename: ./armhf/libacars-dev_2.2.0-4_armhf.deb
-Size: 85976
-MD5sum: 3b966bbd8fefa0972d228b58b1ef8689
-SHA1: 6c6fde5a54c3370fcde19f9a15554e367e8346f3
-SHA256: 0818f28a7d61afb65de1149cb02bd6e6328670a42fd90f18563701e94ea9fde2
+Size: 85764
+MD5sum: 6b659170c3702db7e9d1990d7bd5af3c
+SHA1: 81d26f985c3576a2ec64b28ce7f3a3b9ef6eab28
+SHA256: 42737f72055e25c51c1a9dc2da6d19492a9f40866cd75aa66472cd0818083ae1
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -360,10 +360,10 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 573
 Depends: libacars2 (= 2.2.0-4)
 Filename: ./arm64/libacars-dev_2.2.0-4_arm64.deb
-Size: 85966
-MD5sum: 71080abb8e117cb133f2e154b688107d
-SHA1: 41ab677dd0e019f6abe541e8df55366536933b44
-SHA256: dddd31bce6cde384ca639ea787dd55cf897353224ba0e584be2e008c0faa0dd7
+Size: 85758
+MD5sum: 087180e73e5f73931d812dd26b4264ec
+SHA1: dfc29215687cf3db1b2f78a41ac8674037c1fac9
+SHA256: 91ef71c898046437b07c0ac920372bb0c236982776928bfd0ba18a74add826bf
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -378,10 +378,10 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 55
 Depends: libacars2 (= 2.2.0-4), libc6 (>= 2.34)
 Filename: ./amd64/libacars-tools_2.2.0-4_amd64.deb
-Size: 9560
-MD5sum: 72f5ff1983be24093a881cd5bd56c23d
-SHA1: 0a2daa9860cc338eaa35c2fa7e6221ecc8264fe3
-SHA256: cd362008c7ede9fea9d6c2eec7bf08e442c8caf47b9affaf42571fcef7a5331b
+Size: 9402
+MD5sum: 09c645c89d1f3f64cd8a74c5af5d87a5
+SHA1: c05bdd925d464381a11082787dea9bcf63b0e0eb
+SHA256: 5c54b2e20d86b94dc3d83f1820cfdcc3648d9a759a3bf4eb0ec3f393e9c59594
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -396,10 +396,10 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 40
 Depends: libacars2 (= 2.2.0-4), libc6 (>= 2.34)
 Filename: ./armhf/libacars-tools_2.2.0-4_armhf.deb
-Size: 9122
-MD5sum: fef46e4725fd7daf242ebc4ca2caf2b8
-SHA1: b7173aca539dc5f92edf83b1de9290089115f425
-SHA256: 98b6f471b6f353b2c9a3c95d53ae8f89fbb233997ef53ec4702725fd529c480b
+Size: 9034
+MD5sum: ce2ba52578a3df87ec7865c83d68dd48
+SHA1: 0499a5bd6453e8322f31e353d94564907459df3e
+SHA256: f2258ff4f280ede3956a7b17bae57d971ce3c9a6e26ed9672437b48288ccc354
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -411,13 +411,13 @@ Source: libacars
 Version: 2.2.0-4
 Architecture: arm64
 Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
-Installed-Size: 47
+Installed-Size: 211
 Depends: libacars2 (= 2.2.0-4), libc6 (>= 2.34)
 Filename: ./arm64/libacars-tools_2.2.0-4_arm64.deb
-Size: 9606
-MD5sum: 5e5ff9fad7d41d0378b7fcc074270b8e
-SHA1: f3c6b4f69688463d5c27236732f961d831a86f55
-SHA256: 1f502f72ce5b016ed0a3288c0e808c00cc4f7efe17a9846eea6410cd9bc79629
+Size: 9774
+MD5sum: 59f69a77ed9a9feb6ad4fde69d7b3eba
+SHA1: 323df97b15af97dffa87778bd2dfe0892205ef33
+SHA256: 377bb3ac920534da17932ec2337f30ae8f655f7c9bde72751339006213b9060e
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -429,13 +429,13 @@ Source: libacars
 Version: 2.2.0-4
 Architecture: amd64
 Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
-Installed-Size: 710
-Depends: libc6 (>= 2.14), libjansson4 (>= 2.1), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Installed-Size: 714
+Depends: libc6 (>= 2.14), libjansson4 (>= 2.14), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
 Filename: ./amd64/libacars2_2.2.0-4_amd64.deb
-Size: 169694
-MD5sum: d04241dec8853de9a864d51906d25e30
-SHA1: 27f34c1ee5a6e191e8a277b9a1cde7ec948ee019
-SHA256: c6092ac6f7c4bb3db59b356aa9bd6d41da0182a2e89492e296b26d4142f64317
+Size: 164280
+MD5sum: 5cf36f11249abb63439181e48140a95a
+SHA1: a80d511e7049ccf52bf08cae0f593bd758e6ac7c
+SHA256: 2cc4ed4eca2b47d77ec70cffd4ad6a0037d336deba1b378ceacb31beaccdb10f
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -448,12 +448,12 @@ Version: 2.2.0-4
 Architecture: armhf
 Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 417
-Depends: libc6 (>= 2.4), libjansson4 (>= 2.1), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Depends: libc6 (>= 2.4), libjansson4 (>= 2.14), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
 Filename: ./armhf/libacars2_2.2.0-4_armhf.deb
-Size: 127498
-MD5sum: ba0387bb7937a3ef9e53287b83620e2c
-SHA1: 3ebe49b334f7cefab188e869a617d3bbc3daaa1d
-SHA256: a0ff8c1bc7e788bd7bef90eaf0ddc26fea14a53276154536b318c27b5a62a4b3
+Size: 124158
+MD5sum: b7ee9eac436ad74c8dbbb840ef103f47
+SHA1: fa7699759e91f93f5e8d8195fc85bdbdbf332760
+SHA256: 84932dfdd9f0f4a2c7e32761a6e192aa9e8cd7e3988711efffe67abac7c7ced2
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -465,13 +465,13 @@ Source: libacars
 Version: 2.2.0-4
 Architecture: arm64
 Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
-Installed-Size: 689
-Depends: libc6 (>= 2.17), libjansson4 (>= 2.1), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Installed-Size: 730
+Depends: libc6 (>= 2.17), libjansson4 (>= 2.14), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
 Filename: ./arm64/libacars2_2.2.0-4_arm64.deb
-Size: 154704
-MD5sum: e2ac1b07c6da53764c9842933175cdde
-SHA1: d9a812903d73f2b87f5955be28811a381d29dbff
-SHA256: e8f47ce7ff3fb9190ef1d421cecfa6e75b0b39a0809cbcf76fad2ebb4d09eefb
+Size: 150592
+MD5sum: 635afe50379489b58af34768e1317583
+SHA1: 2f11f00f56e5798f508a17e9a1eeece5795bfc69
+SHA256: bb9d959dda00d167cfdc757f06cb6264b0e6c35dbfc8e593e80ac8baec24f4f3
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -483,13 +483,13 @@ Source: codecserver
 Version: 0.2.0
 Architecture: amd64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 214
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 11)
+Installed-Size: 206
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
 Filename: ./amd64/libcodecserver_0.2.0_amd64.deb
-Size: 65952
-MD5sum: 5918e80cddbf126126e002a73d4e712a
-SHA1: ddb5295b710a99632f6693146536df6ff2c24b84
-SHA256: 6b6cd864fc91d2bd43e4eb73b4bc91aaab9e5d31642439cfa6d8d47f217d9570
+Size: 63090
+MD5sum: 937e425184f6072a63054aad64981bf9
+SHA1: 8411b010619004a3860c92b2074e97244d4938f8
+SHA256: f6e676e794eb85d105b068768ef0892ef5650c2ac51001d977f8973d708757ec
 Section: hamradio
 Priority: optional
 Description: Codecserver base library
@@ -501,12 +501,12 @@ Version: 0.2.0
 Architecture: armhf
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 156
-Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 11)
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
 Filename: ./armhf/libcodecserver_0.2.0_armhf.deb
-Size: 60740
-MD5sum: 11e00a9e6580a28330488afad34a1eb9
-SHA1: 180e704ca918c7dd27ee3277753bb8c082b80d1b
-SHA256: 3a9c5ffebeaeb9a58dbe94637ba17d4d281c89437250929265085079ed686747
+Size: 59062
+MD5sum: 605d853f86eebbfd8d34c25e73342830
+SHA1: 4fa60be5fb955705e56abedabb156643f17c6123
+SHA256: 5a1f094f969d74df6b4d71997b0a8d8024dece2aab2fa05c6de21316b37a4211
 Section: hamradio
 Priority: optional
 Description: Codecserver base library
@@ -517,13 +517,13 @@ Source: codecserver
 Version: 0.2.0
 Architecture: arm64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 194
-Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 11)
+Installed-Size: 210
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
 Filename: ./arm64/libcodecserver_0.2.0_arm64.deb
-Size: 62146
-MD5sum: 73a8121d04a29759992a2a11733c315e
-SHA1: 4a9a1f53795a087cf8dfc8801cf3c8c25d848fb7
-SHA256: 583de9d9adcd65d74fee6314882d3429b8150182656f8f2155ab57fe54b95efe
+Size: 60288
+MD5sum: 9813fa998ccff010286de04651525938
+SHA1: eac69c02b16da1ba6d81fbbdbf7ff7cf2ce298a6
+SHA256: 283a4959d6f06573f41ae7de9ea4c6c40f7b1681a000d6b230440b541c3db342
 Section: hamradio
 Priority: optional
 Description: Codecserver base library
@@ -534,13 +534,13 @@ Source: codecserver
 Version: 0.2.0
 Architecture: amd64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 161
+Installed-Size: 150
 Depends: libcodecserver (= 0.2.0), libprotobuf-dev (>= 3)
 Filename: ./amd64/libcodecserver-dev_0.2.0_amd64.deb
-Size: 15690
-MD5sum: 773832dd9dab3016e9c4a962bbfac2b2
-SHA1: f804e462f26d8e62169c39e4bc7d6e3d93ec3d9e
-SHA256: 0fe0e27b93f9afa4a8e181652b817381f693e5c7b9f726ff518e226d1c210131
+Size: 15214
+MD5sum: a593b4579f2f924acf901fbd8adcb26b
+SHA1: a3193b4b48219374057b27187293ba1ec1f8cd8c
+SHA256: 6dab028c00c59d391aed443f6a27e79736396f4fe3d55598bbd26e23ac1ea4c7
 Section: hamradio
 Priority: optional
 Description: Codecserver base library - development files
@@ -551,13 +551,13 @@ Source: codecserver
 Version: 0.2.0
 Architecture: armhf
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 161
+Installed-Size: 150
 Depends: libcodecserver (= 0.2.0), libprotobuf-dev (>= 3)
 Filename: ./armhf/libcodecserver-dev_0.2.0_armhf.deb
-Size: 15690
-MD5sum: 9da9803c8be240a9f16126b1bf06c05c
-SHA1: 3d94dad8c4c3d7201d058a38b2cf803cc3bb61ea
-SHA256: 4d697edf30cf71a0d6a8e112be6e50e7147c7d7b569ab24ce3f2e9f34ff92b1f
+Size: 15218
+MD5sum: 6599f0e2cf65222afd3fc946d8b54aaa
+SHA1: c7a558218a50294dc967463bcf111558ee1affe1
+SHA256: b114990217c3459513d0d27d047580bb28fffe0753cb8860c01ac80f4d1e0632
 Section: hamradio
 Priority: optional
 Description: Codecserver base library - development files
@@ -568,13 +568,13 @@ Source: codecserver
 Version: 0.2.0
 Architecture: arm64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 161
+Installed-Size: 150
 Depends: libcodecserver (= 0.2.0), libprotobuf-dev (>= 3)
 Filename: ./arm64/libcodecserver-dev_0.2.0_arm64.deb
-Size: 15682
-MD5sum: e39844f6111abbcee89a0389a1e629e2
-SHA1: f8a4952f6df91dccac8195502b7045141cd0a42a
-SHA256: c1d58320d1c1c0f1438ddb24f889f237bef132564d30e80b21cabf1eb696cee4
+Size: 15208
+MD5sum: a3a25432f92955c28bed7819c325c066
+SHA1: 5c72ab56f1822732b094d9b2338b307b95caedbd
+SHA256: 6100c067aaa9aaedb72b5411803c451216ffeacf11f783c31f697698c9874976
 Section: hamradio
 Priority: optional
 Description: Codecserver base library - development files
@@ -585,13 +585,13 @@ Source: csdr
 Version: 0.18.24
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 193
+Installed-Size: 194
 Depends: libcsdr0 (= 0.18.24), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
 Filename: ./amd64/libcsdr-dev_0.18.24_amd64.deb
-Size: 24232
-MD5sum: 09bcd320489a4045120cc4efbdbdd46b
-SHA1: 3b32ed2a5bc93dcc00246693d3e6d0b5b8790552
-SHA256: 8a3c6bd70d86044fbadc3c078309070269df18db33818d95f834ccbc66e6183c
+Size: 24268
+MD5sum: 667d8385e0a297a2e1b339c742d91023
+SHA1: 23eb389f2fa45fc968a25a92c32ff76a24776a06
+SHA256: ebd380b9559a844b72328c92a7918fb7283bf750152002afd40f7119d1b5e127
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
@@ -602,13 +602,13 @@ Source: csdr
 Version: 0.18.24
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 193
+Installed-Size: 194
 Depends: libcsdr0 (= 0.18.24), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
 Filename: ./armhf/libcsdr-dev_0.18.24_armhf.deb
-Size: 24228
-MD5sum: b1a1898b0a6eb66c4bd1ca8e9d690f1d
-SHA1: a1e468405fcf715a5dc2372d96a3e3fed21486bf
-SHA256: be222ed6491f081b681bed10f66a9a6be4716ef9ec3f7d35bdfd52c0ee5324d2
+Size: 24264
+MD5sum: 437d703924e1ca664edcd471fe34d89f
+SHA1: f92a5171655146494012ed60c6b91ea91cce9269
+SHA256: acaaa72dbe2379583bf37489a7946eb997f33af94fc897fe5deaea1d98d041da
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
@@ -619,13 +619,13 @@ Source: csdr
 Version: 0.18.24
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 193
+Installed-Size: 194
 Depends: libcsdr0 (= 0.18.24), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
 Filename: ./arm64/libcsdr-dev_0.18.24_arm64.deb
-Size: 24224
-MD5sum: 3536fc907eba3981398ab54c608d93de
-SHA1: d2c5f0f340a241319a666a15208851a6bd8ede3e
-SHA256: 2fa27c841cc75ebc66da243254bcd53d8abece4b541a8346a669be397f84fde8
+Size: 24268
+MD5sum: e10ee3102cbd337c69f4f8ce21ac721c
+SHA1: cc6c09f937ee92f8428aed4d34f6625a16a8abef
+SHA256: 8e9e67af2100343b581a90682bbdb38a0d6ef22d0182f5292ec7528dfa9dd181
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
@@ -639,10 +639,10 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 21
 Depends: libcsdr-eti0 (= 0.0.11), libfftw3-dev (>= 3.3), libcsdr-dev (>= 0.18.18)
 Filename: ./amd64/libcsdr-eti-dev_0.0.11_amd64.deb
-Size: 3312
-MD5sum: 1b1fccb7a5697f8ab145b48e176538b3
-SHA1: e5dc52be8cd756d88a28af25e9b7fc7b9340eab3
-SHA256: 020015946d4e1531aa515fe8684669136bd8eea0641025d148a92492f8d5c1c3
+Size: 3324
+MD5sum: 81f620d0dac8d918004f0cee3c282996
+SHA1: e3040fd497894f13af9de8c74513157e48b24329
+SHA256: 3d5c30b7b42a65905170af7f32a5dea411ad8a19d5e904265805e5104358cadd
 Section: hamradio
 Priority: optional
 Description: development debendencis for libcsdr-eti
@@ -655,10 +655,10 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 21
 Depends: libcsdr-eti0 (= 0.0.11), libfftw3-dev (>= 3.3), libcsdr-dev (>= 0.18.18)
 Filename: ./armhf/libcsdr-eti-dev_0.0.11_armhf.deb
-Size: 3312
-MD5sum: 9945d542be1c006ccd53bbf9f4b7b7f9
-SHA1: 6a3d8436861e148159e3024e8371a1d8223c6338
-SHA256: 7fb52c6c45a5851c2b43d2ac1e14dcbcfe70315feb7a61e5f0c302dcf7d8ae42
+Size: 3320
+MD5sum: 18b47870fcaa2567826510fd7108efb5
+SHA1: 9ad9afa6f3db07461323e7eb496745a9f09ddc82
+SHA256: 903af9797a590f08643757b9df790373b6b627b2a025f48bfcd217697015626e
 Section: hamradio
 Priority: optional
 Description: development debendencis for libcsdr-eti
@@ -671,10 +671,10 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 21
 Depends: libcsdr-eti0 (= 0.0.11), libfftw3-dev (>= 3.3), libcsdr-dev (>= 0.18.18)
 Filename: ./arm64/libcsdr-eti-dev_0.0.11_arm64.deb
-Size: 3308
-MD5sum: 7e11fa2ca2ffe23cfd6b8471e248f9dd
-SHA1: 40c0f53ff110a06f4a159222b9db66fd0ff762a2
-SHA256: 0ea167851108d2f651b2ea52916893e168130352f5d38c7819d23b27689c0d64
+Size: 3316
+MD5sum: 6f3b05a69f14476033248442c9b7a0b7
+SHA1: 0bae12afe43d5365defbe06302d4c535bc6b3b22
+SHA256: 5c61a5ab05eea797cac3617ab93a2e6e6a1335d1bd9f44362cc87e78c50a0134
 Section: hamradio
 Priority: optional
 Description: development debendencis for libcsdr-eti
@@ -685,12 +685,12 @@ Version: 0.0.11
 Architecture: amd64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 105
-Depends: libc6 (>= 2.29), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Depends: libc6 (>= 2.29), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
 Filename: ./amd64/libcsdr-eti0_0.0.11_amd64.deb
-Size: 34238
-MD5sum: 5dadf385f3afe574e80858e83dcf35c2
-SHA1: 3f8bd8e91f68435e5fcbaa5a9daa28c2a37d6987
-SHA256: 357bf5a5094079547bcaa3b880ae6ce57e2a010cb6189ea9e10aeb39e7e53e87
+Size: 32826
+MD5sum: f292482b2ea0c9750e797f862622ace5
+SHA1: baf16d9109a83056991ebbe43a69a222aff35e8d
+SHA256: ef5851938bcc0a758337d15903c3e18390647f4b7d573ab9f2dd0a14f8899cb8
 Section: hamradio
 Priority: optional
 Description: DAB ETI decoder as a csdr module
@@ -703,13 +703,13 @@ Source: csdr-eti
 Version: 0.0.11
 Architecture: armhf
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 84
-Depends: libc6 (>= 2.29), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.5), libstdc++6 (>= 11)
+Installed-Size: 80
+Depends: libc6 (>= 2.29), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.5), libstdc++6 (>= 13.1)
 Filename: ./armhf/libcsdr-eti0_0.0.11_armhf.deb
-Size: 33070
-MD5sum: bfb566aa3350e9b2734eb63b095a9910
-SHA1: ac5aa46627a1418548f9b3fc56d4079838dc3bac
-SHA256: 32fb02d8e7ad677acc787a9651254671313192a300555e249e29e4eb3227bcda
+Size: 31172
+MD5sum: e64d8471479432620cc8ba8746d8f979
+SHA1: 48c057dfe8b3243ac13b7b4e11fccc651cf3c7ad
+SHA256: 059128c862085c5badc287644b55c0b203ae4da766bc6b3816eb74ded74a2519
 Section: hamradio
 Priority: optional
 Description: DAB ETI decoder as a csdr module
@@ -722,13 +722,13 @@ Source: csdr-eti
 Version: 0.0.11
 Architecture: arm64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 97
-Depends: libc6 (>= 2.29), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Installed-Size: 157
+Depends: libc6 (>= 2.29), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
 Filename: ./arm64/libcsdr-eti0_0.0.11_arm64.deb
-Size: 33446
-MD5sum: 5f10a363947a59a47b508961d8e0ecf7
-SHA1: 7be4de2783741372e72d5a71b4d2ebc31600dc24
-SHA256: 00f4b0315836460ce7242619290d012f5474f9787c00d340096bd6d5fab41c51
+Size: 31806
+MD5sum: 36a460644249af19b5904c113b2c24df
+SHA1: 2674858db36de3589c6cbe7042a6800e8ec8d3ad
+SHA256: 81421f6ea83bee3ac9d3a8ace848e97b537245b6052a4983ce18febb90728e9b
 Section: hamradio
 Priority: optional
 Description: DAB ETI decoder as a csdr module
@@ -741,13 +741,13 @@ Source: csdr
 Version: 0.18.24
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 732
-Depends: libc6 (>= 2.35), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
+Installed-Size: 768
+Depends: libc6 (>= 2.35), libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 13.1)
 Filename: ./amd64/libcsdr0_0.18.24_amd64.deb
-Size: 152112
-MD5sum: 2718ec135745c29ac08df2b01ef3ff92
-SHA1: 9aa5d6bc3f08af59f2d704b9c86ac7fae95684ae
-SHA256: 8cf94ff60c58d56eda9fc1c673318e41012ad7372dfeb21ff3a35a7b4fae7cee
+Size: 159932
+MD5sum: ce069dc6dffd63bb679630f5ad7bd8c6
+SHA1: 3f13a412158080bedec163a394a2c52514456f43
+SHA256: b9cb328c23a5a45837c91d06906acf3bbc0f503ec9755deefb40b993fb00187a
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
@@ -758,13 +758,13 @@ Source: csdr
 Version: 0.18.24
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 464
-Depends: libc6 (>= 2.29), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.5), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
+Installed-Size: 500
+Depends: libc6 (>= 2.34), libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.5), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 13.1)
 Filename: ./armhf/libcsdr0_0.18.24_armhf.deb
-Size: 120704
-MD5sum: d894c4e88ce562a8de1ba58c266c910b
-SHA1: d90b3ab4d56319143e76e0a5957f1f964fe4e690
-SHA256: e68fa1be41b61a4a88155ef554abc9b170d3b48773bb4ad6378eb5ca6d076b4a
+Size: 130752
+MD5sum: c0b5695df54cc7ee553d6a77961fd1e7
+SHA1: c5b6aa3d20e946fa03a464203ecb29dcee5d7baf
+SHA256: 7eb0c8675e52b22375b9a185f2808439892365d18cdd85d1161a831e3b3cf5e7
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
@@ -775,13 +775,13 @@ Source: csdr
 Version: 0.18.24
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 712
-Depends: libc6 (>= 2.29), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
+Installed-Size: 796
+Depends: libc6 (>= 2.39), libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 13.1)
 Filename: ./arm64/libcsdr0_0.18.24_arm64.deb
-Size: 138360
-MD5sum: 81418593eae97c45ef34f25dbf0f20b7
-SHA1: 53935e501a0f56570cc0a6f5c5a53a1483bbe09f
-SHA256: 68399cc06c77b0d5668a7f3c1eeccf7698186e7f2dc3193cc088c1a5ab8255e0
+Size: 145336
+MD5sum: 621d547d9759921af757010f71270939
+SHA1: f8d95571e09a3e02584d0a833e1780cc04eb55dc
+SHA256: 3680218aa9002b78facc34286cf9cd795c9868e3fa0f80f9c71618edccd11aa4
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
@@ -792,13 +792,13 @@ Source: digiham
 Version: 0.6.2
 Architecture: amd64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 45
+Installed-Size: 46
 Depends: libdigiham0 (= 0.6.2), libcodecserver-dev, libicu-dev, libcsdr-dev (>= 0.18)
 Filename: ./amd64/libdigiham-dev_0.6.2_amd64.deb
-Size: 6994
-MD5sum: b1dfaabf8d37827e2c7aeeb674a67fae
-SHA1: b4a546bed57a531ea49db25a64cd9d94ca102ca6
-SHA256: f85efac871c0e7f6f9939ac9b13dbac54ae125f9978a6ace42dc29a64955371e
+Size: 7072
+MD5sum: 5c6b9ce6d0cff20a10c42d84d8c55d92
+SHA1: ae8c453d7072cbfeedd5841d4a05ca7d259f149e
+SHA256: ef6184892e538e6e15502ade5fd386bf9b6e956f1f503aa21db64b09687da170
 Section: hamradio
 Priority: optional
 Description: Digiham library development files
@@ -809,13 +809,13 @@ Source: digiham
 Version: 0.6.2
 Architecture: armhf
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 45
+Installed-Size: 46
 Depends: libdigiham0 (= 0.6.2), libcodecserver-dev, libicu-dev, libcsdr-dev (>= 0.18)
 Filename: ./armhf/libdigiham-dev_0.6.2_armhf.deb
-Size: 6996
-MD5sum: e5da8c58e5fa82e5f53422bfb063ee30
-SHA1: f8fd77923f347e3576d6e06d86a47b5381227af2
-SHA256: 9ecab6a945f49fc477baa7edccc4b9584e2264c7952dae5f20d188276b336eac
+Size: 7074
+MD5sum: 01a64a9c63397c7306f2781c72bccb00
+SHA1: a349c6c363bb8a8f79cb4c55b7b90384c8a4db5a
+SHA256: 3017dbc986837519b9cd05754b3de038c130dc085cfdec6f4e634bb796559e94
 Section: hamradio
 Priority: optional
 Description: Digiham library development files
@@ -826,13 +826,13 @@ Source: digiham
 Version: 0.6.2
 Architecture: arm64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 45
+Installed-Size: 46
 Depends: libdigiham0 (= 0.6.2), libcodecserver-dev, libicu-dev, libcsdr-dev (>= 0.18)
 Filename: ./arm64/libdigiham-dev_0.6.2_arm64.deb
-Size: 6988
-MD5sum: 339cdc8be164ea7968daaf2586e04702
-SHA1: 7e4842a4404e248794fb4128cca4be4c5b2b146d
-SHA256: 84bb69a4c6b50f3bc4187dcd80483894b2a4f1cb2a02f18e5b18052e9bb0201d
+Size: 7070
+MD5sum: 2187f1df899597e3f70767027c860767
+SHA1: 1b9e4432121596933468d34ee8595501995e0436
+SHA256: 7f006f99b159903562672773218cf8d619b7f350192febcb9572e94fe37db372
 Section: hamradio
 Priority: optional
 Description: Digiham library development files
@@ -843,13 +843,13 @@ Source: digiham
 Version: 0.6.2
 Architecture: amd64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 321
-Depends: libc6 (>= 2.34), libcodecserver, libcsdr0 (>= 0.18), libgcc-s1 (>= 3.3.1), libicu70 (>= 70.1-1~), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 6)
+Installed-Size: 325
+Depends: libc6 (>= 2.34), libcodecserver, libcsdr0 (>= 0.18), libgcc-s1 (>= 3.3.1), libicu74 (>= 74.1-1~), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
 Filename: ./amd64/libdigiham0_0.6.2_amd64.deb
-Size: 101682
-MD5sum: 9fc8448e9c91e5deedd36d0e523dc8df
-SHA1: 2d923b24e779bb665a21e19c2752abadb7fb0361
-SHA256: 16c9e7efca61699edc4e204fa6ccb6270dc883ecce215361701c6ee69bc04468
+Size: 100694
+MD5sum: e27728fd95d6c1ab08091ceed46d1fbe
+SHA1: 53cf1876ddeef8219954236bdaa6c9637d01e3e3
+SHA256: 8392dd6b9d668b8a7711f88c9c466acc3bfe9e4b65967889531510110e534111
 Section: hamradio
 Priority: optional
 Description: Digiham base library
@@ -861,13 +861,13 @@ Source: digiham
 Version: 0.6.2
 Architecture: armhf
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 236
-Depends: libc6 (>= 2.34), libcodecserver, libcsdr0 (>= 0.18), libgcc-s1 (>= 3.5), libicu70 (>= 70.1-1~), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 6)
+Installed-Size: 244
+Depends: libc6 (>= 2.34), libcodecserver, libcsdr0 (>= 0.18), libgcc-s1 (>= 3.5), libicu74 (>= 74.1-1~), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
 Filename: ./armhf/libdigiham0_0.6.2_armhf.deb
-Size: 95432
-MD5sum: 8c52d19ded7405ee5c11e79c63d7357d
-SHA1: 3a2860bcaa8390926512b7af2519284e6c6255eb
-SHA256: dae1a7a578295dd15453d70f73f84b7b6723d0b2f14c1e9d5254d73c16a1f60d
+Size: 95516
+MD5sum: bcd8f0138490498bc1caffb3c84c7317
+SHA1: 5bc2b21bb97b46cd43d42ada94a331efdf4edd15
+SHA256: f88f9b42785daf366d9305cb07ca2d89424f16652e4f99ce807f88641a02dd1c
 Section: hamradio
 Priority: optional
 Description: Digiham base library
@@ -879,13 +879,13 @@ Source: digiham
 Version: 0.6.2
 Architecture: arm64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 297
-Depends: libc6 (>= 2.34), libcodecserver, libcsdr0 (>= 0.18), libgcc-s1 (>= 3.3.1), libicu70 (>= 70.1-1~), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 6)
+Installed-Size: 338
+Depends: libc6 (>= 2.34), libcodecserver, libcsdr0 (>= 0.18), libgcc-s1 (>= 3.3.1), libicu74 (>= 74.1-1~), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
 Filename: ./arm64/libdigiham0_0.6.2_arm64.deb
-Size: 96900
-MD5sum: 69382c34082300e581f00499126f4c7c
-SHA1: 4ed395116d4497bd20fc603a6a75c971f74330ff
-SHA256: 42c47a9190b5b0d1751bb1e8ad0ebf5857ff2470f38b90a7e8549c2b49178f5a
+Size: 96146
+MD5sum: 1c6fa85ef696eef718daa9deae47ddca
+SHA1: 78973eb3abea8a67a0f4b37096557bddf6d2fa55
+SHA256: c12a89f1244f7f3f371e3eb874abce9c5816a635903d966e50f3ea824ac2be43
 Section: hamradio
 Priority: optional
 Description: Digiham base library
@@ -898,12 +898,12 @@ Version: 0.6.5
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 119
-Depends: libcsdr0 (>= 0.18), libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 6)
+Depends: libcsdr0 (>= 0.18), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
 Filename: ./amd64/libowrx-connector_0.6.5_amd64.deb
-Size: 31756
-MD5sum: e0a1785e6908292fc45bcc19c40704c4
-SHA1: 42a87d208e87e06a62960b53df775864a402e664
-SHA256: d701bacb251bc16cf7cfb1e9f9c4495da3bfb52b7c12b41574e89478fe8581ec
+Size: 34132
+MD5sum: 4e8caf54e9aea8ea5bd62b082246d909
+SHA1: 50ce3093a42aac2dbcb8148b352fe04ce96188b0
+SHA256: c8f15f7ef3c65307116f76a262097c34c18e2478c31aaed28f2f297f1b590928
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector base library
@@ -915,12 +915,12 @@ Version: 0.6.5
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 70
-Depends: libcsdr0 (>= 0.18), libc6 (>= 2.4), libgcc-s1 (>= 3.5), libstdc++6 (>= 6)
+Depends: libcsdr0 (>= 0.18), libc6 (>= 2.38), libgcc-s1 (>= 3.5), libstdc++6 (>= 13.1)
 Filename: ./armhf/libowrx-connector_0.6.5_armhf.deb
-Size: 25160
-MD5sum: 0f0de36f828744e2f9f3fec46f161fd6
-SHA1: e90e526d09b7e95557e3e57e98de98ecba7b231b
-SHA256: 21eb36b9a6c31f145b932a0638c1dcf5d7dfb35c059ded5c20f115a5edfb6629
+Size: 25396
+MD5sum: c5e12d5e29ef19dc81e89c83e11db8b7
+SHA1: ea56487ed3d57e038e5085dab888271028b0544e
+SHA256: f66af1322247b33798bb2eafc82d1987ff7b4dc09b293c4d0967a708ed31c975
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector base library
@@ -931,13 +931,13 @@ Source: owrx-connector
 Version: 0.6.5
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 86
-Depends: libcsdr0 (>= 0.18), libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 6)
+Installed-Size: 146
+Depends: libcsdr0 (>= 0.18), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
 Filename: ./arm64/libowrx-connector_0.6.5_arm64.deb
-Size: 24800
-MD5sum: 4395e93b7552f5904fc3358bf68c683e
-SHA1: 75632a7fdd6cf65f1c0adb2e69f0afc4f74def0d
-SHA256: 66436f724e2ca168a5d85edb0bd1d2fab30e8494007e4ea63f239d118d94e825
+Size: 25504
+MD5sum: 053373ac63ef0086640539cb8154a14f
+SHA1: a1acee95d11f633eecf2fdb5c217de342b0247e3
+SHA256: a3bc3744b5d5acb2c65857bb589c1070aed5d7aafd64b4568f1f8596cb46fc26
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector base library
@@ -948,13 +948,13 @@ Source: owrx-connector
 Version: 0.6.5
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 33
+Installed-Size: 34
 Depends: libowrx-connector (= 0.6.5), libcsdr-dev (>= 0.18)
 Filename: ./amd64/libowrx-connector-dev_0.6.5_amd64.deb
-Size: 6484
-MD5sum: 18bde761751438efd64ceb823d07cede
-SHA1: 4403bfb2c196197ed33de1d07e63f50910ca1f79
-SHA256: 38e731d1f47ca7bd92b0b42500fa98a3b46c48243c296065b81a4a1f4b8b8eef
+Size: 6516
+MD5sum: f851043abb318e5fc119153e73baeb65
+SHA1: 7fab89fec4b8a520b69e96655076d8002096a349
+SHA256: 418df317ef3d5f339f919ac935b2f316cf24dfc63de826dc28c52d74320f3267
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector base library - development files
@@ -965,13 +965,13 @@ Source: owrx-connector
 Version: 0.6.5
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 33
+Installed-Size: 35
 Depends: libowrx-connector (= 0.6.5), libcsdr-dev (>= 0.18)
 Filename: ./armhf/libowrx-connector-dev_0.6.5_armhf.deb
-Size: 6484
-MD5sum: 17a1ac708982ab55fffb86e9ac67ebd6
-SHA1: b20859cd415f96e6a928ae4c7c492adbf89f3f5a
-SHA256: b9ad02c4563cf6d0b70cfc4d25f49ce1b2868487306e22e36dbafb56ba7a7646
+Size: 6532
+MD5sum: 3200b84ec7b2c161021279d4837d539a
+SHA1: fc5c4a5d3253faaee050d2eb95c6bd7fef38d67b
+SHA256: bf277926e332c32764bfc630bb8af00e044bf246385f479e57624fa95817360e
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector base library - development files
@@ -982,13 +982,13 @@ Source: owrx-connector
 Version: 0.6.5
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 33
+Installed-Size: 34
 Depends: libowrx-connector (= 0.6.5), libcsdr-dev (>= 0.18)
 Filename: ./arm64/libowrx-connector-dev_0.6.5_arm64.deb
-Size: 6476
-MD5sum: c77bf7c700b6bb7c52d89fd7abcb3e87
-SHA1: eec6502cdb0b4a85cc5dbbe710e9f4829fcedf3f
-SHA256: f5ec7e69ee81276b30b94ca50315de8d65f8aff55393c2a5a477b7c409c45cc0
+Size: 6508
+MD5sum: 604ec9c1703fbb21bdec36a7700b25d6
+SHA1: c0f6c947682cb94b83401548bc49c7f4e36425ed
+SHA256: 4e93434489d2e25ba26b3fcca4c0e0f2d16f9c61d86d10d5fa2c4e9f87207fec
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector base library - development files
@@ -1000,13 +1000,13 @@ Version: 0.18.24
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 40
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
 Conflicts: csdr (<= 0.18.0~133)
 Filename: ./amd64/nmux_0.18.24_amd64.deb
-Size: 12268
-MD5sum: 5f4784a30b37d02d1abce97af4add492
-SHA1: d780d77e87e237a63f65ad87352a98a8eca7e995
-SHA256: 5000fb93692607cfdabfaba109d6da8b6c204ba304c1010f2b13b2ad3832e693
+Size: 12464
+MD5sum: d1dc648e260e165e013d36d81eae4ca2
+SHA1: 5192d3130994af00c48b43d942ea4464f1ca78c5
+SHA256: a75cd8c688dc3b81edcd1c46d6eed3058cc46ae0a0afec013da7755b9ddb827c
 Section: hamradio
 Priority: optional
 Description: TCP stream multiplexer
@@ -1019,13 +1019,13 @@ Version: 0.18.24
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 31
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.5), libstdc++6 (>= 4.1.1)
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.5), libstdc++6 (>= 4.1.1)
 Conflicts: csdr (<= 0.18.0~133)
 Filename: ./armhf/nmux_0.18.24_armhf.deb
-Size: 11348
-MD5sum: 3c80750f7985bfa628fff25c80f7a402
-SHA1: 3440d59b2c5e07a86057754de4f8a0728d04d929
-SHA256: 0cb5ae44477b7565c3a65be1db1d9f6583d1b9a1e632f2020f6be8da0f6592de
+Size: 11628
+MD5sum: 243dbb0a5d0a4d9a95499b8b32169790
+SHA1: de399053390a08cbdd7d21e405fc8564a4550b10
+SHA256: 9c6a36107ca6c3b5f76d6f2353b03842c5885bff955d15715635277cdb58cc14
 Section: hamradio
 Priority: optional
 Description: TCP stream multiplexer
@@ -1037,14 +1037,14 @@ Source: csdr
 Version: 0.18.24
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 36
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
+Installed-Size: 84
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
 Conflicts: csdr (<= 0.18.0~133)
 Filename: ./arm64/nmux_0.18.24_arm64.deb
-Size: 11904
-MD5sum: a7ae1a410f1365c6706d87628573c870
-SHA1: 314372b26ca4e58066d3a31ad472e00279dd4e9a
-SHA256: c96bfaf52150a96f97370aaecb1f4090c866afe7cbd7dc3a4a43da67b21d47a1
+Size: 12200
+MD5sum: 5dd711099f34d3a6f3a6fc8e91da3d48
+SHA1: 50e0f6ce18be2f979cb1b4ffe7b81959ed32faf8
+SHA256: a02137c0f767a942212bea5cf8f77cd712b2543052c7817740378902cffba1cb
 Section: hamradio
 Priority: optional
 Description: TCP stream multiplexer
@@ -1055,13 +1055,13 @@ Package: nrsc5
 Version: 0.1
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 940
-Depends: libao4 (>= 1.1.0), libc6 (>= 2.34), libfftw3-single3 (>= 3.3.5), librtlsdr0 (>= 0.6.0)
+Installed-Size: 977
+Depends: libao4 (>= 1.1.0), libc6 (>= 2.38), libfftw3-single3 (>= 3.3.10), librtlsdr2 (>= 2.0.1)
 Filename: ./amd64/nrsc5_0.1_amd64.deb
-Size: 294678
-MD5sum: 4e1822a2fadb90bc67b1108016fd85e5
-SHA1: ac5c1567739c4d0f2695c0e2701018de8dfed72e
-SHA256: e0d4d9704c97ff4f16ed969d771b8fce2330b1b580e8013efa427cbfb1d8286e
+Size: 296186
+MD5sum: dafb7b4f745431306bb3136a28849aaf
+SHA1: 10b15ed03cc7b9658c99ad232bd0f5e4e2f6db64
+SHA256: 9c0e34450b17ad36a520c8463adea99b8dffe5f5c73338396cb9d1f9cb4b8cc3
 Section: hamradio
 Priority: optional
 Description: NRSC5 decoder
@@ -1072,12 +1072,12 @@ Version: 0.1
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 661
-Depends: libao4 (>= 1.1.0), libc6 (>= 2.34), libfftw3-single3 (>= 3.3.5), librtlsdr0 (>= 0.6.0)
+Depends: libao4 (>= 1.1.0), libc6 (>= 2.38), libfftw3-single3 (>= 3.3.10), librtlsdr2 (>= 2.0.1)
 Filename: ./armhf/nrsc5_0.1_armhf.deb
-Size: 220280
-MD5sum: cf1832f3531bc9330aab404ecbf272f7
-SHA1: b9bcb615a5aba7261cb0681ae9af33887aa94c02
-SHA256: dde0e22834ffba726848bc955a19406246beb1e364339da8178f77b8d046ad6f
+Size: 214370
+MD5sum: 32602d3503dd008cd5e28c808a7a9d85
+SHA1: b5d05d1872bb0fade09226acbcd0864322f3e9ab
+SHA256: 36800192fb3b621aae960229f300d167355592ac7a7fea62231c1b9e9f4fca47
 Section: hamradio
 Priority: optional
 Description: NRSC5 decoder
@@ -1087,13 +1087,13 @@ Package: nrsc5
 Version: 0.1
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 829
-Depends: libao4 (>= 1.1.0), libc6 (>= 2.34), libfftw3-single3 (>= 3.3.5), librtlsdr0 (>= 0.6.0)
+Installed-Size: 918
+Depends: libao4 (>= 1.1.0), libc6 (>= 2.38), libfftw3-single3 (>= 3.3.10), librtlsdr2 (>= 2.0.1)
 Filename: ./arm64/nrsc5_0.1_arm64.deb
-Size: 289452
-MD5sum: 10149af2142e0f0488a15e4c4fb04603
-SHA1: 70b220eb9cbb53b1c1e4f0690fe47c060de1e634
-SHA256: 9da0fdccda60baec02048452d6b7cea0b9c625af2974a75b55aa7a2dbddc21bf
+Size: 294640
+MD5sum: 1e135c59142b51af5bd5ec559e122f68
+SHA1: 713d31179879726c1aba27d9bfc8b2c634504a35
+SHA256: a3ef9b92a0b6caff49b2268a0d64c1c10cf4d496ab831e50ddbeeeb62186f2c9
 Section: hamradio
 Priority: optional
 Description: NRSC5 decoder
@@ -1103,14 +1103,14 @@ Package: openwebrx
 Version: 1.2.69
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3299
+Installed-Size: 3300
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.24), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5
 Filename: ./amd64/openwebrx_1.2.69_all.deb
-Size: 981692
-MD5sum: 27da7941ff50605ff4615b76edff6303
-SHA1: 863a80eebd55adc38089d3736c9abda11f41c169
-SHA256: 9858f58f6df82838e69551f34f6baae6be6d3772870949ff83b41fb5cd545d15
+Size: 982048
+MD5sum: 28a55e2cb0bd1cb3c0f81b81ca41f498
+SHA1: 3597d7673e324ee6645d3ffaffa401d26d001147
+SHA256: 097e85361a0cff4a221fc92fe4b36081681510fc8f3ef0298641925b9823ecaf
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -1121,14 +1121,14 @@ Package: openwebrx
 Version: 1.2.69
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3299
+Installed-Size: 3300
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.24), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5
 Filename: ./armhf/openwebrx_1.2.69_all.deb
-Size: 981692
-MD5sum: 27da7941ff50605ff4615b76edff6303
-SHA1: 863a80eebd55adc38089d3736c9abda11f41c169
-SHA256: 9858f58f6df82838e69551f34f6baae6be6d3772870949ff83b41fb5cd545d15
+Size: 982048
+MD5sum: 28a55e2cb0bd1cb3c0f81b81ca41f498
+SHA1: 3597d7673e324ee6645d3ffaffa401d26d001147
+SHA256: 097e85361a0cff4a221fc92fe4b36081681510fc8f3ef0298641925b9823ecaf
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -1139,14 +1139,14 @@ Package: openwebrx
 Version: 1.2.69
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3299
+Installed-Size: 3300
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.24), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5
 Filename: ./arm64/openwebrx_1.2.69_all.deb
-Size: 981692
-MD5sum: 27da7941ff50605ff4615b76edff6303
-SHA1: 863a80eebd55adc38089d3736c9abda11f41c169
-SHA256: 9858f58f6df82838e69551f34f6baae6be6d3772870949ff83b41fb5cd545d15
+Size: 982048
+MD5sum: 28a55e2cb0bd1cb3c0f81b81ca41f498
+SHA1: 3597d7673e324ee6645d3ffaffa401d26d001147
+SHA256: 097e85361a0cff4a221fc92fe4b36081681510fc8f3ef0298641925b9823ecaf
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -1206,13 +1206,13 @@ Source: pycsdr
 Version: 0.18.24
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 193
-Depends: libcsdr0 (>= 0.18.24), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Installed-Size: 197
+Depends: libcsdr0 (>= 0.18.24), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
 Filename: ./amd64/python3-csdr_0.18.24_amd64.deb
-Size: 38028
-MD5sum: 682c5e630cae3510c8223a31b711a46e
-SHA1: 040284fa91c178599fb2b504993b66b0fa79e0dc
-SHA256: f7e6deaf8a39b0bc7a7339cb00f968a80eb6df02d0a691f28b4d8c89a7defdb2
+Size: 38728
+MD5sum: 713ea8aef31e149cbc862400b16d9728
+SHA1: 3eb022db6fbc7ccb56f27b120b098dce00a72729
+SHA256: f8439cd42e81242063bf94619c1e1a8d9a11ed21e67a993b317d8c1b955c735e
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr
@@ -1224,13 +1224,13 @@ Source: pycsdr
 Version: 0.18.24
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 144
-Depends: libcsdr0 (>= 0.18.24), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.4), libgcc-s1 (>= 3.5), libstdc++6 (>= 11)
+Installed-Size: 148
+Depends: libcsdr0 (>= 0.18.24), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.4), libgcc-s1 (>= 3.5), libstdc++6 (>= 11)
 Filename: ./armhf/python3-csdr_0.18.24_armhf.deb
-Size: 36532
-MD5sum: e264be6a5f067122c9171c9a79fbe3ed
-SHA1: 3910467d0101875ab3bb91e6dc9d4b1dc37cfb4c
-SHA256: e8adc38140fb919a4e311875ab9742c3f5a0fb058aa97a612e51c3d83f04e613
+Size: 37144
+MD5sum: c257d8c05ad1cd929b4b2878107de229
+SHA1: 4e88e7b297fc7645dd81f8855b606c11bb73c733
+SHA256: 30d0f0a9008f2c910c68a90c3fb526770509c340b8502e77dd676f2916918f56
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr
@@ -1242,13 +1242,13 @@ Source: pycsdr
 Version: 0.18.24
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 189
-Depends: libcsdr0 (>= 0.18.24), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Installed-Size: 241
+Depends: libcsdr0 (>= 0.18.24), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
 Filename: ./arm64/python3-csdr_0.18.24_arm64.deb
-Size: 35720
-MD5sum: bc8c99d83c3ed3abb57d196a775afab9
-SHA1: c19d93b143d26753c27da5e23d48473f7079662d
-SHA256: a50fa01f017442dc5065432f68ffe787dbb7d6382e849aec8dc7c3ab50580c7a
+Size: 36308
+MD5sum: 5a8519a74ed5a3fed9b6d8a6206cf463
+SHA1: a960f62f7f128c6c790acbedfa4c33fb5f4b90f0
+SHA256: 2331e7ce229d21f29b5c95b5aaf3712e07613c4f9a97fad77e973a336189ea86
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr
@@ -1260,13 +1260,13 @@ Source: pycsdr-eti
 Version: 0.0.11
 Architecture: amd64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 54
-Depends: libcsdr-eti0 (>= 0.0.11), python3 (<< 3.11), python3 (>= 3.10~), python3-csdr, python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
+Installed-Size: 50
+Depends: libcsdr-eti0 (>= 0.0.11), python3 (<< 3.13), python3 (>= 3.12~), python3-csdr, python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
 Filename: ./amd64/python3-csdr-eti_0.0.11_amd64.deb
-Size: 11774
-MD5sum: 1d774a0827d5bf371a337df9274fac6e
-SHA1: 518467b8591344503c21adece9a9d523cd32a901
-SHA256: 58e8dbb01b192d64566fc96235af8b0cd38b4a1211dc4d939c1f6b8cdc1ee1f0
+Size: 11500
+MD5sum: c438b8444ad5738952a4c758a7a4a73d
+SHA1: a3f933d9ce93ff2f4c19ce28ec98a24e3057c784
+SHA256: f029bf9e9e52eadef175c6d9fb669b676b5a6fc3620ea4ae32a4719ec5d77306
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr-eti
@@ -1278,13 +1278,13 @@ Source: pycsdr-eti
 Version: 0.0.11
 Architecture: armhf
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 40
-Depends: libcsdr-eti0 (>= 0.0.11), python3 (<< 3.11), python3 (>= 3.10~), python3-csdr, python3:any, libc6 (>= 2.4), libgcc-s1 (>= 3.5), libstdc++6 (>= 5.2)
+Installed-Size: 36
+Depends: libcsdr-eti0 (>= 0.0.11), python3 (<< 3.13), python3 (>= 3.12~), python3-csdr, python3:any, libc6 (>= 2.4), libgcc-s1 (>= 3.5), libstdc++6 (>= 5.2)
 Filename: ./armhf/python3-csdr-eti_0.0.11_armhf.deb
-Size: 10320
-MD5sum: 819e6ee353a37c346b4c382b6b1c6bce
-SHA1: 3adfc5e4735750bfdf44ef1c57a2ec69727b3465
-SHA256: 6eab7b29f54fc7e424dd1d7df0134c5422ccfab19a7c6413eb1687d9f5a19ac3
+Size: 10480
+MD5sum: 96c5532a7e88a61781c861c175d0e722
+SHA1: a88849465e2d9946b6917da3ba3a554069a9d8dc
+SHA256: 58475c1ce46813ea0bd998520df4308660f8aac8c6d01532fb5f4f4c55d2daf0
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr-eti
@@ -1296,13 +1296,13 @@ Source: pycsdr-eti
 Version: 0.0.11
 Architecture: arm64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 45
-Depends: libcsdr-eti0 (>= 0.0.11), python3 (<< 3.11), python3 (>= 3.10~), python3-csdr, python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
+Installed-Size: 85
+Depends: libcsdr-eti0 (>= 0.0.11), python3 (<< 3.13), python3 (>= 3.12~), python3-csdr, python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
 Filename: ./arm64/python3-csdr-eti_0.0.11_arm64.deb
-Size: 11072
-MD5sum: b698cc1bbead88f05020d58420d9755b
-SHA1: cdfd3c513a14bf05a19f4af829cf686015ee9929
-SHA256: a3c4dced1bec41e54afcae4a65920a7491df518b2f31e681071a8507d702385a
+Size: 10946
+MD5sum: 0414c973c6650bcc4347b8a9656dfbe1
+SHA1: efe1249f1b025b7c29d4bfe4baf153e6dc1d4970
+SHA256: ade1e4f5a3b54e4bd54398059bee32685d2a83e51d55fa0d52bed7242e68aa1d
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr-eti
@@ -1315,12 +1315,12 @@ Version: 0.6.2
 Architecture: amd64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 68
-Depends: libdigiham0 (>= 0.6), python3-csdr (>= 0.18), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
+Depends: libdigiham0 (>= 0.6), python3-csdr (>= 0.18), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
 Filename: ./amd64/python3-digiham_0.6.2_amd64.deb
-Size: 16200
-MD5sum: c0803566e4e6e0fcec19a7a1dc1101a6
-SHA1: cb7b0a36ebcc636beb75a80a161f04ed421ed05e
-SHA256: bf5904d53492adcb5fb1cb63fc5b8cfec59adce51b0817dd4a25bad2e2784e19
+Size: 16398
+MD5sum: bce74c0c090b6eb88802b9af75a171a3
+SHA1: fcb5d2c6560bcb94c0787875cf2841c513073115
+SHA256: 540e866270324e881ce2d078e2fa531e0263ad043adf8c95841938312afde6b3
 Section: hamradio
 Priority: optional
 Description: Python bindings for the digiham library
@@ -1332,12 +1332,12 @@ Version: 0.6.2
 Architecture: armhf
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 50
-Depends: libdigiham0 (>= 0.6), python3-csdr (>= 0.18), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.4), libgcc-s1 (>= 3.5), libstdc++6 (>= 5.2)
+Depends: libdigiham0 (>= 0.6), python3-csdr (>= 0.18), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.38), libgcc-s1 (>= 3.5), libstdc++6 (>= 13.1)
 Filename: ./armhf/python3-digiham_0.6.2_armhf.deb
-Size: 14420
-MD5sum: a6d8927e01386e3cceaba4dc6e05d949
-SHA1: e99cee40855d5be92143b54c525059b0086f2ec3
-SHA256: e5602c97f89bc231e2d90da96cd4f60634020bde1217e495344c76a9204fd2e7
+Size: 14752
+MD5sum: 536b8e20c87c4d220553728d4aea14f5
+SHA1: 802e0c9a209104d3dd54e915907dcc4278552108
+SHA256: 23b01dff66507171417c55676032009528de2d7ea475d80323bb02beec435947
 Section: hamradio
 Priority: optional
 Description: Python bindings for the digiham library
@@ -1348,13 +1348,13 @@ Source: pydigiham
 Version: 0.6.2
 Architecture: arm64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 63
-Depends: libdigiham0 (>= 0.6), python3-csdr (>= 0.18), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
+Installed-Size: 91
+Depends: libdigiham0 (>= 0.6), python3-csdr (>= 0.18), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
 Filename: ./arm64/python3-digiham_0.6.2_arm64.deb
-Size: 15488
-MD5sum: 59fefdb70d3d128b6b7df4866c47bbc9
-SHA1: 8bad2e4fb2dc97aac39e5ff94cb42982976e9e8b
-SHA256: 5b6683efce78e3f66579dd76d8da2ef5626319eb3a6014aafb6dcbd33e399ea2
+Size: 15716
+MD5sum: 494304c37aef273789a20728c718e10a
+SHA1: 25af444e826b34a4e71ecd90c4c78878445a8bc3
+SHA256: 6665b5fdaea2a3e293d17a196f0a9c68d5fe6a748f154dbf6e45d33f7729e1c2
 Section: hamradio
 Priority: optional
 Description: Python bindings for the digiham library
@@ -1368,10 +1368,10 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 2421
 Depends: python3 (>= 3.5), python3-pkg-resources, python3:any
 Filename: ./amd64/python3-js8py_0.1.1_all.deb
-Size: 1040122
-MD5sum: a9cbe6817e493f4c67ca4f75d37c107b
-SHA1: 1d176bee36e51afa8b937107752cf3dddd0ab69d
-SHA256: 383fb8208da25936022adb904bfca2fc876ea2056d921b189eddb8833b4e2556
+Size: 1031952
+MD5sum: d2cd429a2c484969dc1ec6aa24398022
+SHA1: 1da17d3284358b7b6506ff3e2f5e74fbce35d305
+SHA256: 4e2e535e63f5b86f749b118cd0a30a2d824a9b11046096a4f63fc7a07b5fd25f
 Section: hamradio
 Priority: optional
 Description: JS8 frame parser
@@ -1385,10 +1385,10 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 2421
 Depends: python3 (>= 3.5), python3-pkg-resources, python3:any
 Filename: ./armhf/python3-js8py_0.1.1_all.deb
-Size: 1040122
-MD5sum: a9cbe6817e493f4c67ca4f75d37c107b
-SHA1: 1d176bee36e51afa8b937107752cf3dddd0ab69d
-SHA256: 383fb8208da25936022adb904bfca2fc876ea2056d921b189eddb8833b4e2556
+Size: 1031952
+MD5sum: d2cd429a2c484969dc1ec6aa24398022
+SHA1: 1da17d3284358b7b6506ff3e2f5e74fbce35d305
+SHA256: 4e2e535e63f5b86f749b118cd0a30a2d824a9b11046096a4f63fc7a07b5fd25f
 Section: hamradio
 Priority: optional
 Description: JS8 frame parser
@@ -1402,10 +1402,10 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 2421
 Depends: python3 (>= 3.5), python3-pkg-resources, python3:any
 Filename: ./arm64/python3-js8py_0.1.1_all.deb
-Size: 1040122
-MD5sum: a9cbe6817e493f4c67ca4f75d37c107b
-SHA1: 1d176bee36e51afa8b937107752cf3dddd0ab69d
-SHA256: 383fb8208da25936022adb904bfca2fc876ea2056d921b189eddb8833b4e2556
+Size: 1031952
+MD5sum: d2cd429a2c484969dc1ec6aa24398022
+SHA1: 1da17d3284358b7b6506ff3e2f5e74fbce35d305
+SHA256: 4e2e535e63f5b86f749b118cd0a30a2d824a9b11046096a4f63fc7a07b5fd25f
 Section: hamradio
 Priority: optional
 Description: JS8 frame parser
@@ -1415,13 +1415,13 @@ Package: redsea
 Version: 0.21
 Architecture: amd64
 Maintainer: Oona Räisänen <oh2eiq@pm.me>
-Installed-Size: 1264
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libliquid2d, libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
+Installed-Size: 1220
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libliquid1 (>= 1.6.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 13.1)
 Filename: ./amd64/redsea_0.21_amd64.deb
-Size: 215542
-MD5sum: 7a6fff58a23f5d9860386b3f596b6073
-SHA1: 06ab2b3e215b9cf53ce4ca3a085f682d769ab2df
-SHA256: b3407141b81d810d99e536d169e71d35f8c71302014d248a8a7d969672aa8ca1
+Size: 203070
+MD5sum: d37033c0648426bc1c908cfec691e8aa
+SHA1: 7848f9605bccb0ef0e90fe1126393c615bcab661
+SHA256: c1fe796cd8cffce5b45ede09ce5eab9dffc6919cd992eeaf0c7252cc079a6e42
 Section: hamradio
 Priority: optional
 Description: RDS (Radio Data System) decoder
@@ -1432,13 +1432,13 @@ Package: redsea
 Version: 0.21
 Architecture: armhf
 Maintainer: Oona Räisänen <oh2eiq@pm.me>
-Installed-Size: 1100
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.5), libliquid2d, libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
+Installed-Size: 1074
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.5), libliquid1 (>= 1.6.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 13.1)
 Filename: ./armhf/redsea_0.21_armhf.deb
-Size: 245272
-MD5sum: b2091d704e4abc212269db42e7e35187
-SHA1: a9a504273412f39659730ae3433987d2d8e37d9b
-SHA256: 738eb1b2c656ec274941f7f580b9e5759a8ed97ea1c3912c93305f5728eabd72
+Size: 236746
+MD5sum: ccc64ceb900980bda5742bd250e4cfc9
+SHA1: 71b986fbeace855ed50f0fabfb5258ac4c4d3afa
+SHA256: 3b582db3b355612c322e6b0f0ec598cf38a4fdb6c742658cd2d00f53d76bcf22
 Section: hamradio
 Priority: optional
 Description: RDS (Radio Data System) decoder
@@ -1449,13 +1449,13 @@ Package: redsea
 Version: 0.21
 Architecture: arm64
 Maintainer: Oona Räisänen <oh2eiq@pm.me>
-Installed-Size: 1110
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libliquid2d, libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
+Installed-Size: 1364
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libliquid1 (>= 1.6.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 13.1)
 Filename: ./arm64/redsea_0.21_arm64.deb
-Size: 207700
-MD5sum: fa1dba3823f3757aa4bead12e9e1d436
-SHA1: 58eac36009ff5eab4ba3f4a3e465efa6532e80c9
-SHA256: a8aba0759f22a079f5a7189cb26531e2864925fd4351bd582ab3ad0d00ec6979
+Size: 192964
+MD5sum: 30e69cf40497beefe77d2474e7f1528c
+SHA1: 8ae18fe05c77377dcb34306089d2ce3915654744
+SHA256: 03ff22ecef678ed077638a6ae2bc2bbd7fcfe61eb21550d28950b6fdc5398bde
 Section: hamradio
 Priority: optional
 Description: RDS (Radio Data System) decoder
@@ -1468,13 +1468,13 @@ Version: 0.6.5
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 46
-Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), librtlsdr0 (>= 0.6.0), libstdc++6 (>= 5.2)
+Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), librtlsdr2 (>= 2.0.1), libstdc++6 (>= 13.1)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./amd64/rtl-connector_0.6.5_amd64.deb
-Size: 11924
-MD5sum: eacccfa4ecac4711ae525a82e96d3a45
-SHA1: 946c435cd3a3b0cfc19912ba66df9f123f5d8c27
-SHA256: 63fea0291e32ac6587b2eeb61be037db99701b6effaa2f0cfce5693ad10753e1
+Size: 11912
+MD5sum: 44a1382863ca2025dbca627f9d4506ca
+SHA1: d93915077b5b7ba0c342f3a5e770f25712c8c07b
+SHA256: 168a0c4ffbfcc228fd0a0adf98ac2f47dfc3dec72d0e1d371a69938f5b0dce28
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for RTL-SDR devices
@@ -1486,13 +1486,13 @@ Version: 0.6.5
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 33
-Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.34), libgcc-s1 (>= 3.5), librtlsdr0 (>= 0.6.0), libstdc++6 (>= 5.2)
+Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.38), libgcc-s1 (>= 3.5), librtlsdr2 (>= 2.0.1), libstdc++6 (>= 13.1)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./armhf/rtl-connector_0.6.5_armhf.deb
-Size: 10676
-MD5sum: b454768a2597ab639d57e2ef9a1585a5
-SHA1: 2a2be0dd734e953488d5bfe85d766767bf39b2b7
-SHA256: 1a9717141d216c7faa9fbbdadad7e2fb7b8a18f81f7f591a156d5d40caf55875
+Size: 10708
+MD5sum: 1f66cc0b9acbf8c215b91dc91d3cc61f
+SHA1: 1886edb442d7e6e7e409f0e70e2177811b13e06c
+SHA256: 79f69efc76634e7264b2181eff36f0094ddcce10a3a110ce44aebc59a1cbe10a
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for RTL-SDR devices
@@ -1503,14 +1503,14 @@ Source: owrx-connector
 Version: 0.6.5
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 42
-Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), librtlsdr0 (>= 0.6.0), libstdc++6 (>= 5.2)
+Installed-Size: 78
+Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), librtlsdr2 (>= 2.0.1), libstdc++6 (>= 13.1)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./arm64/rtl-connector_0.6.5_arm64.deb
-Size: 11264
-MD5sum: 4093dc5032856271e8070293a6c7908e
-SHA1: e1caa8fcb5fcfa2d8bd167db11f700c3c0007f6b
-SHA256: 9dd4a0883f9a6855c2e3e84a6a43c1f161ca84e06608477f91ce64e9c1422c2a
+Size: 11516
+MD5sum: 3d6114ad5642ac4cd295fbf70b665c47
+SHA1: 71b51f616fb6b256be37f093ce031ab4f2b44573
+SHA256: 1a47fb90753717f2586b3cb19fa99956462e28df01fca0d137852e7a66a026c3
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for RTL-SDR devices
@@ -1521,14 +1521,14 @@ Source: owrx-connector
 Version: 0.6.5
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 46
-Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
+Installed-Size: 42
+Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./amd64/rtl-tcp-connector_0.6.5_amd64.deb
-Size: 11200
-MD5sum: fa6bb04e63d5dd5bba4850dee916234d
-SHA1: 6984730096a647f36d951f1da931bdea27a3ce97
-SHA256: 53ddde48157e2af6f40d7de5a2793f73c37493f38d1c8317084fb5b8e5d783de
+Size: 11312
+MD5sum: 5933b225fcacd4f4fe77aef3d2103de1
+SHA1: 50395234690d16af75419440afe368f087ced532
+SHA256: d55ee0c540ca2ae8844ae4e84ed94890668af92de1d28f1852df46d21da1cc7e
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for rtl_tcp remote devices
@@ -1540,14 +1540,14 @@ Source: owrx-connector
 Version: 0.6.5
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 29
-Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.34), libgcc-s1 (>= 3.5), libstdc++6 (>= 5.2)
+Installed-Size: 33
+Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.38), libgcc-s1 (>= 3.5), libstdc++6 (>= 13.1)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./armhf/rtl-tcp-connector_0.6.5_armhf.deb
-Size: 10212
-MD5sum: cdc59a99f84a72818c86bda24c1b3ac2
-SHA1: 2c60da9bdd551c5863a0f1a18c11bbb223e36ced
-SHA256: b308b979bdaceff18f2af2f8c71b347701312f192d767076be025a473171a07a
+Size: 10416
+MD5sum: f7401b98193c7f6cd3419eb272230752
+SHA1: 88da4b3e1fd493ebf04c1ed991acf348b083adc7
+SHA256: 5431051163d7e2e18b8a0fb87b5bbef81297b640fff00a4f1061349f1f8f2323
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for rtl_tcp remote devices
@@ -1559,14 +1559,14 @@ Source: owrx-connector
 Version: 0.6.5
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 38
-Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
+Installed-Size: 78
+Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./arm64/rtl-tcp-connector_0.6.5_arm64.deb
-Size: 10700
-MD5sum: 8f2ba616c535598e49c058ff09de40e7
-SHA1: 148c99315e087a9eeec327d260e03d56fc2be7d4
-SHA256: 2f2be023885696f1fa3c1133986ffcb257819a9ebdcabae4ef4c61fa47943525
+Size: 11028
+MD5sum: ea1ca5401b168acd5fcbb4f294ab50fe
+SHA1: 3725bd95d02b4e20a203d0691cd9e3c0d583b15b
+SHA256: fa77085feddc40643e16df89072355ea8600fff35ed15abadcafa9a5741181e4
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for rtl_tcp remote devices
@@ -1579,13 +1579,13 @@ Version: 0.6.5
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 54
-Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 5.2)
+Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./amd64/soapy-connector_0.6.5_amd64.deb
-Size: 15348
-MD5sum: 10120e0edbb47c9ba6289f20992ae68c
-SHA1: 34c7de56f0fc04b4893ee0984ce4cb7cc5362cba
-SHA256: c954da66eff19cd423cc1ad732ba8fe7d530914b20db93c4e83081f4fbfdb658
+Size: 15128
+MD5sum: 4498ea1a31e4385bc992324a50a042c6
+SHA1: 22618c8e923513e43402353021145c18dcaa8a68
+SHA256: 7bab44b34b90c9e2701436c94c8578286f8478ae24edc729740c5415b08ff225
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for SoapySDR devices
@@ -1597,13 +1597,13 @@ Version: 0.6.5
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 37
-Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.34), libgcc-s1 (>= 3.5), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 5.2)
+Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.38), libgcc-s1 (>= 3.5), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./armhf/soapy-connector_0.6.5_armhf.deb
-Size: 13308
-MD5sum: 5113c91db57b606f0d8b0c4080747446
-SHA1: 078d9f93840cfe0ee6b2ac891a44933c0a16d389
-SHA256: 67cb1fba945ae1d122e6bd3e48c54550f1eb05236857e96cd361c46c08a20442
+Size: 13304
+MD5sum: 7634c3af98f130ed71a338164a4726ca
+SHA1: bb4c1dde608c6e04ff2685074a8b94983383348b
+SHA256: 30df86d2583cad01cf054e5107c18b1491fb27709fa7c3c277835e007c328217
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for SoapySDR devices
@@ -1614,14 +1614,14 @@ Source: owrx-connector
 Version: 0.6.5
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 46
-Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 5.2)
+Installed-Size: 78
+Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./arm64/soapy-connector_0.6.5_arm64.deb
-Size: 13968
-MD5sum: 14ecbf94e97f5274f3e9d31b49347a78
-SHA1: e69e17a1c56bbe3abec8c2aa9ef7cc4bd8240ac3
-SHA256: 7eebcba5ec5a2ca20395abc4ce0aa6fb02c164e1e45451d21ac9d2412a0e13f3
+Size: 14364
+MD5sum: 4883ebc3f586da73bfe141416f65d7b2
+SHA1: 83bc3e4e7023b6c8448be90ae78a4c1d07a3261a
+SHA256: 320edb5742522292dff8cd33daf20448add0ef08cc47c50d49fc7933cb54731d
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for SoapySDR devices
@@ -1695,13 +1695,13 @@ Source: soapysdrplay3
 Version: 0.8.10
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 147
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
+Installed-Size: 151
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1)
 Filename: ./amd64/soapysdr0.8-module-sdrplay3_0.8.10_amd64.deb
-Size: 48496
-MD5sum: 8e293b92d6d9b26c9f55a443664d01f5
-SHA1: 91f43175fa3c4b2b3225f45ac811ffd16de04070
-SHA256: c04e0a5e9ae5cf89d201fd34c37d4b41cb26b7cf69a511ae1242a0d22a860656
+Size: 50156
+MD5sum: 6d5ba8233c1831fe0ccc7c7a252657c7
+SHA1: d8031801ce502e74731902e57c53e513516ac543
+SHA256: 919cde502d548e37581971d5e5ec5f1d10fa78a8890533b285e81cea305c6573
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1714,13 +1714,13 @@ Source: soapysdrplay3
 Version: 0.8.10
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 106
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.5), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
+Installed-Size: 110
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.5), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1)
 Filename: ./armhf/soapysdr0.8-module-sdrplay3_0.8.10_armhf.deb
-Size: 44176
-MD5sum: 5e1d8abf926316ed6b73b216b79ad5a0
-SHA1: 2ba7fb8b6c3e4fd888212ecebbbe35503e308015
-SHA256: 051694fe9a24749639dcded83f746b3f3d1fdc235adc92ea6a02fba5c99ca345
+Size: 45172
+MD5sum: 7b2e823c55b78d2d1a1fb145afde780f
+SHA1: de73bc42a83d6e228858a66a10e624e4a9aefeee
+SHA256: 9f64be4c5dd89a784edccf928993975314f5b21f564c42c730acbbf66ad9a36c
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -1733,13 +1733,13 @@ Source: soapysdrplay3
 Version: 0.8.10
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 132
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
+Installed-Size: 156
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1)
 Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.10_arm64.deb
-Size: 42760
-MD5sum: c83fa9464cfbc02c503eef093cc0f37a
-SHA1: 849ffc4e7da1876aeab7edc1162d4602875d4d48
-SHA256: 32d355e4d7c216625299bfdac1ab9353ed48b2745e8d4171811f95010aff0082
+Size: 43948
+MD5sum: bb7611c934c8c696a727658b206c81f4
+SHA1: b189faacab972f82de6c7e0f5b0c821cdfdbfe57
+SHA256: d49745942c5f19e27a2fe1eb4cfbfb43ba406e773b95facb4766a1981fbcb961
 Section: libs
 Priority: optional
 Multi-Arch: same
