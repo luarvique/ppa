@@ -52,6 +52,60 @@ Description: ACARS SDR decoder
  Acarsdec is a multi-channels acars decoder with built-in rtl_sdr, airspy front
  end or sdrplay device.
 
+Package: acarsdec
+Version: 3.7-2
+Architecture: amd64
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 93
+Depends: libacars2 (>= 2.2.0), libc6 (>= 2.34), libsndfile1 (>= 1.0.20)
+Filename: ./amd64/acarsdec_3.7-2_amd64.deb
+Size: 34684
+MD5sum: b4b1b42e3898643706dc9b77a253ab52
+SHA1: 82297b1398115bb5daffe8ce83e0ba24dd6f90ae
+SHA256: f2b4cfdf6d0b6308ca960c27e26debe4e33d64762bf855ab61ca400e66d492ad
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/TLeconte/acarsdec
+Description: ACARS SDR decoder
+ Acarsdec is a multi-channels acars decoder with built-in rtl_sdr, airspy front
+ end or sdrplay device.
+
+Package: acarsdec
+Version: 3.7-2
+Architecture: armhf
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 60
+Depends: libacars2 (>= 2.2.0), libc6 (>= 2.34)
+Filename: ./armhf/acarsdec_3.7-2_armhf.deb
+Size: 29564
+MD5sum: c0c489782bedc052776f52d67ed63cf6
+SHA1: 701c3976e57916e3e86294384f229d9d381b25c9
+SHA256: cf3399e3f6f22201fed98f926e0f655e314fbcbdba41caa32c03ff583684740d
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/TLeconte/acarsdec
+Description: ACARS SDR decoder
+ Acarsdec is a multi-channels acars decoder with built-in rtl_sdr, airspy front
+ end or sdrplay device.
+
+Package: acarsdec
+Version: 3.7-2
+Architecture: arm64
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 141
+Depends: libacars2 (>= 2.2.0), libc6 (>= 2.34), libsndfile1 (>= 1.0.20)
+Filename: ./arm64/acarsdec_3.7-2_arm64.deb
+Size: 33528
+MD5sum: fa30925c3cad76016f5c96f39e9de9d9
+SHA1: f50f8adad05b9232d3ce4ab56fbab2e231c93d86
+SHA256: acbfa5cb09326669fae92c89a5ce2a99cf042b9705fb12f120c34b1100172e2b
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/TLeconte/acarsdec
+Description: ACARS SDR decoder
+ Acarsdec is a multi-channels acars decoder with built-in rtl_sdr, airspy front
+ end or sdrplay device.
+
 Package: acarsdec-dbgsym
 Source: acarsdec
 Version: 3.7-1
@@ -105,6 +159,60 @@ Section: debug
 Priority: optional
 Description: debug symbols for acarsdec
 Build-Ids: 6c65c7f6e196245e97bb3932ffe2cadd0d9df719
+
+Package: acarsdec-dbgsym
+Source: acarsdec
+Version: 3.7-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 109
+Depends: acarsdec (= 3.7-2)
+Filename: ./amd64/acarsdec-dbgsym_3.7-2_amd64.deb
+Size: 91424
+MD5sum: 4ab7895930a7fbf4131e9f1186df02be
+SHA1: d11c38fc26d548ca413e406c69bf12014d42b203
+SHA256: 67776c34342c6d59f9887e33965444bcb19b3e1d136b89bfbd0307b96f130eca
+Section: debug
+Priority: optional
+Description: debug symbols for acarsdec
+Build-Ids: 4d8015849a0f404191e38e78813a1435edf348ee
+
+Package: acarsdec-dbgsym
+Source: acarsdec
+Version: 3.7-2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 110
+Depends: acarsdec (= 3.7-2)
+Filename: ./armhf/acarsdec-dbgsym_3.7-2_armhf.deb
+Size: 91748
+MD5sum: 15ac65349b677732ac5fa88cc5e6eae9
+SHA1: 9661015c21e41b2c858a9e4979bcfeffc4d3f0a7
+SHA256: 57d6b05f123e02bec018b1dbdb66da81eb502f582e0dd5a797c644fec3e69f39
+Section: debug
+Priority: optional
+Description: debug symbols for acarsdec
+Build-Ids: 7a4dcf70e84881e3e0a6784059acc38c0f4e6326
+
+Package: acarsdec-dbgsym
+Source: acarsdec
+Version: 3.7-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
+Installed-Size: 113
+Depends: acarsdec (= 3.7-2)
+Filename: ./arm64/acarsdec-dbgsym_3.7-2_arm64.deb
+Size: 93284
+MD5sum: 5613e89a693c20b45a86db39240baaf8
+SHA1: b14aebb7c583bd4f28b2ad79cce920107d742e1a
+SHA256: 02769102211a5147eb2e1bfe4e51f7958d505d5b33be801670eb12d00c83f42b
+Section: debug
+Priority: optional
+Description: debug symbols for acarsdec
+Build-Ids: 9fd0b6c50ff4539418660e2effeb57ebf3f713bd
 
 Package: aprs-symbols
 Version: 0.0.1-4~31.gbpef2289
