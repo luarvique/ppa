@@ -576,6 +576,42 @@ Description: Python bindings for libcsdr
  Offers a variety of modules from the csdr software defined radio library for
  digital processing of radio transmission.
 
+Package: python3-csdr
+Source: pycsdr
+Version: 0.18.26
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 193
+Depends: libcsdr0 (>= 0.18.25), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Filename: ./amd64/python3-csdr_0.18.26_amd64.deb
+Size: 38080
+MD5sum: f5ad53ca92c9af149a80ff8532935c7a
+SHA1: 90ba7f99ec2acd8778e2dae6d16db1e87f0f5693
+SHA256: ef7e1009ce53b5c855925f3b9eef19e4cad5c14dd39a774da63ea549ad24a56f
+Section: hamradio
+Priority: optional
+Description: Python bindings for libcsdr
+ Offers a variety of modules from the csdr software defined radio library for
+ digital processing of radio transmission.
+
+Package: python3-csdr
+Source: pycsdr
+Version: 0.18.26
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 189
+Depends: libcsdr0 (>= 0.18.25), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Filename: ./arm64/python3-csdr_0.18.26_arm64.deb
+Size: 36096
+MD5sum: 7c3d4d9720486a6d148ddd59ce4a47c7
+SHA1: 902b0ecc6764a82ea055a7f582ed1bee17cc31e0
+SHA256: ec1487cccd532887304347be90f06e96e1b82f1a8a62a6a9ffd6b9dd74697061
+Section: hamradio
+Priority: optional
+Description: Python bindings for libcsdr
+ Offers a variety of modules from the csdr software defined radio library for
+ digital processing of radio transmission.
+
 Package: python3-csdr-eti
 Source: pycsdr-eti
 Version: 0.0.11
