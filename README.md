@@ -55,54 +55,54 @@ In order to **upgrade from a previous OpenWebRX+** version, do the following, **
     apt upgrade
 
 # If you are an Ubuntu 22.04 user ...
-In order to add this repository to your **Ubuntu 22.04** system, do the following, **as root**:
+In order to add this repository to your **Ubuntu 22.04** system, do the following (if asked to type in your password, it is expected - do so):
 
-    wget -O - https://luarvique.github.io/ppa/openwebrx-plus.gpg | gpg --dearmor -o /etc/apt/trusted.gpg.d/openwebrx-plus.gpg
-    echo "deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/ubuntu ./" > /etc/apt/sources.list.d/openwebrx-plus.list
-    apt update
+    curl -s https://luarvique.github.io/ppa/openwebrx-plus.gpg | sudo gpg --yes --dearmor -o /etc/apt/trusted.gpg.d/openwebrx-plus.gpg
+    sudo tee /etc/apt/sources.list.d/openwebrx-plus.list <<<"deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/ubuntu ./"
+    sudo apt update
 
-You should also have the original OpenWebRX repository added, since it contains some necessary packages. In order to add the original OpenWebRX repository to your **Ubuntu 22.04** system, do the following, **as root**:
+You should also have the original OpenWebRX repository added, since it contains some necessary packages. In order to add the original OpenWebRX repository to your **Ubuntu 22.04** system, do the following:
 
-    wget -O - https://repo.openwebrx.de/debian/key.gpg.txt | gpg --dearmor -o /usr/share/keyrings/openwebrx.gpg
-    echo "deb [signed-by=/usr/share/keyrings/openwebrx.gpg] https://repo.openwebrx.de/ubuntu/ jammy main" > /etc/apt/sources.list.d/openwebrx.list
-    apt update
+    curl -s https://repo.openwebrx.de/debian/key.gpg.txt | sudo gpg --yes --dearmor -o /usr/share/keyrings/openwebrx.gpg
+    sudo tee /etc/apt/sources.list.d/openwebrx.list <<<"deb [signed-by=/usr/share/keyrings/openwebrx.gpg] https://repo.openwebrx.de/ubuntu/ jammy main"
+    sudo apt update
 
 # If you are an Ubuntu 24.04 user ...
-If you have a **Ubuntu 24.04** system, there is now an experimental OpenWebRX+ build available for you. Do the following, **as root**:
+If you have a **Ubuntu 24.04** system, there is now an experimental OpenWebRX+ build available for you. Do the following (if asked to type in your password, it is expected - do so):
 
-    wget -O - https://luarvique.github.io/ppa/openwebrx-plus.gpg | gpg --dearmor -o /etc/apt/trusted.gpg.d/openwebrx-plus.gpg
-    echo "deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/noble ./" > /etc/apt/sources.list.d/openwebrx-plus.list
-    apt update
+    curl -s https://luarvique.github.io/ppa/openwebrx-plus.gpg | sudo gpg --yes --dearmor -o /etc/apt/trusted.gpg.d/openwebrx-plus.gpg
+    sudo tee /etc/apt/sources.list.d/openwebrx-plus.list <<<"deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/noble ./"
+    sudo apt update
 
 **Ubuntu 24.04** users **must not** add the original OpenWebRX repository to their system, since it contains Ubuntu 22.04 packages.   
 
 # If you are a Debian Bullseye user ...
-In order to add this repository to your **Debian Bullseye** system, do the following, **as root**:
+In order to add this repository to your **Debian Bullseye** system, do the following (if asked to type in your password, it is expected - do so):
 
-    wget -O - https://luarvique.github.io/ppa/openwebrx-plus.gpg | gpg --dearmor -o /etc/apt/trusted.gpg.d/openwebrx-plus.gpg
-    echo "deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/debian ./" > /etc/apt/sources.list.d/openwebrx-plus.list
-    apt update
+    curl -s https://luarvique.github.io/ppa/openwebrx-plus.gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/openwebrx-plus.gpg
+    sudo tee /etc/apt/sources.list.d/openwebrx-plus.list <<<"deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/debian ./"
+    sudo apt update
 
-You should also have the original OpenWebRX repository added, since it contains some necessary packages. In order to add the original OpenWebRX repository to your **Debian Bullseye** system, do the following, **as root**:
+You should also have the original OpenWebRX repository added, since it contains some necessary packages. In order to add the original OpenWebRX repository to your **Debian Bullseye** system, do the following:
 
-    wget -O - https://repo.openwebrx.de/debian/key.gpg.txt | gpg --dearmor -o /usr/share/keyrings/openwebrx.gpg
-    echo "deb [signed-by=/usr/share/keyrings/openwebrx.gpg] https://repo.openwebrx.de/debian/ bullseye main" > /etc/apt/sources.list.d/openwebrx.list
-    apt update
+    curl -s https://repo.openwebrx.de/debian/key.gpg.txt | sudo gpg --yes --dearmor -o /usr/share/keyrings/openwebrx.gpg
+    sudo tee /etc/apt/sources.list.d/openwebrx.list <<<"deb [signed-by=/usr/share/keyrings/openwebrx.gpg] https://repo.openwebrx.de/debian/ bullseye main"
+    sudo apt update
 
 # If you are a Debian Bookworm user ...
-If you have a **Debian Bookworm** system, there is now an experimental OpenWebRX+ build available for you. Do the following, **as root**:
+If you have a **Debian Bookworm** system, there is now an experimental OpenWebRX+ build available for you. Do the following (if asked to type in your password, it is expected - do so):
 
-    wget -O - https://luarvique.github.io/ppa/openwebrx-plus.gpg | gpg --dearmor -o /etc/apt/trusted.gpg.d/openwebrx-plus.gpg
-    echo "deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/bookworm ./" > /etc/apt/sources.list.d/openwebrx-plus.list
-    apt update
+    curl -s https://luarvique.github.io/ppa/openwebrx-plus.gpg | sudo gpg --yes --dearmor -o /etc/apt/trusted.gpg.d/openwebrx-plus.gpg
+    sudo tee /etc/apt/sources.list.d/openwebrx-plus.list <<<"deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/bookworm ./"
+    sudo apt update
 
 **Debian Bookworm** users **must not** add the original OpenWebRX repository to their system, since it contains Bullseye packages.
 
 # ... and, finally, ...
 
-Finally, in order to install OpenWebRX+, do the following, **as root**:
+Finally, in order to install OpenWebRX+, do the following:
 
-    apt install openwebrx
+    sudo apt install openwebrx
 
 To make sure OpenWebRX+ is running, direct your local web browser to the following address:
 
@@ -122,9 +122,9 @@ This repository offers the **improved SoapySDRPlay3 device driver** with the fol
 * Widened filters a little bit, reducing the "hump" size for most bandwidths.
 * Added 1.536MHz bandwidth.
 
-In order to install the improved SoapySDRPlay3 package, do the following, **as root**:
+In order to install the improved SoapySDRPlay3 package, do the following:
 
-    apt install soapysdr-module-sdrplay3
+    sudo apt install soapysdr-module-sdrplay3
 
 During installation, the SoapySDRPlay3 package should also install the latest SoapySDR and remove all locally built SoapySDR files from /usr/local. **You will still need to download and install SDRPlay API** from this page:
 
