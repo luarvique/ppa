@@ -73,6 +73,7 @@ If you have a **Ubuntu 24.04** system, there is now an experimental OpenWebRX+ b
     curl -s https://luarvique.github.io/ppa/openwebrx-plus.gpg | sudo gpg --yes --dearmor -o /etc/apt/trusted.gpg.d/openwebrx-plus.gpg
     sudo tee /etc/apt/sources.list.d/openwebrx-plus.list <<<"deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/noble ./"
     sudo apt update
+    sudo apt install python3-distutils-extra
 
 **Ubuntu 24.04** users **must not** add the original OpenWebRX repository to their system, since it contains Ubuntu 22.04 packages.   
 
