@@ -1,6 +1,6 @@
 # OpenWebRX+ Package Repository
 
-#### [RaspberryPi Images](#if-you-have-raspberrypi-4-and-no-clue-) | [Docker Images](#if-you-are-using-docker-) | [Upgrades](#if-you-already-have-openwebrx-installed-) | [Ubuntu Installs](#if-you-are-an-ubuntu-2204-user-) | [Debian Installs](#if-you-are-a-debian-bullseye-user-) | [SDRPlay Driver](#if-you-have-an-sdrplay-device-or-clone-)
+#### [RaspberryPi Images](#if-you-have-raspberrypi-and-no-clue-) | [Docker Images](#if-you-are-using-docker-) | [Upgrades](#if-you-already-have-openwebrx-installed-) | [Ubuntu Installs](#if-you-are-an-ubuntu-2204-user-) | [Debian Installs](#if-you-are-a-debian-bullseye-user-) | [SDRPlay Driver](#if-you-have-an-sdrplay-device-or-clone-)
 
 __[OpenWebRX+ documentation](https://fms.komkon.org/OWRX) draft is now available. You can discuss OpenWebRX+ features, problems, get news and support in the [OpenWebRX Telegram channel](https://t.me/openwebrx) and [its chat](https://t.me/openwebrx_chat).__
 
