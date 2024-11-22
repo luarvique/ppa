@@ -586,6 +586,108 @@ Priority: optional
 Description: command-line sdr
  A simple DSP command-line tool for Software Defined Radio.
 
+Package: csdr-cwskimmer
+Version: 1.0
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 27
+Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Filename: ./amd64/csdr-cwskimmer_1.0_amd64.deb
+Size: 6300
+MD5sum: 7efee277a4fbdb18091abd778702c498
+SHA1: 0e180986998f9567d2f1bb77cd26f19b981feac7
+SHA256: d433d0b4088c00e0d9bc00e16ea21ad61b3e6230db2a13b482db214210639fbf
+Section: hamradio
+Priority: optional
+Description: RDS decoder
+ Command line CW skimmer based on the CSDR signal processing library.
+
+Package: csdr-cwskimmer
+Version: 1.0
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 18
+Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.5), libstdc++6 (>= 5)
+Filename: ./armhf/csdr-cwskimmer_1.0_armhf.deb
+Size: 5720
+MD5sum: 33d36f7310fb95eae353bc099cf923cb
+SHA1: 92a9cfd558f3eb0efe36094e9e5e6cf4ce846dd7
+SHA256: 2005135deacb0c17ecd70a164e1c23ae4fe151df92e87023e7ef945e1984534e
+Section: hamradio
+Priority: optional
+Description: RDS decoder
+ Command line CW skimmer based on the CSDR signal processing library.
+
+Package: csdr-cwskimmer
+Version: 1.0
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 75
+Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Filename: ./arm64/csdr-cwskimmer_1.0_arm64.deb
+Size: 5940
+MD5sum: 4dde838f7b27bd8e037e6294c0e0d7d7
+SHA1: 64ccccab168d77f995d6565db910f8479fac8d32
+SHA256: f87a3da95314fb692375d54b2ed98d0d551e13abac67e53bb3c0f100f0a39cc5
+Section: hamradio
+Priority: optional
+Description: RDS decoder
+ Command line CW skimmer based on the CSDR signal processing library.
+
+Package: csdr-cwskimmer-dbgsym
+Source: csdr-cwskimmer
+Version: 1.0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 39
+Depends: csdr-cwskimmer (= 1.0)
+Filename: ./amd64/csdr-cwskimmer-dbgsym_1.0_amd64.deb
+Size: 25112
+MD5sum: 6488349e48338d67de13fb063e5a85d8
+SHA1: fa47d46747709f09f5c56e6563462aecfac038c1
+SHA256: 1dcf58abcdb366bbcc2a1af74b6baf1a673fbfbe32d0327b3463a7d52b67f756
+Section: debug
+Priority: optional
+Description: debug symbols for csdr-cwskimmer
+Build-Ids: 8e8ed42fe12a3b372e60a4177c8543cdf83b91d3
+
+Package: csdr-cwskimmer-dbgsym
+Source: csdr-cwskimmer
+Version: 1.0
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 38
+Depends: csdr-cwskimmer (= 1.0)
+Filename: ./armhf/csdr-cwskimmer-dbgsym_1.0_armhf.deb
+Size: 24792
+MD5sum: 0bf705c178c696fd782a4ac50a05ad62
+SHA1: 394e8f9505ef6f28184e00abd420d507c1e920d3
+SHA256: 45f875ee3764ba9f5a7e58d589063011931ae260d39f0af593082eb52a7d9f69
+Section: debug
+Priority: optional
+Description: debug symbols for csdr-cwskimmer
+Build-Ids: ad4e9b210443d65d7659b44f29904166a86762b4
+
+Package: csdr-cwskimmer-dbgsym
+Source: csdr-cwskimmer
+Version: 1.0
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 40
+Depends: csdr-cwskimmer (= 1.0)
+Filename: ./arm64/csdr-cwskimmer-dbgsym_1.0_arm64.deb
+Size: 24704
+MD5sum: 7ff784f7fcbfc62fd50f047cda6929fb
+SHA1: bea8793b0ca5ef8ffd2a2171fec0319e33796abb
+SHA256: 14755bd2fc6aa6b58143984e7e9c6c452c1ee06ca13f2809f2a160c1ff570c56
+Section: debug
+Priority: optional
+Description: debug symbols for csdr-cwskimmer
+Build-Ids: 1dc1c9b134ba2fd539d0126f4c86cf8cb6984d42
+
 Package: csdr-dbgsym
 Source: csdr
 Version: 0.18.26
@@ -2124,10 +2226,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 123
 Depends: libcsdr0 (>= 0.18), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 6)
 Filename: ./amd64/libowrx-connector_0.6.5_amd64.deb
-Size: 34060
-MD5sum: d4795e525e1d8c4601800338a40bfcfc
-SHA1: 2ca8bdfa2c314d4e707d9c255160761ba0005417
-SHA256: 93a4875cccf838129bc086bbbf4bc8a428c54c62cfa3a71c4f30788b61e4ba49
+Size: 34068
+MD5sum: ab5303ceb11adaf68178a5d03d5c07a0
+SHA1: 39cee282623a6b439659b27be2a249a03bae7167
+SHA256: 965f0a7f00d1f3524c136316a1ea0925a154cbfdfcf613bb7559355845bbadee
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector base library
@@ -2158,10 +2260,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 147
 Depends: libcsdr0 (>= 0.18), libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 6)
 Filename: ./arm64/libowrx-connector_0.6.5_arm64.deb
-Size: 26272
-MD5sum: 59c345bc97b456a9b04ca3161897f662
-SHA1: bcf872efd24901a68d60af11f846e7f28aa76944
-SHA256: 9ee46d222397e2c0b44d029ecb394d977756e5a5bd607bc6f98ac81b08d00f20
+Size: 26260
+MD5sum: 14c6ce16dc751767aafb0ff413c12a5f
+SHA1: 14cd312bb56611d3d5a6df52b69fba77577f9fac
+SHA256: f4f05051c6d4cd0a521b7631e07ab035fe6f05365b0712f32390d926342fdf68
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector base library
@@ -2177,13 +2279,13 @@ Installed-Size: 361
 Depends: libowrx-connector (= 0.6.5)
 Filename: ./amd64/libowrx-connector-dbgsym_0.6.5_amd64.deb
 Size: 336084
-MD5sum: 317da63cb589104a4d11a193407d9c6b
-SHA1: f89613cb6914f5e036d45f2c40b21ffff3976636
-SHA256: cb957d2c4c3a0537e803e8db5ee1227a5567ac325e0f2a64f3196ab2291f416e
+MD5sum: 28c34cbceea54f0503967a40374e487e
+SHA1: 7989625d88a604b26c4d98a85db0c251dee0b216
+SHA256: 73597bb58c360e703209c8471b0fd2495a552ca8972db233046c72ab230fc3a7
 Section: debug
 Priority: optional
 Description: debug symbols for libowrx-connector
-Build-Ids: 3d16ffc6dfdff75d3e7610e547d3d800eb42fd47
+Build-Ids: f81c72c9864877b6068712c3d3fa60610bc1736b
 
 Package: libowrx-connector-dbgsym
 Source: owrx-connector
@@ -2212,14 +2314,14 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 350
 Depends: libowrx-connector (= 0.6.5)
 Filename: ./arm64/libowrx-connector-dbgsym_0.6.5_arm64.deb
-Size: 325420
-MD5sum: f9f65510fe2a480980d956331becd43d
-SHA1: 104a6860c6ee31ea6a3716e4e9474a6e5e675669
-SHA256: 9c6d8f455bec21827aa4cf10282d3c743433602862254b8beca3b68c73a110d7
+Size: 325392
+MD5sum: a09d8ed17358dba23f7b3cea5b713d57
+SHA1: e14c3adec4ce0bf23c6df1c14b89e8831cdfd6cc
+SHA256: ab71623d64109b70c4f928cfb30cb5ebe072593e2f88581ea9e4c04c3ff79cb5
 Section: debug
 Priority: optional
 Description: debug symbols for libowrx-connector
-Build-Ids: 80565433797d8767781675e874084ed561f5f8d6
+Build-Ids: 146d673a498102c7393f626a3b39e7147e35bd18
 
 Package: libowrx-connector-dev
 Source: owrx-connector
@@ -2533,6 +2635,60 @@ Size: 987352
 MD5sum: fd6301070e70956025d4a140ea3e6247
 SHA1: e7a9694c8ffcea908fa57c797e52a4d1c0e3a8a1
 SHA256: 296deea0463b7f1571073aca4b59500823c7f12e324181edb4b75655cd7233fa
+Section: hamradio
+Priority: optional
+Homepage: https://www.openwebrx.de/
+Description: multi-user web sdr
+ Open source, multi-user SDR receiver with a web interface
+
+Package: openwebrx
+Version: 1.2.74
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 3333
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.26), python3:any, debconf (>= 0.5) | debconf-2.0
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer
+Filename: ./amd64/openwebrx_1.2.74_all.deb
+Size: 988388
+MD5sum: 731f6f523a2b509b76a3c63303f79ceb
+SHA1: 49bc6521aaf412de1ca0961aa0272240cfc09625
+SHA256: e0e8cc8fcc64a6ba7cc69f0b1142251029220db44706b73809055485e5220219
+Section: hamradio
+Priority: optional
+Homepage: https://www.openwebrx.de/
+Description: multi-user web sdr
+ Open source, multi-user SDR receiver with a web interface
+
+Package: openwebrx
+Version: 1.2.74
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 3333
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.26), python3:any, debconf (>= 0.5) | debconf-2.0
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer
+Filename: ./armhf/openwebrx_1.2.74_all.deb
+Size: 988388
+MD5sum: 731f6f523a2b509b76a3c63303f79ceb
+SHA1: 49bc6521aaf412de1ca0961aa0272240cfc09625
+SHA256: e0e8cc8fcc64a6ba7cc69f0b1142251029220db44706b73809055485e5220219
+Section: hamradio
+Priority: optional
+Homepage: https://www.openwebrx.de/
+Description: multi-user web sdr
+ Open source, multi-user SDR receiver with a web interface
+
+Package: openwebrx
+Version: 1.2.74
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 3333
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.26), python3:any, debconf (>= 0.5) | debconf-2.0
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer
+Filename: ./arm64/openwebrx_1.2.74_all.deb
+Size: 988388
+MD5sum: 731f6f523a2b509b76a3c63303f79ceb
+SHA1: 49bc6521aaf412de1ca0961aa0272240cfc09625
+SHA256: e0e8cc8fcc64a6ba7cc69f0b1142251029220db44706b73809055485e5220219
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -3181,10 +3337,10 @@ Installed-Size: 42
 Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./amd64/rtl-tcp-connector_0.6.5_amd64.deb
-Size: 11280
-MD5sum: ac59c1133a0359badb7f6b882a2764f2
-SHA1: 03e955c10f0de0b15a0f192347263bd9d51ab9f3
-SHA256: 155f2e8ad2d0c35f231cc34a09f12807c696779029bd5bc3903ac5161b3a3eb2
+Size: 11276
+MD5sum: 61850d6ed7f971e0c770b44a4ca85f1b
+SHA1: bee3d4976f5d2d8007425a52f3a156cb66966bf8
+SHA256: a9686753fa5073aeb28777123891a78352ab93eaa8f8c254002e8530b0424f55
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for rtl_tcp remote devices
@@ -3219,10 +3375,10 @@ Installed-Size: 78
 Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./arm64/rtl-tcp-connector_0.6.5_arm64.deb
-Size: 10904
-MD5sum: d6f982ad8d4cf03b35ecb4a6d2ed13a1
-SHA1: 43aa06bae5029bffff83a0b4eac030b68d23fd34
-SHA256: 23c5c3bf080c4e03afcd1dfe0a55daa92de802a5e60a8aa3b7dfa4a56c2e6655
+Size: 10884
+MD5sum: 4cf00b4b1ca9d2639faacea751020f17
+SHA1: 226772b45a8ae6f37b764615a7c1aa269b7f9d67
+SHA256: 33b6db689945a11b52e01b71b3e30ed7e9a866eedd3934c0e329d33027979e6c
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for rtl_tcp remote devices
@@ -3238,14 +3394,14 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 88
 Depends: rtl-tcp-connector (= 0.6.5)
 Filename: ./amd64/rtl-tcp-connector-dbgsym_0.6.5_amd64.deb
-Size: 71952
-MD5sum: 58b1c54a65e14e9d82e85a5eee681f50
-SHA1: 188f9ebf5f88ddceda3cfebf24e9c23ace2a9659
-SHA256: 7f52aa99273469a2af465235d218c56ae48941349b9ffdaf6ce896f0f634ef5d
+Size: 71900
+MD5sum: 6a38c1d38df026a2d264903c417d02e8
+SHA1: ba48fcd4a1552b5d179566aeb4399c04b910bedf
+SHA256: 1b134822924035a60b4ac6dfe545a8bc5ec48c53c449141da4fab8f92e7a6144
 Section: debug
 Priority: optional
 Description: debug symbols for rtl-tcp-connector
-Build-Ids: 3a8fddb78b64dab7fa57712bf35c7658ad98f9ea
+Build-Ids: 14b1200f609d3462795fd3ad7881d5644156b021
 
 Package: rtl-tcp-connector-dbgsym
 Source: owrx-connector
@@ -3275,13 +3431,13 @@ Installed-Size: 88
 Depends: rtl-tcp-connector (= 0.6.5)
 Filename: ./arm64/rtl-tcp-connector-dbgsym_0.6.5_arm64.deb
 Size: 70624
-MD5sum: ae12b695ba0743be16096871476d9c34
-SHA1: 6aaa99f9190a129c2c268b7fcbcb137e3141b927
-SHA256: 8e2f14112b328a91df1b9e7785b7f0430c6e2e3b5f4da9c30188aef25cf15e38
+MD5sum: 5e0abba46a7434d156c822f984d0da3a
+SHA1: 04bf39979671e2a41e351e7721f539f2cf0dc8bd
+SHA256: 4b709bde78e16c89df9409e1a70ac21e4bea30567c4b9d20f2a7e39ceb2aad48
 Section: debug
 Priority: optional
 Description: debug symbols for rtl-tcp-connector
-Build-Ids: 26be0ae872d447846b10b50182963e2bd7039f6a
+Build-Ids: 8915eac0fc837d53b4519fd3c706a8200c59095f
 
 Package: soapy-connector
 Source: owrx-connector
