@@ -2588,71 +2588,17 @@ Description: debug symbols for nrsc5
 Build-Ids: 9b7842f9a546b8286b5337db5be9efaa8ff81e71 a7f7e0ba28be7fba179075d939962f07e7e8a092
 
 Package: openwebrx
-Version: 1.2.73
+Version: 1.2.75
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3327
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.26), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils
-Filename: ./amd64/openwebrx_1.2.73_all.deb
-Size: 987352
-MD5sum: fd6301070e70956025d4a140ea3e6247
-SHA1: e7a9694c8ffcea908fa57c797e52a4d1c0e3a8a1
-SHA256: 296deea0463b7f1571073aca4b59500823c7f12e324181edb4b75655cd7233fa
-Section: hamradio
-Priority: optional
-Homepage: https://www.openwebrx.de/
-Description: multi-user web sdr
- Open source, multi-user SDR receiver with a web interface
-
-Package: openwebrx
-Version: 1.2.73
-Architecture: all
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3327
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.26), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils
-Filename: ./armhf/openwebrx_1.2.73_all.deb
-Size: 987352
-MD5sum: fd6301070e70956025d4a140ea3e6247
-SHA1: e7a9694c8ffcea908fa57c797e52a4d1c0e3a8a1
-SHA256: 296deea0463b7f1571073aca4b59500823c7f12e324181edb4b75655cd7233fa
-Section: hamradio
-Priority: optional
-Homepage: https://www.openwebrx.de/
-Description: multi-user web sdr
- Open source, multi-user SDR receiver with a web interface
-
-Package: openwebrx
-Version: 1.2.73
-Architecture: all
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3327
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.26), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils
-Filename: ./arm64/openwebrx_1.2.73_all.deb
-Size: 987352
-MD5sum: fd6301070e70956025d4a140ea3e6247
-SHA1: e7a9694c8ffcea908fa57c797e52a4d1c0e3a8a1
-SHA256: 296deea0463b7f1571073aca4b59500823c7f12e324181edb4b75655cd7233fa
-Section: hamradio
-Priority: optional
-Homepage: https://www.openwebrx.de/
-Description: multi-user web sdr
- Open source, multi-user SDR receiver with a web interface
-
-Package: openwebrx
-Version: 1.2.74
-Architecture: all
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3333
+Installed-Size: 3334
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.26), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer
-Filename: ./amd64/openwebrx_1.2.74_all.deb
-Size: 988388
-MD5sum: 731f6f523a2b509b76a3c63303f79ceb
-SHA1: 49bc6521aaf412de1ca0961aa0272240cfc09625
-SHA256: e0e8cc8fcc64a6ba7cc69f0b1142251029220db44706b73809055485e5220219
+Filename: ./amd64/openwebrx_1.2.75_all.deb
+Size: 988936
+MD5sum: 34f07a972f10f5d41d97699d7a569e16
+SHA1: 21748e3bedf59b7310fedd952949716caaefaa09
+SHA256: 86a9bc3eb16c599134c7b4644a83c226654f78192cfc6843f15016c5bd4ab7f4
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -2660,17 +2606,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.74
+Version: 1.2.75
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3333
+Installed-Size: 3334
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.26), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer
-Filename: ./armhf/openwebrx_1.2.74_all.deb
-Size: 988388
-MD5sum: 731f6f523a2b509b76a3c63303f79ceb
-SHA1: 49bc6521aaf412de1ca0961aa0272240cfc09625
-SHA256: e0e8cc8fcc64a6ba7cc69f0b1142251029220db44706b73809055485e5220219
+Filename: ./armhf/openwebrx_1.2.75_all.deb
+Size: 988936
+MD5sum: 34f07a972f10f5d41d97699d7a569e16
+SHA1: 21748e3bedf59b7310fedd952949716caaefaa09
+SHA256: 86a9bc3eb16c599134c7b4644a83c226654f78192cfc6843f15016c5bd4ab7f4
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -2678,17 +2624,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.74
+Version: 1.2.75
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3333
+Installed-Size: 3334
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.26), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer
-Filename: ./arm64/openwebrx_1.2.74_all.deb
-Size: 988388
-MD5sum: 731f6f523a2b509b76a3c63303f79ceb
-SHA1: 49bc6521aaf412de1ca0961aa0272240cfc09625
-SHA256: e0e8cc8fcc64a6ba7cc69f0b1142251029220db44706b73809055485e5220219
+Filename: ./arm64/openwebrx_1.2.75_all.deb
+Size: 988936
+MD5sum: 34f07a972f10f5d41d97699d7a569e16
+SHA1: 21748e3bedf59b7310fedd952949716caaefaa09
+SHA256: 86a9bc3eb16c599134c7b4644a83c226654f78192cfc6843f15016c5bd4ab7f4
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
