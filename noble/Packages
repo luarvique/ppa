@@ -313,6 +313,54 @@ Priority: optional
 Description: command-line sdr
  A simple DSP command-line tool for Software Defined Radio.
 
+Package: csdr-cwskimmer
+Version: 1.1
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 27
+Depends: libc6 (>= 2.38), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
+Filename: ./amd64/csdr-cwskimmer_1.1_amd64.deb
+Size: 6568
+MD5sum: f97eb94d9af1656c45e666af3ebf384b
+SHA1: b08d3b843c4ddf515e9c425259ccef9c28474f55
+SHA256: 06b88a32ca75f03a9baa6f0631b7c2e2594f8e0d590f653aef637526c886aa2e
+Section: hamradio
+Priority: optional
+Description: RDS decoder
+ Command line CW skimmer based on the CSDR signal processing library.
+
+Package: csdr-cwskimmer
+Version: 1.1
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 18
+Depends: libc6 (>= 2.38), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.5), libstdc++6 (>= 5)
+Filename: ./armhf/csdr-cwskimmer_1.1_armhf.deb
+Size: 6080
+MD5sum: fee75839dd387526327f0f8748a168db
+SHA1: 73f94532c4564488e2e3b63de522b1a2378863a2
+SHA256: dd8fcae37d36d14e906202d752d0d22fb01bbe880da145d6607570c8dacc114d
+Section: hamradio
+Priority: optional
+Description: RDS decoder
+ Command line CW skimmer based on the CSDR signal processing library.
+
+Package: csdr-cwskimmer
+Version: 1.1
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 75
+Depends: libc6 (>= 2.38), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
+Filename: ./arm64/csdr-cwskimmer_1.1_arm64.deb
+Size: 6218
+MD5sum: 6364d951a6b57954157bbe398a0d38f2
+SHA1: b25498a5c4e8c2661b95a29a89234c5c9e4df3a0
+SHA256: 24c1b43de7f52878383e8a68f2539cb4749180ab7f67b5d6c7b8740cd6ab9c36
+Section: hamradio
+Priority: optional
+Description: RDS decoder
+ Command line CW skimmer based on the CSDR signal processing library.
+
 Package: digiham
 Version: 0.6.2
 Architecture: amd64
