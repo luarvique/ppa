@@ -64,6 +64,38 @@ Priority: optional
 Description: RDS decoder
  Command line CW skimmer based on the CSDR signal processing library.
 
+Package: csdr-cwskimmer
+Version: 1.3
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 31
+Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
+Filename: ./amd64/csdr-cwskimmer_1.3_amd64.deb
+Size: 7320
+MD5sum: b51f3b7d5fd39fee80fe033501dcd800
+SHA1: 37d148bf27bd9b832bd275509ce9b3b6212be699
+SHA256: 96774cd2b71abcebe19b93d190a8b3b1ca7a295826faada035b12bc8ca74b87e
+Section: hamradio
+Priority: optional
+Description: RDS decoder
+ Command line CW skimmer based on the CSDR signal processing library.
+
+Package: csdr-cwskimmer
+Version: 1.3
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 23
+Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
+Filename: ./arm64/csdr-cwskimmer_1.3_arm64.deb
+Size: 6862
+MD5sum: c8d5f6e8facbad4736109d5c9e0c82a4
+SHA1: d4f334079640b28894faf5e1dd2addd80b5db2b7
+SHA256: b9963a4a4923d439cd3e02083798bb8dad01e42e16aca6feb6148bd9b917b4b8
+Section: hamradio
+Priority: optional
+Description: RDS decoder
+ Command line CW skimmer based on the CSDR signal processing library.
+
 Package: hpsdrconnector
 Version: 0.11.0
 Architecture: amd64
@@ -365,17 +397,17 @@ Description: NRSC5 decoder
  Command-line NRSC5 decoder, with a library.
 
 Package: openwebrx
-Version: 1.2.76
+Version: 1.2.77
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3336
+Installed-Size: 3601
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.27), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer
-Filename: ./amd64/openwebrx_1.2.76_all.deb
-Size: 989888
-MD5sum: b101a0c3281e6f0f6dd43f8b45e29f01
-SHA1: a613069c2479e6e9487a96d9cb45c07aa344b1ea
-SHA256: 3824a91605309bf03842411d13c117c4a0938ce598338911b047e79ace7ae0b7
+Filename: ./amd64/openwebrx_1.2.77_all.deb
+Size: 996172
+MD5sum: 442e3b06bd246a5d2c3b4c5ede90eda4
+SHA1: 5055f15fbd2d50d0702f58c7f6e9e291be0e808a
+SHA256: 92757db84ca2a70ddecd48e5684d93abdf501358eae8c2a2d4ba2340592ac944
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -383,17 +415,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.76
+Version: 1.2.77
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3336
+Installed-Size: 3601
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.27), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer
-Filename: ./arm64/openwebrx_1.2.76_all.deb
-Size: 989636
-MD5sum: de759a9232913cb6c3d4123058699dd8
-SHA1: 15e571386aa99279221595b5e66f24b18646572d
-SHA256: 28a128f225bf825bc77e37839f89f5b4ea976563fdf1ee268eae9f78fabac7cf
+Filename: ./arm64/openwebrx_1.2.77_all.deb
+Size: 995936
+MD5sum: dd5c593a8b3c8dd37d22046716f592d9
+SHA1: 17a59b5bbea30d7ac2b900c9dd0d244ace1a82a0
+SHA256: 61d74b077011ea7143e41148937c681a5d721544634d733164af80311c19cd12
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
