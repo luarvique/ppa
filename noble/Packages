@@ -1154,48 +1154,48 @@ Description: TCP stream multiplexer
  through TCP sockets.
 
 Package: nrsc5
-Version: 0.1
+Version: 0.2
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 977
+Installed-Size: 1014
 Depends: libao4 (>= 1.1.0), libc6 (>= 2.38), libfftw3-single3 (>= 3.3.10), librtlsdr2 (>= 2.0.1)
-Filename: ./amd64/nrsc5_0.1_amd64.deb
-Size: 296186
-MD5sum: dafb7b4f745431306bb3136a28849aaf
-SHA1: 10b15ed03cc7b9658c99ad232bd0f5e4e2f6db64
-SHA256: 9c0e34450b17ad36a520c8463adea99b8dffe5f5c73338396cb9d1f9cb4b8cc3
+Filename: ./amd64/nrsc5_0.2_amd64.deb
+Size: 269894
+MD5sum: d2f581031b668d378db85b0371162feb
+SHA1: 9f09772173bb7ae6ae9fa8ade8be9a23b439e97d
+SHA256: e8c35c19411e83cba2b65fe19c7eaee75c569395e8e00dc24a9a0ea036de8cde
 Section: hamradio
 Priority: optional
 Description: NRSC5 decoder
  Command-line NRSC5 decoder, with a library.
 
 Package: nrsc5
-Version: 0.1
+Version: 0.2
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 661
+Installed-Size: 723
 Depends: libao4 (>= 1.1.0), libc6 (>= 2.38), libfftw3-single3 (>= 3.3.10), librtlsdr2 (>= 2.0.1)
-Filename: ./armhf/nrsc5_0.1_armhf.deb
-Size: 214370
-MD5sum: 32602d3503dd008cd5e28c808a7a9d85
-SHA1: b5d05d1872bb0fade09226acbcd0864322f3e9ab
-SHA256: 36800192fb3b621aae960229f300d167355592ac7a7fea62231c1b9e9f4fca47
+Filename: ./armhf/nrsc5_0.2_armhf.deb
+Size: 231448
+MD5sum: a20612cf071b3ca11076ecc27accf2eb
+SHA1: 139e18712eba8545fd47a55e79341bb86e8812d3
+SHA256: f2e8ea82ef5e4b5fbb5be29d782fb18cea67e36eeb8fd86a949de2508c761b92
 Section: hamradio
 Priority: optional
 Description: NRSC5 decoder
  Command-line NRSC5 decoder, with a library.
 
 Package: nrsc5
-Version: 0.1
+Version: 0.2
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 918
+Installed-Size: 843
 Depends: libao4 (>= 1.1.0), libc6 (>= 2.38), libfftw3-single3 (>= 3.3.10), librtlsdr2 (>= 2.0.1)
-Filename: ./arm64/nrsc5_0.1_arm64.deb
-Size: 294640
-MD5sum: 1e135c59142b51af5bd5ec559e122f68
-SHA1: 713d31179879726c1aba27d9bfc8b2c634504a35
-SHA256: a3ef9b92a0b6caff49b2268a0d64c1c10cf4d496ab831e50ddbeeeb62186f2c9
+Filename: ./arm64/nrsc5_0.2_arm64.deb
+Size: 264616
+MD5sum: f2b9131f6bacc3600a96d02359ee2e81
+SHA1: 08372a5530d5ee4f1996b1cb18f9998ef892444b
+SHA256: 04b27061d7a64312d98424ae07ab015e1309f0b1cd5471bcdd0890bf3fd398b3
 Section: hamradio
 Priority: optional
 Description: NRSC5 decoder
@@ -1514,16 +1514,16 @@ Description: JS8 frame parser
  python module for parsing messages from the "js8" command line decoder
 
 Package: redsea
-Version: 0.21
+Version: 1.1
 Architecture: amd64
 Maintainer: Oona Räisänen <oh2eiq@pm.me>
-Installed-Size: 1220
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libliquid1 (>= 1.6.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 13.1)
-Filename: ./amd64/redsea_0.21_amd64.deb
-Size: 203070
-MD5sum: d37033c0648426bc1c908cfec691e8aa
-SHA1: 7848f9605bccb0ef0e90fe1126393c615bcab661
-SHA256: c1fe796cd8cffce5b45ede09ce5eab9dffc6919cd992eeaf0c7252cc079a6e42
+Installed-Size: 1354
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.0), libliquid1 (>= 1.6.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 13.1)
+Filename: ./amd64/redsea_1.1_amd64.deb
+Size: 232750
+MD5sum: ac006aa35383311e66e544f79ec8a50c
+SHA1: 2d2e956b94401165736aed3dae33ef41bf4c629b
+SHA256: 5d35359e0fa488b10e176ea6d81acce1198522679068561b802946397baf9d33
 Section: hamradio
 Priority: optional
 Description: RDS (Radio Data System) decoder
@@ -1531,16 +1531,16 @@ Description: RDS (Radio Data System) decoder
  large subset of RDS features.
 
 Package: redsea
-Version: 0.21
+Version: 1.1
 Architecture: armhf
 Maintainer: Oona Räisänen <oh2eiq@pm.me>
-Installed-Size: 1074
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.5), libliquid1 (>= 1.6.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 13.1)
-Filename: ./armhf/redsea_0.21_armhf.deb
-Size: 236746
-MD5sum: ccc64ceb900980bda5742bd250e4cfc9
-SHA1: 71b986fbeace855ed50f0fabfb5258ac4c4d3afa
-SHA256: 3b582db3b355612c322e6b0f0ec598cf38a4fdb6c742658cd2d00f53d76bcf22
+Installed-Size: 1056
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.0), libliquid1 (>= 1.6.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 13.1)
+Filename: ./armhf/redsea_1.1_armhf.deb
+Size: 229774
+MD5sum: 605d97303f839fa15e07a1929205becc
+SHA1: 08e61fc7cd2eb5aafac1874232f1750916cceb69
+SHA256: 51903d36692e4a9950ec2f1bdd14d894a1be5759563685f0e1cebdd3cd5665ab
 Section: hamradio
 Priority: optional
 Description: RDS (Radio Data System) decoder
@@ -1548,16 +1548,16 @@ Description: RDS (Radio Data System) decoder
  large subset of RDS features.
 
 Package: redsea
-Version: 0.21
+Version: 1.1
 Architecture: arm64
 Maintainer: Oona Räisänen <oh2eiq@pm.me>
-Installed-Size: 1364
-Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libliquid1 (>= 1.6.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 13.1)
-Filename: ./arm64/redsea_0.21_arm64.deb
-Size: 192964
-MD5sum: 30e69cf40497beefe77d2474e7f1528c
-SHA1: 8ae18fe05c77377dcb34306089d2ce3915654744
-SHA256: 03ff22ecef678ed077638a6ae2bc2bbd7fcfe61eb21550d28950b6fdc5398bde
+Installed-Size: 1298
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.0), libliquid1 (>= 1.6.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 13.1)
+Filename: ./arm64/redsea_1.1_arm64.deb
+Size: 210864
+MD5sum: 97f87fd0d9074ada27bf0b70228ce7d6
+SHA1: 5e67153476c96e3de3f4b911b185b1f6be8de4dc
+SHA256: 89011268ce32e6a289bc93e0c9bd9a7628b31736f06bf35570448b36df6f5319
 Section: hamradio
 Priority: optional
 Description: RDS (Radio Data System) decoder

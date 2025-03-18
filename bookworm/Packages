@@ -2486,48 +2486,48 @@ Description: debug symbols for nmux
 Build-Ids: 28f7ac9603a326d144b3a4e8cc80e8428ea05b94
 
 Package: nrsc5
-Version: 0.1
+Version: 0.2
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 977
+Installed-Size: 1048
 Depends: libao4 (>= 1.1.0), libc6 (>= 2.34), libfftw3-single3 (>= 3.3.10), librtlsdr0 (>= 0.6.0)
-Filename: ./amd64/nrsc5_0.1_amd64.deb
-Size: 216044
-MD5sum: db1a1f2dc96e2f068d3211c9c5437ac4
-SHA1: ff67c2723246f873b7b506fac4c74bae07d7eae2
-SHA256: 8286821cefe726cf7175d3800554ea3a3c1af6bb4a670b9337b8b3e5e5dfed63
+Filename: ./amd64/nrsc5_0.2_amd64.deb
+Size: 220324
+MD5sum: 947da8036a564faa786148497c5520d8
+SHA1: a9668ffa80946dee7a264e92259717c210a067f2
+SHA256: db9febd33c883b48cd529971bb65d1369075752f33df43a78204371baf0b6545
 Section: hamradio
 Priority: optional
 Description: NRSC5 decoder
  Command-line NRSC5 decoder, with a library.
 
 Package: nrsc5
-Version: 0.1
+Version: 0.2
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 663
+Installed-Size: 725
 Depends: libao4 (>= 1.1.0), libc6 (>= 2.34), libfftw3-single3 (>= 3.3.10), librtlsdr0 (>= 0.6.0)
-Filename: ./armhf/nrsc5_0.1_armhf.deb
-Size: 182928
-MD5sum: a7ce543ccb9c56e8ec6a612c6caa244e
-SHA1: 02b0fa558a02b41207e9a2f22b40c41cf8f10429
-SHA256: df32b4924826aec52dee06e68af083193375ad60e4028a3aa36f49eef8da4401
+Filename: ./armhf/nrsc5_0.2_armhf.deb
+Size: 197628
+MD5sum: ea365b0757b2ed46592f628441af59b8
+SHA1: 066a22988da80ea461b434f64c11cafdd5cc35ed
+SHA256: fb0e461d7e7512ec38d10ee016ae79246d90ca7cacf39f4a61f1d237d6ec99c0
 Section: hamradio
 Priority: optional
 Description: NRSC5 decoder
  Command-line NRSC5 decoder, with a library.
 
 Package: nrsc5
-Version: 0.1
+Version: 0.2
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 977
+Installed-Size: 965
 Depends: libao4 (>= 1.1.0), libc6 (>= 2.34), libfftw3-single3 (>= 3.3.10), librtlsdr0 (>= 0.6.0)
-Filename: ./arm64/nrsc5_0.1_arm64.deb
-Size: 200100
-MD5sum: 126c9ed2c82cf86a5d3a2d942ca3535d
-SHA1: 8418d8a0d44bc09365a42b7dc3909117241cdb40
-SHA256: c8eaae6003452ef72b42ddc40f10042990d88d24b1dd23cc7bac5099cd8b77c6
+Filename: ./arm64/nrsc5_0.2_arm64.deb
+Size: 204532
+MD5sum: b6a6e39f73db9e6481edf94bbdea9776
+SHA1: dfc63685c2535896bf601246449cc14bea238f84
+SHA256: 29dfd5533787ee27c77dbbbc61edc06b651359c3144babe3358aa7d620b45416
 Section: hamradio
 Priority: optional
 Description: NRSC5 decoder
@@ -2535,57 +2535,57 @@ Description: NRSC5 decoder
 
 Package: nrsc5-dbgsym
 Source: nrsc5
-Version: 0.1
+Version: 0.2
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 841
-Depends: nrsc5 (= 0.1)
-Filename: ./amd64/nrsc5-dbgsym_0.1_amd64.deb
-Size: 798016
-MD5sum: 949b1b9d73fdc5eb1d2fa637ca60a215
-SHA1: f363ebac614fd21a57b6df427693986381545318
-SHA256: a19e71f1b9fb8ea2ae8c5cca0042a4385fc14770488a720f18ca4c58185f3a9b
+Installed-Size: 779
+Depends: nrsc5 (= 0.2)
+Filename: ./amd64/nrsc5-dbgsym_0.2_amd64.deb
+Size: 733956
+MD5sum: d70b9507f7007199b4111f3faeafe71d
+SHA1: 316a2e46feca343737aa8c383b88d2cbade782c9
+SHA256: 0585fef66113f02628dd20c74cbcf642bf791336bdac3273ac6eaf2a0aee3b53
 Section: debug
 Priority: optional
 Description: debug symbols for nrsc5
-Build-Ids: ad1efec204143483f02852fc79ab1579e4692cc8 d77e797caedd00dd8c69c88af5ece69cfb08c00a
+Build-Ids: 1a2208938e65fa32500059e623364ee63f47becf 2d08413c6cb5d270248d811c9df5b691070b6393
 
 Package: nrsc5-dbgsym
 Source: nrsc5
-Version: 0.1
+Version: 0.2
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 744
-Depends: nrsc5 (= 0.1)
-Filename: ./armhf/nrsc5-dbgsym_0.1_armhf.deb
-Size: 694792
-MD5sum: ffe7c4c2b69de065762d7e85e4aef9cc
-SHA1: a0442541b6f831a985e9ac5c318f9891f02ad8a8
-SHA256: e083f1028e59062260bf1f26cf4279eec4070957c7e987a4bd5fb5bebe789914
+Installed-Size: 716
+Depends: nrsc5 (= 0.2)
+Filename: ./armhf/nrsc5-dbgsym_0.2_armhf.deb
+Size: 668596
+MD5sum: 733cd76dbce1d9dc42c77499a4174989
+SHA1: f79e9fb54e5d636808c17c2a1e29d48329fe32ee
+SHA256: c447ed2d4f3dc7804cd7feddb227ce3bb4246380a64ceb559a6a220d63afa82b
 Section: debug
 Priority: optional
 Description: debug symbols for nrsc5
-Build-Ids: 65e6d346ed0f22af239f91a36c067de26319b570 e99fd1cf691e34e2529a8c0d548a5f5366fd7b01
+Build-Ids: 96d8024a20691d7400ec8b65cbb042c1e180ca0a a26504dc5d8936bd57ccf6deed0ba7c76fae9af5
 
 Package: nrsc5-dbgsym
 Source: nrsc5
-Version: 0.1
+Version: 0.2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 791
-Depends: nrsc5 (= 0.1)
-Filename: ./arm64/nrsc5-dbgsym_0.1_arm64.deb
-Size: 737332
-MD5sum: e3eda3c07a0feaaeba2c069c456452f2
-SHA1: a428217c48d28778e1cf672bc263dc0d3cff8fb2
-SHA256: da21aa916249d1aa7737280b15c7542a0504336bdcd41f577a6c6d4881df5395
+Installed-Size: 772
+Depends: nrsc5 (= 0.2)
+Filename: ./arm64/nrsc5-dbgsym_0.2_arm64.deb
+Size: 717744
+MD5sum: cc75298bd5900eb213b6303fe27baa96
+SHA1: f363cc69f8f02dfd2ac1ca89709ef13120adb5bc
+SHA256: 44fdc40961887247fdf347f26310cabc056d8adc4215562bc18ff8d01357349b
 Section: debug
 Priority: optional
 Description: debug symbols for nrsc5
-Build-Ids: 9b7842f9a546b8286b5337db5be9efaa8ff81e71 a7f7e0ba28be7fba179075d939962f07e7e8a092
+Build-Ids: 520900f9c4f24a6bc9ddb12593e671650a3efb3d 62075c06b84022938cb27a544ca0fe6173340671
 
 Package: openwebrx
 Version: 1.2.79
@@ -3062,109 +3062,109 @@ Description: JS8 frame parser
  python module for parsing messages from the "js8" command line decoder
 
 Package: redsea
-Version: 0.21
+Version: 1.1
 Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 902
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libliquid1 (>= 1.5.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
-Filename: ./amd64/redsea_0.21_amd64.deb
-Size: 254328
-MD5sum: 4d1c7c83c1a675adb7f9ce7a5c56df57
-SHA1: 34e5db41e1248c7727394bcdccfd6f0e336a1ec4
-SHA256: 42f771ff9da8c49f887aa999c4125212c8014f0653a33fc7dd9a236a0f9e7923
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 721
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.0), libliquid1 (>= 1.5.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
+Filename: ./amd64/redsea_1.1_amd64.deb
+Size: 216928
+MD5sum: 80447b99a9baea58e07a88e9b7c0f291
+SHA1: 41d374541a91abbd0bc0592c0adc749703704698
+SHA256: 264dc583f30c0f3a51dd25604fda5610f25adae861169095b1d0683a47623091
 Section: hamradio
 Priority: optional
-Description: RDS decoder
- Lightweight command-line FM-RDS decoder for Linux/macOS. It supports a
+Description: RDS (Radio Data System) decoder
+ A lightweight command-line FM-RDS decoder that supports a
  large subset of RDS features.
 
 Package: redsea
-Version: 0.21
+Version: 1.1
 Architecture: armhf
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 608
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.5), libliquid1 (>= 1.5.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
-Filename: ./armhf/redsea_0.21_armhf.deb
-Size: 223392
-MD5sum: 801159ea43fd2d9616255ad5afd284a6
-SHA1: 065c71f56f26d9405c0d9a12a5ccd3ac782c62f2
-SHA256: 808d8dea76e7c66dcb8c345447d15db0f3d38e80a244c3bdfa1f1660670285b8
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 524
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.0), libliquid1 (>= 1.5.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
+Filename: ./armhf/redsea_1.1_armhf.deb
+Size: 196312
+MD5sum: db13aa4fec1c1fa6141fd74478f0a6ae
+SHA1: 36760dee5a522d7975ded798b18726fd6080158d
+SHA256: 079d3d5c0e221c49d0745a17bf8a9260d126b9f5c8452349fffe13213688c985
 Section: hamradio
 Priority: optional
-Description: RDS decoder
- Lightweight command-line FM-RDS decoder for Linux/macOS. It supports a
+Description: RDS (Radio Data System) decoder
+ A lightweight command-line FM-RDS decoder that supports a
  large subset of RDS features.
 
 Package: redsea
-Version: 0.21
+Version: 1.1
 Architecture: arm64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 850
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libliquid1 (>= 1.5.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
-Filename: ./arm64/redsea_0.21_arm64.deb
-Size: 233680
-MD5sum: bba91ad776cf7123d635748baa79300c
-SHA1: c9fb40e9c8e80424800fc6bb9a937cda1e5f12da
-SHA256: 0c46bf0e9007ca16121b8ea2ada3a592f0e7b3e89e2312c4b7825566f05e3e66
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 717
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.0), libliquid1 (>= 1.5.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
+Filename: ./arm64/redsea_1.1_arm64.deb
+Size: 192108
+MD5sum: 2c5e1047f375371a4f7fb3f7c6b0303b
+SHA1: f325492ac61c5a41ee086cfc1b3161e4ddc7faa6
+SHA256: 6220f66d748a0044f1c192f0b2be72454ec9d12e300be12b1d67b96913e7ee8d
 Section: hamradio
 Priority: optional
-Description: RDS decoder
- Lightweight command-line FM-RDS decoder for Linux/macOS. It supports a
+Description: RDS (Radio Data System) decoder
+ A lightweight command-line FM-RDS decoder that supports a
  large subset of RDS features.
 
 Package: redsea-dbgsym
 Source: redsea
-Version: 0.21
+Version: 1.1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3994
-Depends: redsea (= 0.21)
-Filename: ./amd64/redsea-dbgsym_0.21_amd64.deb
-Size: 3902956
-MD5sum: 3d48749cbf0c20d22e989f5cd3abfe16
-SHA1: cfbfa4ac433b99cfad2e4a32e895e1bd1382258a
-SHA256: 9001742ba6cae2031d4ce6a2955cff4ff7588ca9d242ccae293c588f43068abd
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 3874
+Depends: redsea (= 1.1)
+Filename: ./amd64/redsea-dbgsym_1.1_amd64.deb
+Size: 3815996
+MD5sum: d0f1e3b2c24d550184f017c402984315
+SHA1: 24a26971e0876b32bbe29ec5dca6306b64386d26
+SHA256: 6cf095be2d0253aaa9013c346b8ebf768a04717f0df3d8cffb7acedf4d4ccca7
 Section: debug
 Priority: optional
 Description: debug symbols for redsea
-Build-Ids: b276cea28125345acf60a72ba7c79d93448d5742
+Build-Ids: a27acaa497fe40106b5e57fb2ae0f3f028cdd851
 
 Package: redsea-dbgsym
 Source: redsea
-Version: 0.21
+Version: 1.1
 Auto-Built-Package: debug-symbols
 Architecture: armhf
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3883
-Depends: redsea (= 0.21)
-Filename: ./armhf/redsea-dbgsym_0.21_armhf.deb
-Size: 3798408
-MD5sum: fd78ff28c294fefe52e80bcda4e0626e
-SHA1: 0b5cc13f1336b1f3d3203d7f9be5f3b7f1d82217
-SHA256: ea25b5a8765349252c4078e0dfd4a14a46d6912c09c0ec3775d147b13016e693
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 3765
+Depends: redsea (= 1.1)
+Filename: ./armhf/redsea-dbgsym_1.1_armhf.deb
+Size: 3706032
+MD5sum: b6dce4440f016e6b37b9c7051db24381
+SHA1: 978b0135950a4d8590647c0867370f09910b0566
+SHA256: 8e0ad4e7b072c4dd26bf9b3faa885477f5e2d77ac718f7c3c65cb81e170fb621
 Section: debug
 Priority: optional
 Description: debug symbols for redsea
-Build-Ids: efc3854c4116f40d7b2b77c4aa5c5bacae441d9a
+Build-Ids: 99518d81bde1c2ed86b9f2b4e904671b07704b22
 
 Package: redsea-dbgsym
 Source: redsea
-Version: 0.21
+Version: 1.1
 Auto-Built-Package: debug-symbols
 Architecture: arm64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3886
-Depends: redsea (= 0.21)
-Filename: ./arm64/redsea-dbgsym_0.21_arm64.deb
-Size: 3801424
-MD5sum: 540f763cd4eb7ef4a0b7eee7c7ad0aa8
-SHA1: 6d0571fb99024f11f5be062bb20b8095754c2cc2
-SHA256: ca8769693a859d0a1376af62f2b3cc136d94e34899a8257ba2bab43c7a85d9e8
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 3802
+Depends: redsea (= 1.1)
+Filename: ./arm64/redsea-dbgsym_1.1_arm64.deb
+Size: 3735220
+MD5sum: 2500ed323dafd1a242e4e1e12e9c5376
+SHA1: 7e9cdc277e369d1bdeb0bc4a931b250c911816bc
+SHA256: 7e08540431ebf52c3472c16d19f7c529877daee0a1056f4e72518d94ec5f8482
 Section: debug
 Priority: optional
 Description: debug symbols for redsea
-Build-Ids: 64aca9883b0f608676cf94036cb68f88bd7b5763
+Build-Ids: e951ae25a606fe7f720445dae503525153d68354
 
 Package: rtl-connector
 Source: owrx-connector
