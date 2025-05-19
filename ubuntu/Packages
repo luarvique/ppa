@@ -365,17 +365,17 @@ Description: NRSC5 decoder
  Command-line NRSC5 decoder, with a library.
 
 Package: openwebrx
-Version: 1.2.84
+Version: 1.2.85
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3444
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.30), python3:any, debconf (>= 0.5) | debconf-2.0
+Installed-Size: 3448
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.31), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
-Filename: ./amd64/openwebrx_1.2.84_all.deb
-Size: 1004152
-MD5sum: 347a2171742e8094ce37755caa683055
-SHA1: f0d8b8b14761ce8b30a71a9fc66b8d175662c3ec
-SHA256: f1c8ffc6ee02731923e9d79bf76e829abb5b7255d3b80eeda970467f6edc45df
+Filename: ./amd64/openwebrx_1.2.85_all.deb
+Size: 1004496
+MD5sum: b13ad266f8c51e34302e87694533e519
+SHA1: 3a5178624db317c4d3d7774171f37316be58b3c3
+SHA256: 0efd6222841de0b02292bfb03c0fa7a4577e3f16fb10c8b4d1978b430a75be5a
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -383,17 +383,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.84
+Version: 1.2.85
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3444
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.30), python3:any, debconf (>= 0.5) | debconf-2.0
+Installed-Size: 3448
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.31), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
-Filename: ./arm64/openwebrx_1.2.84_all.deb
-Size: 1003716
-MD5sum: a7193c8839eb5c17bb6fd8349661489e
-SHA1: 5980616b0473ff90fbb79e6ebefc4b731e05e8c7
-SHA256: fedc1fdfb3f50f73bed8d73d5ad50df67c4dab34e792af1fdd706c2fe6c3cf70
+Filename: ./arm64/openwebrx_1.2.85_all.deb
+Size: 1004108
+MD5sum: 3e4b4c4c75de22c7257b8853e02a5833
+SHA1: e13d93ffaaafdb838230c72db694a6510007f914
+SHA256: 518580a617fadfdcea7221c884a61769dbbe2297041446d2052a36d4b744fb66
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -434,16 +434,16 @@ Description: Virtual bundle dependency package
 
 Package: python3-csdr
 Source: pycsdr
-Version: 0.18.30
+Version: 0.18.31
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 201
 Depends: libcsdr0 (>= 0.18.30), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
-Filename: ./amd64/python3-csdr_0.18.30_amd64.deb
-Size: 39044
-MD5sum: 4ff8a8bf7d468cc9779a70350e6ceae0
-SHA1: a64009d54b0cb2d59fb24778b27d7f132f37dae1
-SHA256: 9d6a7bbef814dbc38a4c872413dcf56d9d7c7c1bb90bacf8725d4fcacd18b00c
+Filename: ./amd64/python3-csdr_0.18.31_amd64.deb
+Size: 39276
+MD5sum: ac96fb56dccb527eac5532e0ad11a4c6
+SHA1: 43609d542f6c56950583bdc1334f6843ff7cf14e
+SHA256: fd3e97f77bfe7f5665a6d7b2cb2aa1730c2f63230998a6a07b7ad64d5a6c9dae
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr
@@ -452,16 +452,16 @@ Description: Python bindings for libcsdr
 
 Package: python3-csdr
 Source: pycsdr
-Version: 0.18.30
+Version: 0.18.31
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 193
 Depends: libcsdr0 (>= 0.18.30), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
-Filename: ./arm64/python3-csdr_0.18.30_arm64.deb
-Size: 36592
-MD5sum: c357b2c5ff50928cc70b20ed7bf38b37
-SHA1: 28f1661f479a1c0d654eb2783b53cc90457b0777
-SHA256: 7e32dd113b45f90a5f00268f2f1b9114153319449f36beb2ff0c3c55253382ee
+Filename: ./arm64/python3-csdr_0.18.31_arm64.deb
+Size: 36692
+MD5sum: 0417ed30773df5b1e2737f2f18fe35dc
+SHA1: 62a1b769720a37ef4984e6e1250b2fe2a32e695b
+SHA256: ceb75ad43f5b3a2e462b0139587d5108a508ffdb524f7120e5c764a5f2e3cdc9
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr
