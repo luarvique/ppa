@@ -6,10 +6,10 @@ Installed-Size: 712
 Depends: libcsdr0 (= 0.18.33), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
 Recommends: nmux (= 0.18.33)
 Filename: ./amd64/csdr_0.18.33_amd64.deb
-Size: 185716
-MD5sum: bc3ec1c277dc1551835d62b220c99475
-SHA1: 40d346afe649b878e8c05c2daf76e801d3d26de5
-SHA256: 3e1eaacda715bd3d7bd3a4f839451507e07f240e365faa53fd409ecff7daf4e0
+Size: 186184
+MD5sum: 70ddbe9fc2105407aec02534cd2c98f3
+SHA1: f609b70eaee22959834b073f8010ac38f260a89d
+SHA256: 63a8c710320cb9f4c2964691dfde11e90bb3f8fb56c551147de4e2b8a9d4f58c
 Section: hamradio
 Priority: optional
 Description: command-line sdr
@@ -23,10 +23,10 @@ Installed-Size: 660
 Depends: libcsdr0 (= 0.18.33), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
 Recommends: nmux (= 0.18.33)
 Filename: ./arm64/csdr_0.18.33_arm64.deb
-Size: 164540
-MD5sum: 4b023441eb47aee94bbd86546cadd184
-SHA1: 468e2ea44a0c47ad897eaceb1d83e0b1925205e5
-SHA256: 74c7d14e04474a423379c1ea7f32d25270feafd2bfd487fb47e01f87ed1ea65b
+Size: 164544
+MD5sum: 5d85552cbab08a7bd48d7cbce09c5b3f
+SHA1: 1b7c9b3d0b7369da7e0e03609d09806b80d2d818
+SHA256: bc64643c9583b77310d0396a7fa63458dd8de5f0f9a5bf3ac410254f0e551138
 Section: hamradio
 Priority: optional
 Description: command-line sdr
@@ -96,10 +96,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 209
 Depends: libcsdr0 (= 0.18.33), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
 Filename: ./amd64/libcsdr-dev_0.18.33_amd64.deb
-Size: 26512
-MD5sum: 996a21eb01c7f16bc0cbd909786c1aaa
-SHA1: fdc98fcf388677dcda170cac6f63e1e7fce796ef
-SHA256: a5816c57d78386f0cc1e8d148e7655c62b22eb19c3a737087686adc70337ee1f
+Size: 26508
+MD5sum: 6191e4bb99428927d62aebe085c2e91d
+SHA1: 2ac010b41b3e2c36a8e3785b96d3b468b25a1411
+SHA256: 83a4346cd7a8a9c0b2202a62b315e6f3e6d6e14e857f0711b69e96e1130a2c8b
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
@@ -113,10 +113,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 209
 Depends: libcsdr0 (= 0.18.33), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
 Filename: ./arm64/libcsdr-dev_0.18.33_arm64.deb
-Size: 26544
-MD5sum: a09860121abafd905257157e36b4dd2d
-SHA1: 925d7ce643738d563fd55276339b9c886b037162
-SHA256: ce9182b8566d1203225ecf7725f24d9d76a03428a7394e2d987fa324dda426e0
+Size: 26536
+MD5sum: d6e4dca15ae59c9df4174e99927214f1
+SHA1: 12e284e0238bc343f42dd2b9c3d66a0e2aa29fc7
+SHA256: 6039603b97bab0b6e1af712508a4ba777b026aff4c6ad52d085981c0bc7aa7b8
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
@@ -200,10 +200,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 776
 Depends: libc6 (>= 2.35), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
 Filename: ./amd64/libcsdr0_0.18.33_amd64.deb
-Size: 161768
-MD5sum: cad715b4b6a1bd8d5d6ea3f51bc8d239
-SHA1: 573b34a3e56e0c26ba37e7093807690b910c3057
-SHA256: 0029c67f89aa019dd4c737bd57011e0506910593283aa65991f4a8828085fe0a
+Size: 161044
+MD5sum: 17d69f2e9d4740ade08715d022a1082d
+SHA1: d83f866891d3bf8d0b01770215ffa4ddbb534d14
+SHA256: d2f7d036928355386345b9740dbd14fdae42757bc7789bc03cdc04ee69ac49ad
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
@@ -214,13 +214,13 @@ Source: csdr
 Version: 0.18.33
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 752
+Installed-Size: 744
 Depends: libc6 (>= 2.29), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
 Filename: ./arm64/libcsdr0_0.18.33_arm64.deb
-Size: 146208
-MD5sum: 5e1d53bd4b12875b2dd129735dad996b
-SHA1: e2564858a623190ae8c347462194009e69178486
-SHA256: 70aeed5471bd2e0c4dd5ea7d6ba869f5a3cf5f2e100b87ec45dc2275e37d3581
+Size: 146076
+MD5sum: a7b0e4effa39fd448e0f8f649492e3c5
+SHA1: 223bda65bd3f3ea348e47227fc54450869bf3a1b
+SHA256: 4959ca72fba059b2281ce6ee60c33dce2306e949bbfdc73c4478cf58c44e02aa
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
@@ -303,10 +303,10 @@ Installed-Size: 40
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
 Conflicts: csdr (<= 0.18.0~133)
 Filename: ./amd64/nmux_0.18.33_amd64.deb
-Size: 12756
-MD5sum: d8c219e1df5d3c612133bcf0ca199709
-SHA1: e9fdd8308e044af5dd607f5a98ceace8604e6b87
-SHA256: 00d07d735aeb65dc5a18589b130940f2d3a346e98549d67071d610c61473e3c6
+Size: 12760
+MD5sum: 524c747a5f3026abb240e675e133ec93
+SHA1: 6eaaafcd2b02e2ec855cad6f1cf3d9ea876c8f75
+SHA256: 7c5f6a658a9c2fcf6f215cc71f5ef799ec091e82a1e07cfba03509f431f2c5d1
 Section: hamradio
 Priority: optional
 Description: TCP stream multiplexer
@@ -322,10 +322,10 @@ Installed-Size: 36
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
 Conflicts: csdr (<= 0.18.0~133)
 Filename: ./arm64/nmux_0.18.33_arm64.deb
-Size: 12420
-MD5sum: 10e7127571e009b87f892406203f76fe
-SHA1: 1355f8241db0f99ddea70f28d2a3a35aa0f2e8f7
-SHA256: 971e476a38e0cc690200aabf1030b5787b734b3b976dc65826fe484ed16e2842
+Size: 12404
+MD5sum: e4b3ed4cbf4edcd289804c6096359720
+SHA1: 05aecbf791eb8344f012ffc8c71c52391c555ef4
+SHA256: 991bed6d71e15b02cc89b532a22733797957785c2529642662d0dfeb9651b1df
 Section: hamradio
 Priority: optional
 Description: TCP stream multiplexer
