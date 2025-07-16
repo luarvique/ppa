@@ -400,6 +400,42 @@ Homepage: https://www.openwebrx.de/
 Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
+Package: openwebrx
+Version: 1.2.89
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 3453
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.34), python3:any, debconf (>= 0.5) | debconf-2.0
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
+Filename: ./amd64/openwebrx_1.2.89_all.deb
+Size: 1005988
+MD5sum: 354c490c79c31cdbeba799939656cfeb
+SHA1: 7c88ae001cacf8cca1122541a871b1694f8c1a32
+SHA256: 09589d927bcde4177b0c2c49cde66e2df18c3aff12daffe638200fd61ea5cbf0
+Section: hamradio
+Priority: optional
+Homepage: https://www.openwebrx.de/
+Description: multi-user web sdr
+ Open source, multi-user SDR receiver with a web interface
+
+Package: openwebrx
+Version: 1.2.89
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 3453
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.34), python3:any, debconf (>= 0.5) | debconf-2.0
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
+Filename: ./arm64/openwebrx_1.2.89_all.deb
+Size: 1005584
+MD5sum: f2d664c24259b24d0a100b0aaf5bbe47
+SHA1: 95d6a7300a7badc74e665ef5c7afeb570e5c0547
+SHA256: bbaf479feb8628b6d591f25366a2ed5b1e5124e3fb9063cfd8fe72638c2876af
+Section: hamradio
+Priority: optional
+Homepage: https://www.openwebrx.de/
+Description: multi-user web sdr
+ Open source, multi-user SDR receiver with a web interface
+
 Package: owrx-connector
 Version: 0.6.5
 Architecture: amd64
