@@ -1,3 +1,37 @@
+Package: acarsdec
+Version: 4.3.1
+Architecture: amd64
+Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
+Installed-Size: 91
+Depends: libacars2, libasound2 (>= 1.0.16), libc6 (>= 2.34), libcjson1 (>= 1.7.5), libpaho-mqtt1.3 (>= 1.3.0), librtlsdr0 (>= 0.6.0), libsndfile1 (>= 1.0.20), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./amd64/acarsdec_4.3.1_amd64.deb
+Size: 36646
+MD5sum: dbd8930c896ad481ec4c1872f18b5f6f
+SHA1: 9f9bec6c4d8cfb9babc12a51cea81b574a0c1641
+SHA256: 63259d4a15526c151e06d5d9310b1469980e49cf8954f9fd5b30ddf97e9cbf78
+Section: hamradio
+Priority: optional
+Description: ACARS decoder
+ A command-line ACARS (Aircraft Communications Addressing and
+ Reporting System) decoder.
+
+Package: acarsdec
+Version: 4.3.1
+Architecture: arm64
+Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
+Installed-Size: 79
+Depends: libacars2, libasound2 (>= 1.0.16), libc6 (>= 2.34), libcjson1 (>= 1.7.5), libpaho-mqtt1.3 (>= 1.3.0), librtlsdr0 (>= 0.6.0), libsndfile1 (>= 1.0.20), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./arm64/acarsdec_4.3.1_arm64.deb
+Size: 35506
+MD5sum: ba8dd59bb0b40f33cdbddfb6bad695b2
+SHA1: bd224c3e7f834b55da6fb301c83489400f3b3710
+SHA256: f525a30ec464e61ec8cb6d389e1b3359febabe8d018f46b2bc52237bd1d1f2a2
+Section: hamradio
+Priority: optional
+Description: ACARS decoder
+ A command-line ACARS (Aircraft Communications Addressing and
+ Reporting System) decoder.
+
 Package: csdr
 Version: 0.18.36
 Architecture: amd64
@@ -365,17 +399,17 @@ Description: NRSC5 decoder
  Command-line NRSC5 decoder, with a library.
 
 Package: openwebrx
-Version: 1.2.91
+Version: 1.2.92
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3457
+Installed-Size: 3465
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
-Filename: ./amd64/openwebrx_1.2.91_all.deb
-Size: 1006676
-MD5sum: 9330c12a102fe61da6c4eed43522a497
-SHA1: f524c3bf99148cd96b35d0c802d7ec4380879e5d
-SHA256: f145baa93ff8afeb75930f44d8bfb283aa17738b28e7cc0aefcf4daa8c823e15
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
+Filename: ./amd64/openwebrx_1.2.92_all.deb
+Size: 1007780
+MD5sum: cade8c34bb6be119070290ba5714c3b8
+SHA1: 6dd727afeb7cd17e8604c3d42f02f631535c8235
+SHA256: 5424e80a910900e801096cfc90737d00023d38f506b627e8aecbe80d180e985f
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -383,17 +417,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.91
+Version: 1.2.92
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3457
+Installed-Size: 3465
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
-Filename: ./arm64/openwebrx_1.2.91_all.deb
-Size: 1006404
-MD5sum: 89687d6cabd72b1eb7057b8866b587f5
-SHA1: 41c528cb56516be24d56ddfbc667430a87c6294d
-SHA256: a982a03bba92b76749312b6f41b29ebcd054777e932ec6dc374695ddf3b59808
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
+Filename: ./arm64/openwebrx_1.2.92_all.deb
+Size: 1007228
+MD5sum: 4b64e0f34023af9ce3d8e9ca6c9ca9d7
+SHA1: 5b428567231513aa8f5fba0e2f1d0790b751cf87
+SHA256: a101c6d46aabfc4a106a172bd79800b6bd898a0594bc6f3d6fb760a3183542e6
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -505,16 +539,16 @@ Description: Python bindings for libcsdr-eti
  python programs.
 
 Package: redsea
-Version: 1.1
+Version: 1.2.0
 Architecture: amd64
 Maintainer: Oona Räisänen <oh2eiq@pm.me>
-Installed-Size: 660
+Installed-Size: 664
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.0), libliquid2d, libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
-Filename: ./amd64/redsea_1.1_amd64.deb
-Size: 229122
-MD5sum: 54851b1af66124baa0f608b4aaf43519
-SHA1: e96e705b5f3d527c3969b90af97637ab76e1aafe
-SHA256: a8670e9294f9a95d1140506586b3e497e7255b260401a8a3027527cc45f7ead7
+Filename: ./amd64/redsea_1.2.0_amd64.deb
+Size: 230668
+MD5sum: bb3e9abb100103c205aec6e3ecb677c9
+SHA1: 34295af2b931401af0900739c22199441eb720b6
+SHA256: c120ba9cf0538542c2a4670810a6c45927a751e1729c6e172692a72a25f10489
 Section: hamradio
 Priority: optional
 Description: RDS (Radio Data System) decoder
@@ -522,16 +556,16 @@ Description: RDS (Radio Data System) decoder
  large subset of RDS features.
 
 Package: redsea
-Version: 1.1
+Version: 1.2.0
 Architecture: arm64
 Maintainer: Oona Räisänen <oh2eiq@pm.me>
-Installed-Size: 576
+Installed-Size: 580
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.0), libliquid2d, libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
-Filename: ./arm64/redsea_1.1_arm64.deb
-Size: 212562
-MD5sum: 8cddeaa45934b0ac20b8f5e6a7363361
-SHA1: cc1526eb268888181e64b28a8ec3a041cf60fb48
-SHA256: aec890d231f9f89eba6d53143959c8a93cbb4de1ac40455c51e4c426d6148378
+Filename: ./arm64/redsea_1.2.0_arm64.deb
+Size: 213596
+MD5sum: 600e3ece46db865c39b87a2b4a9e21c5
+SHA1: 0d4f92ebcf95eb60c8cfa37cebefed425821eaad
+SHA256: d7e029a4a5a7c7bd45a267ae3a9bca1fdbab9f643d0c97f111061351c6e86781
 Section: hamradio
 Priority: optional
 Description: RDS (Radio Data System) decoder
