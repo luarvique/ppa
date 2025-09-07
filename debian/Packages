@@ -1038,10 +1038,10 @@ Installed-Size: 3465
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
 Filename: ./amd64/openwebrx_1.2.92_all.deb
-Size: 1006924
-MD5sum: 71d4e017b24adb6c49fe8979b2c91121
-SHA1: dbb881ff2aa3e59545fbc84c20bb3c2d0ef159ef
-SHA256: a2099b34f5661248cf0b87309c18d780da1c60d1433660f56233af76080b82ce
+Size: 1006964
+MD5sum: 78f61835c374c6e4ad76919199cf70c1
+SHA1: 9d38eb4946772f1cbf06fbc925b09ae097a0cd95
+SHA256: fa7c8e46b40d42d262b343b5949fcdf0e058b91c5863b3c94fe664f2c18cbd44
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -1056,10 +1056,10 @@ Installed-Size: 3465
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
 Filename: ./armhf/openwebrx_1.2.92_all.deb
-Size: 1006924
-MD5sum: 71d4e017b24adb6c49fe8979b2c91121
-SHA1: dbb881ff2aa3e59545fbc84c20bb3c2d0ef159ef
-SHA256: a2099b34f5661248cf0b87309c18d780da1c60d1433660f56233af76080b82ce
+Size: 1006964
+MD5sum: 78f61835c374c6e4ad76919199cf70c1
+SHA1: 9d38eb4946772f1cbf06fbc925b09ae097a0cd95
+SHA256: fa7c8e46b40d42d262b343b5949fcdf0e058b91c5863b3c94fe664f2c18cbd44
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -1074,10 +1074,10 @@ Installed-Size: 3465
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
 Filename: ./arm64/openwebrx_1.2.92_all.deb
-Size: 1006924
-MD5sum: 71d4e017b24adb6c49fe8979b2c91121
-SHA1: dbb881ff2aa3e59545fbc84c20bb3c2d0ef159ef
-SHA256: a2099b34f5661248cf0b87309c18d780da1c60d1433660f56233af76080b82ce
+Size: 1006964
+MD5sum: 78f61835c374c6e4ad76919199cf70c1
+SHA1: 9d38eb4946772f1cbf06fbc925b09ae097a0cd95
+SHA256: fa7c8e46b40d42d262b343b5949fcdf0e058b91c5863b3c94fe664f2c18cbd44
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -1398,60 +1398,6 @@ Priority: optional
 Description: RDS (Radio Data System) decoder
  A lightweight command-line FM-RDS decoder that supports a
  large subset of RDS features.
-
-Package: redsea-dbgsym
-Source: redsea
-Version: 1.1
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Oona Räisänen <oh2eiq@pm.me>
-Installed-Size: 3946
-Depends: redsea (= 1.1)
-Filename: ./amd64/redsea-dbgsym_1.1_amd64.deb
-Size: 3849852
-MD5sum: 19421819d4475cb5418dbc512a1ae3b7
-SHA1: 699322ec6dcbf5935f9aad41489b2f62e2833a99
-SHA256: 6f763c07e7318038ea44c90aba47eb6f0ab4a725e2cc47cef7f2ce3a59c5663c
-Section: debug
-Priority: optional
-Description: debug symbols for redsea
-Build-Ids: f2ad7dd185951febc39b85c7bdb7614bc66d3de4
-
-Package: redsea-dbgsym
-Source: redsea
-Version: 1.1
-Auto-Built-Package: debug-symbols
-Architecture: armhf
-Maintainer: Oona Räisänen <oh2eiq@pm.me>
-Installed-Size: 3778
-Depends: redsea (= 1.1)
-Filename: ./armhf/redsea-dbgsym_1.1_armhf.deb
-Size: 3689892
-MD5sum: e68cb0b31dc42d050052fa8ce37c1f4a
-SHA1: edc04a3c4176177845581a3824d5480d673cc3c9
-SHA256: 4fefa07d2da3be5da4b987477823ac2249d09393564d301588862ff9521ff580
-Section: debug
-Priority: optional
-Description: debug symbols for redsea
-Build-Ids: 05f326a2d84c84b327394e6b189d495b459db358
-
-Package: redsea-dbgsym
-Source: redsea
-Version: 1.1
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Oona Räisänen <oh2eiq@pm.me>
-Installed-Size: 3879
-Depends: redsea (= 1.1)
-Filename: ./arm64/redsea-dbgsym_1.1_arm64.deb
-Size: 3780728
-MD5sum: b1a707f4741bc297e362e40be8fb4b9b
-SHA1: 8d9cdc287bba563595efe39abfdae1ad46eb9e45
-SHA256: bbd38fc31ac0a0fe681351b21a2bf7501e4b6ae037a035cffad89ebf85c45aee
-Section: debug
-Priority: optional
-Description: debug symbols for redsea
-Build-Ids: 3aea30ebdbeb71a41f2c57bb9918713c3d59390f
 
 Package: redsea-dbgsym
 Source: redsea
