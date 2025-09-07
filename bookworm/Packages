@@ -106,6 +106,57 @@ Description: ACARS SDR decoder
  Acarsdec is a multi-channels acars decoder with built-in rtl_sdr, airspy front
  end or sdrplay device.
 
+Package: acarsdec
+Version: 4.3.1
+Architecture: amd64
+Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
+Installed-Size: 92
+Depends: libacars2 (>= 2.2.0), libasound2 (>= 1.0.16), libc6 (>= 2.34), libcjson1 (>= 1.7.5), libpaho-mqtt1.3 (>= 1.3.0), librtlsdr0 (>= 0.6.0), libsndfile1 (>= 1.0.20), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./amd64/acarsdec_4.3.1_amd64.deb
+Size: 34860
+MD5sum: aa4051f14a27792d647d6ccc575bd6ee
+SHA1: 5cadbec6839dc7a13807d2c9e5e5280012c6c7e0
+SHA256: 33dd07cb03c3bde5ba5522cb256ba1cbf3915e990df59058f1a729bfe9395aa9
+Section: hamradio
+Priority: optional
+Description: ACARS decoder
+ A command-line ACARS (Aircraft Communications Addressing and
+ Reporting System) decoder.
+
+Package: acarsdec
+Version: 4.3.1
+Architecture: armhf
+Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
+Installed-Size: 67
+Depends: libacars2 (>= 2.2.0), libasound2 (>= 1.0.16), libc6 (>= 2.34), libcjson1 (>= 1.7.5), libpaho-mqtt1.3 (>= 1.3.0), librtlsdr0 (>= 0.6.0), libsndfile1 (>= 1.0.20), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./armhf/acarsdec_4.3.1_armhf.deb
+Size: 31160
+MD5sum: 063b92a434b0aff3795dee1f9f2ebbd6
+SHA1: d6402f31fa514e1caf693f4ddf63aae1f920d148
+SHA256: 18d502eb555a4f39578dab5e4003a10384ff9c27ca95bd4f7fd9a40b1a587a8c
+Section: hamradio
+Priority: optional
+Description: ACARS decoder
+ A command-line ACARS (Aircraft Communications Addressing and
+ Reporting System) decoder.
+
+Package: acarsdec
+Version: 4.3.1
+Architecture: arm64
+Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
+Installed-Size: 140
+Depends: libacars2 (>= 2.2.0), libasound2 (>= 1.0.16), libc6 (>= 2.34), libcjson1 (>= 1.7.5), libpaho-mqtt1.3 (>= 1.3.0), librtlsdr0 (>= 0.6.0), libsndfile1 (>= 1.0.20), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./arm64/acarsdec_4.3.1_arm64.deb
+Size: 32868
+MD5sum: 22737eee343dc14c563478411a34cdc6
+SHA1: 803eaa5987d38560b0a7ecc8998ca9f8d5f50e9a
+SHA256: 16954a05d67dd9cf62aa0986bdc6fb3c6e062e7e8d2dc337ab1b0039e607874e
+Section: hamradio
+Priority: optional
+Description: ACARS decoder
+ A command-line ACARS (Aircraft Communications Addressing and
+ Reporting System) decoder.
+
 Package: acarsdec-dbgsym
 Source: acarsdec
 Version: 3.7-1
@@ -213,6 +264,60 @@ Section: debug
 Priority: optional
 Description: debug symbols for acarsdec
 Build-Ids: 9fd0b6c50ff4539418660e2effeb57ebf3f713bd
+
+Package: acarsdec-dbgsym
+Source: acarsdec
+Version: 4.3.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
+Installed-Size: 103
+Depends: acarsdec (= 4.3.1)
+Filename: ./amd64/acarsdec-dbgsym_4.3.1_amd64.deb
+Size: 85092
+MD5sum: 2a42953508da80e68ffc334f7a2d8be6
+SHA1: e2a8e36f20c04ffa400f347dd7b07a2550239f97
+SHA256: 6a3dc013ef2b98cb20293731db41ac1ed135e056494cdf66489a873206c8c1a9
+Section: debug
+Priority: optional
+Description: debug symbols for acarsdec
+Build-Ids: 66aedc882e05bbf53ab193eea10cb198c5e702c6
+
+Package: acarsdec-dbgsym
+Source: acarsdec
+Version: 4.3.1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
+Installed-Size: 104
+Depends: acarsdec (= 4.3.1)
+Filename: ./armhf/acarsdec-dbgsym_4.3.1_armhf.deb
+Size: 85952
+MD5sum: 0852ec6dfbd425ab8f7b200aaac1edf9
+SHA1: 6428c0f58419390398ebea1299d7cd5baa8d2ee2
+SHA256: 893c379a06a3c10ed5a021bc566b008810d0b68db5a7274a9606e3768c1fda3a
+Section: debug
+Priority: optional
+Description: debug symbols for acarsdec
+Build-Ids: e5268713010600a13d8150c6c9d8b9a0ecf9df83
+
+Package: acarsdec-dbgsym
+Source: acarsdec
+Version: 4.3.1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
+Installed-Size: 106
+Depends: acarsdec (= 4.3.1)
+Filename: ./arm64/acarsdec-dbgsym_4.3.1_arm64.deb
+Size: 85516
+MD5sum: d4bc3bd08648ba61831904e41c4cf5c7
+SHA1: 9ce8b94b56556daaac7dfa5c31303aa8a067243f
+SHA256: c5a1a9bb224284584fa1b975db44d4df2877b0696cc24383f6ec24c4f88c81a5
+Section: debug
+Priority: optional
+Description: debug symbols for acarsdec
+Build-Ids: 5e558b0d541826e52e855807a2104e585e8d892e
 
 Package: aprs-symbols
 Version: 0.0.1-4~31.gbpef2289
@@ -1380,10 +1485,10 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 59
 Depends: libacars2 (= 2.2.0-4), libc6 (>= 2.34)
 Filename: ./amd64/libacars-tools_2.2.0-4_amd64.deb
-Size: 12812
-MD5sum: 7881d73bf65f8cd4c1a61b9061efffc3
-SHA1: d04e7eb40fd97a27786267c3874fc30ce704b961
-SHA256: d29337b03ff2315d2b616d4d295ba899fbc5316cbe4cefb94c58c706e4f236af
+Size: 12816
+MD5sum: 0922e25319cc94b6497efbfcb8d43892
+SHA1: 3de8b040faca1ed01592b52390581e7edddb2ab2
+SHA256: e760de823017e11095399d7b555343b6e071db2bc93f03cfe1d357f6ad2757a9
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -1398,10 +1503,10 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 44
 Depends: libacars2 (= 2.2.0-4), libc6 (>= 2.34)
 Filename: ./armhf/libacars-tools_2.2.0-4_armhf.deb
-Size: 12548
-MD5sum: b2c68d4ebbaace7e1fc650b9b03e9245
-SHA1: 00d7de95224a445432283a4e3cb29019fa6c3c5c
-SHA256: 4b813479a885942971a1bf722bc7795703bed42715d1e2b80bdb80cf8bfc7a21
+Size: 12540
+MD5sum: 1842fb890709fac4c9e3b7529709e5a6
+SHA1: 144c4a1b25725f99055b6c4aac34266e223c58e2
+SHA256: 231e1689c8232219ffff571568469608d3d808cd5fd450c4c44f0dd06a750f18
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -1416,10 +1521,10 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 215
 Depends: libacars2 (= 2.2.0-4), libc6 (>= 2.34)
 Filename: ./arm64/libacars-tools_2.2.0-4_arm64.deb
-Size: 13056
-MD5sum: 0e5fdd35d4a3b5e65d36091482c3dc48
-SHA1: be93271e741f45520e091c1f3d5ae09f3a8f0932
-SHA256: 95cee3d98e71ab0563f8afce524488867a04fbb1a42d8629a9f5b4c9b2aa59e2
+Size: 13052
+MD5sum: 797b6560d94962378d528ea31df77525
+SHA1: 2b5d774e110d1c0ced6093d17cbff55b9df718f1
+SHA256: 8978c6b642b9fd60df6b969f674c74cdb0c481f45c55393582922c9acb5c76fa
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -1435,14 +1540,14 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 60
 Depends: libacars-tools (= 2.2.0-4)
 Filename: ./amd64/libacars-tools-dbgsym_2.2.0-4_amd64.deb
-Size: 29268
-MD5sum: 5553c7c8ff53b45ed646f1705d1d1149
-SHA1: 257d4a57e0a4c1453bed4c95bb695e34edc217c4
-SHA256: 310cdb3f6c3b6028d3a85c61040655cc99fcef184154f41bbb4793dc38c41451
+Size: 29284
+MD5sum: 21772ac52e7d9f61be9b1e0aeb3bce11
+SHA1: 1e259a98b7080882981306a548d458b8df9b1b74
+SHA256: 572b9cf326eaec230b7daf257c3c99fe050a6b5d109b5c1b84f6db02e02a3ca3
 Section: debug
 Priority: optional
 Description: debug symbols for libacars-tools
-Build-Ids: 010f0d8e9d12743c01c55e1ff092186adde77323 87ba40ebdfb8261f2e28931cd83162dfd498bf40 b165c7d6e11e66cc9bc4e0eea659958eb7577a1e
+Build-Ids: 0dcb72776ecbac507e6eb631dd18ed105a01d349 48ed3471855911c83a278edf076959e42f4c98d7 dbb971c4ff45093d704c4aecc6fa5d2e05df290b
 
 Package: libacars-tools-dbgsym
 Source: libacars
@@ -1453,14 +1558,14 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 57
 Depends: libacars-tools (= 2.2.0-4)
 Filename: ./armhf/libacars-tools-dbgsym_2.2.0-4_armhf.deb
-Size: 28788
-MD5sum: 84ac9b9aeeed94fdc7da9bbf07bfe139
-SHA1: 226977cee498e121490ed113486bf77587268647
-SHA256: 21a3ad6f22c85d4e320c31a26e345f011b60630b78ddd1599e12429bf42e60b9
+Size: 28800
+MD5sum: 56c3048ebe5964c335aede95611245c5
+SHA1: ff01bdb28f2871161d16a27f68b8b8a0524a9eed
+SHA256: 87ea1535328765fe9f5777cdd3434c46bba95b1c0e452fa880a8d9e6f51498b3
 Section: debug
 Priority: optional
 Description: debug symbols for libacars-tools
-Build-Ids: 54880c07c4cafbcc950ed273e097c69f440ffbd9 815bd07cb582e277e24c51d4ca170d817ce9c68c dacc9111fdb97e87a11e4c21d2abd3e4696afb1f
+Build-Ids: 495defac3fa1630dc99327caef646082d4d24a09 c626af061f8d0b9db1bc26e63f9ed59ae0f357b3 eb15563a26ecef238184680586fafc9f28e45ac8
 
 Package: libacars-tools-dbgsym
 Source: libacars
@@ -1471,14 +1576,14 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 63
 Depends: libacars-tools (= 2.2.0-4)
 Filename: ./arm64/libacars-tools-dbgsym_2.2.0-4_arm64.deb
-Size: 29780
-MD5sum: cc23ad783ce7f93ef32b0c4010eb45df
-SHA1: b5bb76943255439663e18602bc0e0b5e0939a053
-SHA256: 891608d17d57aff27a460324e8a38e199f0ca2231c9202642dafebe86f6611cd
+Size: 29728
+MD5sum: e51bc2f8e410e4b8b21dbbd56ad4187c
+SHA1: b23834359fe11949f0ab8e38ff75cdb5967cdcda
+SHA256: 64f05070a2098c1313494b3d8fe3f405c11cfd82c80492b857f301f5a5f751db
 Section: debug
 Priority: optional
 Description: debug symbols for libacars-tools
-Build-Ids: 1a6779e48b720ef57041f8e83fef69e08a17a535 33435d064ae9ceb3f2c5891f3d4b7cb2e9e0a7d5 e0026c216528e5b28cad03551cebf4848bf6a284
+Build-Ids: 0f61ed730b0b2b577f9b0b6f210d846191c52f82 431e7f1b82fc1486961efdc2a8c804bc6e7b1115 e8e4f02ba8770a213992c2307c15f3a31f927b69
 
 Package: libacars2
 Source: libacars
@@ -1488,10 +1593,10 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 712
 Depends: libc6 (>= 2.14), libjansson4 (>= 2.14), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
 Filename: ./amd64/libacars2_2.2.0-4_amd64.deb
-Size: 140100
-MD5sum: 3b3a8180d70266f409e2243f3d922494
-SHA1: 430188ae483a2595c21a37f17681dc4711d00feb
-SHA256: 405df36a259a4e60ed32825033f65ef0583a782ff7e0c373a62b2e8a9a6b2062
+Size: 140196
+MD5sum: 601d969e6d45074a8c92ec3c281e7698
+SHA1: 5f2ef228d7fd6bcb351b759dada73a72cd669ac2
+SHA256: 2c2f99d7d40258a5a1af447ca8438be2e3dea4834ba78745b54eed4395f5b5d2
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -1506,10 +1611,10 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 426
 Depends: libc6 (>= 2.4), libjansson4 (>= 2.14), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
 Filename: ./armhf/libacars2_2.2.0-4_armhf.deb
-Size: 109816
-MD5sum: 97dd61bc4d71e5627ae33d852f86283c
-SHA1: 759e4086c0111c07fbf37051a9715f99416c607d
-SHA256: 08a61a89026e1c15864f08797954df33a7f340dbaa3ff6599dc9994c53523f41
+Size: 109788
+MD5sum: e2341021b469b4da20a84dbb60bfa7b0
+SHA1: 5d88a4145a24c9665ebeec66a10ac78b3115cf57
+SHA256: 61e88a5cc3a163678442af639fffe67da6d001de7aa9bc686efa1be8bcdce760
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -1524,10 +1629,10 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 735
 Depends: libc6 (>= 2.17), libjansson4 (>= 2.14), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
 Filename: ./arm64/libacars2_2.2.0-4_arm64.deb
-Size: 130212
-MD5sum: cab76a8d41545cf5a93b90c2f67f3ebc
-SHA1: 831eb236539d171bd4b15ceee467153ebcd62ffa
-SHA256: 847722382b79088e8d520f5ec20befb3a978ea730e3c0ae95215200176b76459
+Size: 130608
+MD5sum: 1d7d152016960948dc576b70f07c076f
+SHA1: 170a1c07bce20e64dd6a73e1cb8726ebb2acbd62
+SHA256: d6d916614c63844490d0b1af17f4e380b767445908d94fb36551ce92373d4dd0
 Section: libs
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -1543,14 +1648,14 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 577
 Depends: libacars2 (= 2.2.0-4)
 Filename: ./amd64/libacars2-dbgsym_2.2.0-4_amd64.deb
-Size: 436932
-MD5sum: 675dd873e95594469bce34fb784614c0
-SHA1: d3484b909a488afbfc6b5bdaaee552e3692b645f
-SHA256: d86a5c360bca61c5eddefd62329991f4590dd6327c8d80cb6592e091f6bc0dbd
+Size: 436908
+MD5sum: a68cdae789f2e3dd698165da949dd081
+SHA1: 9ef9bbccb72823f0c58f7d1b5ef9680d6ab668b8
+SHA256: bb3639b14943b849d79448f71ea917d0626bf3d70190a5604b38e3dff506d40b
 Section: debug
 Priority: optional
 Description: debug symbols for libacars2
-Build-Ids: 24983880a09a1cfbcfc21f158a264ed64b12c5b0
+Build-Ids: 2f00bd323ee5c602a97e779906a6fda7a5c99d7c
 
 Package: libacars2-dbgsym
 Source: libacars
@@ -1561,14 +1666,14 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 620
 Depends: libacars2 (= 2.2.0-4)
 Filename: ./armhf/libacars2-dbgsym_2.2.0-4_armhf.deb
-Size: 449936
-MD5sum: 299c7515dc9958c4c16b64a13b79542d
-SHA1: 982c6716bbf01c8c132ad3be8c5f01967763cf19
-SHA256: 82162168a38083048b6b42be71c1317ac46f0ed426c35251b00626476f652f26
+Size: 450012
+MD5sum: 624da19406cace822c57cf7cd13364f7
+SHA1: 42c7646f5aefc670f4f3f645c0cdd4a0eeb940c5
+SHA256: 8bcf62229faf0aa0abb5ab7b8ecd66fda3453c48cc943273dea2de0ddd5fb87a
 Section: debug
 Priority: optional
 Description: debug symbols for libacars2
-Build-Ids: da7dd7a977e1fbd1887ddb56e83ff30fbdf09a11
+Build-Ids: 37646301c8addae2e1b08c04eb31d6ec79c0dacb
 
 Package: libacars2-dbgsym
 Source: libacars
@@ -1579,14 +1684,14 @@ Maintainer: Stanislav Lechev [LZ2SLL] <af@0xaf.org>
 Installed-Size: 614
 Depends: libacars2 (= 2.2.0-4)
 Filename: ./arm64/libacars2-dbgsym_2.2.0-4_arm64.deb
-Size: 446604
-MD5sum: f2320e4c2a591eb6fd718a3936853766
-SHA1: 197fff669e4b35bf0ca89a777232553c514d398b
-SHA256: a069c02e08ed42a5d449c54a460bb31b2fb41fe5517a18cf1956b4773c0797d9
+Size: 446392
+MD5sum: 8236cd8d69740dd7edb6b11010c1191b
+SHA1: 559d96568e95082b4b72fbc2c54318402d6473c5
+SHA256: c318adadaf610b2eaa5a3805d6d6247a1663acebcba528c062719bf171ee8f81
 Section: debug
 Priority: optional
 Description: debug symbols for libacars2
-Build-Ids: 7b8fbe66b8cb6f3a45ef6cb25275c932a300a7bd
+Build-Ids: 3887afff3354959b3f2fbbc7e538faf69903a49f
 
 Package: libcodecserver
 Source: codecserver
@@ -2642,17 +2747,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.91
+Version: 1.2.92
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3457
+Installed-Size: 3465
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
-Filename: ./amd64/openwebrx_1.2.91_all.deb
-Size: 1006096
-MD5sum: ee4aa08562b0b0df129adf5c611be6d6
-SHA1: 20ad9df74cc4f097628d0dee2b6eed87b94dc56a
-SHA256: 8b31b5a8e3e86260d7ebce85d5a5ef66c5c218a72f14394d2676c2206a3dd5c7
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
+Filename: ./amd64/openwebrx_1.2.92_all.deb
+Size: 1006900
+MD5sum: 49af3b6a724d5d9c75056252eca94d5e
+SHA1: efe568d2b3066699949fcc45da9c9246b4741761
+SHA256: b83c52cbe1642ec9758f6965c0d2fc9ddbcf2731bebca3d33cf5f874d575a503
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -2660,17 +2765,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.91
+Version: 1.2.92
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3457
+Installed-Size: 3465
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
-Filename: ./armhf/openwebrx_1.2.91_all.deb
-Size: 1005796
-MD5sum: ad2620cbbb79a89c4c4e28a3cb15c05e
-SHA1: 23344ddadcfd55980d8d0c6bd11ada35f89d3c94
-SHA256: b4ef62d99572d4909b3827c85c9f045e78fe9fab4968a2b753cacefb5e26d3d8
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
+Filename: ./armhf/openwebrx_1.2.92_all.deb
+Size: 1006900
+MD5sum: 49af3b6a724d5d9c75056252eca94d5e
+SHA1: efe568d2b3066699949fcc45da9c9246b4741761
+SHA256: b83c52cbe1642ec9758f6965c0d2fc9ddbcf2731bebca3d33cf5f874d575a503
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -2678,17 +2783,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.91
+Version: 1.2.92
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3457
+Installed-Size: 3465
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec, rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
-Filename: ./arm64/openwebrx_1.2.91_all.deb
-Size: 1005920
-MD5sum: 48a0f6fb39108498772133b51c600502
-SHA1: b3d893a834f819010a8df7d790e31aadd34e1c8e
-SHA256: 1eb1ce54eb2ed209bad990015c23ac5d35ae4b74e8cfa574e96d007d320360ce
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
+Filename: ./arm64/openwebrx_1.2.92_all.deb
+Size: 1006900
+MD5sum: 49af3b6a724d5d9c75056252eca94d5e
+SHA1: efe568d2b3066699949fcc45da9c9246b4741761
+SHA256: b83c52cbe1642ec9758f6965c0d2fc9ddbcf2731bebca3d33cf5f874d575a503
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -3116,16 +3221,16 @@ Description: JS8 frame parser
  python module for parsing messages from the "js8" command line decoder
 
 Package: redsea
-Version: 1.1
+Version: 1.2.0
 Architecture: amd64
 Maintainer: Oona Räisänen <oh2eiq@pm.me>
-Installed-Size: 721
+Installed-Size: 725
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.0), libliquid1 (>= 1.5.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
-Filename: ./amd64/redsea_1.1_amd64.deb
-Size: 216928
-MD5sum: 80447b99a9baea58e07a88e9b7c0f291
-SHA1: 41d374541a91abbd0bc0592c0adc749703704698
-SHA256: 264dc583f30c0f3a51dd25604fda5610f25adae861169095b1d0683a47623091
+Filename: ./amd64/redsea_1.2.0_amd64.deb
+Size: 218736
+MD5sum: 6d9234eadca6f56898bfc8254710bbd4
+SHA1: 3aaeec6c0ed348959776829f205a4b9c1403ece3
+SHA256: dd6cd3a61df1d93926ceeb44d9951ee697173fedc5f5eb7735fb7ce65ab64dae
 Section: hamradio
 Priority: optional
 Description: RDS (Radio Data System) decoder
@@ -3133,16 +3238,16 @@ Description: RDS (Radio Data System) decoder
  large subset of RDS features.
 
 Package: redsea
-Version: 1.1
+Version: 1.2.0
 Architecture: armhf
 Maintainer: Oona Räisänen <oh2eiq@pm.me>
-Installed-Size: 524
+Installed-Size: 528
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.0), libliquid1 (>= 1.5.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
-Filename: ./armhf/redsea_1.1_armhf.deb
-Size: 196312
-MD5sum: db13aa4fec1c1fa6141fd74478f0a6ae
-SHA1: 36760dee5a522d7975ded798b18726fd6080158d
-SHA256: 079d3d5c0e221c49d0745a17bf8a9260d126b9f5c8452349fffe13213688c985
+Filename: ./armhf/redsea_1.2.0_armhf.deb
+Size: 197812
+MD5sum: c8f2e8ac4fa00cd8aa39929c2a007412
+SHA1: 62d44b7dee81345f1ec067827c809e5d0f89e83e
+SHA256: 321d258f35baf2bbac80c7901539344afa921572ced6854cccb0e5fccb8c9e6b
 Section: hamradio
 Priority: optional
 Description: RDS (Radio Data System) decoder
@@ -3150,16 +3255,16 @@ Description: RDS (Radio Data System) decoder
  large subset of RDS features.
 
 Package: redsea
-Version: 1.1
+Version: 1.2.0
 Architecture: arm64
 Maintainer: Oona Räisänen <oh2eiq@pm.me>
 Installed-Size: 717
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.0), libliquid1 (>= 1.5.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
-Filename: ./arm64/redsea_1.1_arm64.deb
-Size: 192108
-MD5sum: 2c5e1047f375371a4f7fb3f7c6b0303b
-SHA1: f325492ac61c5a41ee086cfc1b3161e4ddc7faa6
-SHA256: 6220f66d748a0044f1c192f0b2be72454ec9d12e300be12b1d67b96913e7ee8d
+Filename: ./arm64/redsea_1.2.0_arm64.deb
+Size: 192956
+MD5sum: e7a12ce7986d60e4197b0a271a974fa3
+SHA1: 29361662b6b910e028fd3d7a0b6ea646f0992e7c
+SHA256: 02b7c8829260209917ff492380fb41754eb7229b38c3c3e68626f1f81f29cc2a
 Section: hamradio
 Priority: optional
 Description: RDS (Radio Data System) decoder
@@ -3168,57 +3273,57 @@ Description: RDS (Radio Data System) decoder
 
 Package: redsea-dbgsym
 Source: redsea
-Version: 1.1
+Version: 1.2.0
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Oona Räisänen <oh2eiq@pm.me>
-Installed-Size: 3874
-Depends: redsea (= 1.1)
-Filename: ./amd64/redsea-dbgsym_1.1_amd64.deb
-Size: 3815996
-MD5sum: d0f1e3b2c24d550184f017c402984315
-SHA1: 24a26971e0876b32bbe29ec5dca6306b64386d26
-SHA256: 6cf095be2d0253aaa9013c346b8ebf768a04717f0df3d8cffb7acedf4d4ccca7
+Installed-Size: 3919
+Depends: redsea (= 1.2.0)
+Filename: ./amd64/redsea-dbgsym_1.2.0_amd64.deb
+Size: 3864320
+MD5sum: ae8977ce383e1508cc978ae6d01b047e
+SHA1: 89192517ce7750b4d5a75b51f74f95663f33e013
+SHA256: 8a972fe228979a3884ee7ede369505817dd7577818b212dd5248f5cde61befc6
 Section: debug
 Priority: optional
 Description: debug symbols for redsea
-Build-Ids: a27acaa497fe40106b5e57fb2ae0f3f028cdd851
+Build-Ids: b2818224abf8873add3a14a72434fc9e2e34fe70
 
 Package: redsea-dbgsym
 Source: redsea
-Version: 1.1
+Version: 1.2.0
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Oona Räisänen <oh2eiq@pm.me>
-Installed-Size: 3765
-Depends: redsea (= 1.1)
-Filename: ./armhf/redsea-dbgsym_1.1_armhf.deb
-Size: 3706032
-MD5sum: b6dce4440f016e6b37b9c7051db24381
-SHA1: 978b0135950a4d8590647c0867370f09910b0566
-SHA256: 8e0ad4e7b072c4dd26bf9b3faa885477f5e2d77ac718f7c3c65cb81e170fb621
+Installed-Size: 3816
+Depends: redsea (= 1.2.0)
+Filename: ./armhf/redsea-dbgsym_1.2.0_armhf.deb
+Size: 3757364
+MD5sum: bd68b14a1861e1f920d9b0cd5ab06bf5
+SHA1: b4c12d43e3c8cbe750247980f366b93f5e07f6ad
+SHA256: f557b35fd7fa096b62946e7904837219a3bbf61f04ea4ad590ddb4c33e97e501
 Section: debug
 Priority: optional
 Description: debug symbols for redsea
-Build-Ids: 99518d81bde1c2ed86b9f2b4e904671b07704b22
+Build-Ids: 61ff414b70c9bab759177b6fab24f7551e5bc525
 
 Package: redsea-dbgsym
 Source: redsea
-Version: 1.1
+Version: 1.2.0
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Oona Räisänen <oh2eiq@pm.me>
-Installed-Size: 3802
-Depends: redsea (= 1.1)
-Filename: ./arm64/redsea-dbgsym_1.1_arm64.deb
-Size: 3735220
-MD5sum: 2500ed323dafd1a242e4e1e12e9c5376
-SHA1: 7e9cdc277e369d1bdeb0bc4a931b250c911816bc
-SHA256: 7e08540431ebf52c3472c16d19f7c529877daee0a1056f4e72518d94ec5f8482
+Installed-Size: 3842
+Depends: redsea (= 1.2.0)
+Filename: ./arm64/redsea-dbgsym_1.2.0_arm64.deb
+Size: 3774824
+MD5sum: c575f06f9e4dea0cad7af545167b74ad
+SHA1: 0e35e14fed041e1f72ea3d08c3b3e56461932262
+SHA256: b2e18b2015641211b965993339a93ca47a142ed52f85f02d919b683e9a9c4668
 Section: debug
 Priority: optional
 Description: debug symbols for redsea
-Build-Ids: e951ae25a606fe7f720445dae503525153d68354
+Build-Ids: 7cd8f1ee1b9ff11846939775aea1dc5db8d4fe66
 
 Package: rtl-connector
 Source: owrx-connector
