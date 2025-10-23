@@ -399,42 +399,6 @@ Description: NRSC5 decoder
  Command-line NRSC5 decoder, with a library.
 
 Package: openwebrx
-Version: 1.2.94
-Architecture: all
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3549
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
-Filename: ./amd64/openwebrx_1.2.94_all.deb
-Size: 1012344
-MD5sum: 2bed256d29719ffaeca423afce03510e
-SHA1: 25236837b3887b1167d44f7b1a69003d9a26c511
-SHA256: 6b1fc502493a7d4328ecaf2c30d9925aab4591918002618bd8971598bb506d94
-Section: hamradio
-Priority: optional
-Homepage: https://www.openwebrx.de/
-Description: multi-user web sdr
- Open source, multi-user SDR receiver with a web interface
-
-Package: openwebrx
-Version: 1.2.94
-Architecture: all
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3549
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
-Filename: ./arm64/openwebrx_1.2.94_all.deb
-Size: 1011912
-MD5sum: 1b796ef7db01c893d0af70fb7e1f836f
-SHA1: 2039478cfb3f670262550c25495510c8cedf2e33
-SHA256: c894e3456f3bf65ace205bd19ca1817118b98c454f3e64939b170aa9b2d4cd14
-Section: hamradio
-Priority: optional
-Homepage: https://www.openwebrx.de/
-Description: multi-user web sdr
- Open source, multi-user SDR receiver with a web interface
-
-Package: openwebrx
 Version: 1.2.95
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
@@ -762,6 +726,48 @@ Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr-module-sdrplay3
 Source: soapysdrplay3
+Version: 0.8.11
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 11
+Depends: soapysdr0.8-module-sdrplay3
+Filename: ./amd64/soapysdr-module-sdrplay3_0.8.11_all.deb
+Size: 4196
+MD5sum: e5cc00d076302519660922755a90b60f
+SHA1: d2c2677d30866eab908242fe5a1cc8bffb1e1034
+SHA256: 95988fc21354fd6e4aa7c5fdc6a3c7e6f8ef316713853280d66d863ca6a22773
+Section: libs
+Priority: optional
+Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
+Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
+ A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
+ .
+ This is an empty dependency package that pulls in the SDRPlay3 module
+ for the default version of libsoapysdr.
+
+Package: soapysdr-module-sdrplay3
+Source: soapysdrplay3
+Version: 0.8.11
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 11
+Depends: soapysdr0.8-module-sdrplay3
+Filename: ./arm64/soapysdr-module-sdrplay3_0.8.11_all.deb
+Size: 4196
+MD5sum: 5cb149ad4d1c3b9e08f9d981993f6c10
+SHA1: 24587bdd84c2ed8da48ea0804efac625d56504e4
+SHA256: ff76a35209a7046020ad011718f447cb2f770bd8f0461584ae1ad2917bc86e84
+Section: libs
+Priority: optional
+Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
+Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
+ A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
+ .
+ This is an empty dependency package that pulls in the SDRPlay3 module
+ for the default version of libsoapysdr.
+
+Package: soapysdr-module-sdrplay3
+Source: soapysdrplay3
 Version: 0.8.6
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
@@ -959,6 +965,44 @@ Size: 42680
 MD5sum: 2d7a33e703157d745675c845ea60aba6
 SHA1: 6c2b5225e3fcebd2daf4c7e62dd18e4c6a9c725b
 SHA256: 6841f733cbd0d2585e258f5b0a11d541af6ce4c8aa395608685fbad024dec0ed
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
+Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
+ A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
+
+Package: soapysdr0.8-module-sdrplay3
+Source: soapysdrplay3
+Version: 0.8.11
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 147
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
+Filename: ./amd64/soapysdr0.8-module-sdrplay3_0.8.11_amd64.deb
+Size: 49052
+MD5sum: 9b606c31cdaa1633cada18185b5a5fb2
+SHA1: d1936f79406ceb06045f764bb8402d3a2cc92923
+SHA256: ec9bbf9609f5dbeb64e0256ed33e669c1fe6bdd0875b3e64ccfdcaf62129b2fe
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
+Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
+ A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
+
+Package: soapysdr0.8-module-sdrplay3
+Source: soapysdrplay3
+Version: 0.8.11
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 132
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
+Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.11_arm64.deb
+Size: 43612
+MD5sum: 4c4dfb90172da75ec95893806b083f8b
+SHA1: 5c93a19e243317c1c4d6f96d774459d6e9d3a8ab
+SHA256: 5ebc404e0fcf83e4705fc456d87886ada54cbf592bc802e9517ffc8f443486e8
 Section: libs
 Priority: optional
 Multi-Arch: same
