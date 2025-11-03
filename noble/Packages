@@ -361,6 +361,63 @@ Description: Tools for decoding digital ham radio communication
  digital modulations used by ham radio operators. The main focus is on digital
  voice modes.
 
+Package: dream
+Version: 2.2-2
+Architecture: amd64
+Maintainer: Rafael Diniz <rafael@riseup.net>
+Installed-Size: 1067
+Depends: libc6 (>= 2.38), libfdk-aac2 (>= 2.0.1), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 4.0), libhamlib4t64, libopus0 (>= 1.1), libpcap0.8t64 (>= 0.9.8), libpulse0 (>= 0.99.1), libsndfile1 (>= 1.0.20), libspeexdsp1 (>= 1.2.1), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
+Filename: ./amd64/dream_2.2-2_amd64.deb
+Size: 366064
+MD5sum: 7f821b96682b3d0d2a7ca58737b8a43b
+SHA1: 503fa97cb6f7a39053bad768d756008da9435b57
+SHA256: a547bd0f4f87db9781907991bf036aede7ecacd17572daf5fd2358146f00e03b
+Section: hamradio
+Priority: optional
+Homepage: https://sourceforge.net/p/drm
+Description: A software radio for AM and Digital Radio Mondiale (DRM)
+ Dream is a software implementation of a Digital Radio Mondiale (DRM) receiver.
+ With Dream, DRM broadcasts can be received with an SDR dongle or
+ a modified analog receiver (SW, MW, LW) and a PC with a sound card.
+
+Package: dream
+Version: 2.2-2
+Architecture: armhf
+Maintainer: Rafael Diniz <rafael@riseup.net>
+Installed-Size: 891
+Depends: libc6 (>= 2.38), libfdk-aac2 (>= 2.0.1), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 4.0), libhamlib4t64, libopus0 (>= 1.1), libpcap0.8t64 (>= 0.9.8), libpulse0 (>= 0.99.1), libsndfile1 (>= 1.0.20), libspeexdsp1 (>= 1.2.1), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
+Filename: ./armhf/dream_2.2-2_armhf.deb
+Size: 438882
+MD5sum: 3fdd36a9892f772f155d1a0479c09eec
+SHA1: b98b00c2c52b647f924a082b18170ad36a0d8f35
+SHA256: 455d91aeec19a940aa3b8948d0d6668da0a19c5e0531a493a889864cd1af19ab
+Section: hamradio
+Priority: optional
+Homepage: https://sourceforge.net/p/drm
+Description: A software radio for AM and Digital Radio Mondiale (DRM)
+ Dream is a software implementation of a Digital Radio Mondiale (DRM) receiver.
+ With Dream, DRM broadcasts can be received with an SDR dongle or
+ a modified analog receiver (SW, MW, LW) and a PC with a sound card.
+
+Package: dream
+Version: 2.2-2
+Architecture: arm64
+Maintainer: Rafael Diniz <rafael@riseup.net>
+Installed-Size: 1043
+Depends: libc6 (>= 2.38), libfdk-aac2 (>= 2.0.1), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 4.0), libhamlib4t64, libopus0 (>= 1.1), libpcap0.8t64 (>= 0.9.8), libpulse0 (>= 0.99.1), libsndfile1 (>= 1.0.20), libspeexdsp1 (>= 1.2.1), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4)
+Filename: ./arm64/dream_2.2-2_arm64.deb
+Size: 354238
+MD5sum: a8b50758bb05246fa6cb2484e9212eaa
+SHA1: edf326edd363defa715df1c35a3ddce0ae424966
+SHA256: ae8f4d350fd507004ad3c6c9747ea55e38e00d33874b796c87cd0add8c485f20
+Section: hamradio
+Priority: optional
+Homepage: https://sourceforge.net/p/drm
+Description: A software radio for AM and Digital Radio Mondiale (DRM)
+ Dream is a software implementation of a Digital Radio Mondiale (DRM) receiver.
+ With Dream, DRM broadcasts can be received with an SDR dongle or
+ a modified analog receiver (SW, MW, LW) and a PC with a sound card.
+
 Package: hpsdrconnector
 Version: 0.11.0
 Architecture: amd64

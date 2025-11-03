@@ -739,6 +739,117 @@ Priority: optional
 Description: debug symbols for digiham
 Build-Ids: 00642a93465bfad615bd674f86ebe7e372199d9b 16518fcd2559cd6cd5cd742c52b9886022c600e6 25ec30b2aa7c95f3b4591d709082def733a44e69 3baa10d8f98f19df752769fb6a0d38334743d2ec 41ac30e0bdcad777aa3a4eb3203f86e04663a909 9ed98c40165161d35cec2090b5b92a1fc47a2e84 a1dd3dfa90f059ffab70325debc9e53dd10f4059 a262ac28a4c1988ace9e3478ee16b3b14c2fdbaa a754d7101f8ab9549325d5f5220adff444c830da b39d57cba166afd9d7959cc04b6cd089a7246b7f d597baac452e76464e8899b7212d54e4c551666e
 
+Package: dream
+Version: 2.2-2
+Architecture: amd64
+Maintainer: Rafael Diniz <rafael@riseup.net>
+Installed-Size: 1551
+Depends: libc6 (>= 2.38), libfdk-aac2t64 (>= 2.0.1), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 4.0), libhamlib4t64, libopus0 (>= 1.1), libpcap0.8t64 (>= 0.9.8), libpulse0 (>= 0.99.1), libsndfile1 (>= 1.0.20), libspeexdsp1 (>= 1.2.1), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4), libfdk-aac2
+Filename: ./amd64/dream_2.2-2_amd64.deb
+Size: 477064
+MD5sum: e4f87d1e968026328fb0c497305108ee
+SHA1: cde97f1859971f44966756e8c59708e1810c6f7e
+SHA256: 4594197b3883c06d5af3643ea9c8c92750c45598ab1fbb216eeb388328abf803
+Section: hamradio
+Priority: optional
+Homepage: https://sourceforge.net/p/drm
+Description: A software radio for AM and Digital Radio Mondiale (DRM)
+ Dream is a software implementation of a Digital Radio Mondiale (DRM) receiver.
+ With Dream, DRM broadcasts can be received with an SDR dongle or
+ a modified analog receiver (SW, MW, LW) and a PC with a sound card.
+
+Package: dream
+Version: 2.2-2
+Architecture: armhf
+Maintainer: Rafael Diniz <rafael@riseup.net>
+Installed-Size: 923
+Depends: libc6 (>= 2.38), libfdk-aac2t64 (>= 2.0.1), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 4.0), libhamlib4t64, libopus0 (>= 1.1), libpcap0.8t64 (>= 0.9.8), libpulse0 (>= 0.99.1), libsndfile1 (>= 1.0.20), libspeexdsp1 (>= 1.2.1), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4), libfdk-aac2
+Filename: ./armhf/dream_2.2-2_armhf.deb
+Size: 396252
+MD5sum: 6d1b76008a91d97a7054123dd5ef9a69
+SHA1: b14eb0a53cb208140566dfd861786359ac5df630
+SHA256: 2d7f82bc4e0037ee151b17a9eda159a750d46a07b52e05c8eebad176b913e0e7
+Section: hamradio
+Priority: optional
+Homepage: https://sourceforge.net/p/drm
+Description: A software radio for AM and Digital Radio Mondiale (DRM)
+ Dream is a software implementation of a Digital Radio Mondiale (DRM) receiver.
+ With Dream, DRM broadcasts can be received with an SDR dongle or
+ a modified analog receiver (SW, MW, LW) and a PC with a sound card.
+
+Package: dream
+Version: 2.2-2
+Architecture: arm64
+Maintainer: Rafael Diniz <rafael@riseup.net>
+Installed-Size: 1499
+Depends: libc6 (>= 2.38), libfdk-aac2t64 (>= 2.0.1), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 4.0), libhamlib4t64, libopus0 (>= 1.1), libpcap0.8t64 (>= 0.9.8), libpulse0 (>= 0.99.1), libsndfile1 (>= 1.0.20), libspeexdsp1 (>= 1.2.1), libstdc++6 (>= 13.1), zlib1g (>= 1:1.1.4), libfdk-aac2
+Filename: ./arm64/dream_2.2-2_arm64.deb
+Size: 430676
+MD5sum: ce31401d987358d8aa2b2fc960bcacbc
+SHA1: a8970a6f9a2d3b1bb0547d283c0c6941af7b4304
+SHA256: 8d20db3ee412b4a5907de7c6fa4bc2e65af015c48d772863ddba0906f0a8f65c
+Section: hamradio
+Priority: optional
+Homepage: https://sourceforge.net/p/drm
+Description: A software radio for AM and Digital Radio Mondiale (DRM)
+ Dream is a software implementation of a Digital Radio Mondiale (DRM) receiver.
+ With Dream, DRM broadcasts can be received with an SDR dongle or
+ a modified analog receiver (SW, MW, LW) and a PC with a sound card.
+
+Package: dream-dbgsym
+Source: dream
+Version: 2.2-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Rafael Diniz <rafael@riseup.net>
+Installed-Size: 10091
+Depends: dream (= 2.2-2)
+Filename: ./amd64/dream-dbgsym_2.2-2_amd64.deb
+Size: 9728128
+MD5sum: 9b18f4acac273530f13b446bf5d5cb02
+SHA1: 0e45defd6d134017187b908ce00c57e6ca793a86
+SHA256: 7b807a6eb8527d6192ed1dcdacd25d67333dc798067c7fc438fd440b83e4790f
+Section: debug
+Priority: optional
+Description: debug symbols for dream
+Build-Ids: 46ea713ec0041524552eff66916a007d2bc7fa4b
+
+Package: dream-dbgsym
+Source: dream
+Version: 2.2-2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Rafael Diniz <rafael@riseup.net>
+Installed-Size: 10474
+Depends: dream (= 2.2-2)
+Filename: ./armhf/dream-dbgsym_2.2-2_armhf.deb
+Size: 9508320
+MD5sum: 7d1437ed61748c2cffdc8f0803b197d3
+SHA1: d81a62e77ce2754a0de96a65a1d2fd344866c808
+SHA256: cc57b635617d08648c9be74c7b579411c873f5aaabe0e4031b48c02f1ae30ed6
+Section: debug
+Priority: optional
+Description: debug symbols for dream
+Build-Ids: 2b6bf4a94a2a4d7c1033e675e52e245d6c65e404
+
+Package: dream-dbgsym
+Source: dream
+Version: 2.2-2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Rafael Diniz <rafael@riseup.net>
+Installed-Size: 11013
+Depends: dream (= 2.2-2)
+Filename: ./arm64/dream-dbgsym_2.2-2_arm64.deb
+Size: 9523848
+MD5sum: 5440f279d2efdad3af040aea94f5bca9
+SHA1: 1683da99f6020d5b21543fcc76d8208c7474e4c1
+SHA256: c3cce61b0b216faf0b9e73897634dee6db45658cfc0248d062900f930bba8db7
+Section: debug
+Priority: optional
+Description: debug symbols for dream
+Build-Ids: 9e8aa0d32543526f2915f88bc996dfaf70625400
+
 Package: libacars-dev
 Source: libacars
 Version: 2.2.0-4
