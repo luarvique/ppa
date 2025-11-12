@@ -100,6 +100,24 @@ Description: RDS decoder
 
 Package: csdr-skimmer
 Version: 1.5
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 62
+Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
+Replaces: csdr-cwskimmer
+Provides: csdr-cwskimmer
+Filename: ./amd64/csdr-skimmer_1.5_amd64.deb
+Size: 14126
+MD5sum: 437fdd960e529ffd10dff816aa3b6acd
+SHA1: 3a4cc255254c58d5c7f53c4fcdb82deca836d6a9
+SHA256: 82f9ab7c8679972a0615d61096ada81a477b855955de1d5d112e6e0fad4a0779
+Section: hamradio
+Priority: optional
+Description: Bulk CW and RTTY decoders
+ Command line CW and RTTY skimmers based on the CSDR signal processing library.
+
+Package: csdr-skimmer
+Version: 1.5
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 54
@@ -172,6 +190,25 @@ Description: A software radio for AM and Digital Radio Mondiale (DRM)
  Dream is a software implementation of a Digital Radio Mondiale (DRM) receiver.
  With Dream, DRM broadcasts can be received with an SDR dongle or
  a modified analog receiver (SW, MW, LW) and a PC with a sound card.
+
+Package: dump978-fa
+Version: 10.2
+Architecture: amd64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 546
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11), adduser
+Recommends: skyaware978, soapysdr-module-rtlsdr
+Filename: ./amd64/dump978-fa_10.2_amd64.deb
+Size: 194994
+MD5sum: 117b01168769d60433ebd1c1c82abe09
+SHA1: 819751afa31336be859fe32eee3cec1b4db66c5c
+SHA256: 7f441dab74afedf70afe7c3dfbe3698b9d0375e3ad8e5e620bf0672f4d847518
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: ADS-B UAT Ground Station System
+ .
+ FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
 
 Package: dump978-fa
 Version: 10.2
@@ -739,6 +776,84 @@ Priority: optional
 Description: OpenWebRX connector for rtl_tcp remote devices
  Provides connector functionality for (potentially) remote SDR devices that are
  available on the network using the rtl_tcp protocol.
+
+Package: skyaware978
+Source: dump978-fa
+Version: 10.2
+Architecture: amd64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 14368
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), adduser, lighttpd
+Breaks: skyview978 (<< 3.7.2~)
+Replaces: skyview978 (<< 3.7.2~)
+Filename: ./amd64/skyaware978_10.2_amd64.deb
+Size: 2709040
+MD5sum: aed15f4260101903238ab4b5a64e3a1a
+SHA1: 231a3fb1194ecd9acd71b189a30b18d951acfbf5
+SHA256: ca120dd678db38215adfd8f83a6e9cef297258c40faa9e142025dd0b68e917ed
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: Local web interface for dump978
+ .
+ Provides a web interface to display aircraft data received from dump978.
+
+Package: skyaware978
+Source: dump978-fa
+Version: 10.2
+Architecture: arm64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 14340
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), adduser, lighttpd
+Breaks: skyview978 (<< 3.7.2~)
+Replaces: skyview978 (<< 3.7.2~)
+Filename: ./arm64/skyaware978_10.2_arm64.deb
+Size: 2701024
+MD5sum: 3fcf834381980d675aaaa9e592101fe9
+SHA1: 872f3c8fd27919fa749c8c16db0c9f6b0465cfdc
+SHA256: 1c9c39f1e1e82690ce7487a30fdf5a4c74048610e5122d21e615c0e40acaa144
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: Local web interface for dump978
+ .
+ Provides a web interface to display aircraft data received from dump978.
+
+Package: skyview978
+Source: dump978-fa
+Version: 10.2
+Architecture: all
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 14
+Depends: skyaware978
+Filename: ./amd64/skyview978_10.2_all.deb
+Size: 5470
+MD5sum: 6598230d0094545cc1941ce96e8c5730
+SHA1: 243df97eb0cf649d183379442b513af0b8ae93c7
+SHA256: 92eaaae7b54ba2eda4a7e5f503b023664670ec33c7d0ae7f5e694a1cb70ab15e
+Section: oldlibs
+Priority: optional
+Homepage: http://www.flightaware.com/
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
+Package: skyview978
+Source: dump978-fa
+Version: 10.2
+Architecture: all
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 14
+Depends: skyaware978
+Filename: ./arm64/skyview978_10.2_all.deb
+Size: 5470
+MD5sum: 6598230d0094545cc1941ce96e8c5730
+SHA1: 243df97eb0cf649d183379442b513af0b8ae93c7
+SHA256: 92eaaae7b54ba2eda4a7e5f503b023664670ec33c7d0ae7f5e694a1cb70ab15e
+Section: oldlibs
+Priority: optional
+Homepage: http://www.flightaware.com/
+Description: transitional package
+ This is a transitional package. It can safely be removed.
 
 Package: soapy-connector
 Source: owrx-connector
