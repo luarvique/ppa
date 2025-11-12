@@ -40,10 +40,27 @@ Installed-Size: 708
 Depends: libcsdr0 (= 0.18.36), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
 Recommends: nmux (= 0.18.36)
 Filename: ./amd64/csdr_0.18.36_amd64.deb
-Size: 185576
-MD5sum: 63454ee5c6cf7c1a34b74a4b62f88ab4
-SHA1: 16821be83879bd70f84b7fd6549e0c907d0ee56d
-SHA256: c8b3245ec8a418a38e0cfdf2ff79a09269968611fd47c424f30d9a8bffba3f2a
+Size: 185792
+MD5sum: 96df2bf3a4c9f5a8b5092dc67a189212
+SHA1: 1bdc16b4cd020340ac65e0aed68f035d0b099c98
+SHA256: 6d430e463344057a864e8e277d80ff745921a96132da5caf9aa11c1a755e19f2
+Section: hamradio
+Priority: optional
+Description: command-line sdr
+ A simple DSP command-line tool for Software Defined Radio.
+
+Package: csdr
+Version: 0.18.36
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 459
+Depends: libcsdr0 (= 0.18.36), libc6 (>= 2.34), libgcc-s1 (>= 3.5), libstdc++6 (>= 11)
+Recommends: nmux (= 0.18.36)
+Filename: ./armhf/csdr_0.18.36_armhf.deb
+Size: 155456
+MD5sum: ba837387fcf01c62cde32d23ea4af6b8
+SHA1: 48ff6e5d915a642fa4388ca802c71ac9e0b81fe1
+SHA256: ad24d2908749f3beb2cfeab91a409c708ad9b00832a1895bdec71218c5fc037c
 Section: hamradio
 Priority: optional
 Description: command-line sdr
@@ -53,14 +70,14 @@ Package: csdr
 Version: 0.18.36
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 656
+Installed-Size: 664
 Depends: libcsdr0 (= 0.18.36), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
 Recommends: nmux (= 0.18.36)
 Filename: ./arm64/csdr_0.18.36_arm64.deb
-Size: 164028
-MD5sum: 79cab89e824fb0b00c38aa0f38b383ec
-SHA1: 5be9711db1de444b5510f8dafe9d33c4e33f02c5
-SHA256: 0b16dc29842a9147e587cc5fa9e20b03df22a7aaf145400ffc0ed9791d793080
+Size: 164408
+MD5sum: ad0d9aefafb8343cc2430f0bbbd27ead
+SHA1: 7494963409826128a6358da03513f25224751428
+SHA256: 09bdeeaa5990b7d53812fe8ff7bfee32f5dc205c0fe62753269b7014462a92e7
 Section: hamradio
 Priority: optional
 Description: command-line sdr
@@ -107,10 +124,28 @@ Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3
 Replaces: csdr-cwskimmer
 Provides: csdr-cwskimmer
 Filename: ./amd64/csdr-skimmer_1.5_amd64.deb
-Size: 14126
-MD5sum: 437fdd960e529ffd10dff816aa3b6acd
-SHA1: 3a4cc255254c58d5c7f53c4fcdb82deca836d6a9
-SHA256: 82f9ab7c8679972a0615d61096ada81a477b855955de1d5d112e6e0fad4a0779
+Size: 14128
+MD5sum: 22a23251e78761163f1f521317a5ba99
+SHA1: 3a92b6c5b94a191c7a96ba66cabdc9f73d2b29ff
+SHA256: 4916bbec2c681f6dd5097daf08674cd7b605168f41d5eca9c17cdb0785fc18cf
+Section: hamradio
+Priority: optional
+Description: Bulk CW and RTTY decoders
+ Command line CW and RTTY skimmers based on the CSDR signal processing library.
+
+Package: csdr-skimmer
+Version: 1.5
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 44
+Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.5), libstdc++6 (>= 5)
+Replaces: csdr-cwskimmer
+Provides: csdr-cwskimmer
+Filename: ./armhf/csdr-skimmer_1.5_armhf.deb
+Size: 12510
+MD5sum: c88e24f9a76838b17e60f2c6f970bce2
+SHA1: 9d55b71991df19e9727f236283ab61f75ef7cdae
+SHA256: 57f57f28d8be1d3c80b84bf38655c81a13d82ed332f012882819bb374aa8a577
 Section: hamradio
 Priority: optional
 Description: Bulk CW and RTTY decoders
@@ -125,10 +160,10 @@ Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3
 Replaces: csdr-cwskimmer
 Provides: csdr-cwskimmer
 Filename: ./arm64/csdr-skimmer_1.5_arm64.deb
-Size: 13620
-MD5sum: 5cf2acb6d75cc9615b435b3478619791
-SHA1: 1e8cb2171bf6f1d4f11b8d18b31e6e6319f476ed
-SHA256: 207c121b653f35fbc3ddbb08563078b818184fe5bd8b12114d0f56499a41761a
+Size: 13612
+MD5sum: 36d9918482fc1676ee1647308712561f
+SHA1: e4f608a389eac5feaa4ceb0e259bd4d01e06d107
+SHA256: aae72cdabe400800e66aaae4941d84017fc4064d236aada43abdf1f0179758d3
 Section: hamradio
 Priority: optional
 Description: Bulk CW and RTTY decoders
@@ -199,10 +234,29 @@ Installed-Size: 546
 Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11), adduser
 Recommends: skyaware978, soapysdr-module-rtlsdr
 Filename: ./amd64/dump978-fa_10.2_amd64.deb
-Size: 194994
-MD5sum: 117b01168769d60433ebd1c1c82abe09
-SHA1: 819751afa31336be859fe32eee3cec1b4db66c5c
-SHA256: 7f441dab74afedf70afe7c3dfbe3698b9d0375e3ad8e5e620bf0672f4d847518
+Size: 194998
+MD5sum: 2ce656518061c05e78cf6c864afb4d98
+SHA1: 5b738d0987cb78fe3a40a87865f479ef3ff98485
+SHA256: 341bd484860401ae14013eccf164c14c2eff25f7303f1f061e56b6dcedc7e2e1
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: ADS-B UAT Ground Station System
+ .
+ FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
+
+Package: dump978-fa
+Version: 10.2
+Architecture: armhf
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 385
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.5), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11), adduser
+Recommends: skyaware978, soapysdr-module-rtlsdr
+Filename: ./armhf/dump978-fa_10.2_armhf.deb
+Size: 187376
+MD5sum: 157d59a80c8613f74b88cbb22be57ad8
+SHA1: 33afe89c682bc9d72cd8b4257befb91a7158ab3f
+SHA256: bc39e9db5b67752e7bd2a7ba430785b44e2bfd3b2e09e0cac366ff82f61e7d0f
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
@@ -261,10 +315,27 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 209
 Depends: libcsdr0 (= 0.18.36), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
 Filename: ./amd64/libcsdr-dev_0.18.36_amd64.deb
-Size: 26680
-MD5sum: e2b3623c44aa546b376b4b2ea7707138
-SHA1: 628b5d8c5ee8f5e02fc78d9d286a14903adf5461
-SHA256: ac50caf4d7c56520ba842c2ca5eb821e92acda106deb10c2e31a349a78279564
+Size: 26564
+MD5sum: 1484a5e97f2ab672e162e09e5b6b305d
+SHA1: e063b6bde6d80215147bd73da3eb69c270854a9a
+SHA256: 40e9ea83bf553723be81cf65ecdfdec7134d485ba144f564c97e17110131e3f5
+Section: hamradio
+Priority: optional
+Description: development dependencies includes for libcsdr
+ A simple DSP library for Software Defined Radio.
+
+Package: libcsdr-dev
+Source: csdr
+Version: 0.18.36
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 209
+Depends: libcsdr0 (= 0.18.36), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
+Filename: ./armhf/libcsdr-dev_0.18.36_armhf.deb
+Size: 26560
+MD5sum: b581363afdd7d51a2a580ae7fa853a8b
+SHA1: 0190032dc539c5f735614e0c7148f6846d929d85
+SHA256: 0309ee104780df4d93f3676508544c5c616d254fee115a5ab0396fa65cfa1b9a
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
@@ -278,10 +349,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 209
 Depends: libcsdr0 (= 0.18.36), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
 Filename: ./arm64/libcsdr-dev_0.18.36_arm64.deb
-Size: 26740
-MD5sum: 266ba4c790e5441da2bbe9a4de70b342
-SHA1: 35d40892e3ed0e995d48bbb3f44eb3b343f433ee
-SHA256: 6f58e3ce6fc1c119dab4a54246c27802bf33908816b72b0402735f21037eeb23
+Size: 26568
+MD5sum: abcee91193b220133b9d8739b85d776e
+SHA1: e3b43c0f9eedd7e51f8139cca57539f476964706
+SHA256: b85deeb815374786c579afb786fefc797849a990601e8ce139fb4a23eea68890
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
@@ -365,10 +436,27 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 776
 Depends: libc6 (>= 2.35), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
 Filename: ./amd64/libcsdr0_0.18.36_amd64.deb
-Size: 162100
-MD5sum: 7e09e84ec563384b4ec53268b26343bd
-SHA1: ee5161827368b6f6fad9595a9156c7606385e3ba
-SHA256: d401cabc3eabe0402aeb2d6365750db57552dccf45106ae31b4301f8e1d39ee7
+Size: 161700
+MD5sum: ca517163b0d5c5f6d3dd330b0b35a57e
+SHA1: 592f08e6c7c7d08a14d4b6fad6d47fa853833825
+SHA256: e3e9515cf34717cf4ee58e5e2cef15bd9d9738aede19ef22049182323dc09278
+Section: hamradio
+Priority: optional
+Description: simple library for software defined radio
+ A simple DSP library for Software Defined Radio.
+
+Package: libcsdr0
+Source: csdr
+Version: 0.18.36
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 492
+Depends: libc6 (>= 2.29), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.5), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
+Filename: ./armhf/libcsdr0_0.18.36_armhf.deb
+Size: 128464
+MD5sum: c27460032f3ff3a3d1cc9abe883ddc3b
+SHA1: 6ceb931ad4ccf045147c851c2df96792f50e03e0
+SHA256: 2fefb53f2b19e5434a548c7894766a21e963cf55a37d2616af352cfb6459a2cf
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
@@ -379,13 +467,13 @@ Source: csdr
 Version: 0.18.36
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 748
+Installed-Size: 756
 Depends: libc6 (>= 2.29), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
 Filename: ./arm64/libcsdr0_0.18.36_arm64.deb
-Size: 147204
-MD5sum: cf7d56a44690220c3ff7a35babf03352
-SHA1: 7686073201a7a3480f22d4791e0c8345a4e9515e
-SHA256: b2e790a12d7c2e9e53f35e014745d3fc4c26c8efd9ed6ed70f0ae65360fddb73
+Size: 147320
+MD5sum: fc31a5fc8ccfa549239eea1104a0f5bc
+SHA1: 63355550bc0a25a0d0ca3f539d1b38745145d6e3
+SHA256: 70b3fe9d2b3921017bd0d6facf7e017690a509d2c78d7df9f36c4235549aaa77
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
@@ -468,10 +556,29 @@ Installed-Size: 40
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
 Conflicts: csdr (<= 0.18.0~133)
 Filename: ./amd64/nmux_0.18.36_amd64.deb
-Size: 12956
-MD5sum: c9aee7151ab10b7a698bc87816e6f090
-SHA1: 9af2ca0074828fbde37e39054a346999212fc064
-SHA256: e12e43eb5eaf7e46f44aedf28fca60dc06f8b5b41cf83b33dd29dbf00cd345f4
+Size: 12944
+MD5sum: 1fd95b6d2270cf5bf7a55869f387527e
+SHA1: 713c5d50c1122a715d54211f6aeae050ab4707dc
+SHA256: 26e0ec78f57a82cd6d708054a1ce1e38c9229c47dd29bb6d7e79cb9100b4833b
+Section: hamradio
+Priority: optional
+Description: TCP stream multiplexer
+ It reads data from the standard input, and sends it to each client connected
+ through TCP sockets.
+
+Package: nmux
+Source: csdr
+Version: 0.18.36
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 31
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.5), libstdc++6 (>= 4.1.1)
+Conflicts: csdr (<= 0.18.0~133)
+Filename: ./armhf/nmux_0.18.36_armhf.deb
+Size: 12024
+MD5sum: d491b2a9fc52e28362d6c5f417993482
+SHA1: f8e1cef8e76cded6688d9a170ae3bd7864538fc1
+SHA256: 45a6f79dcefdc4b91dae9eb5da928f4dbc8d5c0b480713cedf643e79c9dbaf29
 Section: hamradio
 Priority: optional
 Description: TCP stream multiplexer
@@ -487,10 +594,10 @@ Installed-Size: 36
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
 Conflicts: csdr (<= 0.18.0~133)
 Filename: ./arm64/nmux_0.18.36_arm64.deb
-Size: 12612
-MD5sum: 1ff0cabcc387fbf88114f12828faaa53
-SHA1: 156b62d79d61fa1ffd780e003739ddb381b814d4
-SHA256: df15cb7836e3798cfa7a026518eefd4570d6324dcf90cd5324223a4f22c13028
+Size: 12596
+MD5sum: b1b905cdef20e6f16d4b348afcd4f8d2
+SHA1: 34691d27ffe16c24761b7214e4d4e61eaebe9f19
+SHA256: c29fea25bdc349a0fa539db9e90309f9968e24bfd286712392b0f219a8dfa487
 Section: hamradio
 Priority: optional
 Description: TCP stream multiplexer
@@ -787,10 +894,31 @@ Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (
 Breaks: skyview978 (<< 3.7.2~)
 Replaces: skyview978 (<< 3.7.2~)
 Filename: ./amd64/skyaware978_10.2_amd64.deb
-Size: 2709040
-MD5sum: aed15f4260101903238ab4b5a64e3a1a
-SHA1: 231a3fb1194ecd9acd71b189a30b18d951acfbf5
-SHA256: ca120dd678db38215adfd8f83a6e9cef297258c40faa9e142025dd0b68e917ed
+Size: 2709050
+MD5sum: 99e4ca66d02fec02fe6472a96fea30a7
+SHA1: 78661b0eee93a1be79d7fc4718c82bc6c8917681
+SHA256: 69a2d10c53b2d9c0121b7cfa6353249de41c10f85f39f2bee2ad55244fcf60fc
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: Local web interface for dump978
+ .
+ Provides a web interface to display aircraft data received from dump978.
+
+Package: skyaware978
+Source: dump978-fa
+Version: 10.2
+Architecture: armhf
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 14255
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.5), libstdc++6 (>= 11), adduser, lighttpd
+Breaks: skyview978 (<< 3.7.2~)
+Replaces: skyview978 (<< 3.7.2~)
+Filename: ./armhf/skyaware978_10.2_armhf.deb
+Size: 2707818
+MD5sum: b85a0616be27a6e37cbd906887b6c1b3
+SHA1: 1605ea2e863c9766c102f8398cefcab57e33b019
+SHA256: 7d7eda63691faea463da25d13695b5d0336bb01997735f03c8498cb220d393b8
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
@@ -827,6 +955,24 @@ Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
 Installed-Size: 14
 Depends: skyaware978
 Filename: ./amd64/skyview978_10.2_all.deb
+Size: 5470
+MD5sum: 6598230d0094545cc1941ce96e8c5730
+SHA1: 243df97eb0cf649d183379442b513af0b8ae93c7
+SHA256: 92eaaae7b54ba2eda4a7e5f503b023664670ec33c7d0ae7f5e694a1cb70ab15e
+Section: oldlibs
+Priority: optional
+Homepage: http://www.flightaware.com/
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
+Package: skyview978
+Source: dump978-fa
+Version: 10.2
+Architecture: all
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 14
+Depends: skyaware978
+Filename: ./armhf/skyview978_10.2_all.deb
 Size: 5470
 MD5sum: 6598230d0094545cc1941ce96e8c5730
 SHA1: 243df97eb0cf649d183379442b513af0b8ae93c7

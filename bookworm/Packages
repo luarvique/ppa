@@ -739,6 +739,114 @@ Priority: optional
 Description: debug symbols for csdr
 Build-Ids: 71e70eb76363c8b22797aa7e749b1b3f3f44ebe4
 
+Package: csdr-skimmer
+Version: 1.5
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 70
+Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Replaces: csdr-cwskimmer
+Provides: csdr-cwskimmer
+Filename: ./amd64/csdr-skimmer_1.5_amd64.deb
+Size: 13292
+MD5sum: 858a13dd9e0d42c9f0e6df8d77459c9b
+SHA1: a150c38c2331a3d45e9e24469b0ea57214800462
+SHA256: ef8252f5a8ac902123fa6f8565c8b9d6faf4aa475a6604b0c0f64f7dc0d27ca1
+Section: hamradio
+Priority: optional
+Description: Bulk CW and RTTY decoders
+ Command line CW and RTTY skimmers based on the CSDR signal processing library.
+
+Package: csdr-skimmer
+Version: 1.5
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 44
+Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.5), libstdc++6 (>= 5)
+Replaces: csdr-cwskimmer
+Provides: csdr-cwskimmer
+Filename: ./armhf/csdr-skimmer_1.5_armhf.deb
+Size: 11524
+MD5sum: ddfa0f1d4ff075a91917a015dcff91b0
+SHA1: d64b7333e0c819e61702fb932fa865b852788652
+SHA256: 7e28c28a63aa41db8f2df6e761ade9c4fa0f9b3a23151fbf59dd9274628ec22f
+Section: hamradio
+Priority: optional
+Description: Bulk CW and RTTY decoders
+ Command line CW and RTTY skimmers based on the CSDR signal processing library.
+
+Package: csdr-skimmer
+Version: 1.5
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 142
+Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Replaces: csdr-cwskimmer
+Provides: csdr-cwskimmer
+Filename: ./arm64/csdr-skimmer_1.5_arm64.deb
+Size: 12488
+MD5sum: 0f55574d9043eff54a4808750ceaf7fa
+SHA1: a5752928e57a608493a60b3c56fdbe04d466a153
+SHA256: db2731230f14bf8e86fb6935cdfe052053204f42051ad3df54894fb3a6ba774a
+Section: hamradio
+Priority: optional
+Description: Bulk CW and RTTY decoders
+ Command line CW and RTTY skimmers based on the CSDR signal processing library.
+
+Package: csdr-skimmer-dbgsym
+Source: csdr-skimmer
+Version: 1.5
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 89
+Depends: csdr-skimmer (= 1.5)
+Filename: ./amd64/csdr-skimmer-dbgsym_1.5_amd64.deb
+Size: 55492
+MD5sum: c5731b2f492e007df67c1ac6684eced9
+SHA1: d4c5f6118680f5d4b1f2244880e87e85e2f1e2ae
+SHA256: a0346a9ad4b5f6057c3f90c182236fa3d2d472c95973635b5415f9f33893a267
+Section: debug
+Priority: optional
+Description: debug symbols for csdr-skimmer
+Build-Ids: 919161a495eae15729039d2bb82014d251e6497c abe337ac5537159d1b83515e6898b4f661e94da0
+
+Package: csdr-skimmer-dbgsym
+Source: csdr-skimmer
+Version: 1.5
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 87
+Depends: csdr-skimmer (= 1.5)
+Filename: ./armhf/csdr-skimmer-dbgsym_1.5_armhf.deb
+Size: 54164
+MD5sum: 4ce19b714c43d85db783074ca0e494ac
+SHA1: 3ae3ad7ff27bc36fdf785306ed5a5c12e012b73a
+SHA256: abac82293c8ce87045683a69e625ab47aa395da660a23179bd6cbeb43da256c5
+Section: debug
+Priority: optional
+Description: debug symbols for csdr-skimmer
+Build-Ids: c671765b38584cbe49d0b41ecf7975683d905fc2 f1885ece0a7349cef44777d5fcfccb1a9a8382e4
+
+Package: csdr-skimmer-dbgsym
+Source: csdr-skimmer
+Version: 1.5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 93
+Depends: csdr-skimmer (= 1.5)
+Filename: ./arm64/csdr-skimmer-dbgsym_1.5_arm64.deb
+Size: 54952
+MD5sum: 14cfd67ea1425bbf2349d8afc247f79d
+SHA1: 79931c33952012d8ac0462ffaf4ab54c313de97f
+SHA256: bde1f7b88e53ee9c2227d9046312725c857881b246d2c6782338f0b53ec65192
+Section: debug
+Priority: optional
+Description: debug symbols for csdr-skimmer
+Build-Ids: 12416869fb559d9d9d1e768e86451d135465fba6 a72cbf77241150d83fa01e29e7e75a20dde21026
+
 Package: digiham
 Version: 0.6.2
 Architecture: amd64
@@ -1179,6 +1287,117 @@ Section: debug
 Priority: optional
 Description: debug symbols for dump1090-fa-minimal
 Build-Ids: afa25f263606d0483f814ae0aa989350bcae4a64
+
+Package: dump978-fa
+Version: 10.2
+Architecture: amd64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 590
+Depends: libboost-program-options1.74.0 (>= 1.74.0+ds1), libboost-regex1.74.0-icu72, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11), adduser
+Recommends: skyaware978, soapysdr-module-rtlsdr
+Filename: ./amd64/dump978-fa_10.2_amd64.deb
+Size: 195952
+MD5sum: b4fedc69687244d210f8135d0ea97cec
+SHA1: 17897d7b56452c4f3a73a55d206f4990f01c1c4b
+SHA256: dc32ef9702f6fa29df7ff42cce3cfec5d49eef6a1c9c7973950ac414ab12d428
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: ADS-B UAT Ground Station System
+ .
+ FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
+
+Package: dump978-fa
+Version: 10.2
+Architecture: armhf
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 385
+Depends: libboost-program-options1.74.0 (>= 1.74.0+ds1), libboost-regex1.74.0-icu72, libc6 (>= 2.34), libgcc-s1 (>= 3.5), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11), adduser
+Recommends: skyaware978, soapysdr-module-rtlsdr
+Filename: ./armhf/dump978-fa_10.2_armhf.deb
+Size: 168780
+MD5sum: a2927d3f77421ab59cbd5663295b2f73
+SHA1: b6a3f687caa2efedbd27e2bc47fd9fca1cadbe45
+SHA256: 288cfed0f4f3fbe00f325676ef571754bafeeca54e63d3e0a7b779c285007433
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: ADS-B UAT Ground Station System
+ .
+ FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
+
+Package: dump978-fa
+Version: 10.2
+Architecture: arm64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 613
+Depends: libboost-program-options1.74.0 (>= 1.74.0+ds1), libboost-regex1.74.0-icu72, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11), adduser
+Recommends: skyaware978, soapysdr-module-rtlsdr
+Filename: ./arm64/dump978-fa_10.2_arm64.deb
+Size: 176884
+MD5sum: 450d9a26ad43916200bb0248644e4d22
+SHA1: 473887646013a6e5ec24ce10499b4cbc7ef34b40
+SHA256: de9f8ec9c1a6198579bd4b6bfca66cf23a8a463910792f96c00035683cf0783f
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: ADS-B UAT Ground Station System
+ .
+ FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
+
+Package: dump978-fa-dbgsym
+Source: dump978-fa
+Version: 10.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 4371
+Depends: dump978-fa (= 10.2)
+Filename: ./amd64/dump978-fa-dbgsym_10.2_amd64.deb
+Size: 4209376
+MD5sum: ce40cf1bd0e6a5f96836a711c03f9eb1
+SHA1: 8e87d590a51e9a8331411e3eeb2b2a24be9a2916
+SHA256: c1a64ed8254b5d27c9b2c988eb3b7d5a677e4ed1fb705be79514605a3148acfa
+Section: debug
+Priority: optional
+Description: debug symbols for dump978-fa
+Build-Ids: 3815dfade2f634668078701d79e1ee94ed3c357b
+
+Package: dump978-fa-dbgsym
+Source: dump978-fa
+Version: 10.2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 4251
+Depends: dump978-fa (= 10.2)
+Filename: ./armhf/dump978-fa-dbgsym_10.2_armhf.deb
+Size: 4066532
+MD5sum: 87cf4855499083d7df3ec038d6c0c482
+SHA1: febd4343af24e5ed482fdd88abdf06a8862ff811
+SHA256: db8ffbac7c012bb4c2fec789a5e2035c5da3b880aec6102930eb4170ed55f22b
+Section: debug
+Priority: optional
+Description: debug symbols for dump978-fa
+Build-Ids: f856506ed6f2e96f9ec27c53829266046a4a7cd1
+
+Package: dump978-fa-dbgsym
+Source: dump978-fa
+Version: 10.2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 4315
+Depends: dump978-fa (= 10.2)
+Filename: ./arm64/dump978-fa-dbgsym_10.2_arm64.deb
+Size: 4130468
+MD5sum: 6b152cb8db2aaa6c27bf0e03be6b7710
+SHA1: 87f10d1c84917f8cfca2e23d4e5b828edfcd1800
+SHA256: 57eee8c748a3ef4858a4667b63a41542a1abe17f73b077d23a407372e75f8854
+Section: debug
+Priority: optional
+Description: debug symbols for dump978-fa
+Build-Ids: 64d74f83d2f168db0870b43f4238f9047ec05261
 
 Package: dumphfdl
 Version: 1.4.1-1~4.gbp5f87c7
@@ -3492,6 +3711,177 @@ Section: debug
 Priority: optional
 Description: debug symbols for rtl-tcp-connector
 Build-Ids: 04ae1f488ae76ca72db8cc77cfd21ddffb688faa
+
+Package: skyaware978
+Source: dump978-fa
+Version: 10.2
+Architecture: amd64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 14412
+Depends: libboost-filesystem1.74.0 (>= 1.74.0+ds1), libboost-program-options1.74.0 (>= 1.74.0+ds1), libboost-regex1.74.0-icu72, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), adduser, lighttpd
+Breaks: skyview978 (<< 3.7.2~)
+Replaces: skyview978 (<< 3.7.2~)
+Filename: ./amd64/skyaware978_10.2_amd64.deb
+Size: 2550060
+MD5sum: d8868ea968b47f611ac934995d812438
+SHA1: 9108055e6aad05a27817d96a1b684c3cef20ed10
+SHA256: d9f510b1e5be784387ef0db57dd950620249cdbd0e4c12af13ea884cf4984b18
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: Local web interface for dump978
+ .
+ Provides a web interface to display aircraft data received from dump978.
+
+Package: skyaware978
+Source: dump978-fa
+Version: 10.2
+Architecture: armhf
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 14251
+Depends: libboost-filesystem1.74.0 (>= 1.74.0+ds1), libboost-program-options1.74.0 (>= 1.74.0+ds1), libboost-regex1.74.0-icu72, libc6 (>= 2.34), libgcc-s1 (>= 3.5), libstdc++6 (>= 11), adduser, lighttpd
+Breaks: skyview978 (<< 3.7.2~)
+Replaces: skyview978 (<< 3.7.2~)
+Filename: ./armhf/skyaware978_10.2_armhf.deb
+Size: 2539000
+MD5sum: 7ca9d92586c8675a84100401a2b28224
+SHA1: 982d40c4a9ee8a1bcb71e19517b174dfd3862c2b
+SHA256: d7944473fe96528a6d328fdc8a145db9b591158bbee27af1f16ae267aa059f55
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: Local web interface for dump978
+ .
+ Provides a web interface to display aircraft data received from dump978.
+
+Package: skyaware978
+Source: dump978-fa
+Version: 10.2
+Architecture: arm64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 14416
+Depends: libboost-filesystem1.74.0 (>= 1.74.0+ds1), libboost-program-options1.74.0 (>= 1.74.0+ds1), libboost-regex1.74.0-icu72, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), adduser, lighttpd
+Breaks: skyview978 (<< 3.7.2~)
+Replaces: skyview978 (<< 3.7.2~)
+Filename: ./arm64/skyaware978_10.2_arm64.deb
+Size: 2543980
+MD5sum: e20be36b4e0e6137be5df12e103fa4ee
+SHA1: ed010b369b5e6339590dd53541580ee115900ce8
+SHA256: 065e9115998e5b7105fdc50f076d686fba9a7997a339c710150ff1118b338386
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: Local web interface for dump978
+ .
+ Provides a web interface to display aircraft data received from dump978.
+
+Package: skyaware978-dbgsym
+Source: dump978-fa
+Version: 10.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 3193
+Depends: skyaware978 (= 10.2)
+Filename: ./amd64/skyaware978-dbgsym_10.2_amd64.deb
+Size: 3069796
+MD5sum: 9c5c3f71a5f66436f0a34b32cbe57447
+SHA1: 0b4bcd2a2df694256babdaa04bd5be463beb5c26
+SHA256: 18811deed319ee901190fb71579c3bea3fc33eb7a282b6c7db5e785f8d530d99
+Section: debug
+Priority: optional
+Description: debug symbols for skyaware978
+Build-Ids: 746ff6aaeca43f456af57e82fbd269e291c805be
+
+Package: skyaware978-dbgsym
+Source: dump978-fa
+Version: 10.2
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 3128
+Depends: skyaware978 (= 10.2)
+Filename: ./armhf/skyaware978-dbgsym_10.2_armhf.deb
+Size: 2991408
+MD5sum: 8159bdb8e605421a8d487fc97bf9b948
+SHA1: d11a3fc3cace1a31cfc507b6a38bfa914e56fa45
+SHA256: 0e717d398ec2b057b27cb0f35326732b22f0114a797264894333dbc4abedb2e1
+Section: debug
+Priority: optional
+Description: debug symbols for skyaware978
+Build-Ids: b59112f1026c0d4fd3c11f0c6ba613564a6bf617
+
+Package: skyaware978-dbgsym
+Source: dump978-fa
+Version: 10.2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 3161
+Depends: skyaware978 (= 10.2)
+Filename: ./arm64/skyaware978-dbgsym_10.2_arm64.deb
+Size: 3023224
+MD5sum: b93f8c8413de84d144971f062b6c3f71
+SHA1: 6535d8aca62b75d6d28e4d8acabca00fae8a3565
+SHA256: b991054635a822c3497b6b2f57e93267bc86d552790e467d522651181ceb8805
+Section: debug
+Priority: optional
+Description: debug symbols for skyaware978
+Build-Ids: 6665143bbf43dcbda6396a111e4b1150c85a6904
+
+Package: skyview978
+Source: dump978-fa
+Version: 10.2
+Architecture: all
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 14
+Depends: skyaware978
+Filename: ./amd64/skyview978_10.2_all.deb
+Size: 5452
+MD5sum: 829c70aca68b57662ab96e0498f7a179
+SHA1: 5f5c971df8640bfa7e90c0b0dbaa4406ddbb8dc5
+SHA256: e61618773741b2fba9435b3fe825f229df33180d062f1e8b9f21e871ef3c16ef
+Section: oldlibs
+Priority: optional
+Homepage: http://www.flightaware.com/
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
+Package: skyview978
+Source: dump978-fa
+Version: 10.2
+Architecture: all
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 14
+Depends: skyaware978
+Filename: ./armhf/skyview978_10.2_all.deb
+Size: 5452
+MD5sum: 829c70aca68b57662ab96e0498f7a179
+SHA1: 5f5c971df8640bfa7e90c0b0dbaa4406ddbb8dc5
+SHA256: e61618773741b2fba9435b3fe825f229df33180d062f1e8b9f21e871ef3c16ef
+Section: oldlibs
+Priority: optional
+Homepage: http://www.flightaware.com/
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
+Package: skyview978
+Source: dump978-fa
+Version: 10.2
+Architecture: all
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 14
+Depends: skyaware978
+Filename: ./arm64/skyview978_10.2_all.deb
+Size: 5452
+MD5sum: 829c70aca68b57662ab96e0498f7a179
+SHA1: 5f5c971df8640bfa7e90c0b0dbaa4406ddbb8dc5
+SHA256: e61618773741b2fba9435b3fe825f229df33180d062f1e8b9f21e871ef3c16ef
+Section: oldlibs
+Priority: optional
+Homepage: http://www.flightaware.com/
+Description: transitional package
+ This is a transitional package. It can safely be removed.
 
 Package: soapy-connector
 Source: owrx-connector
