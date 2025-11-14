@@ -959,16 +959,16 @@ Description: debug symbols for digiham
 Build-Ids: 17286b111c5fad6103bcef3193e297dc51a8c3e9 266a5759e03ad53aaeb81b5d8f65a816176e251d 2af382dc4944d645473f76cab99606691a6e8443 5ce7fa46dad01643068b86c820d5957ffe57318f 6822267538ac4e7d2f6f6e79c90569a625f5b75f 6a82e2ec1d667e8e64095d3c68fa7bdd5acb50a4 82ea6d49102daf6897239d5daf1242120d91642e b35715e521606c3481362a4d879a4a60ab5e75a6 c68cce46088bdffad2d6258056115a8e5ffad4d4 fb99a6beceb0c3388067d08ba6fbb00544568825 fdcd104b63e85bf7a1a82878da71b13f0af0981f
 
 Package: dream
-Version: 2.2-2
+Version: 2.2-20251114
 Architecture: amd64
 Maintainer: Rafael Diniz <rafael@riseup.net>
-Installed-Size: 1499
+Installed-Size: 1507
 Depends: libc6 (>= 2.34), libfdk-aac2 (>= 2.0.1), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 4.0), libhamlib4, libopus0 (>= 1.1), libpcap0.8 (>= 0.9.8), libpulse0 (>= 0.99.1), libspeexdsp1 (>= 1.2.1), libstdc++6 (>= 11), zlib1g (>= 1:1.1.4)
-Filename: ./amd64/dream_2.2-2_amd64.deb
-Size: 465964
-MD5sum: 775608d549092dec3c1d9b9abe3442b3
-SHA1: 6a2d4206b6622e5677c89b95164955639c92b5ec
-SHA256: 9ea68e40f8e87d4919b7960b379bafe29f3772aa3606814ce8ceb9acf4859b41
+Filename: ./amd64/dream_2.2-20251114_amd64.deb
+Size: 468100
+MD5sum: e77f86b24f6a8b80a91cf9862ec47629
+SHA1: a708be3d0a5818ba8d6f0144e68d99d1e33c47c9
+SHA256: 30c1cc461b86dee8a0173ed629317845e2c799fe79d037ce54bd8c773126a7c7
 Section: hamradio
 Priority: optional
 Homepage: https://sourceforge.net/p/drm
@@ -978,16 +978,16 @@ Description: A software radio for AM and Digital Radio Mondiale (DRM)
  a modified analog receiver (SW, MW, LW) and a PC with a sound card.
 
 Package: dream
-Version: 2.2-2
+Version: 2.2-20251114
 Architecture: armhf
 Maintainer: Rafael Diniz <rafael@riseup.net>
-Installed-Size: 887
+Installed-Size: 891
 Depends: libc6 (>= 2.34), libfdk-aac2 (>= 2.0.1), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 4.0), libhamlib4, libopus0 (>= 1.1), libpcap0.8 (>= 0.9.8), libpulse0 (>= 0.99.1), libspeexdsp1 (>= 1.2.1), libstdc++6 (>= 11), zlib1g (>= 1:1.1.4)
-Filename: ./armhf/dream_2.2-2_armhf.deb
-Size: 387124
-MD5sum: 9f550eaaa548bfd2a24a84215f4ea15b
-SHA1: 3b8ea5f18d37d9269d487d586aee04a03919d0ec
-SHA256: 8422a7ef557779ce90d264ef154e7147efacab8870a6c1619eef2a0cb6d70e17
+Filename: ./armhf/dream_2.2-20251114_armhf.deb
+Size: 389804
+MD5sum: b543974ffee1db0ab959c63bbc424181
+SHA1: 97cb78d2819836907af2679a69ff021c35c69e51
+SHA256: b3a7919824ceb81c286a4325f7d265b86079a851df26b1fd0d5708e00f4b17c4
 Section: hamradio
 Priority: optional
 Homepage: https://sourceforge.net/p/drm
@@ -997,16 +997,16 @@ Description: A software radio for AM and Digital Radio Mondiale (DRM)
  a modified analog receiver (SW, MW, LW) and a PC with a sound card.
 
 Package: dream
-Version: 2.2-2
+Version: 2.2-20251114
 Architecture: arm64
 Maintainer: Rafael Diniz <rafael@riseup.net>
 Installed-Size: 1435
 Depends: libc6 (>= 2.34), libfdk-aac2 (>= 2.0.1), libfftw3-double3 (>= 3.3.10), libgcc-s1 (>= 4.0), libhamlib4, libopus0 (>= 1.1), libpcap0.8 (>= 0.9.8), libpulse0 (>= 0.99.1), libspeexdsp1 (>= 1.2.1), libstdc++6 (>= 11), zlib1g (>= 1:1.1.4)
-Filename: ./arm64/dream_2.2-2_arm64.deb
-Size: 419656
-MD5sum: cfcdcbdb89d0748183640d82cd46f863
-SHA1: 1423604a15a303290090fe64949e775dcae15ec8
-SHA256: 8f9c3407a2a8f5f83169a5549066e3d663c2b655e4da59da8c3143b1e7e483a4
+Filename: ./arm64/dream_2.2-20251114_arm64.deb
+Size: 422208
+MD5sum: 742a60bca0edf84f3479721c86d1fe3a
+SHA1: de368b18239412dce137e724338114bbf22e12f3
+SHA256: 0b3a7279ea9691a0d4921e472aaa3f89ec4137c2f83b4a460acbdbddfa71422b
 Section: hamradio
 Priority: optional
 Homepage: https://sourceforge.net/p/drm
@@ -1068,6 +1068,60 @@ Section: debug
 Priority: optional
 Description: debug symbols for dream
 Build-Ids: 40d01d84623867f0a858cac1b4364f871e4977cc
+
+Package: dream-dbgsym
+Source: dream
+Version: 2.2-20251114
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Rafael Diniz <rafael@riseup.net>
+Installed-Size: 9828
+Depends: dream (= 2.2-20251114)
+Filename: ./amd64/dream-dbgsym_2.2-20251114_amd64.deb
+Size: 9733460
+MD5sum: 9ba688a58eaf5c436e23903846941864
+SHA1: ee98bdbfc5407273713936f075dba05b7fe5c160
+SHA256: f046580fbad4ebb5c94cf59bbe21d2f9232fa20c03d6c167971e0c2439cc8ae5
+Section: debug
+Priority: optional
+Description: debug symbols for dream
+Build-Ids: 4515eafc8599e6486554b2ba8e667e849a530d7c
+
+Package: dream-dbgsym
+Source: dream
+Version: 2.2-20251114
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Rafael Diniz <rafael@riseup.net>
+Installed-Size: 9661
+Depends: dream (= 2.2-20251114)
+Filename: ./armhf/dream-dbgsym_2.2-20251114_armhf.deb
+Size: 9543080
+MD5sum: 3c2be0de0300aaa57039f104558d5f92
+SHA1: c46e0b0006d61822c43033d527b80a0d2aab454e
+SHA256: 5bec05da12ee5a5396a66e35d4b0a2a0c60f05cfb46df51dadb6b502186b2f68
+Section: debug
+Priority: optional
+Description: debug symbols for dream
+Build-Ids: b689b4a527bc1e56c800bd8fb69c606e7541730c
+
+Package: dream-dbgsym
+Source: dream
+Version: 2.2-20251114
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Rafael Diniz <rafael@riseup.net>
+Installed-Size: 9664
+Depends: dream (= 2.2-20251114)
+Filename: ./arm64/dream-dbgsym_2.2-20251114_arm64.deb
+Size: 9526996
+MD5sum: a8c12c3bb9721263c286540b5650d262
+SHA1: 07d8bff1b10b0fccd89fd017c9419f2314b0051c
+SHA256: 1a5ccc985ca52404cda82b82295c7561c852ee8c39821b2c4647310292f208a6
+Section: debug
+Priority: optional
+Description: debug symbols for dream
+Build-Ids: 0bdbbdf74362a556506eeaa18c44cf6f5cb6f18d
 
 Package: dump1090-fa
 Version: 8.2-2~7.gbp8adc70
@@ -2915,17 +2969,17 @@ Description: debug symbols for nrsc5
 Build-Ids: 520900f9c4f24a6bc9ddb12593e671650a3efb3d 62075c06b84022938cb27a544ca0fe6173340671
 
 Package: openwebrx
-Version: 1.2.97
+Version: 1.2.98
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3570
+Installed-Size: 3580
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
-Filename: ./amd64/openwebrx_1.2.97_all.deb
-Size: 1015384
-MD5sum: 6aac43852b8b91889b40dde27784a89b
-SHA1: 60401ab4659b4d94305a37112edd5de5397a0fa2
-SHA256: ff06754bf80de272cb918d110a5807b9a8ee076092b40e23123c6ec1cfda6a0a
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, lame, dream
+Filename: ./amd64/openwebrx_1.2.98_all.deb
+Size: 1016316
+MD5sum: f5ca817a6a0e85eeedc011f18a8bc1f2
+SHA1: bda49fcd98510a307030ef71ef35ef8e4ee39258
+SHA256: bb6fe0283cfe80e007dc677fbb5e4a28c22c7185bd3bfb7ea3b512b3c61d5fa7
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -2933,17 +2987,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.97
+Version: 1.2.98
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3570
+Installed-Size: 3580
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
-Filename: ./armhf/openwebrx_1.2.97_all.deb
-Size: 1015384
-MD5sum: 6aac43852b8b91889b40dde27784a89b
-SHA1: 60401ab4659b4d94305a37112edd5de5397a0fa2
-SHA256: ff06754bf80de272cb918d110a5807b9a8ee076092b40e23123c6ec1cfda6a0a
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, lame, dream
+Filename: ./armhf/openwebrx_1.2.98_all.deb
+Size: 1016316
+MD5sum: f5ca817a6a0e85eeedc011f18a8bc1f2
+SHA1: bda49fcd98510a307030ef71ef35ef8e4ee39258
+SHA256: bb6fe0283cfe80e007dc677fbb5e4a28c22c7185bd3bfb7ea3b512b3c61d5fa7
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -2951,17 +3005,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.97
+Version: 1.2.98
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3570
+Installed-Size: 3580
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-cwskimmer, lame
-Filename: ./arm64/openwebrx_1.2.97_all.deb
-Size: 1015384
-MD5sum: 6aac43852b8b91889b40dde27784a89b
-SHA1: 60401ab4659b4d94305a37112edd5de5397a0fa2
-SHA256: ff06754bf80de272cb918d110a5807b9a8ee076092b40e23123c6ec1cfda6a0a
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, lame, dream
+Filename: ./arm64/openwebrx_1.2.98_all.deb
+Size: 1016316
+MD5sum: f5ca817a6a0e85eeedc011f18a8bc1f2
+SHA1: bda49fcd98510a307030ef71ef35ef8e4ee39258
+SHA256: bb6fe0283cfe80e007dc677fbb5e4a28c22c7185bd3bfb7ea3b512b3c61d5fa7
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
