@@ -529,6 +529,120 @@ Description: ADS-B UAT Ground Station System
  .
  FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
 
+Package: dump978-fa
+Version: 10.2.1
+Architecture: amd64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 33
+Depends: adduser, dump978-fa-minimal
+Recommends: skyaware978, soapysdr-module-rtlsdr
+Filename: ./amd64/dump978-fa_10.2.1_amd64.deb
+Size: 7682
+MD5sum: 91551450645ff76fb1ac88cb9ebe6d92
+SHA1: 5a077d6c75c3cb5384ad23cd1f66ec6bac5c65c8
+SHA256: 1e21f8e3f69e4e5b5be8cfa80a3c7125a39a249074c264daf622ace05275030b
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: ADS-B UAT Ground Station System
+ .
+ FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
+
+Package: dump978-fa
+Version: 10.2.1
+Architecture: armhf
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 33
+Depends: adduser, dump978-fa-minimal
+Recommends: skyaware978, soapysdr-module-rtlsdr
+Filename: ./armhf/dump978-fa_10.2.1_armhf.deb
+Size: 7682
+MD5sum: 854ea2ca343ce4496ddab3f98e7d0d00
+SHA1: a65336517c26c6e954d574cafdec5fb3ebf170e9
+SHA256: f39fab8061f689db973f041b92f9be084a697f9cd8ba7e36efac357b97197232
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: ADS-B UAT Ground Station System
+ .
+ FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
+
+Package: dump978-fa
+Version: 10.2.1
+Architecture: arm64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 33
+Depends: adduser, dump978-fa-minimal
+Recommends: skyaware978, soapysdr-module-rtlsdr
+Filename: ./arm64/dump978-fa_10.2.1_arm64.deb
+Size: 7682
+MD5sum: 10cda708c627bc8b56b374a7b85634a1
+SHA1: e06ab308f0d1af078d1cbc8266e7b83a0ac3f8fd
+SHA256: 4791cef63a78530fd5e30087fe271a6b8366ea4675e4f48980058553f8dfca1d
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: ADS-B UAT Ground Station System
+ .
+ FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
+
+Package: dump978-fa-minimal
+Source: dump978-fa
+Version: 10.2.1
+Architecture: amd64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 654
+Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1)
+Filename: ./amd64/dump978-fa-minimal_10.2.1_amd64.deb
+Size: 239378
+MD5sum: 90152c2dfc144dec30e73edd529663a8
+SHA1: a76cae5e125ee32a337dd3e4956a7d803d0c708f
+SHA256: 656203e590f492cbbbe68fa484171c0d4be2a7e3e1af6b5729318e3843914cf2
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: ADS-B UAT Ground Station System - decoder only
+ .
+ FlightAware's SDR decoder for UAT ADS-B messages on 978MHz. This is only the decoder.
+
+Package: dump978-fa-minimal
+Source: dump978-fa
+Version: 10.2.1
+Architecture: armhf
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 457
+Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.34), libgcc-s1 (>= 3.5), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1)
+Filename: ./armhf/dump978-fa-minimal_10.2.1_armhf.deb
+Size: 229966
+MD5sum: 0ce5937a51fd9e2e476998ec1fecf8cf
+SHA1: d9dbaff8161520484863b75307a45c1efc1330dd
+SHA256: 224869b3ded0108ba7a6fa0b1ad6910eff6ed5f5cc92a4d68f35056050eacf86
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: ADS-B UAT Ground Station System - decoder only
+ .
+ FlightAware's SDR decoder for UAT ADS-B messages on 978MHz. This is only the decoder.
+
+Package: dump978-fa-minimal
+Source: dump978-fa
+Version: 10.2.1
+Architecture: arm64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 662
+Depends: libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1)
+Filename: ./arm64/dump978-fa-minimal_10.2.1_arm64.deb
+Size: 230642
+MD5sum: 50ed031b1eac372eaaadfcde3b2aff57
+SHA1: 180271efd8c2ca89c085b8e3787489d181a96f6c
+SHA256: 4e1ce6df5ecc06ce4554438f040c1ddf993fbd4ca4a552edb1abba2049f6e289
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: ADS-B UAT Ground Station System - decoder only
+ .
+ FlightAware's SDR decoder for UAT ADS-B messages on 978MHz. This is only the decoder.
+
 Package: hpsdrconnector
 Version: 0.11.0
 Architecture: amd64
@@ -1878,6 +1992,69 @@ Size: 2736208
 MD5sum: ecf240252b6bd358bff68b3a588c5fa7
 SHA1: 6b0e7700d3dfd64eb7b2ff9eb3ed8bb7c174803f
 SHA256: 708f3b45eeeb0a46f76dc6570b6ad4e0aa81e2d2ffa7dffc99972391bb64d406
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: Local web interface for dump978
+ .
+ Provides a web interface to display aircraft data received from dump978.
+
+Package: skyaware978
+Source: dump978-fa
+Version: 10.2.1
+Architecture: amd64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 14473
+Depends: libboost-filesystem1.83.0 (>= 1.83.0), libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), adduser, lighttpd
+Breaks: skyview978 (<< 3.7.2~)
+Replaces: skyview978 (<< 3.7.2~)
+Filename: ./amd64/skyaware978_10.2.1_amd64.deb
+Size: 2745194
+MD5sum: cb363463f90952974d8bfb49362781f8
+SHA1: b7025c8218bf1f0dfb61f143c91898c1ddc3c020
+SHA256: 1d626f8c9409d358d56213c44c6b244d5c132275828312e06714e4e819775990
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: Local web interface for dump978
+ .
+ Provides a web interface to display aircraft data received from dump978.
+
+Package: skyaware978
+Source: dump978-fa
+Version: 10.2.1
+Architecture: armhf
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 14332
+Depends: libboost-filesystem1.83.0 (>= 1.83.0), libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.38), libgcc-s1 (>= 3.5), libstdc++6 (>= 13.1), adduser, lighttpd
+Breaks: skyview978 (<< 3.7.2~)
+Replaces: skyview978 (<< 3.7.2~)
+Filename: ./armhf/skyaware978_10.2.1_armhf.deb
+Size: 2743870
+MD5sum: c14a48a927389cc3f7c9ed0cc680b9dc
+SHA1: 2e25075234d1feb40d1468f8c5b43db3ec1c2bac
+SHA256: 459854f1fff20604547317166796976592b97553a775da8ea83d78f2f10aaf0c
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: Local web interface for dump978
+ .
+ Provides a web interface to display aircraft data received from dump978.
+
+Package: skyaware978
+Source: dump978-fa
+Version: 10.2.1
+Architecture: arm64
+Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
+Installed-Size: 14481
+Depends: libboost-filesystem1.83.0 (>= 1.83.0), libboost-program-options1.83.0 (>= 1.83.0), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), adduser, lighttpd
+Breaks: skyview978 (<< 3.7.2~)
+Replaces: skyview978 (<< 3.7.2~)
+Filename: ./arm64/skyaware978_10.2.1_arm64.deb
+Size: 2735906
+MD5sum: eba4d0fbe063c67ef4d70e0be398bfd1
+SHA1: 6e9563c714d9b22dd110bff88fb55f0d2641fe07
+SHA256: 8bf7f16970dea61c714e83334f45123bd87be59986a614c8a165728066eace0e
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
