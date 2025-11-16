@@ -584,63 +584,6 @@ Description: debug symbols for dream
 Build-Ids: 00663b79f98bb70538ababf33d18d8798fda33e9
 
 Package: dump978-fa
-Version: 10.2
-Architecture: amd64
-Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 597
-Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu67, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libsoapysdr0.7 (>= 0.7.2), libstdc++6 (>= 9), adduser
-Recommends: skyaware978, soapysdr-module-rtlsdr
-Filename: ./amd64/dump978-fa_10.2_amd64.deb
-Size: 194188
-MD5sum: da31eec62acd01863e4f97e0d33d56ce
-SHA1: 3e37251788ab47b46915e4b83d94209df6aad273
-SHA256: 7ee8dd3d061cc7efade2a908d9662b1fae48323e5424e224d53e4be7a5e1faaa
-Section: embedded
-Priority: extra
-Homepage: http://www.flightaware.com/
-Description: ADS-B UAT Ground Station System
- .
- FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
-
-Package: dump978-fa
-Version: 10.2
-Architecture: armhf
-Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 388
-Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu67, libc6 (>= 2.28), libgcc-s1 (>= 3.5), libsoapysdr0.7 (>= 0.7.2), libstdc++6 (>= 9), adduser
-Recommends: skyaware978, soapysdr-module-rtlsdr
-Filename: ./armhf/dump978-fa_10.2_armhf.deb
-Size: 166260
-MD5sum: 7d0bd1a76d912cc64eccc41a5bcbd7cf
-SHA1: 2cec176956ce928a6ccf54c6d81c70b623d25e1b
-SHA256: 290e082b4955fc475a1ffd4d18b1b893bb856853d38ef886b7f9393d97eef842
-Section: embedded
-Priority: extra
-Homepage: http://www.flightaware.com/
-Description: ADS-B UAT Ground Station System
- .
- FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
-
-Package: dump978-fa
-Version: 10.2
-Architecture: arm64
-Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 572
-Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu67, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libsoapysdr0.7 (>= 0.7.2), libstdc++6 (>= 9), adduser
-Recommends: skyaware978, soapysdr-module-rtlsdr
-Filename: ./arm64/dump978-fa_10.2_arm64.deb
-Size: 176788
-MD5sum: c04e8797905e7fc29a7d484d49c4f1e6
-SHA1: d6ee7cb8fbe4b29ac496602aba1b3c664403ae64
-SHA256: 352748bcfba983e9e89387d067d9b2cd2ac6f14d7ac9081ad5d793f1cc799bab
-Section: embedded
-Priority: extra
-Homepage: http://www.flightaware.com/
-Description: ADS-B UAT Ground Station System
- .
- FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
-
-Package: dump978-fa
 Version: 10.2.1
 Architecture: amd64
 Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
@@ -696,60 +639,6 @@ Homepage: http://www.flightaware.com/
 Description: ADS-B UAT Ground Station System
  .
  FlightAware's SDR decoder for UAT ADS-B messages on 978MHz.
-
-Package: dump978-fa-dbgsym
-Source: dump978-fa
-Version: 10.2
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 4474
-Depends: dump978-fa (= 10.2)
-Filename: ./amd64/dump978-fa-dbgsym_10.2_amd64.deb
-Size: 4293840
-MD5sum: 7453d54a2217a0c1116d896a19ea4d67
-SHA1: 79ef89e7925c3243df4b236539f57df3aa92ffff
-SHA256: 0a2c1132e07c0e6f9ffc99616c9c5114fd2183be70677f3395031fe1b79dfe17
-Section: debug
-Priority: optional
-Description: debug symbols for dump978-fa
-Build-Ids: 3049ff6b1e141899c83a6727c4b20ecbb69c95ae
-
-Package: dump978-fa-dbgsym
-Source: dump978-fa
-Version: 10.2
-Auto-Built-Package: debug-symbols
-Architecture: armhf
-Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 4334
-Depends: dump978-fa (= 10.2)
-Filename: ./armhf/dump978-fa-dbgsym_10.2_armhf.deb
-Size: 4136632
-MD5sum: 9fa5677e7f4c7cc850313db4dcb7528e
-SHA1: dac7ba312e3844af9b2b6f4653016d5b334834b2
-SHA256: e26de12cfbff09286fdad399b0c7fd78b7668c254e7c886a9298790ba922b087
-Section: debug
-Priority: optional
-Description: debug symbols for dump978-fa
-Build-Ids: 76cf7fd99e493c2b9c7c4a544a4f440d2184f692
-
-Package: dump978-fa-dbgsym
-Source: dump978-fa
-Version: 10.2
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 4439
-Depends: dump978-fa (= 10.2)
-Filename: ./arm64/dump978-fa-dbgsym_10.2_arm64.deb
-Size: 4239988
-MD5sum: f66589f054300762835c9506d8ac98da
-SHA1: 04c491ae8a502880c6c31157e6e6bbb0da7c56dc
-SHA256: e8b896b4f462266201dfd86074e430846ec0cdc418bcd04d2606e6a0476581aa
-Section: debug
-Priority: optional
-Description: debug symbols for dump978-fa
-Build-Ids: 90866c0ea69ba8870a921df29fe49d6d270e27c1
 
 Package: dump978-fa-minimal
 Source: dump978-fa
@@ -1636,6 +1525,60 @@ Homepage: https://www.openwebrx.de/
 Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
+Package: openwebrx
+Version: 1.2.99
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 3580
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, lame, dream
+Filename: ./amd64/openwebrx_1.2.99_all.deb
+Size: 1016348
+MD5sum: 238af89b312e17c63618ad2b4c1ad199
+SHA1: 4dafb152f258a3a322c7a7878ff393ad14da8a4f
+SHA256: c4a16b9ecb009440d58b8b3ced02e6a41d9001d3c8871cfc1aa4474101f72648
+Section: hamradio
+Priority: optional
+Homepage: https://www.openwebrx.de/
+Description: multi-user web sdr
+ Open source, multi-user SDR receiver with a web interface
+
+Package: openwebrx
+Version: 1.2.99
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 3580
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, lame, dream
+Filename: ./armhf/openwebrx_1.2.99_all.deb
+Size: 1016348
+MD5sum: 238af89b312e17c63618ad2b4c1ad199
+SHA1: 4dafb152f258a3a322c7a7878ff393ad14da8a4f
+SHA256: c4a16b9ecb009440d58b8b3ced02e6a41d9001d3c8871cfc1aa4474101f72648
+Section: hamradio
+Priority: optional
+Homepage: https://www.openwebrx.de/
+Description: multi-user web sdr
+ Open source, multi-user SDR receiver with a web interface
+
+Package: openwebrx
+Version: 1.2.99
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 3580
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, lame, dream
+Filename: ./arm64/openwebrx_1.2.99_all.deb
+Size: 1016348
+MD5sum: 238af89b312e17c63618ad2b4c1ad199
+SHA1: 4dafb152f258a3a322c7a7878ff393ad14da8a4f
+SHA256: c4a16b9ecb009440d58b8b3ced02e6a41d9001d3c8871cfc1aa4474101f72648
+Section: hamradio
+Priority: optional
+Homepage: https://www.openwebrx.de/
+Description: multi-user web sdr
+ Open source, multi-user SDR receiver with a web interface
+
 Package: owrx-connector
 Version: 0.6.5
 Architecture: amd64
@@ -2226,69 +2169,6 @@ Build-Ids: 031c0dc0f77db2777daf92ca06645dcbf4a4f424
 
 Package: skyaware978
 Source: dump978-fa
-Version: 10.2
-Architecture: amd64
-Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 14419
-Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu67, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 7), adduser, lighttpd
-Breaks: skyview978 (<< 3.7.2~)
-Replaces: skyview978 (<< 3.7.2~)
-Filename: ./amd64/skyaware978_10.2_amd64.deb
-Size: 2551224
-MD5sum: a53fd24fe9bc29f00e2c536e0dea4fec
-SHA1: 629e66d75e17c9ca4a24df6a04cc0aca77b04871
-SHA256: 73ad768e1394dfa32ade6d33dc3058a271006b652d383c49c9e46651e31b2dd7
-Section: embedded
-Priority: extra
-Homepage: http://www.flightaware.com/
-Description: Local web interface for dump978
- .
- Provides a web interface to display aircraft data received from dump978.
-
-Package: skyaware978
-Source: dump978-fa
-Version: 10.2
-Architecture: armhf
-Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 14254
-Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu67, libc6 (>= 2.28), libgcc-s1 (>= 3.5), libstdc++6 (>= 7), adduser, lighttpd
-Breaks: skyview978 (<< 3.7.2~)
-Replaces: skyview978 (<< 3.7.2~)
-Filename: ./armhf/skyaware978_10.2_armhf.deb
-Size: 2532952
-MD5sum: 034e1cd763a24d77ef69a94e4a604746
-SHA1: b698911596b94b0a8af636a9bb5cef239a9d4ad3
-SHA256: f8ea5daa8aa17d94969ec2bf1ad6ed3f66da8177dedddc64b938a2d35dccf49c
-Section: embedded
-Priority: extra
-Homepage: http://www.flightaware.com/
-Description: Local web interface for dump978
- .
- Provides a web interface to display aircraft data received from dump978.
-
-Package: skyaware978
-Source: dump978-fa
-Version: 10.2
-Architecture: arm64
-Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 14403
-Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu67, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 7), adduser, lighttpd
-Breaks: skyview978 (<< 3.7.2~)
-Replaces: skyview978 (<< 3.7.2~)
-Filename: ./arm64/skyaware978_10.2_arm64.deb
-Size: 2539588
-MD5sum: 15c083c1e15f96ec0ddc9489f375a765
-SHA1: fcf125f53db41be7da9bc5cedeff52097d8e54f3
-SHA256: c34c8ad9e8999ac69af356c46a95aaaf47981192bc651953a61861178a960c33
-Section: embedded
-Priority: extra
-Homepage: http://www.flightaware.com/
-Description: Local web interface for dump978
- .
- Provides a web interface to display aircraft data received from dump978.
-
-Package: skyaware978
-Source: dump978-fa
 Version: 10.2.1
 Architecture: amd64
 Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
@@ -2349,60 +2229,6 @@ Homepage: http://www.flightaware.com/
 Description: Local web interface for dump978
  .
  Provides a web interface to display aircraft data received from dump978.
-
-Package: skyaware978-dbgsym
-Source: dump978-fa
-Version: 10.2
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 3272
-Depends: skyaware978 (= 10.2)
-Filename: ./amd64/skyaware978-dbgsym_10.2_amd64.deb
-Size: 3133092
-MD5sum: 21d3b35f7ba49a7b6f8486b32d00a001
-SHA1: 06b5b04fba3b51dc7be88731a69f101e430c5a18
-SHA256: ccd7f6a6c25b3e23920cc24b2037ffcafb7020bb23d4548a554dd8131a1b9f8d
-Section: debug
-Priority: optional
-Description: debug symbols for skyaware978
-Build-Ids: 10a8f220ff0ba4206d657b880ce30d75b0ec0bb1
-
-Package: skyaware978-dbgsym
-Source: dump978-fa
-Version: 10.2
-Auto-Built-Package: debug-symbols
-Architecture: armhf
-Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 3200
-Depends: skyaware978 (= 10.2)
-Filename: ./armhf/skyaware978-dbgsym_10.2_armhf.deb
-Size: 3051592
-MD5sum: 7c651dfb00cf4db8eb94717c3bc9afc6
-SHA1: 714fdcded4fbe3c619b94761702bdfbf581cd60f
-SHA256: 741716b0c9b683e03568310312cc34d073d4bfcb2f2910df3fa2019f2a07052c
-Section: debug
-Priority: optional
-Description: debug symbols for skyaware978
-Build-Ids: 4575bfcf816aa2fd13c6dd4907dca72ec3e5c42a
-
-Package: skyaware978-dbgsym
-Source: dump978-fa
-Version: 10.2
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 3253
-Depends: skyaware978 (= 10.2)
-Filename: ./arm64/skyaware978-dbgsym_10.2_arm64.deb
-Size: 3102932
-MD5sum: b83390cb5fd96b2eaa1372ae34e267f2
-SHA1: 6aba2b9ede79f15b5d0431cde55b751ab9265974
-SHA256: 734d3cdd559c89d98bb8fdde2746bcf2e9e8501067f6d13b08f23acd520558ca
-Section: debug
-Priority: optional
-Description: debug symbols for skyaware978
-Build-Ids: e9e2d2757d68c4a055e1c1cb1712ac94174fd03c
 
 Package: skyaware978-dbgsym
 Source: dump978-fa
