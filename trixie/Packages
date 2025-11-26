@@ -1126,6 +1126,63 @@ Description: FlightAware ADS-B Ground Station System for SDRs
  for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
  device support.
 
+Package: dump1090-fa
+Version: 8.2-1
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 11513
+Depends: dump1090-fa-minimal (= 8.2-1), libc6 (>= 2.38), libncurses6 (>= 6), libtinfo6 (>= 6), adduser, lighttpd
+Filename: ./amd64/dump1090-fa_8.2-1_amd64.deb
+Size: 2143000
+MD5sum: b81c8190c7bf5d0695578512f501b151
+SHA1: a7eea6a44411cec0d924afacf4025650c22dd9b2
+SHA256: 0d07d4a82a69d6c2bf4ad75facdcc4bba8075dee6eaae9df9c551572ec4b5159
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs
+ Networked Aviation Mode S / ADS-B decoder/translator with support
+ for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
+ device support.
+
+Package: dump1090-fa
+Version: 8.2-1
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 11461
+Depends: dump1090-fa-minimal (= 8.2-1), libc6 (>= 2.38), libncurses6 (>= 6), libtinfo6 (>= 6), adduser, lighttpd
+Filename: ./armhf/dump1090-fa_8.2-1_armhf.deb
+Size: 2136200
+MD5sum: e82a582776aefe5740c084b5604a7b0c
+SHA1: b60d85e46fbdf12a47d5dac63f1b16d3f3b303da
+SHA256: db87da25a7c8410a95dacfc8f2087b71a61ed64d6145877a5dfb65d9c6404dee
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs
+ Networked Aviation Mode S / ADS-B decoder/translator with support
+ for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
+ device support.
+
+Package: dump1090-fa
+Version: 8.2-1
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 11529
+Depends: dump1090-fa-minimal (= 8.2-1), libc6 (>= 2.38), libncurses6 (>= 6), libtinfo6 (>= 6), adduser, lighttpd
+Filename: ./arm64/dump1090-fa_8.2-1_arm64.deb
+Size: 2135856
+MD5sum: 5e343ae847bdc30961092b26b47d3e54
+SHA1: 21a2906629c0ea3e026ae5912eb274ea7176cf75
+SHA256: c5f71637db78b94a6f53eeaf5805200a7970309edca55f944d27749407bb88ef
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs
+ Networked Aviation Mode S / ADS-B decoder/translator with support
+ for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
+ device support.
+
 Package: dump1090-fa-dbgsym
 Source: dump1090-fa
 Version: 8.2
@@ -1179,6 +1236,168 @@ Section: debug
 Priority: optional
 Description: debug symbols for dump1090-fa
 Build-Ids: bc5af5d7693f701557bc014e895da2d27cf02c3e d14ea55b065fa5f255f50c812ab99fa388887fba d2c45a0a948b46e0c4c71ddbfc1b26acd639e759
+
+Package: dump1090-fa-dbgsym
+Source: dump1090-fa
+Version: 8.2-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 389
+Depends: dump1090-fa (= 8.2-1)
+Filename: ./amd64/dump1090-fa-dbgsym_8.2-1_amd64.deb
+Size: 298504
+MD5sum: 552760785e30e27598c30c0361ac2226
+SHA1: 9ae7706d5fcd543ccb7bc85db4d400cea49537b7
+SHA256: ce5e4aa5754683deae455532bb59f3c57200cb7a5e056f23e00f3c92df680e19
+Section: debug
+Priority: optional
+Description: debug symbols for dump1090-fa
+Build-Ids: 43f72c6a46527049a611580314512b8695424700 f4f13dbc762c02ffa76e7999f399364b4d2c1df0
+
+Package: dump1090-fa-dbgsym
+Source: dump1090-fa
+Version: 8.2-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 499
+Depends: dump1090-fa (= 8.2-1)
+Filename: ./armhf/dump1090-fa-dbgsym_8.2-1_armhf.deb
+Size: 307072
+MD5sum: 956a188639d61d9e12445ed7f1f48326
+SHA1: 504ea6e7b6038655631b15441211ad4e90563167
+SHA256: af476e784638034eed584300c9245a654497c3968182ada7bb5220c89a9298f3
+Section: debug
+Priority: optional
+Description: debug symbols for dump1090-fa
+Build-Ids: 2f585a435d2ca039f78f547f9827d04ca2d2e2ea 6db72b94ba96fa5b08a60f679448a03552032fcb
+
+Package: dump1090-fa-dbgsym
+Source: dump1090-fa
+Version: 8.2-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 561
+Depends: dump1090-fa (= 8.2-1)
+Filename: ./arm64/dump1090-fa-dbgsym_8.2-1_arm64.deb
+Size: 304796
+MD5sum: bb26de88af276d6c32dc8a52d6419ea3
+SHA1: 4d6904f076fb2a300c216715e1cf4533b89b69aa
+SHA256: 5a4738953842f6a07eec769b4f7e5be931abc4cd56359dca6ba32aee784b1264
+Section: debug
+Priority: optional
+Description: debug symbols for dump1090-fa
+Build-Ids: 4ff127344dbb5ebfbe94914b90ed63493041032e bc5af5d7693f701557bc014e895da2d27cf02c3e
+
+Package: dump1090-fa-minimal
+Source: dump1090-fa
+Version: 8.2-1
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 334
+Depends: libbladerf2 (>= 0.2024.05), libc6 (>= 2.38), libhackrf0 (>= 2024.02.1), liblimesuite23.11-1 (>= 23.11.0+dfsg), libncurses6 (>= 6), librtlsdr0, libtinfo6 (>= 6)
+Filename: ./amd64/dump1090-fa-minimal_8.2-1_amd64.deb
+Size: 116096
+MD5sum: e3f880d735a77d601c31cceaf28babd7
+SHA1: 80c53a85c4f1bdb789fe02943abe733bf62a3969
+SHA256: 7e9778e30f366c6fb3254ff93d219b329508c48228283d9af7ad161175b95632
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs - decoder only
+ Just the decoder binary without extras.
+
+Package: dump1090-fa-minimal
+Source: dump1090-fa
+Version: 8.2-1
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 260
+Depends: libbladerf2 (>= 0.2024.05), libc6 (>= 2.38), libhackrf0 (>= 2024.02.1), liblimesuite23.11-1 (>= 23.11.0+dfsg), libncurses6 (>= 6), librtlsdr0, libtinfo6 (>= 6)
+Filename: ./armhf/dump1090-fa-minimal_8.2-1_armhf.deb
+Size: 103588
+MD5sum: a2911514817d5abfe459db11819621c8
+SHA1: 683969c33680f7fccc86578cc66f15ea3505feee
+SHA256: 99bc22e8a20636e13765ed16cee497e5035dd5519c5c58ffa5fe5ca8e5db3797
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs - decoder only
+ Just the decoder binary without extras.
+
+Package: dump1090-fa-minimal
+Source: dump1090-fa
+Version: 8.2-1
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 327
+Depends: libbladerf2 (>= 0.2024.05), libc6 (>= 2.38), libhackrf0 (>= 2024.02.1), liblimesuite23.11-1 (>= 23.11.0+dfsg), libncurses6 (>= 6), librtlsdr0, libtinfo6 (>= 6)
+Filename: ./arm64/dump1090-fa-minimal_8.2-1_arm64.deb
+Size: 107048
+MD5sum: 7b38a3afd3f2f8747bbe65cd1965ff21
+SHA1: 5195900ae2ed48f232f60fe2cc6093076a06ecd5
+SHA256: 07605442d00d5f57378e1a179f0ac85ab9d3f91c9cb9dca8a0c1c67f7f76e0f4
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs - decoder only
+ Just the decoder binary without extras.
+
+Package: dump1090-fa-minimal-dbgsym
+Source: dump1090-fa
+Version: 8.2-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 472
+Depends: dump1090-fa-minimal (= 8.2-1)
+Filename: ./amd64/dump1090-fa-minimal-dbgsym_8.2-1_amd64.deb
+Size: 367232
+MD5sum: 40795a73a3444445e5f4066459a369f7
+SHA1: e3adb04204310d6f7aaa31efafc5720150152c73
+SHA256: 17d71d77a303e08c8a5076fd1d4a0c922d50774d6ab1203c6a39bb2ade2ae7ea
+Section: debug
+Priority: optional
+Description: debug symbols for dump1090-fa-minimal
+Build-Ids: b0f73c68f6d8328652651ffef7aacdcd96dcb48d
+
+Package: dump1090-fa-minimal-dbgsym
+Source: dump1090-fa
+Version: 8.2-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 594
+Depends: dump1090-fa-minimal (= 8.2-1)
+Filename: ./armhf/dump1090-fa-minimal-dbgsym_8.2-1_armhf.deb
+Size: 373748
+MD5sum: f6d0c47029b99e86340631ec090fbb1b
+SHA1: 7dd812b81209619a6fb9284309ea134b63f313b1
+SHA256: 0537b33b1f27a2187cb22f51b36e9bf5677671969ff2b6ac2da06ad5c451206a
+Section: debug
+Priority: optional
+Description: debug symbols for dump1090-fa-minimal
+Build-Ids: b94d0a1cbeb3258219fa075c58667e23a5d4e2d3
+
+Package: dump1090-fa-minimal-dbgsym
+Source: dump1090-fa
+Version: 8.2-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 666
+Depends: dump1090-fa-minimal (= 8.2-1)
+Filename: ./arm64/dump1090-fa-minimal-dbgsym_8.2-1_arm64.deb
+Size: 375172
+MD5sum: ac42885af2da051fbdba9871217c36de
+SHA1: 3a7e52fad56b90a2bd81d599fa56263eaa393a18
+SHA256: 2185eae230ba0e15fb278272e642fd0ccb3f4bb1fd61afe6ac592112b2e6c8be
+Section: debug
+Priority: optional
+Description: debug symbols for dump1090-fa-minimal
+Build-Ids: cb74f4bf7490e5e11a6c2e62d5a977b14792b6a8
 
 Package: dump978-fa
 Version: 10.2.1
