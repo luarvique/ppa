@@ -117,24 +117,6 @@ Description: RDS decoder
 
 Package: csdr-skimmer
 Version: 1.5
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 62
-Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
-Replaces: csdr-cwskimmer
-Provides: csdr-cwskimmer
-Filename: ./amd64/csdr-skimmer_1.5_amd64.deb
-Size: 14128
-MD5sum: 22a23251e78761163f1f521317a5ba99
-SHA1: 3a92b6c5b94a191c7a96ba66cabdc9f73d2b29ff
-SHA256: 4916bbec2c681f6dd5097daf08674cd7b605168f41d5eca9c17cdb0785fc18cf
-Section: hamradio
-Priority: optional
-Description: Bulk CW and RTTY decoders
- Command line CW and RTTY skimmers based on the CSDR signal processing library.
-
-Package: csdr-skimmer
-Version: 1.5
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 44
@@ -152,18 +134,36 @@ Description: Bulk CW and RTTY decoders
  Command line CW and RTTY skimmers based on the CSDR signal processing library.
 
 Package: csdr-skimmer
-Version: 1.5
+Version: 1.6
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 62
+Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
+Replaces: csdr-cwskimmer
+Provides: csdr-cwskimmer
+Filename: ./amd64/csdr-skimmer_1.6_amd64.deb
+Size: 14306
+MD5sum: c2ea58d11db7c86ed2ab431d6cbdf7ea
+SHA1: 81488fe56a78bc1e1c308bea6c39cf24ec338ef9
+SHA256: 86c2303eb4b51a69c29decd71b9480040434411dac5cd22e28f33cad540bdcc8
+Section: hamradio
+Priority: optional
+Description: Bulk CW and RTTY decoders
+ Command line CW and RTTY skimmers based on the CSDR signal processing library.
+
+Package: csdr-skimmer
+Version: 1.6
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 54
 Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
 Replaces: csdr-cwskimmer
 Provides: csdr-cwskimmer
-Filename: ./arm64/csdr-skimmer_1.5_arm64.deb
-Size: 13612
-MD5sum: 36d9918482fc1676ee1647308712561f
-SHA1: e4f608a389eac5feaa4ceb0e259bd4d01e06d107
-SHA256: aae72cdabe400800e66aaae4941d84017fc4064d236aada43abdf1f0179758d3
+Filename: ./arm64/csdr-skimmer_1.6_arm64.deb
+Size: 13696
+MD5sum: 6cd99e4d085afcf1952d989263d342b9
+SHA1: f3bb285812e6f5d75354763a7c60343baf6cfefa
+SHA256: 6dfe487802385f175729ff16b2895554322b3a0c0ee836c810bd0f855db0e5ae
 Section: hamradio
 Priority: optional
 Description: Bulk CW and RTTY decoders
