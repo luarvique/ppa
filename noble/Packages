@@ -358,6 +358,60 @@ Priority: optional
 Description: Bulk CW and RTTY decoders
  Command line CW and RTTY skimmers based on the CSDR signal processing library.
 
+Package: csdr-skimmer
+Version: 1.6
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 62
+Depends: libc6 (>= 2.38), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
+Replaces: csdr-cwskimmer
+Provides: csdr-cwskimmer
+Filename: ./amd64/csdr-skimmer_1.6_amd64.deb
+Size: 14386
+MD5sum: b2570b0b4fff0e06a7465b7ddecf8d2f
+SHA1: db564368382f1ee38cfaa312ee9a212633269e11
+SHA256: cde200ba7e3d0294a245735aa6696b6e9375fdf5382d608cfdef89ef93c42cb7
+Section: hamradio
+Priority: optional
+Description: Bulk CW and RTTY decoders
+ Command line CW and RTTY skimmers based on the CSDR signal processing library.
+
+Package: csdr-skimmer
+Version: 1.6
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 44
+Depends: libc6 (>= 2.38), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.5), libstdc++6 (>= 5)
+Replaces: csdr-cwskimmer
+Provides: csdr-cwskimmer
+Filename: ./armhf/csdr-skimmer_1.6_armhf.deb
+Size: 12706
+MD5sum: 62ee33b1b2d61170376b293901cfd1d2
+SHA1: fe887b7b7351843256e4a01b5ad6ead8c86d8286
+SHA256: c045f084032e67694b24221778c2b50c8e9fe3b0ca01914e5904dc7dfa1cb6b3
+Section: hamradio
+Priority: optional
+Description: Bulk CW and RTTY decoders
+ Command line CW and RTTY skimmers based on the CSDR signal processing library.
+
+Package: csdr-skimmer
+Version: 1.6
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 142
+Depends: libc6 (>= 2.38), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
+Replaces: csdr-cwskimmer
+Provides: csdr-cwskimmer
+Filename: ./arm64/csdr-skimmer_1.6_arm64.deb
+Size: 13668
+MD5sum: a6af84de5e8012dfdc12667eea2632da
+SHA1: 61c162f5863251014e0399ce8c474e6ba2bd34d7
+SHA256: 8ec620b620a6fa0f7ef5b81a5316892a20271f39b8dda1f6d9f2410835b22d61
+Section: hamradio
+Priority: optional
+Description: Bulk CW and RTTY decoders
+ Command line CW and RTTY skimmers based on the CSDR signal processing library.
+
 Package: digiham
 Version: 0.6.2
 Architecture: amd64
