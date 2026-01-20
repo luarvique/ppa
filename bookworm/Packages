@@ -847,6 +847,60 @@ Priority: optional
 Description: Bulk CW and RTTY decoders
  Command line CW and RTTY skimmers based on the CSDR signal processing library.
 
+Package: csdr-skimmer
+Version: 1.7
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 70
+Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Replaces: csdr-cwskimmer
+Provides: csdr-cwskimmer
+Filename: ./amd64/csdr-skimmer_1.7_amd64.deb
+Size: 13584
+MD5sum: 6a31bd476807bf1fd7b5d8190edac2ec
+SHA1: 62c228ac9de4786dcade4fb4240164823bd3edd9
+SHA256: 640392a173b00d22bbd198c51eddd4f1e46e1e3c1dbba5ee6bb6cea63d82a571
+Section: hamradio
+Priority: optional
+Description: Bulk CW and RTTY decoders
+ Command line CW and RTTY skimmers based on the CSDR signal processing library.
+
+Package: csdr-skimmer
+Version: 1.7
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 44
+Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.5), libstdc++6 (>= 5)
+Replaces: csdr-cwskimmer
+Provides: csdr-cwskimmer
+Filename: ./armhf/csdr-skimmer_1.7_armhf.deb
+Size: 11968
+MD5sum: 510d187e037725db29a34d37716c424c
+SHA1: b18f439fe8ad0d1595b7d5c55b3a04eef1d4d589
+SHA256: 15539a3834194344bfebd05b0ae882aa89e1e3cbb942366697cf07cf041219b9
+Section: hamradio
+Priority: optional
+Description: Bulk CW and RTTY decoders
+ Command line CW and RTTY skimmers based on the CSDR signal processing library.
+
+Package: csdr-skimmer
+Version: 1.7
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 142
+Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
+Replaces: csdr-cwskimmer
+Provides: csdr-cwskimmer
+Filename: ./arm64/csdr-skimmer_1.7_arm64.deb
+Size: 12624
+MD5sum: 7b14afed46180565bcd41b834fe9aede
+SHA1: f53b866a91ed1bc4fa7a5545b8cce16e7487e363
+SHA256: 6d9eef36a13058b4e6274e527fc80c29e4e813914bfc1e489b630f1d42a45764
+Section: hamradio
+Priority: optional
+Description: Bulk CW and RTTY decoders
+ Command line CW and RTTY skimmers based on the CSDR signal processing library.
+
 Package: csdr-skimmer-dbgsym
 Source: csdr-skimmer
 Version: 1.5
@@ -954,6 +1008,60 @@ Section: debug
 Priority: optional
 Description: debug symbols for csdr-skimmer
 Build-Ids: 1160e26f37f62a926775516f9e9c25076eb8e871 12416869fb559d9d9d1e768e86451d135465fba6
+
+Package: csdr-skimmer-dbgsym
+Source: csdr-skimmer
+Version: 1.7
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 89
+Depends: csdr-skimmer (= 1.7)
+Filename: ./amd64/csdr-skimmer-dbgsym_1.7_amd64.deb
+Size: 55928
+MD5sum: 01d2459e2ca80e3952086f23fb40359a
+SHA1: 8e62d7871fde202917dab56720b84cf7e8272b4f
+SHA256: 4b5264c9208849032998c081ec8a5a452bb502330e244bfe4867cd43c7f8e76a
+Section: debug
+Priority: optional
+Description: debug symbols for csdr-skimmer
+Build-Ids: 36b2c833399f1382c732d04255c16e4c2793de4f e329caf8e5753270103b699dda4b9ce00d7f3d8a
+
+Package: csdr-skimmer-dbgsym
+Source: csdr-skimmer
+Version: 1.7
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 87
+Depends: csdr-skimmer (= 1.7)
+Filename: ./armhf/csdr-skimmer-dbgsym_1.7_armhf.deb
+Size: 54636
+MD5sum: 95aba575e5a3ad96aae0467384c96b53
+SHA1: ed2d3003d875304b3b32c5c5ff37454e0b2e12ac
+SHA256: bef90d461684b024b4e898b0485689057e9b2896cb3dbf7a169454a6cd4d7db7
+Section: debug
+Priority: optional
+Description: debug symbols for csdr-skimmer
+Build-Ids: 923a62fd2c2b2167f4fe5da8ed6bd5f4bd85be3b e594beca01dd026990271f81570a9677cccceebb
+
+Package: csdr-skimmer-dbgsym
+Source: csdr-skimmer
+Version: 1.7
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 93
+Depends: csdr-skimmer (= 1.7)
+Filename: ./arm64/csdr-skimmer-dbgsym_1.7_arm64.deb
+Size: 55256
+MD5sum: 223b6ac9e9f0e867ebfb63b313049372
+SHA1: fb7899a0b44712d497fdeec6220766c3de6dd28d
+SHA256: f97bd6841d49e6dfd5737d1c2f0881091e154748b9984532608d667f6dc6c4be
+Section: debug
+Priority: optional
+Description: debug symbols for csdr-skimmer
+Build-Ids: 4086326effa8f4bca8f493cd2a2ec0f3f6d8754d f599a7f5de9e008d809824c2d1821b3e860a1b7e
 
 Package: digiham
 Version: 0.6.2
@@ -3134,17 +3242,17 @@ Description: debug symbols for nrsc5
 Build-Ids: 520900f9c4f24a6bc9ddb12593e671650a3efb3d 62075c06b84022938cb27a544ca0fe6173340671
 
 Package: openwebrx
-Version: 1.2.104
+Version: 1.2.105
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3632
+Installed-Size: 3636
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, lame, dream
-Filename: ./amd64/openwebrx_1.2.104_all.deb
-Size: 1024316
-MD5sum: a24be076bd91d5e8ceac459331a28b94
-SHA1: c1f9d323e5603ccd7fb230ff94425bc1250302bd
-SHA256: 425af6df6ba5bb90cf5af2b66da3e93edd045b842416c51d40456ab1271b8231
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, lame, dream
+Filename: ./amd64/openwebrx_1.2.105_all.deb
+Size: 1024564
+MD5sum: 6d581ae2825a012653fd2e6e501ef61e
+SHA1: 033742f680dddb3fd8f37df983b8a5a25dcb5201
+SHA256: e4ca8cfba8bf1d4531ed512a8b5c578fb457ef4e806011240650fed25cb9aaed
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -3152,17 +3260,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.104
+Version: 1.2.105
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3632
+Installed-Size: 3636
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, lame, dream
-Filename: ./armhf/openwebrx_1.2.104_all.deb
-Size: 1024316
-MD5sum: a24be076bd91d5e8ceac459331a28b94
-SHA1: c1f9d323e5603ccd7fb230ff94425bc1250302bd
-SHA256: 425af6df6ba5bb90cf5af2b66da3e93edd045b842416c51d40456ab1271b8231
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, lame, dream
+Filename: ./armhf/openwebrx_1.2.105_all.deb
+Size: 1024564
+MD5sum: 6d581ae2825a012653fd2e6e501ef61e
+SHA1: 033742f680dddb3fd8f37df983b8a5a25dcb5201
+SHA256: e4ca8cfba8bf1d4531ed512a8b5c578fb457ef4e806011240650fed25cb9aaed
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -3170,17 +3278,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.104
+Version: 1.2.105
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3632
+Installed-Size: 3636
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, lame, dream
-Filename: ./arm64/openwebrx_1.2.104_all.deb
-Size: 1024316
-MD5sum: a24be076bd91d5e8ceac459331a28b94
-SHA1: c1f9d323e5603ccd7fb230ff94425bc1250302bd
-SHA256: 425af6df6ba5bb90cf5af2b66da3e93edd045b842416c51d40456ab1271b8231
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, lame, dream
+Filename: ./arm64/openwebrx_1.2.105_all.deb
+Size: 1024564
+MD5sum: 6d581ae2825a012653fd2e6e501ef61e
+SHA1: 033742f680dddb3fd8f37df983b8a5a25dcb5201
+SHA256: e4ca8cfba8bf1d4531ed512a8b5c578fb457ef4e806011240650fed25cb9aaed
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/

@@ -412,6 +412,60 @@ Priority: optional
 Description: Bulk CW and RTTY decoders
  Command line CW and RTTY skimmers based on the CSDR signal processing library.
 
+Package: csdr-skimmer
+Version: 1.7
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 62
+Depends: libc6 (>= 2.38), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
+Replaces: csdr-cwskimmer
+Provides: csdr-cwskimmer
+Filename: ./amd64/csdr-skimmer_1.7_amd64.deb
+Size: 14620
+MD5sum: bad191c579303e0ac6594206da97ddf5
+SHA1: f9b0b826f72c55baadfeb04818d3f8e9d1fd0549
+SHA256: fe5cff030f983de94c1e305c7efd98b5bd58f363c3f614866e0de9975c8acc27
+Section: hamradio
+Priority: optional
+Description: Bulk CW and RTTY decoders
+ Command line CW and RTTY skimmers based on the CSDR signal processing library.
+
+Package: csdr-skimmer
+Version: 1.7
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 44
+Depends: libc6 (>= 2.38), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.5), libstdc++6 (>= 5)
+Replaces: csdr-cwskimmer
+Provides: csdr-cwskimmer
+Filename: ./armhf/csdr-skimmer_1.7_armhf.deb
+Size: 13020
+MD5sum: 508d5dc4235b3f5b3ac3664af8737e29
+SHA1: f90f6f9395c990c3e7d9fccb11d14a153f514912
+SHA256: cdbee739ced05a50a87802df024b310cfcd1d0a7ae7df6390e3e03d6619cffcd
+Section: hamradio
+Priority: optional
+Description: Bulk CW and RTTY decoders
+ Command line CW and RTTY skimmers based on the CSDR signal processing library.
+
+Package: csdr-skimmer
+Version: 1.7
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 142
+Depends: libc6 (>= 2.38), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
+Replaces: csdr-cwskimmer
+Provides: csdr-cwskimmer
+Filename: ./arm64/csdr-skimmer_1.7_arm64.deb
+Size: 13796
+MD5sum: e469d8c7bba08ba3369d2888b920c511
+SHA1: 01a22fe6a9c06db95971a1d7431e51615a352e4e
+SHA256: 81d8bb405d3e4c44175a618f557d125c69df805f76b20b8279c5b052d8858021
+Section: hamradio
+Priority: optional
+Description: Bulk CW and RTTY decoders
+ Command line CW and RTTY skimmers based on the CSDR signal processing library.
+
 Package: digiham
 Version: 0.6.2
 Architecture: amd64
@@ -1460,17 +1514,17 @@ Description: NRSC5 decoder
  Command-line NRSC5 decoder, with a library.
 
 Package: openwebrx
-Version: 1.2.104
+Version: 1.2.105
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3632
+Installed-Size: 3636
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, lame, dream
-Filename: ./amd64/openwebrx_1.2.104_all.deb
-Size: 1024324
-MD5sum: 4c917c4b273f944b48e2931e8766ac59
-SHA1: f8d592a63f0b89f5628af70b7be821ee1d7bb80a
-SHA256: a9526dbdecdbbc2a57b8fa8efd54d2af2844f3466ed18d4e5b52715a7b6a6c8e
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, lame, dream
+Filename: ./amd64/openwebrx_1.2.105_all.deb
+Size: 1024572
+MD5sum: 038cee17d62c5ea6edd61dc06e8a5c54
+SHA1: 03ddc696be4dd29e9a191deb0be56c0573e560c0
+SHA256: a858161b677af812291724ceb0f447f93fae29dd086274647c698aa9886714c9
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -1478,17 +1532,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.104
+Version: 1.2.105
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3632
+Installed-Size: 3636
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, lame, dream
-Filename: ./armhf/openwebrx_1.2.104_all.deb
-Size: 1024324
-MD5sum: 4c917c4b273f944b48e2931e8766ac59
-SHA1: f8d592a63f0b89f5628af70b7be821ee1d7bb80a
-SHA256: a9526dbdecdbbc2a57b8fa8efd54d2af2844f3466ed18d4e5b52715a7b6a6c8e
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, lame, dream
+Filename: ./armhf/openwebrx_1.2.105_all.deb
+Size: 1024572
+MD5sum: 038cee17d62c5ea6edd61dc06e8a5c54
+SHA1: 03ddc696be4dd29e9a191deb0be56c0573e560c0
+SHA256: a858161b677af812291724ceb0f447f93fae29dd086274647c698aa9886714c9
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -1496,17 +1550,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.104
+Version: 1.2.105
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3632
+Installed-Size: 3636
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.36), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, lame, dream
-Filename: ./arm64/openwebrx_1.2.104_all.deb
-Size: 1024324
-MD5sum: 4c917c4b273f944b48e2931e8766ac59
-SHA1: f8d592a63f0b89f5628af70b7be821ee1d7bb80a
-SHA256: a9526dbdecdbbc2a57b8fa8efd54d2af2844f3466ed18d4e5b52715a7b6a6c8e
+Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, lame, dream
+Filename: ./arm64/openwebrx_1.2.105_all.deb
+Size: 1024572
+MD5sum: 038cee17d62c5ea6edd61dc06e8a5c54
+SHA1: 03ddc696be4dd29e9a191deb0be56c0573e560c0
+SHA256: a858161b677af812291724ceb0f447f93fae29dd086274647c698aa9886714c9
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
