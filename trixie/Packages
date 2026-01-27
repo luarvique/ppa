@@ -3841,6 +3841,114 @@ Priority: optional
 Description: debug symbols for redsea
 Build-Ids: 082550fe2abc10f7b9bb7886d1a0111af4b54ae5
 
+Package: rtl-433
+Version: 25.12-1
+Architecture: amd64
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Installed-Size: 1245
+Depends: libc6 (>= 2.38), librtlsdr0, libsoapysdr0.8 (>= 0.8.1), libusb-1.0-0 (>= 2:1.0.16)
+Filename: ./amd64/rtl-433_25.12-1_amd64.deb
+Size: 424856
+MD5sum: c6965d105034fad453b4040bb023d1ab
+SHA1: dadabacb0e0d513822771b3a8df950b248468111
+SHA256: a4eb041ce08794a417252085fa862463a7b16782a8a20f77f3aa42d10b408b24
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/merbanan/rtl_433
+Description: Decode 433.9 Mhz data
+ This is a program to decode traffic from devices that are broadcasting on
+ 433.9 MHz like temperature sensors.
+
+Package: rtl-433
+Version: 25.12-1
+Architecture: armhf
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Installed-Size: 913
+Depends: libc6 (>= 2.38), librtlsdr0, libsoapysdr0.8 (>= 0.8.1), libusb-1.0-0 (>= 2:1.0.16)
+Filename: ./armhf/rtl-433_25.12-1_armhf.deb
+Size: 394912
+MD5sum: 128e00ae6bb52bdd7f88cea2bb9fddf3
+SHA1: f92e9650bc6c302e032e827495b147d7b5519902
+SHA256: 6c4e94aeaf95f0ddb28790bcfae8f4f658d81486a8526693577577457772fd32
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/merbanan/rtl_433
+Description: Decode 433.9 Mhz data
+ This is a program to decode traffic from devices that are broadcasting on
+ 433.9 MHz like temperature sensors.
+
+Package: rtl-433
+Version: 25.12-1
+Architecture: arm64
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Installed-Size: 1234
+Depends: libc6 (>= 2.38), librtlsdr0, libsoapysdr0.8 (>= 0.8.1), libusb-1.0-0 (>= 2:1.0.16)
+Filename: ./arm64/rtl-433_25.12-1_arm64.deb
+Size: 416308
+MD5sum: 12a3563a57d9c7023938d102dd6f3fc0
+SHA1: 3382db0feedb6ce3f4230866112831f50e9fa816
+SHA256: 4bd36f533e7d201b26b0cd6ee54f9edce5d5389535c59a044ec681fd9c629f34
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/merbanan/rtl_433
+Description: Decode 433.9 Mhz data
+ This is a program to decode traffic from devices that are broadcasting on
+ 433.9 MHz like temperature sensors.
+
+Package: rtl-433-dbgsym
+Source: rtl-433
+Version: 25.12-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Installed-Size: 1103
+Depends: rtl-433 (= 25.12-1)
+Filename: ./amd64/rtl-433-dbgsym_25.12-1_amd64.deb
+Size: 814288
+MD5sum: f188b803cce367a586a9db81c7ff22b3
+SHA1: 0c5ff9e6e35ab717eaafe31763206bd1479280b9
+SHA256: a01cfbc209a018216bc82ea4abb7448ffa98b6988b07ae882fcc86189f9341af
+Section: debug
+Priority: optional
+Description: debug symbols for rtl-433
+Build-Ids: 8a93e0f8543e5ac1ae1459ebea5a839b60017313
+
+Package: rtl-433-dbgsym
+Source: rtl-433
+Version: 25.12-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Installed-Size: 1496
+Depends: rtl-433 (= 25.12-1)
+Filename: ./armhf/rtl-433-dbgsym_25.12-1_armhf.deb
+Size: 841532
+MD5sum: 32adc0752c62e078293c5162123f9646
+SHA1: 8ec410520c9f5605282b534480f5213cfd550c7e
+SHA256: 59d6d484525d05700500eff6ee45d8975adf0a704e32ee4e48c6e8a94d5d441b
+Section: debug
+Priority: optional
+Description: debug symbols for rtl-433
+Build-Ids: 00dc06828454f54c737a916f90b4b72b9be9b584
+
+Package: rtl-433-dbgsym
+Source: rtl-433
+Version: 25.12-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Installed-Size: 1778
+Depends: rtl-433 (= 25.12-1)
+Filename: ./arm64/rtl-433-dbgsym_25.12-1_arm64.deb
+Size: 822592
+MD5sum: ac8b497220f29ff8b86783eaa1c70153
+SHA1: e39bb4fdaf819a8b1e45db393fa0557d6edd2785
+SHA256: a0ae24ba17be8503383ac6802b8c06d564e7d51ab52ea7e24c2122581ce6855e
+Section: debug
+Priority: optional
+Description: debug symbols for rtl-433
+Build-Ids: 6cf9a968005456ab6a4748294ffdcc787ea5f6a1
+
 Package: rtl-connector
 Source: owrx-connector
 Version: 0.6.5

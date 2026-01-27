@@ -1876,6 +1876,60 @@ Description: RDS (Radio Data System) decoder
  A lightweight command-line FM-RDS decoder that supports a
  large subset of RDS features.
 
+Package: rtl-433
+Version: 25.12-1
+Architecture: amd64
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Installed-Size: 1123
+Depends: libc6 (>= 2.38), librtlsdr2 (>= 2.0.1), libsoapysdr0.8 (>= 0.8.1), libusb-1.0-0 (>= 2:1.0.16)
+Filename: ./amd64/rtl-433_25.12-1_amd64.deb
+Size: 405948
+MD5sum: 804a4dd412128b27010ca7254a641dbd
+SHA1: f8d12088976c993b8fbbb5a35ee7f3b64bd19015
+SHA256: 5e21fd28081c3bd0e5ee8e4c6294d32d34655c2ec02739b43aae2fe03f99329c
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/merbanan/rtl_433
+Description: Decode 433.9 Mhz data
+ This is a program to decode traffic from devices that are broadcasting on
+ 433.9 MHz like temperature sensors.
+
+Package: rtl-433
+Version: 25.12-1
+Architecture: armhf
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Installed-Size: 871
+Depends: libc6 (>= 2.38), librtlsdr2 (>= 2.0.1), libsoapysdr0.8 (>= 0.8.1), libusb-1.0-0 (>= 2:1.0.16)
+Filename: ./armhf/rtl-433_25.12-1_armhf.deb
+Size: 413138
+MD5sum: 0beb37dbfb949f8d2293c6be110899ee
+SHA1: f52e0d928ceb586352b08942a5cf494a5fbe44d3
+SHA256: 015d58a8dfd15ccdc9f185977a81d2834c2862fc9aec262fefa1c0a2eca14ba8
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/merbanan/rtl_433
+Description: Decode 433.9 Mhz data
+ This is a program to decode traffic from devices that are broadcasting on
+ 433.9 MHz like temperature sensors.
+
+Package: rtl-433
+Version: 25.12-1
+Architecture: arm64
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Installed-Size: 1151
+Depends: libc6 (>= 2.38), librtlsdr2 (>= 2.0.1), libsoapysdr0.8 (>= 0.8.1), libusb-1.0-0 (>= 2:1.0.16)
+Filename: ./arm64/rtl-433_25.12-1_arm64.deb
+Size: 434750
+MD5sum: 6ed79d072a2bea4bcc9065d391ae4a42
+SHA1: 02098221c000144826861f2201306173749cddfc
+SHA256: f8e076dadd26ec79fda02d9d93c98d3551a2f5aa8718d189a5b9c442e6d1049f
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/merbanan/rtl_433
+Description: Decode 433.9 Mhz data
+ This is a program to decode traffic from devices that are broadcasting on
+ 433.9 MHz like temperature sensors.
+
 Package: rtl-connector
 Source: owrx-connector
 Version: 0.6.5

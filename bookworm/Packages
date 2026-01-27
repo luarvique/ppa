@@ -3820,6 +3820,114 @@ Priority: optional
 Description: debug symbols for redsea
 Build-Ids: 7cd8f1ee1b9ff11846939775aea1dc5db8d4fe66
 
+Package: rtl-433
+Version: 25.12-1
+Architecture: amd64
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Installed-Size: 1229
+Depends: libc6 (>= 2.34), librtlsdr0 (>= 0.6.0), libsoapysdr0.8 (>= 0.8.1), libusb-1.0-0 (>= 2:1.0.16)
+Filename: ./amd64/rtl-433_25.12-1_amd64.deb
+Size: 425948
+MD5sum: f03eaa57b208fd62eec7a332c21e354e
+SHA1: db16f17702df66dc68fe273dac29c870591beb12
+SHA256: a50239e13206689afe41181e8a7d5c69031a4c1678ce4bea17b6fd88f8fcf52c
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/merbanan/rtl_433
+Description: Decode 433.9 Mhz data
+ This is a program to decode traffic from devices that are broadcasting on
+ 433.9 MHz like temperature sensors.
+
+Package: rtl-433
+Version: 25.12-1
+Architecture: armhf
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Installed-Size: 889
+Depends: libc6 (>= 2.34), librtlsdr0 (>= 0.6.0), libsoapysdr0.8 (>= 0.8.1), libusb-1.0-0 (>= 2:1.0.16)
+Filename: ./armhf/rtl-433_25.12-1_armhf.deb
+Size: 392108
+MD5sum: eb076646cf8308eb5d13c8f759da33ba
+SHA1: a25fcd9400c15b8f4ce7f0dfcbfd8bed43e88888
+SHA256: 73ed3354adae26c6ac5e359dac817a495ccf5185d736a164a60ea1c7354f65db
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/merbanan/rtl_433
+Description: Decode 433.9 Mhz data
+ This is a program to decode traffic from devices that are broadcasting on
+ 433.9 MHz like temperature sensors.
+
+Package: rtl-433
+Version: 25.12-1
+Architecture: arm64
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Installed-Size: 1234
+Depends: libc6 (>= 2.34), librtlsdr0 (>= 0.6.0), libsoapysdr0.8 (>= 0.8.1), libusb-1.0-0 (>= 2:1.0.16)
+Filename: ./arm64/rtl-433_25.12-1_arm64.deb
+Size: 413760
+MD5sum: 57e27866e4b5d2d28c728fc1dc759b5d
+SHA1: 90719c4ca742d3b6604a48fdbb3003bb5ddc61be
+SHA256: 48324ce22aa7b6439500876adb6ceb4e5713bc7e216096ece4d1e3e026af8177
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/merbanan/rtl_433
+Description: Decode 433.9 Mhz data
+ This is a program to decode traffic from devices that are broadcasting on
+ 433.9 MHz like temperature sensors.
+
+Package: rtl-433-dbgsym
+Source: rtl-433
+Version: 25.12-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Installed-Size: 873
+Depends: rtl-433 (= 25.12-1)
+Filename: ./amd64/rtl-433-dbgsym_25.12-1_amd64.deb
+Size: 810492
+MD5sum: a05d9dad94585c9975cd78150eb0902f
+SHA1: d59e59cecf1d771d1b62f467e498079ec02aebaf
+SHA256: 3e3afa8f4b8c4f6cc25c89c7833951740799358fcdc99501a9027a544848bec6
+Section: debug
+Priority: optional
+Description: debug symbols for rtl-433
+Build-Ids: 23991039af9ccff619d6962e2f5a40ad4519b936
+
+Package: rtl-433-dbgsym
+Source: rtl-433
+Version: 25.12-1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Installed-Size: 904
+Depends: rtl-433 (= 25.12-1)
+Filename: ./armhf/rtl-433-dbgsym_25.12-1_armhf.deb
+Size: 827152
+MD5sum: 978f2a06a988cd6fba9719010f9f8f80
+SHA1: 500b4d035bbaa3865ad7a59d20420316b0c25726
+SHA256: 4e8ec6e4dac0461d99760a6b067826848fec611c2c3b0992c28749d5082d057b
+Section: debug
+Priority: optional
+Description: debug symbols for rtl-433
+Build-Ids: cf363fc6d851b65a61281d0c9ff2469c10fda869
+
+Package: rtl-433-dbgsym
+Source: rtl-433
+Version: 25.12-1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
+Installed-Size: 923
+Depends: rtl-433 (= 25.12-1)
+Filename: ./arm64/rtl-433-dbgsym_25.12-1_arm64.deb
+Size: 830664
+MD5sum: 5bd503120511e560f082d8b26689f9bc
+SHA1: 2985e52fdb7bc3af4b41b913347e48c5740d18a3
+SHA256: b11524efc5a1322020e4ea603d91685a550d0c2bb68ce8c9b7de25e7c0a7ff68
+Section: debug
+Priority: optional
+Description: debug symbols for rtl-433
+Build-Ids: ff1675430e504e131f997ed3a467866c1a2594d8
+
 Package: rtl-connector
 Source: owrx-connector
 Version: 0.6.5
