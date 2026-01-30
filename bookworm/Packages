@@ -4372,6 +4372,27 @@ Priority: optional
 Description: debug symbols for soapy-connector
 Build-Ids: 7a4ed93c53d7d9ec803aa84d4befe99ce7785f03
 
+Package: soapysdr-module-malahit-rr
+Source: soapy-malahit-rr
+Version: 0.8.2
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 10
+Depends: soapysdr0.8-module-malahit-rr
+Filename: ./arm64/soapysdr-module-malahit-rr_0.8.2_all.deb
+Size: 2204
+MD5sum: a51375b1e07d49d4f2fb137c086dd632
+SHA1: 4ffb9d6c9b37fed5ba4f43732e2ab50b5ad092d9
+SHA256: 0e9237acd753f73a278bb818d2cc0ac5900f65dacfeb2325a3ab4b031af87343
+Section: libs
+Priority: optional
+Homepage: https://fms.komkon.org/OWRX/
+Description: Soapy Malahit SDR - Malahit-R1 device support for Soapy SDR.
+ A Soapy module that supports Malahit-R1 devices within the Soapy API.
+ .
+ This is an empty dependency package that pulls in the Malahit-R1
+ module for the default version of libsoapysdr.
+
 Package: soapysdr-module-sdrplay3
 Source: soapysdrplay3
 Version: 0.8.10
@@ -4728,6 +4749,44 @@ Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
  .
  This is an empty dependency package that pulls in the SDRPlay3 module
  for the default version of libsoapysdr.
+
+Package: soapysdr0.8-module-malahit-rr
+Source: soapy-malahit-rr
+Version: 0.8.2
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 2208
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgpiod2 (>= 1.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
+Filename: ./arm64/soapysdr0.8-module-malahit-rr_0.8.2_arm64.deb
+Size: 28920
+MD5sum: ae0e9496d94547608bc9746a22d17c98
+SHA1: f045b81a9e1b2d073f0ee790e6292919b6b9360a
+SHA256: 637df402af9c161069e10cdc2576293ee156d5368759813c7366b17e3f76ead4
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://fms.komkon.org/OWRX/
+Description: Soapy Malahit SDR - Malahit-R1 device support for Soapy SDR.
+ A Soapy module that supports Malahit-R1 devices within the Soapy API.
+
+Package: soapysdr0.8-module-malahit-rr-dbgsym
+Source: soapy-malahit-rr
+Version: 0.8.2
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 304
+Depends: soapysdr0.8-module-malahit-rr (= 0.8.2)
+Filename: ./arm64/soapysdr0.8-module-malahit-rr-dbgsym_0.8.2_arm64.deb
+Size: 267628
+MD5sum: bf158d138df3126db8da7240857c68fb
+SHA1: 54f57983066130e4923ac3617210f4f49520495b
+SHA256: 44cf6055428bfc687f1ac3c3584f9af0ab49c2dcc55a349faba18b82a7069c99
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for soapysdr0.8-module-malahit-rr
+Build-Ids: 887122b39d7d02e45e1a9c5b82493dee21f3dc5d ff9a500f871652d1b3482aa119cae2f9f0be77ec
 
 Package: soapysdr0.8-module-sdrplay3
 Source: soapysdrplay3
