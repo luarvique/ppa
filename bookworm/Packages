@@ -540,10 +540,10 @@ Installed-Size: 545
 Depends: libcsdr0 (= 0.18.37), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
 Recommends: nmux (= 0.18.37)
 Filename: ./amd64/csdr_0.18.37_amd64.deb
-Size: 157396
-MD5sum: 1ab2fcea49ba5c765db258c4bd3c7353
-SHA1: d80ebbfdf41d54c9d79c448266e8875b0a62646d
-SHA256: c974dbd5e53b4a77ed91a2bb4e9103f35c8228193f616c1bb525c06aad759a11
+Size: 157296
+MD5sum: e11223939f9d908f27e0b629b69dae6b
+SHA1: 14e4a9c947c02bd02c350fda4232fa21d2f1a553
+SHA256: 5d9408debed0a5ceee04c291a2b35b42d8a5d56ebaea605bb6868b7afef47934
 Section: hamradio
 Priority: optional
 Description: command-line sdr
@@ -557,10 +557,10 @@ Installed-Size: 317
 Depends: libcsdr0 (= 0.18.37), libc6 (>= 2.34), libgcc-s1 (>= 3.5), libstdc++6 (>= 11)
 Recommends: nmux (= 0.18.37)
 Filename: ./armhf/csdr_0.18.37_armhf.deb
-Size: 129316
-MD5sum: fccbfcc482a551555a206ffc454ee70d
-SHA1: cc9e0e64ce56c909da44f0a92127b5698f73d8f4
-SHA256: e01fe39a382c362a79b0113acab8d5b497d03f79fbf9021431a5c6c83d3dfc54
+Size: 129188
+MD5sum: fb60ffcc68beb57ef8baaa51909c5222
+SHA1: 58be206687cf700278855579749e3c53f09417ca
+SHA256: 4d7593933175607686ebe06b189115fd206f8c486f5d368bfc18a67bf66802b2
 Section: hamradio
 Priority: optional
 Description: command-line sdr
@@ -574,10 +574,10 @@ Installed-Size: 534
 Depends: libcsdr0 (= 0.18.37), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
 Recommends: nmux (= 0.18.37)
 Filename: ./arm64/csdr_0.18.37_arm64.deb
-Size: 137448
-MD5sum: 6d8f3cf2fd81512b2959941d963d958a
-SHA1: 31a998f7bb751cb43478e831533e4ac11c3d3c4a
-SHA256: 829c2c93e6d9dc0b35e62b062a9709df9e7a087e5d53a1f15a287b0d6e5f4794
+Size: 137516
+MD5sum: 02d09c40ed1382ebdd2b84f64e97b126
+SHA1: cc203fbac2b3b659fce087a9802adb3de01822a3
+SHA256: abca8512999cbcbcbfeb94ff2bc720eea846147f0a6f0dc04072cd4761550b51
 Section: hamradio
 Priority: optional
 Description: command-line sdr
@@ -694,10 +694,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 3325
 Depends: csdr (= 0.18.37)
 Filename: ./amd64/csdr-dbgsym_0.18.37_amd64.deb
-Size: 3171760
-MD5sum: 2498b8d449868c98676c3ecaee02d34b
-SHA1: 1b5358d60d9785d97d7ce58b823f917e511a6057
-SHA256: 0d17ee8ae3b7651ea05dc5a2880d2b6c27b9d7687093759ad4b260aa1b86f93f
+Size: 3171784
+MD5sum: bd6f3c3d6789672bfb18e2e36e530b98
+SHA1: 2c54b91ae4548364664960602bec728582758694
+SHA256: 3e4e0f14653fa94146424e1f623e80402d3c3145210fd7c6a027a5ed1f7f8a70
 Section: debug
 Priority: optional
 Description: debug symbols for csdr
@@ -712,10 +712,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 3225
 Depends: csdr (= 0.18.37)
 Filename: ./armhf/csdr-dbgsym_0.18.37_armhf.deb
-Size: 3065092
-MD5sum: 9c37cf804c0b8a9a2071a789f895498a
-SHA1: f5ceb924ee3ec37494e14d8a8d67d5e1e454ca83
-SHA256: 60295963a8638becc18cc687967e6531e3f73df2306b44fc5fa38fbb13604d40
+Size: 3065256
+MD5sum: e8cdc9a1c83179620fe54ecff45f61e1
+SHA1: 4e2d01c9d8721f4b98c355ff30eb5ea697cd8c90
+SHA256: 7651c4f3814adbdbba4ba207c7d1b13b59ed0992b49dd354e492f41af66c7ac7
 Section: debug
 Priority: optional
 Description: debug symbols for csdr
@@ -730,10 +730,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 3241
 Depends: csdr (= 0.18.37)
 Filename: ./arm64/csdr-dbgsym_0.18.37_arm64.deb
-Size: 3066876
-MD5sum: e9eaccfe6d63ed11b8b58d879772bd84
-SHA1: 280a7c4cf702978301604f2f1e1ad5d032ad70e4
-SHA256: a5dbc92040f111b4e758bf67bd3ee6c30815e39b677e437cce169cea9163d9b3
+Size: 3067512
+MD5sum: 4e40bf7183ec7a654de803297b195ce8
+SHA1: 4115c609eb5fb22667e855a06a224d1d74062077
+SHA256: 01cb19c047dab64a23bf17afcb4c876442f486e9bcb6dbd56f79c30c42a51f08
 Section: debug
 Priority: optional
 Description: debug symbols for csdr
@@ -794,108 +794,54 @@ Description: Bulk CW and RTTY decoders
  Command line CW and RTTY skimmers based on the CSDR signal processing library.
 
 Package: csdr-skimmer
-Version: 1.6
+Version: 1.8
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 70
 Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Replaces: csdr-cwskimmer
 Provides: csdr-cwskimmer
-Filename: ./amd64/csdr-skimmer_1.6_amd64.deb
-Size: 13272
-MD5sum: 40fff21c8c27c3b162497c41e28e974b
-SHA1: 6e897ea7060a78668f75139ce6af4991c70eba3b
-SHA256: 7faa6d40a1f2d013ec0f2cf3e91e9ec96b51823c54740ff6ca197e9c62efc9aa
+Filename: ./amd64/csdr-skimmer_1.8_amd64.deb
+Size: 13588
+MD5sum: 2261ef71a41fb49933e0af53e44a8d8f
+SHA1: 2439b4d609cb240e47b173927b2a35118bc5ee9a
+SHA256: dd121db57c9d30ebc1c577e50b5ba6d72c7f09e9929e32f27fcdacbccc783435
 Section: hamradio
 Priority: optional
 Description: Bulk CW and RTTY decoders
  Command line CW and RTTY skimmers based on the CSDR signal processing library.
 
 Package: csdr-skimmer
-Version: 1.6
+Version: 1.8
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 44
 Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.5), libstdc++6 (>= 5)
 Replaces: csdr-cwskimmer
 Provides: csdr-cwskimmer
-Filename: ./armhf/csdr-skimmer_1.6_armhf.deb
-Size: 11628
-MD5sum: b24228b0184799c5625a840d049efef8
-SHA1: fc16385d9a02f6d78266f1de5f4e63f830c5bf93
-SHA256: bf3278110e2992dbf2635fc41609bf7fe2f00bc554bc67df538c2fc774778cc9
+Filename: ./armhf/csdr-skimmer_1.8_armhf.deb
+Size: 11944
+MD5sum: 8dd39e947aaab8c900687675ef46e0f3
+SHA1: d3fe4282413a70befeacd6f777b893d524f8a26f
+SHA256: 15215423eb55e67a51fa8bafc0fc9bc388b3f8138a20a8cbc995a549d40dfcc0
 Section: hamradio
 Priority: optional
 Description: Bulk CW and RTTY decoders
  Command line CW and RTTY skimmers based on the CSDR signal processing library.
 
 Package: csdr-skimmer
-Version: 1.6
+Version: 1.8
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 142
 Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Replaces: csdr-cwskimmer
 Provides: csdr-cwskimmer
-Filename: ./arm64/csdr-skimmer_1.6_arm64.deb
-Size: 12548
-MD5sum: e693699b8a2a2161829fad11fbd912bf
-SHA1: e974df2c92345e8284c9240572e19f7a45b3e82f
-SHA256: e0d0d5c9fb84c1a2083a8de65d91547c8fc436168356a90590ad0ed8b62711c9
-Section: hamradio
-Priority: optional
-Description: Bulk CW and RTTY decoders
- Command line CW and RTTY skimmers based on the CSDR signal processing library.
-
-Package: csdr-skimmer
-Version: 1.7
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 70
-Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
-Replaces: csdr-cwskimmer
-Provides: csdr-cwskimmer
-Filename: ./amd64/csdr-skimmer_1.7_amd64.deb
-Size: 13584
-MD5sum: 6a31bd476807bf1fd7b5d8190edac2ec
-SHA1: 62c228ac9de4786dcade4fb4240164823bd3edd9
-SHA256: 640392a173b00d22bbd198c51eddd4f1e46e1e3c1dbba5ee6bb6cea63d82a571
-Section: hamradio
-Priority: optional
-Description: Bulk CW and RTTY decoders
- Command line CW and RTTY skimmers based on the CSDR signal processing library.
-
-Package: csdr-skimmer
-Version: 1.7
-Architecture: armhf
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 44
-Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.5), libstdc++6 (>= 5)
-Replaces: csdr-cwskimmer
-Provides: csdr-cwskimmer
-Filename: ./armhf/csdr-skimmer_1.7_armhf.deb
-Size: 11968
-MD5sum: 510d187e037725db29a34d37716c424c
-SHA1: b18f439fe8ad0d1595b7d5c55b3a04eef1d4d589
-SHA256: 15539a3834194344bfebd05b0ae882aa89e1e3cbb942366697cf07cf041219b9
-Section: hamradio
-Priority: optional
-Description: Bulk CW and RTTY decoders
- Command line CW and RTTY skimmers based on the CSDR signal processing library.
-
-Package: csdr-skimmer
-Version: 1.7
-Architecture: arm64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 142
-Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
-Replaces: csdr-cwskimmer
-Provides: csdr-cwskimmer
-Filename: ./arm64/csdr-skimmer_1.7_arm64.deb
-Size: 12624
-MD5sum: 7b14afed46180565bcd41b834fe9aede
-SHA1: f53b866a91ed1bc4fa7a5545b8cce16e7487e363
-SHA256: 6d9eef36a13058b4e6274e527fc80c29e4e813914bfc1e489b630f1d42a45764
+Filename: ./arm64/csdr-skimmer_1.8_arm64.deb
+Size: 12712
+MD5sum: a919df83b11320f62cd382e9353fcf1a
+SHA1: 6417ef3fce656b98f0f0238878c1b8a07fe29a5c
+SHA256: d5cdd2b74fc985e5eee11a150fbf018864c8f92fada91b3bbe32e0e4a751af51
 Section: hamradio
 Priority: optional
 Description: Bulk CW and RTTY decoders
@@ -1062,6 +1008,60 @@ Section: debug
 Priority: optional
 Description: debug symbols for csdr-skimmer
 Build-Ids: 4086326effa8f4bca8f493cd2a2ec0f3f6d8754d f599a7f5de9e008d809824c2d1821b3e860a1b7e
+
+Package: csdr-skimmer-dbgsym
+Source: csdr-skimmer
+Version: 1.8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 89
+Depends: csdr-skimmer (= 1.8)
+Filename: ./amd64/csdr-skimmer-dbgsym_1.8_amd64.deb
+Size: 56148
+MD5sum: f6565819cda199126b2b181c9b0e95d7
+SHA1: 4812122b7285d9779371971fb1fcb49daf39c684
+SHA256: dd1f530eb09474ac1e061f35cb3e279d312472dd262a116f1072c89ebef65b34
+Section: debug
+Priority: optional
+Description: debug symbols for csdr-skimmer
+Build-Ids: 048b6701e177326680b54903d81245a7cc15784f 325f0f68b224e16b5ea1c808d3dd1e7f3857d07e
+
+Package: csdr-skimmer-dbgsym
+Source: csdr-skimmer
+Version: 1.8
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 87
+Depends: csdr-skimmer (= 1.8)
+Filename: ./armhf/csdr-skimmer-dbgsym_1.8_armhf.deb
+Size: 54748
+MD5sum: 31a147211ab34a510d5a316bbc2ff4f4
+SHA1: 1c7244fb88b525a636fae3b192737dce2de65284
+SHA256: 4f48f99c51f5aed6db6590ccb9271be04ced012bda0701d936b8de91ce022862
+Section: debug
+Priority: optional
+Description: debug symbols for csdr-skimmer
+Build-Ids: 84c4654fa547a58cea6d089501da262b24f54fbb 899d750872d76d9364d8476b85c7feb685bb3792
+
+Package: csdr-skimmer-dbgsym
+Source: csdr-skimmer
+Version: 1.8
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 93
+Depends: csdr-skimmer (= 1.8)
+Filename: ./arm64/csdr-skimmer-dbgsym_1.8_arm64.deb
+Size: 55528
+MD5sum: 8c0aaa923f60b3d22548863087de3719
+SHA1: da67afe987d354959306bc05acc4fe282c3e1d76
+SHA256: c150c4ebd74d461811f940e73154049daa78bc5b0d4debc61d4884a5a65f3229
+Section: debug
+Priority: optional
+Description: debug symbols for csdr-skimmer
+Build-Ids: 095e48866e2624411c70029b9ea43db7c9d90e7e 6c4d972858cf2aba2d3aa684feb669923aad4a33
 
 Package: digiham
 Version: 0.6.2
@@ -2406,10 +2406,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 230
 Depends: libcsdr0 (= 0.18.37), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
 Filename: ./amd64/libcsdr-dev_0.18.37_amd64.deb
-Size: 30352
-MD5sum: c7d12fcae67653377979a954a085022b
-SHA1: 2fcdb819ee7ce7d3b132c91be83e75efec283fd1
-SHA256: 6e41dd8eeb9aff01d58b90adcd9df5c1588eb58a99dc82870553979f8c3ae6a7
+Size: 30332
+MD5sum: d43ffaea3665f0599fe0d7c1e14ba72e
+SHA1: 3e5da0086a0362b6889d47ba815325df81f71c20
+SHA256: 61931e4d2d22e0878ba52528bb3414537958c63f839f7309aa7824b4339eb778
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
@@ -2423,10 +2423,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 230
 Depends: libcsdr0 (= 0.18.37), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
 Filename: ./armhf/libcsdr-dev_0.18.37_armhf.deb
-Size: 30348
-MD5sum: 49b685a2e87bb4bc4f75722d99356114
-SHA1: b84f6d5d2384728dd3e0fc710ac3a17b5dfcc79e
-SHA256: 26f016a1a6b216c3f7c6024af5e702c169cf7f4adfbad781c0950c52c25c6b91
+Size: 30324
+MD5sum: b9a3209a5cafd274dfd3a93a05f711e4
+SHA1: 1da4c41e678a1447f6940d74cd5d8f4b5501f36e
+SHA256: a7df157dd00d183efc91c15ccefa011baa0b54a942199188bf5043aaebf1235b
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
@@ -2440,10 +2440,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 230
 Depends: libcsdr0 (= 0.18.37), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
 Filename: ./arm64/libcsdr-dev_0.18.37_arm64.deb
-Size: 30352
-MD5sum: a3307352b70c17153f7452bfc65f6318
-SHA1: f77b352057a56a2540974b456978d3c3ae2f55c0
-SHA256: c7a0efb83e80bd3e61ec7e6cc8e08a494f41a68218b2d0a79ab48a170fa4ce1e
+Size: 30324
+MD5sum: 53f0b77006e8daa408150d28c6b600d5
+SHA1: 6210fce44306474a5d5518b58783050e8fe1474e
+SHA256: 8f1701c97e243b66b7ce0630da55a91a2ab084a53b3b95a79474ebbed5b23e0f
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
@@ -2616,10 +2616,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 826
 Depends: libc6 (>= 2.35), libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
 Filename: ./amd64/libcsdr0_0.18.37_amd64.deb
-Size: 175944
-MD5sum: 5fa0b69a4f91e1a751338b7ba8fb60c3
-SHA1: 5dfa613739aa70852048c7cc3d2ff127260a22aa
-SHA256: 6e1936234299019f6f76679592d3ee4f5a7c4bdddac425bc53cd79e781216353
+Size: 175824
+MD5sum: 51d0b986820df041fcf5afabcc89f8e0
+SHA1: 24df848957ebfa0a75b7d8f7f425231167bb359f
+SHA256: cf40672d3a08a916f57bde91d0bd2fbd6aaf4da57ad15b5876939709eaa777bb
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
@@ -2633,10 +2633,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 533
 Depends: libc6 (>= 2.34), libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.5), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
 Filename: ./armhf/libcsdr0_0.18.37_armhf.deb
-Size: 145832
-MD5sum: 8861173a3c8cd778dcb6def6ce08f922
-SHA1: 2bc483decc1be796fa9da5cbd38dfc8d7a13f7b6
-SHA256: 2577943f036fe389a7205abf2182e022bb7c733770a18fec0cc47e802a61903e
+Size: 146352
+MD5sum: 8923881ae2e1b40bfa3f0ce002de4510
+SHA1: a1b3644208f147379ac0992a0181535d124ddabb
+SHA256: c6a0890f3ff8a864cab206df78c22529ef946c9f7894f09948b7cbc6d92378c1
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
@@ -2650,10 +2650,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 798
 Depends: libc6 (>= 2.34), libfftw3-single3 (>= 3.3.10), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
 Filename: ./arm64/libcsdr0_0.18.37_arm64.deb
-Size: 157172
-MD5sum: 46404e764e12117137969c67abc38e76
-SHA1: 1eef07757f1fb0e8b0f5099e56de7d35d15e2a37
-SHA256: 67561ebf9c2ae1f50a125fe4432c16c28ec712dc31704fb794766b204ff1c5a1
+Size: 156204
+MD5sum: 924d8844f69da93176661dddd3504580
+SHA1: 27517d683a5866c8aba79ee8724d64cc5930eefa
+SHA256: 09031b54b6d182544724c4715222462feead9e3740f77b1ae9cc8f5485cc8dac
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
@@ -2668,10 +2668,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 1472
 Depends: libcsdr0 (= 0.18.37)
 Filename: ./amd64/libcsdr0-dbgsym_0.18.37_amd64.deb
-Size: 1284480
-MD5sum: 558ff22ebe5c721b95b1f07d4605efd7
-SHA1: 8e2ccea115ac35025812a9b9f76c65ab1d0ec269
-SHA256: 8e8ce1230961529d8475f02a731dec86ebf5d607ff50aea00b91cac107d35b71
+Size: 1284472
+MD5sum: 5f4202f5b8b1c347f536cf6efb120e36
+SHA1: 37c5502ebd2f5d6e5cfbeeec5108d9de8eecd3c4
+SHA256: a36d5478e35f411946a946c616fc70ee36d78b088511c51430a137c564802b8b
 Section: debug
 Priority: optional
 Description: debug symbols for libcsdr0
@@ -2686,10 +2686,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 1508
 Depends: libcsdr0 (= 0.18.37)
 Filename: ./armhf/libcsdr0-dbgsym_0.18.37_armhf.deb
-Size: 1279044
-MD5sum: 5e733f0698add1da875f2dbab818934f
-SHA1: 679e74f58410d847353a0ec663c37fbf496932d8
-SHA256: 22bc5af3422ee6bd91fbd21970fde6d5b877d11397a342e5e0a9ce022b08e622
+Size: 1279008
+MD5sum: 3ff78a578214e9ed54a8fcd63750a5aa
+SHA1: dffa147c5aa4a40ec55e328c4146c3864b6b97e3
+SHA256: e0f114071d7468dcf31404d7e30161969d06468298ee3a9a07e0b657116b1c40
 Section: debug
 Priority: optional
 Description: debug symbols for libcsdr0
@@ -2704,10 +2704,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 1483
 Depends: libcsdr0 (= 0.18.37)
 Filename: ./arm64/libcsdr0-dbgsym_0.18.37_arm64.deb
-Size: 1256388
-MD5sum: 5d72d1ebf7c2bfa40c08b5debf4d8484
-SHA1: 047bc58895de27a858308aae1635afb221d839bc
-SHA256: 80ec2e7415ca1f7a73f9bd7cd660f3cbdb85e6e933f55011f9a4bfdd77163367
+Size: 1256772
+MD5sum: 241655a7328b9cc7e343e9bb1baa71ee
+SHA1: 27ce6f02b244413b47ccedfb5d64b4a08d41adea
+SHA256: 78032f74fe85bd5858cc1ea4be78faf4f454ec56150f1bc98e7542f47e88fbe1
 Section: debug
 Priority: optional
 Description: debug symbols for libcsdr0
@@ -3037,10 +3037,10 @@ Installed-Size: 41
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
 Conflicts: csdr (<= 0.18.0~133)
 Filename: ./amd64/nmux_0.18.37_amd64.deb
-Size: 12140
-MD5sum: d0cdc88014177bd9bf964fd9ff00a945
-SHA1: 818444405da7d643d766436f1b740718baaa4d39
-SHA256: 87f696b8e4cc54b6cefe81f8719ab6b8a4d592308f1f81fe0cd0eebf29bee275
+Size: 12132
+MD5sum: a6ab29f6fdaee5e6e6a50fda8fa04e51
+SHA1: a8e69eebae01d4af5de938bdf0210b114cb3cf47
+SHA256: fe1ead7f0ed05f8447b51696c112a36984fca717210b24e28d7621e89f8501ab
 Section: hamradio
 Priority: optional
 Description: TCP stream multiplexer
@@ -3056,10 +3056,10 @@ Installed-Size: 32
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.5), libstdc++6 (>= 4.1.1)
 Conflicts: csdr (<= 0.18.0~133)
 Filename: ./armhf/nmux_0.18.37_armhf.deb
-Size: 11184
-MD5sum: 40bc9ed5aa633f192f4dd6639f17eb2b
-SHA1: f18fd2f4dbd4e5caa15dd45972cd8334951b0b45
-SHA256: c87dd52bae657b7b1e0a7efb3b45c7bfa435b993ff1a787a51afed1ec7dfcf98
+Size: 11164
+MD5sum: fd5213a56b6af56cc25e910e7f080233
+SHA1: cee833f5b900658c9527de0e1928e5e9a5a8fbb0
+SHA256: 52595e8e87412cb2aee5817c44552eb16ee0b05af55ba8df7480f946fea31c6b
 Section: hamradio
 Priority: optional
 Description: TCP stream multiplexer
@@ -3075,10 +3075,10 @@ Installed-Size: 85
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
 Conflicts: csdr (<= 0.18.0~133)
 Filename: ./arm64/nmux_0.18.37_arm64.deb
-Size: 11852
-MD5sum: 1c950f18629d8152ea7e758e37e2b304
-SHA1: c0997c01fe1d86be278a60b5324816db42305b0d
-SHA256: c0b5bb06c95ce7ed577d65e3730c7d5769b6631c69b24a33da0d35d3709a2f3e
+Size: 11848
+MD5sum: e70a0d666beb2adb7b61475f1976c9ff
+SHA1: 09a0ad45baec52b760906c023fa238aa2559666e
+SHA256: 30154948525cf18f84af0fec2b9384d2665ec2ea617c53075a9399b9fea9ef63
 Section: hamradio
 Priority: optional
 Description: TCP stream multiplexer
@@ -3095,9 +3095,9 @@ Installed-Size: 70
 Depends: nmux (= 0.18.37)
 Filename: ./amd64/nmux-dbgsym_0.18.37_amd64.deb
 Size: 55632
-MD5sum: 576408b045a5acd748622377145c6c8d
-SHA1: c3b46982f2108c5bef81def2d7600054c1aeefbc
-SHA256: dd8b2ceef2eb9671c7d6e21163954ac2086f76e219e645aed3d56d3b4001f352
+MD5sum: add315e34beb4ad70700789a9b353f7f
+SHA1: aa9f7b97f6389edbebb2ab18c57741620249824a
+SHA256: a2802cf7eac354daf3cd0566488e281b89339c5fd926456bb1639ded21a2437e
 Section: debug
 Priority: optional
 Description: debug symbols for nmux
@@ -3112,10 +3112,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 69
 Depends: nmux (= 0.18.37)
 Filename: ./armhf/nmux-dbgsym_0.18.37_armhf.deb
-Size: 55732
-MD5sum: 160f3da59aad049861801b6ecc3e656a
-SHA1: cc622c75a0f976f45511d1e50674c3592780c0b0
-SHA256: d97dac174bb73bbfff9395ecb097b5d18a29c565bf8c78c6751326cd2e43db69
+Size: 55720
+MD5sum: 6161798748521d06f99f7fe6943887b5
+SHA1: a1f85b77085b2d1e17056a416da1e05364ed7772
+SHA256: 66a34e6e47af76966c52da33df485b853f0e259dbc6a7046c3d81f5e1f6992e5
 Section: debug
 Priority: optional
 Description: debug symbols for nmux
@@ -3131,9 +3131,9 @@ Installed-Size: 71
 Depends: nmux (= 0.18.37)
 Filename: ./arm64/nmux-dbgsym_0.18.37_arm64.deb
 Size: 55068
-MD5sum: 37c9f2153fde848dfdf768a170643f20
-SHA1: 53d89905d2cd99808b5e203fcff32de161dd2530
-SHA256: 1c8a658dd755288ef41fe2a9be7aac5b97222b8e64e0580e099eb9886dfe2456
+MD5sum: a53cd4e1881cf9808ee1ef63f6a82320
+SHA1: 5c7e5addf06a0c8e3dee35911fb0ae7aab1ffca2
+SHA256: 0be52037ce72d108def6e38713804ba116593e37579e683ad33eb96c7b646d52
 Section: debug
 Priority: optional
 Description: debug symbols for nmux
