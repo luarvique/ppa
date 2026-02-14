@@ -154,108 +154,6 @@ Priority: optional
 Description: command-line sdr
  A simple DSP command-line tool for Software Defined Radio.
 
-Package: csdr-cwskimmer
-Version: 1.3
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 27
-Depends: libc6 (>= 2.27), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
-Filename: ./amd64/csdr-cwskimmer_1.3_amd64.deb
-Size: 7216
-MD5sum: be11566ba8e2d09e24ee9c08c69d0bfa
-SHA1: 175562ea3e2162ba04171b65e6fcc937aff57005
-SHA256: 6883c35ff61e60222d8c5846425e10b53a4b7df62e0dfa599a0a56860fc2d148
-Section: hamradio
-Priority: optional
-Description: RDS decoder
- Command line CW skimmer based on the CSDR signal processing library.
-
-Package: csdr-cwskimmer
-Version: 1.3
-Architecture: armhf
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 22
-Depends: libc6 (>= 2.27), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.5), libstdc++6 (>= 5)
-Filename: ./armhf/csdr-cwskimmer_1.3_armhf.deb
-Size: 6556
-MD5sum: e811a31caab5ed306e0e66ce52807b3b
-SHA1: 87e0b918ef7cd1295a1278ba61711f908b6d22ea
-SHA256: 94fade49f518a4ea944128e0e8e3e9f858eb7b6d3cf53596519346828fa4e882
-Section: hamradio
-Priority: optional
-Description: RDS decoder
- Command line CW skimmer based on the CSDR signal processing library.
-
-Package: csdr-cwskimmer
-Version: 1.3
-Architecture: arm64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 23
-Depends: libc6 (>= 2.27), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
-Filename: ./arm64/csdr-cwskimmer_1.3_arm64.deb
-Size: 6700
-MD5sum: 0da6c179e3dd9f1cf99b4efca72df0dc
-SHA1: dc228d92284b0fb4c57a56f2096859dd0c526bf7
-SHA256: 20e4744736c4d78a994eccafad21e6512b3116b61ce0ae090203c4a898ffc4b1
-Section: hamradio
-Priority: optional
-Description: RDS decoder
- Command line CW skimmer based on the CSDR signal processing library.
-
-Package: csdr-cwskimmer-dbgsym
-Source: csdr-cwskimmer
-Version: 1.3
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 44
-Depends: csdr-cwskimmer (= 1.3)
-Filename: ./amd64/csdr-cwskimmer-dbgsym_1.3_amd64.deb
-Size: 28872
-MD5sum: 3c506f9ee691ae8b35e0ac55ee76ca9c
-SHA1: b34df2783d331a82a532c97d11544523fbd5b5e2
-SHA256: 1c1d551a543a0a41876be34522fa1af5f4a698033ef4c6a58f65ff80943b76fa
-Section: debug
-Priority: optional
-Description: debug symbols for csdr-cwskimmer
-Build-Ids: 2d2ab197477453fa62393bab747e88137def4b70
-
-Package: csdr-cwskimmer-dbgsym
-Source: csdr-cwskimmer
-Version: 1.3
-Auto-Built-Package: debug-symbols
-Architecture: armhf
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 42
-Depends: csdr-cwskimmer (= 1.3)
-Filename: ./armhf/csdr-cwskimmer-dbgsym_1.3_armhf.deb
-Size: 28932
-MD5sum: 663176d3651eb2519054a80dc161cde2
-SHA1: 9fc579d3f58991ebfbebd8e75f9e2b6a33dd53e2
-SHA256: 019e8005525d0623514f67a8ee08fd76cb4a9902b57c2669cb4f590feda6090d
-Section: debug
-Priority: optional
-Description: debug symbols for csdr-cwskimmer
-Build-Ids: 0004f92a719466de8b5be61539fa3f436fb4fd27
-
-Package: csdr-cwskimmer-dbgsym
-Source: csdr-cwskimmer
-Version: 1.3
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 44
-Depends: csdr-cwskimmer (= 1.3)
-Filename: ./arm64/csdr-cwskimmer-dbgsym_1.3_arm64.deb
-Size: 28620
-MD5sum: 1db45a4e5e24ff40cdd4486c7b31015c
-SHA1: b3665964fe5143dca88b095b0a7169d51206beca
-SHA256: 4cda28e3a69b9c12aadf5764f922587249bfe92dcd91a16014a296a5f8f30139
-Section: debug
-Priority: optional
-Description: debug symbols for csdr-cwskimmer
-Build-Ids: a561b1b344c0cb38405d46eddfd8a3f174cbe976
-
 Package: csdr-dbgsym
 Source: csdr
 Version: 0.18.37
@@ -311,108 +209,54 @@ Description: debug symbols for csdr
 Build-Ids: 8a7865b8ffeec890a616e4459017f11e46fa405e
 
 Package: csdr-skimmer
-Version: 1.5
+Version: 1.9
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 70
 Depends: libc6 (>= 2.27), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Replaces: csdr-cwskimmer
 Provides: csdr-cwskimmer
-Filename: ./amd64/csdr-skimmer_1.5_amd64.deb
-Size: 13384
-MD5sum: a46a7c3fedbeb206c78c1f5824b0d792
-SHA1: 14a34294570ff78790dd4e17f037241a833da4de
-SHA256: 8efe3bef95125f09e16f78264ea97109bf00e67660a5b32b25741375c8530644
+Filename: ./amd64/csdr-skimmer_1.9_amd64.deb
+Size: 13488
+MD5sum: d28e89d10bd17f28e19378b0408e66df
+SHA1: ec568046e3e74239362eb36f4ddda1fffa8ad66b
+SHA256: 6f4a83dd2343631733709a2f92d100c17c2ce249121607bd1f3afa6aecbcb938
 Section: hamradio
 Priority: optional
 Description: Bulk CW and RTTY decoders
  Command line CW and RTTY skimmers based on the CSDR signal processing library.
 
 Package: csdr-skimmer
-Version: 1.5
-Architecture: armhf
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 48
-Depends: libc6 (>= 2.27), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.5), libstdc++6 (>= 5)
-Replaces: csdr-cwskimmer
-Provides: csdr-cwskimmer
-Filename: ./armhf/csdr-skimmer_1.5_armhf.deb
-Size: 11500
-MD5sum: 7132014878d0b3b3beb08731344f479e
-SHA1: b8549e4ab44f869a9802bfcadd5381be046f934d
-SHA256: 05d7d827a1f091ed2f156b268f55ba4aacaf42f42c0941c86b3aab3863ed073e
-Section: hamradio
-Priority: optional
-Description: Bulk CW and RTTY decoders
- Command line CW and RTTY skimmers based on the CSDR signal processing library.
-
-Package: csdr-skimmer
-Version: 1.5
-Architecture: arm64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 62
-Depends: libc6 (>= 2.27), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
-Replaces: csdr-cwskimmer
-Provides: csdr-cwskimmer
-Filename: ./arm64/csdr-skimmer_1.5_arm64.deb
-Size: 12464
-MD5sum: 8394ca7d11247ef80fe0955d4d4cdc08
-SHA1: 70bde632094432e9640c79371710ef52de9b63d6
-SHA256: 4093f3ec8a96613c2aa60fb14edf4a4bed57ec0b1b962d97f73622bde645470d
-Section: hamradio
-Priority: optional
-Description: Bulk CW and RTTY decoders
- Command line CW and RTTY skimmers based on the CSDR signal processing library.
-
-Package: csdr-skimmer
-Version: 1.8
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 70
-Depends: libc6 (>= 2.27), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
-Replaces: csdr-cwskimmer
-Provides: csdr-cwskimmer
-Filename: ./amd64/csdr-skimmer_1.8_amd64.deb
-Size: 13524
-MD5sum: fc6139d894c3b8802e6a529a6023b9b8
-SHA1: 726c80fb89655f064c5da9f92954696026c227b0
-SHA256: 0fd1139c0b4d276bf4fa4939d3696fc7afcdc7052f51862ad951c15857f5744a
-Section: hamradio
-Priority: optional
-Description: Bulk CW and RTTY decoders
- Command line CW and RTTY skimmers based on the CSDR signal processing library.
-
-Package: csdr-skimmer
-Version: 1.8
+Version: 1.9
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 44
 Depends: libc6 (>= 2.27), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.5), libstdc++6 (>= 5)
 Replaces: csdr-cwskimmer
 Provides: csdr-cwskimmer
-Filename: ./armhf/csdr-skimmer_1.8_armhf.deb
+Filename: ./armhf/csdr-skimmer_1.9_armhf.deb
 Size: 11860
-MD5sum: 505a9eaf0848d4abc1097d03f928c20a
-SHA1: 7503b0fe061420ecb6ffa9535213eeb88be40592
-SHA256: 0556f976707d2739b7a1c883866cdfb949ccfccabc52cb4d199ff1a7caa5b3be
+MD5sum: 6309db399be08acd4142034a4f159d4f
+SHA1: 2cea3e835791c08ce6d5492ed9fc395bff0c7e66
+SHA256: 7ee60752f13d6ad9a664a0e34101e659c2575949c3b2351416d084c5a0ce59cc
 Section: hamradio
 Priority: optional
 Description: Bulk CW and RTTY decoders
  Command line CW and RTTY skimmers based on the CSDR signal processing library.
 
 Package: csdr-skimmer
-Version: 1.8
+Version: 1.9
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 62
 Depends: libc6 (>= 2.27), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libstdc++6 (>= 5)
 Replaces: csdr-cwskimmer
 Provides: csdr-cwskimmer
-Filename: ./arm64/csdr-skimmer_1.8_arm64.deb
-Size: 12772
-MD5sum: 6dcd0eba9005f49b091c577f59d45da7
-SHA1: d9572fa9e864dde7371841dcf2e96a7a049fe95b
-SHA256: f013952cac9e7262adec5b7559d5e74616a8d59058b391d35ecea4b307d8800a
+Filename: ./arm64/csdr-skimmer_1.9_arm64.deb
+Size: 12832
+MD5sum: a783a11d6be336b0f6777eeba26c80aa
+SHA1: c235400dc3c81101f450de0f845a4972bef241d7
+SHA256: 85fd0e5e5ab1cc88f8e6e0c7c15264c443e7d578ba718531dbf4ab6dc0f2dfbb
 Section: hamradio
 Priority: optional
 Description: Bulk CW and RTTY decoders
@@ -420,219 +264,57 @@ Description: Bulk CW and RTTY decoders
 
 Package: csdr-skimmer-dbgsym
 Source: csdr-skimmer
-Version: 1.5
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 90
-Depends: csdr-skimmer (= 1.5)
-Filename: ./amd64/csdr-skimmer-dbgsym_1.5_amd64.deb
-Size: 56516
-MD5sum: c838e2939d239ca39ee59d2dc34ed3d7
-SHA1: faa85757153efac1d89d7b605aaeaa05c119f5bd
-SHA256: 7a91dfc9d6e72f901b7444e5b67adb6d9b8a2a084a9c92014cd2711536d9870d
-Section: debug
-Priority: optional
-Description: debug symbols for csdr-skimmer
-Build-Ids: 2b2f7faca767ae672bfbd34686295f4b99009ce3 355afe9c3c23f8c1b9b55e55ea6eae91f29911d3
-
-Package: csdr-skimmer-dbgsym
-Source: csdr-skimmer
-Version: 1.5
-Auto-Built-Package: debug-symbols
-Architecture: armhf
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 89
-Depends: csdr-skimmer (= 1.5)
-Filename: ./armhf/csdr-skimmer-dbgsym_1.5_armhf.deb
-Size: 55692
-MD5sum: 08f90ebca032bdf5cb1d782c71f563bb
-SHA1: a01f7e6b89faa3dc01875caeff18ad47374a6a98
-SHA256: 36f35db8bed7f5b04b947aec7268c8f4ac45dd29b7527c348fcfbe89f0c41fa9
-Section: debug
-Priority: optional
-Description: debug symbols for csdr-skimmer
-Build-Ids: 98966391362a1d4fffdfb01af772d7b44b76d078 d38619b1edea99b556b2d3c8cd1126c808ff0f36
-
-Package: csdr-skimmer-dbgsym
-Source: csdr-skimmer
-Version: 1.5
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 93
-Depends: csdr-skimmer (= 1.5)
-Filename: ./arm64/csdr-skimmer-dbgsym_1.5_arm64.deb
-Size: 54944
-MD5sum: ef2be8e614f69c3e6e0662b50cd84243
-SHA1: 3954e0c78700d44c887554cdc6044e3d26aadffc
-SHA256: a1d16ce79f83c47fe47e41457d559ac5dedecdb1df5d5b8b6eedcaed0dc04317
-Section: debug
-Priority: optional
-Description: debug symbols for csdr-skimmer
-Build-Ids: 3c7ed2779a97a9a6371ce6376209e815a9b0f960 b3f39fdcd92b411aa142cf278d0cc3f7a94f0390
-
-Package: csdr-skimmer-dbgsym
-Source: csdr-skimmer
-Version: 1.6
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 90
-Depends: csdr-skimmer (= 1.6)
-Filename: ./amd64/csdr-skimmer-dbgsym_1.6_amd64.deb
-Size: 56360
-MD5sum: 00f93864d124d4208bfe9b8ea31ae929
-SHA1: 4ddf4787c10d4823af48e4a88eec1a35ae716a99
-SHA256: 9a89969516897f85f1b9334d17ee008ec34694a757e0276fc67a14b25f4a95d3
-Section: debug
-Priority: optional
-Description: debug symbols for csdr-skimmer
-Build-Ids: 2b2f7faca767ae672bfbd34686295f4b99009ce3 79705a30e99633ce86cb09516ac79f5f8b8f3b35
-
-Package: csdr-skimmer-dbgsym
-Source: csdr-skimmer
-Version: 1.6
-Auto-Built-Package: debug-symbols
-Architecture: armhf
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 89
-Depends: csdr-skimmer (= 1.6)
-Filename: ./armhf/csdr-skimmer-dbgsym_1.6_armhf.deb
-Size: 56196
-MD5sum: ff57cb5faa1ff700f896df4a5ddf0966
-SHA1: 1d18d33f0b76703816370dc5dce3f645fcd54eec
-SHA256: 3ff8af28c7725d88f4509106d96fb8c3d1b0d6a5fedb080c3f9b900d8c1f3ce9
-Section: debug
-Priority: optional
-Description: debug symbols for csdr-skimmer
-Build-Ids: 0783ddfdcd4b1fe9cbced4324fadc9095d60ab8f a6de370073c3b6db83b67c437c8d18afe863186f
-
-Package: csdr-skimmer-dbgsym
-Source: csdr-skimmer
-Version: 1.6
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 93
-Depends: csdr-skimmer (= 1.6)
-Filename: ./arm64/csdr-skimmer-dbgsym_1.6_arm64.deb
-Size: 54940
-MD5sum: f97c530f37fea431bd06227d8c64421a
-SHA1: 4c724220b47d5cb52dd12d295703bf0ca92046b6
-SHA256: b65bdb8656065b983421b2c403868d983a383a92c528107cc904be338a046b5d
-Section: debug
-Priority: optional
-Description: debug symbols for csdr-skimmer
-Build-Ids: 3c7ed2779a97a9a6371ce6376209e815a9b0f960 403a4804bf33a5b37d5e84ccdd0785216480606c
-
-Package: csdr-skimmer-dbgsym
-Source: csdr-skimmer
-Version: 1.7
+Version: 1.9
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 92
-Depends: csdr-skimmer (= 1.7)
-Filename: ./amd64/csdr-skimmer-dbgsym_1.7_amd64.deb
-Size: 56848
-MD5sum: 98d7de438ea40b260598d98a9cb81f40
-SHA1: 7df2885807cac44437e17e34cb65fe7fcdf81342
-SHA256: 1e8ce0bb5c84eab98f666b9739df398371c3aa0dbf0d9d4161caf9595034b541
+Depends: csdr-skimmer (= 1.9)
+Filename: ./amd64/csdr-skimmer-dbgsym_1.9_amd64.deb
+Size: 56820
+MD5sum: 15fff83f1124306d0c786f3edf061ea4
+SHA1: a67d6332713f02df7fb0ec116e5c517af6dd45aa
+SHA256: 07e9bb9a1cbb30e26f884b2241c68ec04990d5b64c3d72b8393e562978d6a02c
 Section: debug
 Priority: optional
 Description: debug symbols for csdr-skimmer
-Build-Ids: ad6ce47d7a7ed64eee78699700d1ce0f502c169b e660dfd7280c8b6f6a79f80f4b1407d70fff6d58
+Build-Ids: 3f2b77ce2248ce83300ca341c947c2a7887c3a22 873e5fad669f7c9aa9a8b7d0de287a4ae3c81707
 
 Package: csdr-skimmer-dbgsym
 Source: csdr-skimmer
-Version: 1.7
+Version: 1.9
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 89
-Depends: csdr-skimmer (= 1.7)
-Filename: ./armhf/csdr-skimmer-dbgsym_1.7_armhf.deb
-Size: 56184
-MD5sum: f6eaf4ddb5ff66051cb3e6e620590ce1
-SHA1: bec838408ca120e9fcdfcc91840b000c7be42955
-SHA256: 517a9c29b00c18a9c4a8f4ef1c6e256db49e2096cbee651967efbece84cf1b68
+Depends: csdr-skimmer (= 1.9)
+Filename: ./armhf/csdr-skimmer-dbgsym_1.9_armhf.deb
+Size: 56820
+MD5sum: 85a552dae327f1ae07f66765dd605cf2
+SHA1: 410f0d4719d84e443bfded5236d30c77f54dc1f8
+SHA256: 68868fbec048dadf15cb044fecef797972d9578175500317453fa82b5ea4aa8b
 Section: debug
 Priority: optional
 Description: debug symbols for csdr-skimmer
-Build-Ids: 5fe2413b01c5bd93ccf60a965999579c8aef2af5 7c3f85366416c12d335705eef44011c266ab688e
+Build-Ids: 6df2f9df7c5dba422ff877d01991a84fdeb5bdef 81fe43f4e9fd170507b570cafa3150b03e001c91
 
 Package: csdr-skimmer-dbgsym
 Source: csdr-skimmer
-Version: 1.7
+Version: 1.9
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 94
-Depends: csdr-skimmer (= 1.7)
-Filename: ./arm64/csdr-skimmer-dbgsym_1.7_arm64.deb
-Size: 55368
-MD5sum: b20674d089ceecea2c141884ae65577a
-SHA1: a47ec78755f8c51bde831b419d5f3d0195f1eca1
-SHA256: b8997029e2403d19c899ac834cc73e62ff1675418c307e0967c471a0d824fd1d
+Depends: csdr-skimmer (= 1.9)
+Filename: ./arm64/csdr-skimmer-dbgsym_1.9_arm64.deb
+Size: 55484
+MD5sum: f861ae5689dfc76c0351c9e605941919
+SHA1: 5bc2fa0ab95ea8ef0d53d59ddbc6ca40c14dc3ce
+SHA256: 55b0aa6d7412ce991a7c16e28d25b1fa25a9fcf41e55f1beb271685fd4bd9be2
 Section: debug
 Priority: optional
 Description: debug symbols for csdr-skimmer
-Build-Ids: 2c44ded54ef25d0951ef18283d6f4abb9cfdab09 baaad6cdfab698faf193e4b5d202b456077ede40
-
-Package: csdr-skimmer-dbgsym
-Source: csdr-skimmer
-Version: 1.8
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 92
-Depends: csdr-skimmer (= 1.8)
-Filename: ./amd64/csdr-skimmer-dbgsym_1.8_amd64.deb
-Size: 56968
-MD5sum: 45a1973621e58945538e5850812ef2ac
-SHA1: b9ea3ceb49e58eeb71840accbee00987b16600ae
-SHA256: c6fc508f54a7a419960c823001d8b6145c87be4aac7f388d2add4a8b6b6c52f4
-Section: debug
-Priority: optional
-Description: debug symbols for csdr-skimmer
-Build-Ids: 048d086fbb8900312cd914b96a2748cf242758d6 873e5fad669f7c9aa9a8b7d0de287a4ae3c81707
-
-Package: csdr-skimmer-dbgsym
-Source: csdr-skimmer
-Version: 1.8
-Auto-Built-Package: debug-symbols
-Architecture: armhf
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 89
-Depends: csdr-skimmer (= 1.8)
-Filename: ./armhf/csdr-skimmer-dbgsym_1.8_armhf.deb
-Size: 56908
-MD5sum: 040b39094dde5759f3c17e977f9f20a7
-SHA1: a366bb9b9d6634dd7f08bf3ffc9ce1e0597e2c7a
-SHA256: a66c12dd45c9c3b813ecfe85fd4ee4ba7f68e1d0ee77c38287b3ae29d1b8460c
-Section: debug
-Priority: optional
-Description: debug symbols for csdr-skimmer
-Build-Ids: 81fe43f4e9fd170507b570cafa3150b03e001c91 9e3e3a69ccda6b8c439a38e9c6de37989cf5f90d
-
-Package: csdr-skimmer-dbgsym
-Source: csdr-skimmer
-Version: 1.8
-Auto-Built-Package: debug-symbols
-Architecture: arm64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 94
-Depends: csdr-skimmer (= 1.8)
-Filename: ./arm64/csdr-skimmer-dbgsym_1.8_arm64.deb
-Size: 55620
-MD5sum: b64c8fd8943bec7190d6362d249897f7
-SHA1: a1d4451dd7f188988087a580a98b233876f8ec3c
-SHA256: aee6117baf853091b3fc071f0529b4aa83ffca87eb216069e77b1c40b2875725
-Section: debug
-Priority: optional
-Description: debug symbols for csdr-skimmer
-Build-Ids: 897b9df16e8d919e82f9462d1359dcfd32eac5fd f29aef59b234090027b4e4e46bf1d40f8dcac1cf
+Build-Ids: 742062b4163019a29dc529beb7fb10ce5075eaf2 897b9df16e8d919e82f9462d1359dcfd32eac5fd
 
 Package: dream
 Version: 2.2-20251114

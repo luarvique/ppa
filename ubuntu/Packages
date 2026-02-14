@@ -67,24 +67,6 @@ Description: command-line sdr
  A simple DSP command-line tool for Software Defined Radio.
 
 Package: csdr-skimmer
-Version: 1.5
-Architecture: armhf
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 44
-Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.5), libstdc++6 (>= 5)
-Replaces: csdr-cwskimmer
-Provides: csdr-cwskimmer
-Filename: ./armhf/csdr-skimmer_1.5_armhf.deb
-Size: 12510
-MD5sum: c88e24f9a76838b17e60f2c6f970bce2
-SHA1: 9d55b71991df19e9727f236283ab61f75ef7cdae
-SHA256: 57f57f28d8be1d3c80b84bf38655c81a13d82ed332f012882819bb374aa8a577
-Section: hamradio
-Priority: optional
-Description: Bulk CW and RTTY decoders
- Command line CW and RTTY skimmers based on the CSDR signal processing library.
-
-Package: csdr-skimmer
 Version: 1.9
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
