@@ -1175,10 +1175,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 70
 Depends: libcsdr0 (>= 0.18), libc6 (>= 2.38), libgcc-s1 (>= 3.5), libstdc++6 (>= 13.1)
 Filename: ./armhf/libowrx-connector_0.6.5_armhf.deb
-Size: 25444
-MD5sum: bb1e1911f022bf986d0b010acd0fa422
-SHA1: 7feecdfbfb9dd79291fa5448bedc73d0c0e39f33
-SHA256: 0bb3d6f993848c1a8f971fe4141336ce3d9da66bd55c9b31145e6cf81986fb47
+Size: 25396
+MD5sum: 60e916b02035e2fd8e35b2566ddedd23
+SHA1: 4e1f94d424081e31dcc7a68c0d97fe815126a75e
+SHA256: ff5d537489ea3c4b9f131a873e7ee2e11f15f09c727876403b1c30aa5b8c5e8f
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector base library
@@ -1192,10 +1192,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 146
 Depends: libcsdr0 (>= 0.18), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
 Filename: ./arm64/libowrx-connector_0.6.5_arm64.deb
-Size: 25556
-MD5sum: 9f7f512722dfa6839dbecd0aa557e301
-SHA1: b9bb805b4a31a1ca2514e87765f5609cd06860fe
-SHA256: 41e30689aeeb6cb1a722e0e95ec9bcdc0a616de75249f272fd1cfd900fc94939
+Size: 25564
+MD5sum: fb0ffc3f708850288e3244c3daf36fe8
+SHA1: a525e5d59a941db6eccb18ccd1e770d1d50eb867
+SHA256: 35701ac5a4783936faf1a91b62b25344cabd7b074cde87b998e9065243534900
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector base library
@@ -1358,17 +1358,17 @@ Description: NRSC5 decoder
  Command-line NRSC5 decoder, with a library.
 
 Package: openwebrx
-Version: 1.2.107
+Version: 1.2.108
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3639
+Installed-Size: 3646
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.37), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, lame, dream
-Filename: ./amd64/openwebrx_1.2.107_all.deb
-Size: 1025304
-MD5sum: 5f2119233d94a135a9d19a506a0b99bf
-SHA1: 31f011f9f5fb7815378164f2e0619af0949bfbdb
-SHA256: e4e32a380a1b41f9ad3e4a04358ea4c861b6b3cb803b5ea799fd4ad7e3237189
+Filename: ./amd64/openwebrx_1.2.108_all.deb
+Size: 1026180
+MD5sum: b56c0f143a7cfa327f4520ef42d0c32c
+SHA1: 5f1990a545ba65d111078482e40f73a3a6d0cf41
+SHA256: fafb6ccd97c5a44a69301047195d1dbc58c89095843c039711b6d0d9b186979f
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -1376,17 +1376,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.107
+Version: 1.2.108
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3639
+Installed-Size: 3646
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.37), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, lame, dream
-Filename: ./armhf/openwebrx_1.2.107_all.deb
-Size: 1025304
-MD5sum: 5f2119233d94a135a9d19a506a0b99bf
-SHA1: 31f011f9f5fb7815378164f2e0619af0949bfbdb
-SHA256: e4e32a380a1b41f9ad3e4a04358ea4c861b6b3cb803b5ea799fd4ad7e3237189
+Filename: ./armhf/openwebrx_1.2.108_all.deb
+Size: 1026180
+MD5sum: b56c0f143a7cfa327f4520ef42d0c32c
+SHA1: 5f1990a545ba65d111078482e40f73a3a6d0cf41
+SHA256: fafb6ccd97c5a44a69301047195d1dbc58c89095843c039711b6d0d9b186979f
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -1394,17 +1394,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.107
+Version: 1.2.108
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3639
+Installed-Size: 3646
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.37), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, lame, dream
-Filename: ./arm64/openwebrx_1.2.107_all.deb
-Size: 1025304
-MD5sum: 5f2119233d94a135a9d19a506a0b99bf
-SHA1: 31f011f9f5fb7815378164f2e0619af0949bfbdb
-SHA256: e4e32a380a1b41f9ad3e4a04358ea4c861b6b3cb803b5ea799fd4ad7e3237189
+Filename: ./arm64/openwebrx_1.2.108_all.deb
+Size: 1026180
+MD5sum: b56c0f143a7cfa327f4520ef42d0c32c
+SHA1: 5f1990a545ba65d111078482e40f73a3a6d0cf41
+SHA256: fafb6ccd97c5a44a69301047195d1dbc58c89095843c039711b6d0d9b186979f
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -1485,10 +1485,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 154
 Depends: libcsdr0 (>= 0.18.37), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.4), libgcc-s1 (>= 3.5), libstdc++6 (>= 13.1)
 Filename: ./armhf/python3-csdr_0.18.37_armhf.deb
-Size: 39668
-MD5sum: 3474928444c145f3e3532c5eaa70ddf0
-SHA1: 77c58e1dbea03fe011aeefc85ccd0b3572ac4ac4
-SHA256: e1547dbcc46c4295ddc3406e2d60e8591aadbf756fb95b2794d91bfe0b3d202e
+Size: 39628
+MD5sum: 054f715cda9a3d5469f1ed256c0bfda5
+SHA1: 66a4242b36f7b032e8c95255a3416523dacd05a1
+SHA256: 70c30cabb2cf92724111248f9c03e286171bec41166b3ccdf7fa6b619ecc35d8
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr
@@ -1503,10 +1503,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 243
 Depends: libcsdr0 (>= 0.18.37), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
 Filename: ./arm64/python3-csdr_0.18.37_arm64.deb
-Size: 38856
-MD5sum: c87c3972ca6c8920a3b6341d486143fe
-SHA1: a1cf8a0c5d0ea304f8f37813ab7ee15c039bed2b
-SHA256: bebb39eaaef0b24dbdc918ec9fa803998b9d46ef41d1d324182fecbf64c6c26b
+Size: 38932
+MD5sum: c2ad4ec5476b6457fe8eecae0b1f64c0
+SHA1: d544c5278fc4fe95270caf3976e0480c2ddd752e
+SHA256: 5c23fab51ce838f73cba92c5fecc38270751bd0ad03a7622542a9b1982b11ce3
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr
@@ -1801,10 +1801,10 @@ Installed-Size: 33
 Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.38), libgcc-s1 (>= 3.5), librtlsdr2 (>= 2.0.1), libstdc++6 (>= 13.1)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./armhf/rtl-connector_0.6.5_armhf.deb
-Size: 10704
-MD5sum: cd6d469333b7e49e77267e013cc1f13f
-SHA1: 06623a3461c525c0cf8b071a438f4162905f12a4
-SHA256: 2e68d6be79346e2bd411fce5bac458a845114af4867d659ab848aab033fc7071
+Size: 10712
+MD5sum: 648ee8069214ea0ba0f1e9747541697a
+SHA1: 2593a10c3e18ca3160c4295481ef70cfe1b035eb
+SHA256: 586cddd7ca7ff5e5b592acddd6cb8c48a81c93cd409bbfe61398885e8fd01bf4
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for RTL-SDR devices
@@ -1819,10 +1819,10 @@ Installed-Size: 78
 Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), librtlsdr2 (>= 2.0.1), libstdc++6 (>= 13.1)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./arm64/rtl-connector_0.6.5_arm64.deb
-Size: 11516
-MD5sum: b797406c443f34a9c69fa6ac75efb30e
-SHA1: 7a5e1d2658cc31709c0fc45e73737338dd092816
-SHA256: 082428f5c87cbc5a55fd47e06bacc2d832dacb3f74e157a06cc63be4b794c6a0
+Size: 11512
+MD5sum: 6efd8b5cd6f413360baa7ef92839fff5
+SHA1: a08370ef87f1cedbdb4a38d9c3c896a82bd548e5
+SHA256: b367518d2673ce313f61fc930f4ebdb02e83018649e1d7c7060e52bfdf9c8e4c
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for RTL-SDR devices
@@ -1856,10 +1856,10 @@ Installed-Size: 33
 Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.38), libgcc-s1 (>= 3.5), libstdc++6 (>= 13.1)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./armhf/rtl-tcp-connector_0.6.5_armhf.deb
-Size: 10420
-MD5sum: 61a5580bd28ddba3f4f2946ca3744a03
-SHA1: 7b29bea29593804ca231a417caf80dc698aba32b
-SHA256: 796c0b203fd36e3595982ad54a05978a9a2a5f5962f19d349c99831c51f6832c
+Size: 10424
+MD5sum: 5c1198457cbb095219c46c6f9a34d11a
+SHA1: 0f96097c8c7400701f535743402e35dc24848211
+SHA256: 80ce1a380d7baad18b69b16604fd68bd06bdfcc0bcfb2939c99b538a62f517a0
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for rtl_tcp remote devices
@@ -1876,9 +1876,9 @@ Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), lib
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./arm64/rtl-tcp-connector_0.6.5_arm64.deb
 Size: 11040
-MD5sum: 45206355abf64bf9d71d6cbc9de68bb3
-SHA1: 636fe95683bc80306e5a21fe4d63e1d132776e98
-SHA256: 14489d7ab485690f00501edf2b52f7b39544e5ee6a3676c3ffd07863b58a317a
+MD5sum: 55be79a9479c2c173ebc358305ddc80b
+SHA1: a1611d598f7214dabd3d657ec681a0a1a7521e27
+SHA256: cf6fffae7456788d379c7c2d2eba7c9903b384cfe583913e27e3c7d351f6d57f
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for rtl_tcp remote devices
@@ -1975,10 +1975,10 @@ Installed-Size: 37
 Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.38), libgcc-s1 (>= 3.5), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 13.1)
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./armhf/soapy-connector_0.6.5_armhf.deb
-Size: 13308
-MD5sum: 6219b091d9e5d7390c023c157bc681e8
-SHA1: 05c7b3d9c6539765ebbafb1e8d8fa99783e27626
-SHA256: 58472587f1deb1559f8f9f5250e6b599c6535e84ac8bb19837bb6a9708a28a1b
+Size: 13312
+MD5sum: da321ff2cdaf15341690639ebbfa367f
+SHA1: d543ec694a7ba7df854cfad8c29a550154f5a00e
+SHA256: 2cd5b7d279e03022c55bef2d14dfaf67e0cd9cb87b7c0115775b1d549c7897df
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for SoapySDR devices
@@ -1994,9 +1994,9 @@ Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), lib
 Conflicts: owrx-connector (<< 0.4)
 Filename: ./arm64/soapy-connector_0.6.5_arm64.deb
 Size: 14396
-MD5sum: 7630c7636f17d5fd831599991888e405
-SHA1: 870eee527f99484e56aab40c3c3eda69c5db1a16
-SHA256: 47778e5075678c0342cdfb2fd0efd51ab7a254a77051e71b22b852f50973a8e5
+MD5sum: ef40a4ccc5dc0b949ed53afa1be7bd34
+SHA1: 0b93b823e9dadbb6043dc7fd5807f5b465b4167b
+SHA256: 99e83b0757ec40cb14b0edcd2f25746b8b110b1a2b506495f1395f87fe9a4b74
 Section: hamradio
 Priority: optional
 Description: OpenWebRX connector for SoapySDR devices
