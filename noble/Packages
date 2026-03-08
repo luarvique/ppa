@@ -1,14 +1,14 @@
 Package: acarsdec
-Version: 4.3.1
+Version: 4.4.1
 Architecture: amd64
 Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
 Installed-Size: 91
-Depends: libacars2 (>= 2.2.0), libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libcjson1 (>= 1.7.5), libpaho-mqtt1.3 (>= 1.3.0), librtlsdr2 (>= 2.0.1), libsndfile1 (>= 1.0.20), libsoapysdr0.8 (>= 0.8.1)
-Filename: ./amd64/acarsdec_4.3.1_amd64.deb
-Size: 36106
-MD5sum: 5769d52f346c13c05665bdf86403726a
-SHA1: d9beda2821143d3150cfd84584a4ec3b8bad849b
-SHA256: 41e4281c534b880e110b6ce2e73be2bc8a1c0f55e97f6ddc46d5f52bd0ca03e1
+Depends: libacars2 (>= 2.2.1), libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libcjson1 (>= 1.7.5), libpaho-mqtt1.3 (>= 1.3.0), librtlsdr2 (>= 2.0.1), libsndfile1 (>= 1.0.20), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./amd64/acarsdec_4.4.1_amd64.deb
+Size: 35738
+MD5sum: 687792779a7e452577a375bc14fb92e7
+SHA1: 23120dc7b97eab763a6e03d17eca6d57467b3fd4
+SHA256: 0b2a32010ed313ca5abbca6defd56590a1b29cab444fbe2fb383214a08c7df3e
 Section: hamradio
 Priority: optional
 Description: ACARS decoder
@@ -16,16 +16,16 @@ Description: ACARS decoder
  Reporting System) decoder.
 
 Package: acarsdec
-Version: 4.3.1
+Version: 4.4.1
 Architecture: armhf
 Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
 Installed-Size: 66
-Depends: libacars2 (>= 2.2.0), libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcjson1 (>= 1.7.5), libpaho-mqtt1.3 (>= 1.3.0), librtlsdr2 (>= 2.0.1), libsndfile1 (>= 1.0.20), libsoapysdr0.8 (>= 0.8.1)
-Filename: ./armhf/acarsdec_4.3.1_armhf.deb
-Size: 34202
-MD5sum: 58f0f29e7486b32fb480e3027ed4c412
-SHA1: 80d0f01117dc0002ee7394e37d8641b91bea1d2c
-SHA256: 165a9a42a9c23ee808026e7d0bf986741e0b76203d69e223e4287dc380d5f8e1
+Depends: libacars2 (>= 2.2.1), libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcjson1 (>= 1.7.5), libpaho-mqtt1.3 (>= 1.3.0), librtlsdr2 (>= 2.0.1), libsndfile1 (>= 1.0.20), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./armhf/acarsdec_4.4.1_armhf.deb
+Size: 33496
+MD5sum: 0007ee93d3eb92f8c9c1d50af55fc269
+SHA1: 20615de0a6c21bea7a3ae682dd926deaeb23ea84
+SHA256: 0041c67c4f5e747f00bc161077099a84a8f8d716c1058814f6a129959e3b9bd2
 Section: hamradio
 Priority: optional
 Description: ACARS decoder
@@ -33,16 +33,16 @@ Description: ACARS decoder
  Reporting System) decoder.
 
 Package: acarsdec
-Version: 4.3.1
+Version: 4.4.1
 Architecture: arm64
 Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
 Installed-Size: 139
-Depends: libacars2 (>= 2.2.0), libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcjson1 (>= 1.7.5), libpaho-mqtt1.3 (>= 1.3.0), librtlsdr2 (>= 2.0.1), libsndfile1 (>= 1.0.20), libsoapysdr0.8 (>= 0.8.1)
-Filename: ./arm64/acarsdec_4.3.1_arm64.deb
-Size: 35764
-MD5sum: 755b2d6dfd66def437d196b1c316fbf5
-SHA1: 869fbbe3aefd4c27fa478338c804212c4da1831b
-SHA256: f4056effa71ea2d7f48820ec4dfcbcaa01baf48da24aa88699909d1c26c2b7ae
+Depends: libacars2 (>= 2.2.1), libasound2t64 (>= 1.0.16), libc6 (>= 2.38), libcjson1 (>= 1.7.5), libpaho-mqtt1.3 (>= 1.3.0), librtlsdr2 (>= 2.0.1), libsndfile1 (>= 1.0.20), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./arm64/acarsdec_4.4.1_arm64.deb
+Size: 35448
+MD5sum: 949cdec99e5b7e98ca79f0e367c0d049
+SHA1: 0acb84eee036428db79d1a3cff971d56db44cf36
+SHA256: b86a2d776e4009004fc71c7232e52a1160f8abdc23a560f5ec96711d31d5dd6d
 Section: hamradio
 Priority: optional
 Description: ACARS decoder
@@ -538,6 +538,102 @@ Description: ADS-B UAT Ground Station System - decoder only
  .
  FlightAware's SDR decoder for UAT ADS-B messages on 978MHz. This is only the decoder.
 
+Package: dumphfdl
+Version: 1.7.0
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 152
+Depends: libacars2 (>= 2.2.1), libc6 (>= 2.34), libconfig++9v5 (>= 1.5-0.4~), libfftw3-single3 (>= 3.3.10), libglib2.0-0t64 (>= 2.46.0), libliquid1 (>= 1.6.0), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./amd64/dumphfdl_1.7.0_amd64.deb
+Size: 56342
+MD5sum: 252c95bee7f0949497c5b45521a06992
+SHA1: 95406a8de530cf59e990fcc88432053a938b831c
+SHA256: afe47cd7c6491cb7bbdb9c80a70fcbe9922e6a5b51cd796ed3aad8667f29cc81
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/szpajder/dumphfdl
+Description: HFDL message decoder and protocol analyzer
+
+Package: dumphfdl
+Version: 1.7.0
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 115
+Depends: libacars2 (>= 2.2.1), libc6 (>= 2.34), libconfig++9v5 (>= 1.5-0.4~), libfftw3-single3 (>= 3.3.10), libglib2.0-0t64 (>= 2.46.0), libliquid1 (>= 1.6.0), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./armhf/dumphfdl_1.7.0_armhf.deb
+Size: 57564
+MD5sum: 4d46ef6dd7a3b0d7953e403bacf4355c
+SHA1: 60434c19a005d21272a597edc1099c0f476556d5
+SHA256: 89e08e981c4e30db01e1aaddaf81d476930b85969171929e825a394a826222f5
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/szpajder/dumphfdl
+Description: HFDL message decoder and protocol analyzer
+
+Package: dumphfdl
+Version: 1.7.0
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 204
+Depends: libacars2 (>= 2.2.1), libc6 (>= 2.34), libconfig++9v5 (>= 1.5-0.4~), libfftw3-single3 (>= 3.3.10), libglib2.0-0t64 (>= 2.46.0), libliquid1 (>= 1.6.0), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./arm64/dumphfdl_1.7.0_arm64.deb
+Size: 57048
+MD5sum: c89e49da06a5d910487d792189e5e8e6
+SHA1: a719001c1a2a63f218d3c1890d140e04e42b1b90
+SHA256: 1e6b46368c94d16e8249ba4f101352b409ce6b4fd3f25a77712d1a572724986e
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/szpajder/dumphfdl
+Description: HFDL message decoder and protocol analyzer
+
+Package: dumpvdl2
+Version: 2.6.0
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 1349
+Depends: libacars2 (>= 2.2.1), libc6 (>= 2.35), libglib2.0-0t64 (>= 2.12.0), librtlsdr2 (>= 2.0.1), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./amd64/dumpvdl2_2.6.0_amd64.deb
+Size: 271568
+MD5sum: 16114112fc9295339b08a1bd71b533e2
+SHA1: 632835bef75089493d54b855dbeb548c5c9477f4
+SHA256: b5ee4fbfaaf8d6a2fb3aeb7e98aaa5c54aaa888bd93f597fd571fae5f40b8fa1
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/szpajder/dumpvdl2
+Description: VDL Mode 2 message decoder and protocol analyzer
+
+Package: dumpvdl2
+Version: 2.6.0
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 784
+Depends: libacars2 (>= 2.2.1), libc6 (>= 2.35), libglib2.0-0t64 (>= 2.12.0), librtlsdr2 (>= 2.0.1), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./armhf/dumpvdl2_2.6.0_armhf.deb
+Size: 197590
+MD5sum: 0fa8d7eac67086d3a3db41b2d171b40e
+SHA1: 1bd2af9e5eedcf31c07aa57795427a95f5273dea
+SHA256: 0ac3b67ccf55918630af44d1b0ce2c2b3468a26c1a999478f25585d48fb7ed1c
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/szpajder/dumpvdl2
+Description: VDL Mode 2 message decoder and protocol analyzer
+
+Package: dumpvdl2
+Version: 2.6.0
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 1451
+Depends: libacars2 (>= 2.2.1), libc6 (>= 2.35), libglib2.0-0t64 (>= 2.12.0), librtlsdr2 (>= 2.0.1), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./arm64/dumpvdl2_2.6.0_arm64.deb
+Size: 253026
+MD5sum: ea3f8c254fab88ffc0a4733bee7c34f9
+SHA1: 3a6c26230256f1e08736332a51f64e77e9a35dbb
+SHA256: df21f9c63e791b38f729315d4efb13be7294623cc660fe2cf7597c19712173e4
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/szpajder/dumpvdl2
+Description: VDL Mode 2 message decoder and protocol analyzer
+
 Package: hpsdrconnector
 Version: 0.11.0
 Architecture: amd64
@@ -628,6 +724,63 @@ Homepage: https://github.com/szpajder/libacars
 Description: development dependencies includes for libacars
  A library for decoding various ACARS message payloads
 
+Package: libacars-dev
+Source: libacars2
+Version: 2.2.1
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 535
+Depends: libacars2
+Filename: ./amd64/libacars-dev_2.2.1_amd64.deb
+Size: 51446
+MD5sum: bed718d97ced9e2741a30edc13432693
+SHA1: aa9ea76a437945b5040f2fc1717af255ad9469b7
+SHA256: e740358f34c1edba61189024ec1cc05b30121321a6e927b3e060cad63335cea8
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: development includes for libacars
+ Development includes for libacars, a library for decoding
+ various ACARS message payloads.
+
+Package: libacars-dev
+Source: libacars2
+Version: 2.2.1
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 535
+Depends: libacars2
+Filename: ./armhf/libacars-dev_2.2.1_armhf.deb
+Size: 51440
+MD5sum: d482f3149716a8215559a87ff00f931e
+SHA1: a7a2793a0f1d5a9be9c1119ba84084f2c0c703b7
+SHA256: af780a2f6f31b7015daaf2d9c436102b26a1ac5fbc8d6bf448eb8efcce81eb1d
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: development includes for libacars
+ Development includes for libacars, a library for decoding
+ various ACARS message payloads.
+
+Package: libacars-dev
+Source: libacars2
+Version: 2.2.1
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 535
+Depends: libacars2
+Filename: ./arm64/libacars-dev_2.2.1_arm64.deb
+Size: 51440
+MD5sum: e439f33c02bcd12c74806cc5cc95c29c
+SHA1: c2d7700f6432a22c9435f0528bf71ad53c1d6af2
+SHA256: 4bda4d35cba3d9d011036b4400ba50b10d861eee9cfa5382f78348d5cff55e7b
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: development includes for libacars
+ Development includes for libacars, a library for decoding
+ various ACARS message payloads.
+
 Package: libacars-tools
 Source: libacars
 Version: 2.2.0-4
@@ -682,6 +835,63 @@ Homepage: https://github.com/szpajder/libacars
 Description: additional command line tools to decode acars messages
  A library for decoding various ACARS message payloads
 
+Package: libacars-tools
+Source: libacars2
+Version: 2.2.1
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 53
+Depends: libacars2
+Filename: ./amd64/libacars-tools_2.2.1_amd64.deb
+Size: 8216
+MD5sum: 47831b955b0c45ec7e1cbbf254e3809d
+SHA1: 92c932bc2432d4a9841b5dfdd8b84842c27584fd
+SHA256: cdfee8a8cf16422fbb50d887e8bc8f6f1107e14e015dbea5792c84d4ec2c64e3
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: additional command line tools to decode ACARS messages
+ Additional command line tools for decoding ACARS messages with
+ libacars.
+
+Package: libacars-tools
+Source: libacars2
+Version: 2.2.1
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 38
+Depends: libacars2
+Filename: ./armhf/libacars-tools_2.2.1_armhf.deb
+Size: 7788
+MD5sum: cc024d2727df525d836a9e9031d6874f
+SHA1: 416bc3c6f336ccb63841dd8df8ac254eacad4b29
+SHA256: ed66ec6111273dc4d265bfb7b1cb9ebe98a68f798183aa0d549ccad1e109347a
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: additional command line tools to decode ACARS messages
+ Additional command line tools for decoding ACARS messages with
+ libacars.
+
+Package: libacars-tools
+Source: libacars2
+Version: 2.2.1
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 209
+Depends: libacars2
+Filename: ./arm64/libacars-tools_2.2.1_arm64.deb
+Size: 8266
+MD5sum: 13a80d5cd1548de69596b80ada80585c
+SHA1: a4c0046ecbf699fd0300fd22a0fcd7e21b95ee26
+SHA256: 36f2364e45757ccc734e2637646b8d9b94b4eca6f0a190e3cbdbd3d7eb09a546
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: additional command line tools to decode ACARS messages
+ Additional command line tools for decoding ACARS messages with
+ libacars.
+
 Package: libacars2
 Source: libacars
 Version: 2.2.0-4
@@ -735,6 +945,57 @@ Priority: optional
 Homepage: https://github.com/szpajder/libacars
 Description: Library for decoding various ACARS message payloads
  A library for decoding various ACARS message payloads
+
+Package: libacars2
+Version: 2.2.1
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 712
+Depends: libc6 (>= 2.14), libjansson4 (>= 2.14), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Filename: ./amd64/libacars2_2.2.1_amd64.deb
+Size: 164576
+MD5sum: 6805ee908a39134f25111f84ab8e6a03
+SHA1: ce4271c6276dcc390fd8553980ca2765dd645427
+SHA256: 49cf00c5998d949a00186762762260123c2e7fac3e81ac71b743d35761bdb94f
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: library for decoding various ACARS message payloads
+ A library for decoding various ACARS message payloads.
+
+Package: libacars2
+Version: 2.2.1
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 415
+Depends: libc6 (>= 2.4), libjansson4 (>= 2.14), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Filename: ./armhf/libacars2_2.2.1_armhf.deb
+Size: 123414
+MD5sum: c66d457bda29d69ed77061c8f7894a05
+SHA1: f178291eca62f227cb319269aa61b52920bc96cd
+SHA256: e47a69286187135cb2349ee940a19c72fda5cd4b1eda3db506efc425d601ef1e
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: library for decoding various ACARS message payloads
+ A library for decoding various ACARS message payloads.
+
+Package: libacars2
+Version: 2.2.1
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 727
+Depends: libc6 (>= 2.17), libjansson4 (>= 2.14), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Filename: ./arm64/libacars2_2.2.1_arm64.deb
+Size: 150188
+MD5sum: 1686eee35014c7bea61453a42eee50ea
+SHA1: 042f354b464f42d8e971ef158a4a81cb0b48f947
+SHA256: 08022a137f29d1432ac1c730616233e2cbeee7c811758d3b4f1b9cb4b586a3aa
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/szpajder/libacars
+Description: library for decoding various ACARS message payloads
+ A library for decoding various ACARS message payloads.
 
 Package: libcodecserver
 Source: codecserver
@@ -1252,6 +1513,57 @@ Priority: optional
 Description: OpenWebRX connector base library - development files
  Provides includes and development files to build custom connectors
 
+Package: multimon-ng
+Version: 1.5.0
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 185
+Depends: libc6 (>= 2.34), libpulse0 (>= 0.99.1), libx11-6
+Filename: ./amd64/multimon-ng_1.5.0_amd64.deb
+Size: 70908
+MD5sum: c30f429adc7e61bd2a81c33786299ceb
+SHA1: 625c5b9c01faccca103240d985359cb54f3d627f
+SHA256: ae1ab36383d53d75601d35772415917b66795425099f2f7f68420f344e3fb3d9
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/EliasOenal/multimon-ng/
+Description: digital radio transmission decoder
+ Universal decoder for multiple digital radio transmission protocols.
+
+Package: multimon-ng
+Version: 1.5.0
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 139
+Depends: libc6 (>= 2.34), libpulse0 (>= 0.99.1), libx11-6
+Filename: ./armhf/multimon-ng_1.5.0_armhf.deb
+Size: 68282
+MD5sum: 2e1cb1a230ea2b62c906603034983d6c
+SHA1: 6857553ca3f8d45355ab6074a03dea89fa5f8073
+SHA256: de591a0ee56ad339791278ce19131802e9b64ee65b308ba7833511642788e0ab
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/EliasOenal/multimon-ng/
+Description: digital radio transmission decoder
+ Universal decoder for multiple digital radio transmission protocols.
+
+Package: multimon-ng
+Version: 1.5.0
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 213
+Depends: libc6 (>= 2.34), libpulse0 (>= 0.99.1), libx11-6
+Filename: ./arm64/multimon-ng_1.5.0_arm64.deb
+Size: 70896
+MD5sum: 60bb04ed92bcb20175666c6e7e68efc0
+SHA1: 8cf61d39fe6f0d224f7ce1ed7b7f72b596b68b9d
+SHA256: 51d9eaa54610ad51589175aaf11c4f394fc89fd7278c8c6b831fa3f9f748bb80
+Section: hamradio
+Priority: optional
+Homepage: https://github.com/EliasOenal/multimon-ng/
+Description: digital radio transmission decoder
+ Universal decoder for multiple digital radio transmission protocols.
+
 Package: nmux
 Source: csdr
 Version: 0.18.37
@@ -1310,48 +1622,48 @@ Description: TCP stream multiplexer
  through TCP sockets.
 
 Package: nrsc5
-Version: 0.2
+Version: 0.3
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 1014
+Installed-Size: 1093
 Depends: libao4 (>= 1.1.0), libc6 (>= 2.38), libfftw3-single3 (>= 3.3.10), librtlsdr2 (>= 2.0.1)
-Filename: ./amd64/nrsc5_0.2_amd64.deb
-Size: 269894
-MD5sum: d2f581031b668d378db85b0371162feb
-SHA1: 9f09772173bb7ae6ae9fa8ade8be9a23b439e97d
-SHA256: e8c35c19411e83cba2b65fe19c7eaee75c569395e8e00dc24a9a0ea036de8cde
+Filename: ./amd64/nrsc5_0.3_amd64.deb
+Size: 306584
+MD5sum: 3c47b61403cb585bfcdeb9c4c33d94ab
+SHA1: bfd2262e4f07bbdcbc9d56158592b18b65f73271
+SHA256: e680454131c9400cf04aa6ef426d029be5e333584c6fb88ec2d45b7067ceb5db
 Section: hamradio
 Priority: optional
 Description: NRSC5 decoder
  Command-line NRSC5 decoder, with a library.
 
 Package: nrsc5
-Version: 0.2
+Version: 0.3
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 723
+Installed-Size: 765
 Depends: libao4 (>= 1.1.0), libc6 (>= 2.38), libfftw3-single3 (>= 3.3.10), librtlsdr2 (>= 2.0.1)
-Filename: ./armhf/nrsc5_0.2_armhf.deb
-Size: 231448
-MD5sum: a20612cf071b3ca11076ecc27accf2eb
-SHA1: 139e18712eba8545fd47a55e79341bb86e8812d3
-SHA256: f2e8ea82ef5e4b5fbb5be29d782fb18cea67e36eeb8fd86a949de2508c761b92
+Filename: ./armhf/nrsc5_0.3_armhf.deb
+Size: 249186
+MD5sum: 9f366b21caed7b56d713fcb7ea18550f
+SHA1: fb2400c4eb276e3df71985204f922f97b3f3f14f
+SHA256: f112b5d581939d7dd8d85c86dc8daf862704084a2cfe088be1b102ef2bdf2d90
 Section: hamradio
 Priority: optional
 Description: NRSC5 decoder
  Command-line NRSC5 decoder, with a library.
 
 Package: nrsc5
-Version: 0.2
+Version: 0.3
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 843
+Installed-Size: 1002
 Depends: libao4 (>= 1.1.0), libc6 (>= 2.38), libfftw3-single3 (>= 3.3.10), librtlsdr2 (>= 2.0.1)
-Filename: ./arm64/nrsc5_0.2_arm64.deb
-Size: 264616
-MD5sum: f2b9131f6bacc3600a96d02359ee2e81
-SHA1: 08372a5530d5ee4f1996b1cb18f9998ef892444b
-SHA256: 04b27061d7a64312d98424ae07ab015e1309f0b1cd5471bcdd0890bf3fd398b3
+Filename: ./arm64/nrsc5_0.3_arm64.deb
+Size: 305626
+MD5sum: 163d67203ba47e27dc0a283d55da8d5b
+SHA1: 76b0bf825e31fad7e7ef525f98de862d30d7840b
+SHA256: 2beafddf4154dc104da8b763359715f3fbb7f2fedda3f1474457d6d276a947ad
 Section: hamradio
 Priority: optional
 Description: NRSC5 decoder
