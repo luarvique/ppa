@@ -4306,6 +4306,111 @@ Priority: optional
 Description: JS8 frame parser
  python module for parsing messages from the "js8" command line decoder
 
+Package: python3-meshtastic
+Version: 2.7.7-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.13), python3-serial, python3-protobuf, python3-tabulate, python3-requests, python3-yaml, python3-bleak, python3-packaging, python3-dotmap
+Filename: ./amd64/python3-meshtastic_2.7.7-1_all.deb
+Size: 512740
+MD5sum: 52b0e12f80aba5f8434dfcf1e8bd2d2c
+SHA1: e62289034bcf7f0b73c0d522d2ae46941667fd04
+SHA256: c1ac180d36f18375e24762bfc215e88d3b09de02486f1dada3d93c333b8d2c39
+Description: Python API for Meshtastic LoRa radio devices (v2.7.7)
+ Python API and command-line tool for interacting with Meshtastic LoRa
+ radio mesh networking devices. Supports BLE, serial and network connections.
+ .
+ Build from PyPI for OpenWebRX+ integration.
+
+Package: python3-meshtastic
+Version: 2.7.7-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.13), python3-serial, python3-protobuf, python3-tabulate, python3-requests, python3-yaml, python3-bleak, python3-packaging, python3-dotmap
+Filename: ./armhf/python3-meshtastic_2.7.7-1_all.deb
+Size: 512680
+MD5sum: 1bbc14608ffac01151d0ed638a18849d
+SHA1: 1df1a21c2f47dfc611d3038516b2770b821a9025
+SHA256: 2d5df4cadd76a0464ba949f82feff9301d68b33443506e736770eacbc6e248b1
+Description: Python API for Meshtastic LoRa radio devices (v2.7.7)
+ Python API and command-line tool for interacting with Meshtastic LoRa
+ radio mesh networking devices. Supports BLE, serial and network connections.
+ .
+ Build from PyPI for OpenWebRX+ integration.
+
+Package: python3-meshtastic
+Version: 2.7.7-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.13), python3-serial, python3-protobuf, python3-tabulate, python3-requests, python3-yaml, python3-bleak, python3-packaging, python3-dotmap
+Filename: ./arm64/python3-meshtastic_2.7.7-1_all.deb
+Size: 512796
+MD5sum: 9658c807c2523772da6ac1405a23526f
+SHA1: c1784a354b769082d71c6e3c8e17c01523e06837
+SHA256: 83fb097fed27585254b59417e8085da3f70f43a6b959d2c9882d95518331e665
+Description: Python API for Meshtastic LoRa radio devices (v2.7.7)
+ Python API and command-line tool for interacting with Meshtastic LoRa
+ radio mesh networking devices. Supports BLE, serial and network connections.
+ .
+ Build from PyPI for OpenWebRX+ integration.
+
+Package: python3-protobuf
+Version: 4.25.8-1
+Architecture: amd64
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.13)
+Conflicts: python3-protobuf (<< 4.21.12)
+Replaces: python3-protobuf (<< 4.21.12)
+Provides: python3-protobuf
+Filename: ./amd64/python3-protobuf_4.25.8-1_amd64.deb
+Size: 373992
+MD5sum: 34b4995cdc3cb0b1b858a18c34753507
+SHA1: e5f87ad024c081b7a0c2db1d5ece6175494744cc
+SHA256: 19b651305c882d8f0d3d180c78deec5648eb21a5a604be0b63383d03ba4482a8
+Description: Python bindings for protocol buffers (v4.25.8)
+ Protocol buffers are Google's language-neutral, platform-neutral,
+ extensible mechanism for serializing structured data.
+ .
+ Backport build from PyPI for distributions with python3-protobuf < 4.21.12.
+
+Package: python3-protobuf
+Version: 4.25.8-1
+Architecture: armhf
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.13)
+Conflicts: python3-protobuf (<< 4.21.12)
+Replaces: python3-protobuf (<< 4.21.12)
+Provides: python3-protobuf
+Filename: ./armhf/python3-protobuf_4.25.8-1_armhf.deb
+Size: 265932
+MD5sum: fb98ca36fae15eeab61f01374a6028c5
+SHA1: dab439a0b5dc4f4e15d07a82bd8c7e47a74aa03b
+SHA256: 6720ae787bb63a0e154ef6cf61564301d84a8227ed6b3d0df0fe71a26e9f072a
+Description: Python bindings for protocol buffers (v4.25.8)
+ Protocol buffers are Google's language-neutral, platform-neutral,
+ extensible mechanism for serializing structured data.
+ .
+ Backport build from PyPI for distributions with python3-protobuf < 4.21.12.
+
+Package: python3-protobuf
+Version: 4.25.8-1
+Architecture: arm64
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.13)
+Conflicts: python3-protobuf (<< 4.21.12)
+Replaces: python3-protobuf (<< 4.21.12)
+Provides: python3-protobuf
+Filename: ./arm64/python3-protobuf_4.25.8-1_arm64.deb
+Size: 366376
+MD5sum: ea3b2c0c15256a7b61fb0237036023ab
+SHA1: 41b65b303638c8dcbcd4f7ea41103d694d0096eb
+SHA256: 25ea17f6ec1cfd1a4a33b2f7e9d56c2fca40140a26bee0cbab47be51a59363ff
+Description: Python bindings for protocol buffers (v4.25.8)
+ Protocol buffers are Google's language-neutral, platform-neutral,
+ extensible mechanism for serializing structured data.
+ .
+ Backport build from PyPI for distributions with python3-protobuf < 4.21.12.
+
 Package: redsea
 Version: 1.2.0
 Architecture: amd64

@@ -2131,6 +2131,66 @@ Priority: optional
 Description: Virtual bundle dependency package
  This package installs the base connectors for RTL-SDR, SoapySDR and rtl_tcp
 
+Package: python3-bleak
+Version: 0.22.3-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9), python3-dbus-fast
+Conflicts: python3-bleak (<< 0.22.3)
+Replaces: python3-bleak (<< 0.22.3)
+Provides: python3-bleak
+Filename: ./amd64/python3-bleak_0.22.3-1_all.deb
+Size: 178188
+MD5sum: f9eb5433fe59947868b13fb705f845c7
+SHA1: 0ce2c55ddbcaae5f7d74c827c07fb493da6a57f4
+SHA256: 44e22c0c490012a8ec4ae9a8218b1a4bcab82cb882ec3e0b0528b4a5dbbae0c0
+Description: Bluetooth Low Energy platform agnostic client (Python 3)
+ An OS independent Bluetooth Low Energy (BLE) client for Python using
+ asyncio. Communicates with BLE devices via the OS Bluetooth stack.
+ On Linux, it uses D-Bus via dbus-fast.
+ .
+ Backport build from PyPI for distributions with older or missing bleak.
+
+Package: python3-bleak
+Version: 0.22.3-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9), python3-dbus-fast
+Conflicts: python3-bleak (<< 0.22.3)
+Replaces: python3-bleak (<< 0.22.3)
+Provides: python3-bleak
+Filename: ./armhf/python3-bleak_0.22.3-1_all.deb
+Size: 177988
+MD5sum: 25973f161653d5ed48b033483f20ab0c
+SHA1: 01618bbbe1a2eba2640c2da8977b1f2239e0badf
+SHA256: bc5bbc17b909ecb017c34b33b6d9089f7c5cc8fc177287692fb6ba60cd3f238b
+Description: Bluetooth Low Energy platform agnostic client (Python 3)
+ An OS independent Bluetooth Low Energy (BLE) client for Python using
+ asyncio. Communicates with BLE devices via the OS Bluetooth stack.
+ On Linux, it uses D-Bus via dbus-fast.
+ .
+ Backport build from PyPI for distributions with older or missing bleak.
+
+Package: python3-bleak
+Version: 0.22.3-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9), python3-dbus-fast
+Conflicts: python3-bleak (<< 0.22.3)
+Replaces: python3-bleak (<< 0.22.3)
+Provides: python3-bleak
+Filename: ./arm64/python3-bleak_0.22.3-1_all.deb
+Size: 177956
+MD5sum: df9a523853a60b338eead8992894e2e4
+SHA1: 9c914f097d2ca0e1f41d154ad50c43d981826107
+SHA256: e34d4bd0f8d12a221e39d9099653eabfc355392470504b2b69b3c8a5af60d602
+Description: Bluetooth Low Energy platform agnostic client (Python 3)
+ An OS independent Bluetooth Low Energy (BLE) client for Python using
+ asyncio. Communicates with BLE devices via the OS Bluetooth stack.
+ On Linux, it uses D-Bus via dbus-fast.
+ .
+ Backport build from PyPI for distributions with older or missing bleak.
+
 Package: python3-csdr
 Source: pycsdr
 Version: 0.18.37
@@ -2346,6 +2406,276 @@ Section: debug
 Priority: optional
 Description: debug symbols for python3-csdr-eti
 Build-Ids: a46cdd12df421ad825e9c571e97989a18c2ea236
+
+Package: python3-dbus-fast
+Version: 1.93.0-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9)
+Filename: ./amd64/python3-dbus-fast_1.93.0-1_all.deb
+Size: 3056104
+MD5sum: ed04a4e7ec9f3e3156c58036627623b7
+SHA1: 659ed2aa41f0629244896adf5246d61646ee360a
+SHA256: 3f3912e50e23011b116374ae92bb95af1940c50eef84253c15f1d4b3e275657b
+Description: faster version of dbus-next (Python 3)
+ dbus-fast is a pure Python implementation of the D-Bus protocol.
+ It is intended as a faster alternative to dbus-python and dbus-next,
+ used by bluetooth libraries such as bleak for BLE communication.
+ .
+ Backport build from PyPI for distributions without this package.
+
+Package: python3-dbus-fast
+Version: 1.93.0-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9)
+Filename: ./armhf/python3-dbus-fast_1.93.0-1_all.deb
+Size: 108608
+MD5sum: 049e01fcb24678e5c117b10dbd3660e5
+SHA1: 1a4948674a102b300fe0c57779ffcf8264c50ddd
+SHA256: 20552aeed2b2a83e99e90e28855bad60a5a6b5aacf60f8e011016a57f3cb8a08
+Description: faster version of dbus-next (Python 3)
+ dbus-fast is a pure Python implementation of the D-Bus protocol.
+ It is intended as a faster alternative to dbus-python and dbus-next,
+ used by bluetooth libraries such as bleak for BLE communication.
+ .
+ Backport build from PyPI for distributions without this package.
+
+Package: python3-dbus-fast
+Version: 1.93.0-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9)
+Filename: ./arm64/python3-dbus-fast_1.93.0-1_all.deb
+Size: 108616
+MD5sum: f49197c79d060f727c80e59617dcdd2a
+SHA1: 3b4aebce91ec9ac85b231d8675d6080021f4ce66
+SHA256: f7719c9fed166d0cf677dd3ee717461adb9bf70f0d3c2e10610dd01c42c22768
+Description: faster version of dbus-next (Python 3)
+ dbus-fast is a pure Python implementation of the D-Bus protocol.
+ It is intended as a faster alternative to dbus-python and dbus-next,
+ used by bluetooth libraries such as bleak for BLE communication.
+ .
+ Backport build from PyPI for distributions without this package.
+
+Package: python3-dotmap
+Version: 1.3.30-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9)
+Filename: ./amd64/python3-dotmap_1.3.30-1_all.deb
+Size: 21748
+MD5sum: 0126595a1410b278866a95438340e6e9
+SHA1: c507e841084f1f38bed5473ceda3fb149570242d
+SHA256: 8f28b37197103364218e3c65ad8ecf355a4177cef6acdf0637e10807b01917e5
+Description: ordered, dynamically-expandable dot-access dictionary
+ DotMap is a dot-access dictionary subclass that has dynamic child
+ dot-access map creation, can be initialized with existing dictionaries,
+ can be pickled, has equal operator testing, and can be converted back
+ to a dictionary.
+ .
+ Backport build from PyPI for distributions without this package.
+
+Package: python3-dotmap
+Version: 1.3.30-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9)
+Filename: ./armhf/python3-dotmap_1.3.30-1_all.deb
+Size: 21748
+MD5sum: f8e24dc7442a4d4c9636cc8b60b6daf6
+SHA1: 874ec4d2f654e566c79ce0a70250944c7f0305ba
+SHA256: f32ad201459497c9d09c85d7255ace8094006782dee58fb4acbbe3644cdf8bd3
+Description: ordered, dynamically-expandable dot-access dictionary
+ DotMap is a dot-access dictionary subclass that has dynamic child
+ dot-access map creation, can be initialized with existing dictionaries,
+ can be pickled, has equal operator testing, and can be converted back
+ to a dictionary.
+ .
+ Backport build from PyPI for distributions without this package.
+
+Package: python3-dotmap
+Version: 1.3.30-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9)
+Filename: ./arm64/python3-dotmap_1.3.30-1_all.deb
+Size: 21748
+MD5sum: 38e0e6881b72c39594c03781695b6577
+SHA1: 1f8073a1dfbd1651377d4c12e15ee09de891d1d7
+SHA256: 1031b8683b7e6907a5567c7fbe8286c2631f19dc035980add40435f34863e4d9
+Description: ordered, dynamically-expandable dot-access dictionary
+ DotMap is a dot-access dictionary subclass that has dynamic child
+ dot-access map creation, can be initialized with existing dictionaries,
+ can be pickled, has equal operator testing, and can be converted back
+ to a dictionary.
+ .
+ Backport build from PyPI for distributions without this package.
+
+Package: python3-meshtastic
+Version: 2.7.7-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9), python3-serial, python3-protobuf, python3-tabulate, python3-requests, python3-yaml, python3-bleak, python3-packaging, python3-dotmap
+Filename: ./amd64/python3-meshtastic_2.7.7-1_all.deb
+Size: 430688
+MD5sum: 39e1c53bba206f1648bc5794ba0266b9
+SHA1: f3810096e42f7cd9870ea3490dbb0a68cce313e0
+SHA256: 682a60a35be38880612293316d99089c2570a8ed73144720278c0c7f398bc6ea
+Description: Python API for Meshtastic LoRa radio devices (v2.7.7)
+ Python API and command-line tool for interacting with Meshtastic LoRa
+ radio mesh networking devices. Supports BLE, serial and network connections.
+ .
+ Build from PyPI for OpenWebRX+ integration.
+
+Package: python3-meshtastic
+Version: 2.7.7-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9), python3-serial, python3-protobuf, python3-tabulate, python3-requests, python3-yaml, python3-bleak, python3-packaging, python3-dotmap
+Filename: ./armhf/python3-meshtastic_2.7.7-1_all.deb
+Size: 430692
+MD5sum: b29b12b25527399f9e59bf387621b73c
+SHA1: fae7f034deab2f8db1cd8388ac28c614a97d35b9
+SHA256: 09398a39f87a17a10330afe15f3c70a639578c8651f9ac660d61339c8e7ca96c
+Description: Python API for Meshtastic LoRa radio devices (v2.7.7)
+ Python API and command-line tool for interacting with Meshtastic LoRa
+ radio mesh networking devices. Supports BLE, serial and network connections.
+ .
+ Build from PyPI for OpenWebRX+ integration.
+
+Package: python3-meshtastic
+Version: 2.7.7-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9), python3-serial, python3-protobuf, python3-tabulate, python3-requests, python3-yaml, python3-bleak, python3-packaging, python3-dotmap
+Filename: ./arm64/python3-meshtastic_2.7.7-1_all.deb
+Size: 430668
+MD5sum: 9712326eacb0c409d40004f431a45448
+SHA1: 30f928da053e8a78dd2beb62a69ae1804128e378
+SHA256: 2025cd7d2ebf27c7048d4972e9187f9bbf04f57f098605002ec3d640f39ef5d7
+Description: Python API for Meshtastic LoRa radio devices (v2.7.7)
+ Python API and command-line tool for interacting with Meshtastic LoRa
+ radio mesh networking devices. Supports BLE, serial and network connections.
+ .
+ Build from PyPI for OpenWebRX+ integration.
+
+Package: python3-packaging
+Version: 25.0-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9)
+Conflicts: python3-packaging (<< 24)
+Replaces: python3-packaging (<< 24)
+Provides: python3-packaging
+Filename: ./amd64/python3-packaging_25.0-1_all.deb
+Size: 91368
+MD5sum: d8927a8521e5c237e39b93ccc65409bd
+SHA1: cc0cb220b51b333b0b7a5c58f5344cdcae7af5a6
+SHA256: 4ac0b18f5789c9e27f7f47ff6f21c3d555e3f4723a24d8353f8f75eaad606be3
+Description: core utilities for Python packages (v25.0)
+ This library provides utilities that implement the interoperability
+ specifications which have clearly one correct behaviour (PEP 440 versioning,
+ PEP 425 platform compatibility tags, etc).
+ .
+ Backport build from PyPI for distributions without packaging >= 24.
+
+Package: python3-packaging
+Version: 25.0-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9)
+Conflicts: python3-packaging (<< 24)
+Replaces: python3-packaging (<< 24)
+Provides: python3-packaging
+Filename: ./armhf/python3-packaging_25.0-1_all.deb
+Size: 91400
+MD5sum: a75b0b61cba61bc709bd8d559a956d61
+SHA1: d40c053254a4590a6b612818a5c145ffaa32df50
+SHA256: bcd6a949ada09c43ca89ad5b720037e8cf57e0d92ba52b92655df96e38ef57fd
+Description: core utilities for Python packages (v25.0)
+ This library provides utilities that implement the interoperability
+ specifications which have clearly one correct behaviour (PEP 440 versioning,
+ PEP 425 platform compatibility tags, etc).
+ .
+ Backport build from PyPI for distributions without packaging >= 24.
+
+Package: python3-packaging
+Version: 25.0-1
+Architecture: all
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9)
+Conflicts: python3-packaging (<< 24)
+Replaces: python3-packaging (<< 24)
+Provides: python3-packaging
+Filename: ./arm64/python3-packaging_25.0-1_all.deb
+Size: 91404
+MD5sum: 2af77ecacaa455e61fb960c17c5afc7b
+SHA1: 55f2aa333d0f6e2e35290143cee688f607ffe1c3
+SHA256: 370332361984798b70bf99da428454509a334bc873c7a38c2d36e54d9a2c33cc
+Description: core utilities for Python packages (v25.0)
+ This library provides utilities that implement the interoperability
+ specifications which have clearly one correct behaviour (PEP 440 versioning,
+ PEP 425 platform compatibility tags, etc).
+ .
+ Backport build from PyPI for distributions without packaging >= 24.
+
+Package: python3-protobuf
+Version: 4.25.8-1
+Architecture: amd64
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9)
+Conflicts: python3-protobuf (<< 4.21.12)
+Replaces: python3-protobuf (<< 4.21.12)
+Provides: python3-protobuf
+Filename: ./amd64/python3-protobuf_4.25.8-1_amd64.deb
+Size: 311296
+MD5sum: e90598ef50ba74fc1948cb8ca4337ed7
+SHA1: 3f2df30e096c7ffc8790c9f79a941eb00dc4ab2f
+SHA256: 2fab79f0f87c59aee94149f27531bd517786cd07f08652750fea5a2bf97f7039
+Description: Python bindings for protocol buffers (v4.25.8)
+ Protocol buffers are Google's language-neutral, platform-neutral,
+ extensible mechanism for serializing structured data.
+ .
+ Backport build from PyPI for distributions with python3-protobuf < 4.21.12.
+
+Package: python3-protobuf
+Version: 4.25.8-1
+Architecture: armhf
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9)
+Conflicts: python3-protobuf (<< 4.21.12)
+Replaces: python3-protobuf (<< 4.21.12)
+Provides: python3-protobuf
+Filename: ./armhf/python3-protobuf_4.25.8-1_armhf.deb
+Size: 202800
+MD5sum: f1a61aa4ffdea579e5a2a3eb448ef304
+SHA1: f69accc4bd9a93736066f508edc33cf6679a4cf0
+SHA256: c493f4999efd2e45397e6e4ad2e3f73b7fed175f11b53341ab1f9a4221cee412
+Description: Python bindings for protocol buffers (v4.25.8)
+ Protocol buffers are Google's language-neutral, platform-neutral,
+ extensible mechanism for serializing structured data.
+ .
+ Backport build from PyPI for distributions with python3-protobuf < 4.21.12.
+
+Package: python3-protobuf
+Version: 4.25.8-1
+Architecture: arm64
+Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
+Depends: python3 (>= 3.9)
+Conflicts: python3-protobuf (<< 4.21.12)
+Replaces: python3-protobuf (<< 4.21.12)
+Provides: python3-protobuf
+Filename: ./arm64/python3-protobuf_4.25.8-1_arm64.deb
+Size: 303112
+MD5sum: 14538d65a29c74f5e92265fd879c2f0f
+SHA1: db48e58748fedd36e4803d48dda44c6bf6f5339e
+SHA256: b46da3c8b16b5a57c345140a618219b5d16db908cd6353f5510a3146e93ad253
+Description: Python bindings for protocol buffers (v4.25.8)
+ Protocol buffers are Google's language-neutral, platform-neutral,
+ extensible mechanism for serializing structured data.
+ .
+ Backport build from PyPI for distributions with python3-protobuf < 4.21.12.
 
 Package: redsea
 Version: 1.2.0
