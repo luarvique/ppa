@@ -311,17 +311,17 @@ Description: Bulk CW and RTTY decoders
  Command line CW and RTTY skimmers based on the CSDR signal processing library.
 
 Package: digiham
-Version: 0.6.10
+Version: 0.6.11
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 814
-Depends: libdigiham0 (= 0.6.10), libc6 (>= 2.38), libcodecserver, libgcc-s1 (>= 3.3.1), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
+Depends: libdigiham0 (= 0.6.11), libc6 (>= 2.38), libcodecserver, libgcc-s1 (>= 3.3.1), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
 Recommends: codecserver
-Filename: ./arm64/digiham_0.6.10_arm64.deb
-Size: 31102
-MD5sum: 5ca65c40bc93e9fb43f850e3f34ae9bc
-SHA1: d2bb33e601da5e878fda90067aa6cc1cda8181f9
-SHA256: d97fe3d455b5af43b9180f5183bc6b6207087d0c900626ce14970f7cf66f0f28
+Filename: ./arm64/digiham_0.6.11_arm64.deb
+Size: 31136
+MD5sum: fcaf2af72916e9a6b7fd21b5d87c480e
+SHA1: 674ff694e94f9473ccd4311e1d4c8822d06d4896
+SHA256: 7c5fdce23362d6ee1c36e304d375bb86ce6eb5b7d0960dac00c6b3058fac795b
 Section: hamradio
 Priority: optional
 Description: Tools for decoding digital ham radio communication
@@ -330,17 +330,17 @@ Description: Tools for decoding digital ham radio communication
  voice modes.
 
 Package: digiham
-Version: 0.6.10
+Version: 0.6.11
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 238
-Depends: libdigiham0 (= 0.6.10), libc6 (>= 2.38), libcodecserver, libgcc-s1 (>= 3.3.1), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
+Depends: libdigiham0 (= 0.6.11), libc6 (>= 2.38), libcodecserver, libgcc-s1 (>= 3.3.1), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
 Recommends: codecserver
-Filename: ./amd64/digiham_0.6.10_amd64.deb
-Size: 30630
-MD5sum: 9f1ff97f7a96c75b3558dd4155385ac9
-SHA1: dd22ca4062dccf7710152df0773b3ab770975030
-SHA256: bca61fd604e79caa0f34187d5345976f060427fdda83e96b8797cfd4142db845
+Filename: ./amd64/digiham_0.6.11_amd64.deb
+Size: 30588
+MD5sum: fa9c6441ad99ec332a5f18da15e3bd93
+SHA1: 4367bd718ce5a5d07021d4f4b5efb14570905b9a
+SHA256: e3c14aa814e41697e652e867483f63a0050d13af36b63c0714d23e06166e1c63
 Section: hamradio
 Priority: optional
 Description: Tools for decoding digital ham radio communication
@@ -349,17 +349,17 @@ Description: Tools for decoding digital ham radio communication
  voice modes.
 
 Package: digiham
-Version: 0.6.10
+Version: 0.6.11
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 150
-Depends: libdigiham0 (= 0.6.10), libc6 (>= 2.38), libcodecserver, libgcc-s1 (>= 3.5), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
+Depends: libdigiham0 (= 0.6.11), libc6 (>= 2.38), libcodecserver, libgcc-s1 (>= 3.5), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
 Recommends: codecserver
-Filename: ./armhf/digiham_0.6.10_armhf.deb
-Size: 29332
-MD5sum: 9b5fe897f64c132c9b4f3328d2ca2c9f
-SHA1: 6a3c3e3b78057efc8d69e6d731791d25594dbbea
-SHA256: 74be112ef2763aef7d786fb6f51eb27afd4ffd5fcbfb19abb6799f491485320d
+Filename: ./armhf/digiham_0.6.11_armhf.deb
+Size: 29604
+MD5sum: 4c078e241a2def4f82873ea02c77f1e6
+SHA1: cb2e8521c687d0fa229a736b715c8e51ada69c61
+SHA256: 811c2f78110d21f2f3abad29ac773274ea0a50b96b001a9712f192534c30c9a7
 Section: hamradio
 Priority: optional
 Description: Tools for decoding digital ham radio communication
@@ -1512,16 +1512,16 @@ Description: simple library for software defined radio
 
 Package: libdigiham-dev
 Source: digiham
-Version: 0.6.10
+Version: 0.6.11
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 47
-Depends: libdigiham0 (= 0.6.10), libcodecserver-dev, libicu-dev, libcsdr-dev (>= 0.18)
-Filename: ./arm64/libdigiham-dev_0.6.10_arm64.deb
-Size: 7190
-MD5sum: becb6c4834fc2f4b93a7ffa5a074feaa
-SHA1: 544a6b0a98e35c706ba1f9d93ca286c43b28221a
-SHA256: af870ccd689db242e962c7962c9be442a24fd64f25b10c0cd3837530a9cf8913
+Depends: libdigiham0 (= 0.6.11), libcodecserver-dev, libicu-dev, libcsdr-dev (>= 0.18)
+Filename: ./arm64/libdigiham-dev_0.6.11_arm64.deb
+Size: 7228
+MD5sum: 6b2870e008ad95bf540214b6bcc87df3
+SHA1: 3e1f7ec5a4ad14cf820112f6df2900dec23a3a1d
+SHA256: 45da944acba72f573c6bdd8615a5a441be3a663dec01861137b7750aebfc8231
 Section: hamradio
 Priority: optional
 Description: Digiham library development files
@@ -1529,16 +1529,16 @@ Description: Digiham library development files
 
 Package: libdigiham-dev
 Source: digiham
-Version: 0.6.10
+Version: 0.6.11
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 47
-Depends: libdigiham0 (= 0.6.10), libcodecserver-dev, libicu-dev, libcsdr-dev (>= 0.18)
-Filename: ./amd64/libdigiham-dev_0.6.10_amd64.deb
-Size: 7196
-MD5sum: 3d65c0d13a68f1b1d3fcf7f05b074f2a
-SHA1: 6e70a8a5a7d900b11065844f255fec32fe8a465f
-SHA256: fc56f88a9f2627f574e1fe5d8a04a4993ea2088be7f0e1dd6be09a65a5ff8ebf
+Depends: libdigiham0 (= 0.6.11), libcodecserver-dev, libicu-dev, libcsdr-dev (>= 0.18)
+Filename: ./amd64/libdigiham-dev_0.6.11_amd64.deb
+Size: 7226
+MD5sum: 76cf5605a3423b7753ead977d611f687
+SHA1: 3a82b9136d0258a13e9e138ddd5650ddf7d178ea
+SHA256: e770de56c54a86de706abbb873d3088f5460132b15da74fa255231ee3eb3f4da
 Section: hamradio
 Priority: optional
 Description: Digiham library development files
@@ -1546,16 +1546,16 @@ Description: Digiham library development files
 
 Package: libdigiham-dev
 Source: digiham
-Version: 0.6.10
+Version: 0.6.11
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 47
-Depends: libdigiham0 (= 0.6.10), libcodecserver-dev, libicu-dev, libcsdr-dev (>= 0.18)
-Filename: ./armhf/libdigiham-dev_0.6.10_armhf.deb
-Size: 7196
-MD5sum: 9ea74ed9e1d935d5050de8b1547ff416
-SHA1: 7d9674c0b4d758212ed226892c87481a336e78d5
-SHA256: 9a571e3ddfa2299a1c4b931d67f13097e75559b29581d21af0e52b639afd56ab
+Depends: libdigiham0 (= 0.6.11), libcodecserver-dev, libicu-dev, libcsdr-dev (>= 0.18)
+Filename: ./armhf/libdigiham-dev_0.6.11_armhf.deb
+Size: 7232
+MD5sum: 2e9db21a397709ba1b3f9bbdfc8edb3b
+SHA1: b34327a4aae1c0372a05e0defa89c147940dedd8
+SHA256: 2074fea1113a9bf6c1457447d12aec51594b51764c87f15ccc8fc59a05174666
 Section: hamradio
 Priority: optional
 Description: Digiham library development files
@@ -1614,16 +1614,16 @@ Description: Digiham library development files
 
 Package: libdigiham0
 Source: digiham
-Version: 0.6.10
+Version: 0.6.11
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 338
+Installed-Size: 402
 Depends: libc6 (>= 2.34), libcodecserver, libcsdr0 (>= 0.18), libgcc-s1 (>= 3.3.1), libicu74 (>= 74.1-1~), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
-Filename: ./arm64/libdigiham0_0.6.10_arm64.deb
-Size: 101476
-MD5sum: 627ea5763bcd10ff5185e1608495547c
-SHA1: 150c8ef59e6ef60c80b2ea6a0ebad30d2439604c
-SHA256: 7e32078ba328540036f0cc4bfb26e4824d1668bf408e2d250f081662d874a3f1
+Filename: ./arm64/libdigiham0_0.6.11_arm64.deb
+Size: 101724
+MD5sum: b0598a77d6caf737523eca2f65b4b0da
+SHA1: 3700191383c0aa5613a59f97196d61d3c8ee2473
+SHA256: 770a9d04e87724d6ad50b29463af5a602361bea9262e6a66218d573315e60fc5
 Section: hamradio
 Priority: optional
 Description: Digiham base library
@@ -1632,16 +1632,16 @@ Description: Digiham base library
 
 Package: libdigiham0
 Source: digiham
-Version: 0.6.10
+Version: 0.6.11
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 341
 Depends: libc6 (>= 2.34), libcodecserver, libcsdr0 (>= 0.18), libgcc-s1 (>= 3.3.1), libicu74 (>= 74.1-1~), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
-Filename: ./amd64/libdigiham0_0.6.10_amd64.deb
-Size: 106294
-MD5sum: ebc5032679c6d7930f8f1041bbb54963
-SHA1: 8a7f862d619cc415be950ffcc8db4fe97476c9ae
-SHA256: a7731183dfaacbb94ac88a7505da14abafc92896400367f6b028270c5e529be9
+Filename: ./amd64/libdigiham0_0.6.11_amd64.deb
+Size: 106660
+MD5sum: 284133be91e39e615b3d97ef43bcfc18
+SHA1: 05e616e293446ae84df1e64d23f045479bbda4a7
+SHA256: d8d7afdabf6d0fd14ef53a9b5f6ecf20adfb33845aa81720b2ba00a137ca3b79
 Section: hamradio
 Priority: optional
 Description: Digiham base library
@@ -1650,16 +1650,16 @@ Description: Digiham base library
 
 Package: libdigiham0
 Source: digiham
-Version: 0.6.10
+Version: 0.6.11
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 260
 Depends: libc6 (>= 2.34), libcodecserver, libcsdr0 (>= 0.18), libgcc-s1 (>= 3.5), libicu74 (>= 74.1-1~), libprotobuf32t64 (>= 3.21.12), libstdc++6 (>= 13.1)
-Filename: ./armhf/libdigiham0_0.6.10_armhf.deb
-Size: 102756
-MD5sum: 3ebd8972bba356e310e8fbfaf59bec4b
-SHA1: 1f047aed9dff3ac1103f9d55858c0a13e1078287
-SHA256: 965ef263bbb7fe28f545867fe4d326f4bd79ee014b38d3cc0e1b3f3621dea5a1
+Filename: ./armhf/libdigiham0_0.6.11_armhf.deb
+Size: 102846
+MD5sum: a5a9a1c0c3a88139011976165ccdcc23
+SHA1: b5e7b6541b58d2cf3196dcc5670e387adde914ac
+SHA256: 9bafa000d3b6042b6009e2f387d7cd004667f56e086c1b0c1d800642c9b3fc55
 Section: hamradio
 Priority: optional
 Description: Digiham base library
@@ -1979,17 +1979,17 @@ Description: NRSC5 decoder
  Command-line NRSC5 decoder, with a library.
 
 Package: openwebrx
-Version: 1.2.119
+Version: 1.2.120
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3818
+Installed-Size: 3819
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.37), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6.10), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, python3-meshtastic, python3-pycryptodome, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, dxlaprs-lora, lame, dream
-Filename: ./arm64/openwebrx_1.2.119_all.deb
-Size: 1055060
-MD5sum: 1c405d4d76202561e64313aaa6a465dc
-SHA1: 5bc31cd3e828a49c5cab0e5f1ae934b140680779
-SHA256: 7965589149cc07aacb8b924d662352bd710495a33dba6057ff06c250dcbb11ce
+Recommends: python3-digiham (>= 0.6.11), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, python3-meshtastic, python3-pycryptodome, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, dxlaprs-lora, lame, dream
+Filename: ./arm64/openwebrx_1.2.120_all.deb
+Size: 1055452
+MD5sum: 0d589acfca0b9abff545596e26dfe9c5
+SHA1: 4548e957f601d1737ab3d1bd21e797c64f210a37
+SHA256: 55d682589e0dc4db479608e107001af99bea3de2b8a65d758d2561a546384d29
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -1997,17 +1997,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.119
+Version: 1.2.120
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3818
+Installed-Size: 3819
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.37), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6.10), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, python3-meshtastic, python3-pycryptodome, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, dxlaprs-lora, lame, dream
-Filename: ./amd64/openwebrx_1.2.119_all.deb
-Size: 1055224
-MD5sum: 32b0c047f6820cbe8ba14111316e6a92
-SHA1: 6bec3bee30d1cee5307ec9b71eccc2c84c32c100
-SHA256: 69dfa1dba264bbecf314b50b705d8303734d77254f6d7149ee5f0379b8c787be
+Recommends: python3-digiham (>= 0.6.11), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, python3-meshtastic, python3-pycryptodome, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, dxlaprs-lora, lame, dream
+Filename: ./amd64/openwebrx_1.2.120_all.deb
+Size: 1055452
+MD5sum: 0d589acfca0b9abff545596e26dfe9c5
+SHA1: 4548e957f601d1737ab3d1bd21e797c64f210a37
+SHA256: 55d682589e0dc4db479608e107001af99bea3de2b8a65d758d2561a546384d29
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -2015,17 +2015,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.119
+Version: 1.2.120
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3818
+Installed-Size: 3819
 Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.37), python3:any, debconf (>= 0.5) | debconf-2.0
-Recommends: python3-digiham (>= 0.6.10), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, python3-meshtastic, python3-pycryptodome, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, dxlaprs-lora, lame, dream
-Filename: ./armhf/openwebrx_1.2.119_all.deb
-Size: 1055136
-MD5sum: 317d4d2547f370fb9fd8998c9711e940
-SHA1: 07cf0382182d00a2f1974e2edac150f56a2e669c
-SHA256: 137fbd01ff6c6e9c983b7b11f6b7aaade3e03f79c006920bc3e80bcc753b776a
+Recommends: python3-digiham (>= 0.6.11), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, python3-meshtastic, python3-pycryptodome, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, dxlaprs-lora, lame, dream
+Filename: ./armhf/openwebrx_1.2.120_all.deb
+Size: 1055452
+MD5sum: 0d589acfca0b9abff545596e26dfe9c5
+SHA1: 4548e957f601d1737ab3d1bd21e797c64f210a37
+SHA256: 55d682589e0dc4db479608e107001af99bea3de2b8a65d758d2561a546384d29
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -2250,16 +2250,16 @@ Description: Python bindings for libcsdr-eti
 
 Package: python3-digiham
 Source: pydigiham
-Version: 0.6.10
+Version: 0.6.11
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 92
-Depends: libdigiham0 (>= 0.6.10), python3-csdr (>= 0.18), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
-Filename: ./arm64/python3-digiham_0.6.10_arm64.deb
-Size: 15906
-MD5sum: 468c8c87b5b8fd10844a6a1d6784a40f
-SHA1: d7105d54d6f11ac7011b4b5c86e6d729bbcbe7de
-SHA256: ffa04b427563194fa50ac6787ee20f9331b8d8694c8bf2f70c2e9b3d46accf23
+Depends: libdigiham0 (>= 0.6.11), python3-csdr (>= 0.18), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
+Filename: ./arm64/python3-digiham_0.6.11_arm64.deb
+Size: 15944
+MD5sum: d397adecdbc2aa1e0e3ee04993c76681
+SHA1: 9f5aae746a954226f6146bc81d4eb040e7ae0ed8
+SHA256: 06a33530241beeb12bb005a2001a7f45890ca09242918589a945e4b035756421
 Section: hamradio
 Priority: optional
 Description: Python bindings for the digiham library
@@ -2267,16 +2267,16 @@ Description: Python bindings for the digiham library
 
 Package: python3-digiham
 Source: pydigiham
-Version: 0.6.10
+Version: 0.6.11
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 68
-Depends: libdigiham0 (>= 0.6.10), python3-csdr (>= 0.18), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
-Filename: ./amd64/python3-digiham_0.6.10_amd64.deb
-Size: 16612
-MD5sum: 094ad20af883591209c357b95cab5eea
-SHA1: f0f33fe89cc8662f91627292c4d6fc4a1edf4ec7
-SHA256: 7ea51b3c76aa3f90d783a280ad249bbf83fcc803dd8dc14e4790495776c48159
+Depends: libdigiham0 (>= 0.6.11), python3-csdr (>= 0.18), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
+Filename: ./amd64/python3-digiham_0.6.11_amd64.deb
+Size: 16652
+MD5sum: f1942ae67559c702bbb70d2f15e708cc
+SHA1: a2bb6d14fc9a5b33639e8a1891083621865e2464
+SHA256: d43085954b3b71002169c2475aaad52271ee23916f6fb3a9c60253d114d611dd
 Section: hamradio
 Priority: optional
 Description: Python bindings for the digiham library
@@ -2284,16 +2284,16 @@ Description: Python bindings for the digiham library
 
 Package: python3-digiham
 Source: pydigiham
-Version: 0.6.10
+Version: 0.6.11
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 50
-Depends: libdigiham0 (>= 0.6.10), python3-csdr (>= 0.18), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.38), libgcc-s1 (>= 3.5), libstdc++6 (>= 13.1)
-Filename: ./armhf/python3-digiham_0.6.10_armhf.deb
-Size: 14944
-MD5sum: 7d9033a041f4d6df350f5c86a0075398
-SHA1: 360bf45a679fafea2ef901ba0ee6adf318ab5bfd
-SHA256: 15c469e60f9f2996064dd4de61158016c8eb4af525faa3001094cc879b5aee29
+Depends: libdigiham0 (>= 0.6.11), python3-csdr (>= 0.18), python3 (<< 3.13), python3 (>= 3.12~), python3:any, libc6 (>= 2.38), libgcc-s1 (>= 3.5), libstdc++6 (>= 13.1)
+Filename: ./armhf/python3-digiham_0.6.11_armhf.deb
+Size: 14980
+MD5sum: f4850e3f86da111d67d34a7efddaf156
+SHA1: 161ca67b46da92a2bcbcaa710dcb335a0f4fe654
+SHA256: 6551a02afb94e9b0d693a0cbfc738b6692e8f6f1d6309245298e76bd152b2c47
 Section: hamradio
 Priority: optional
 Description: Python bindings for the digiham library
