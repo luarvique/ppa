@@ -1,14 +1,14 @@
 Package: acarsdec
 Version: 4.4.1
-Architecture: arm64
+Architecture: armhf
 Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
-Installed-Size: 79
-Depends: libacars2 (>= 2.2.1), libasound2 (>= 1.0.16), libc6 (>= 2.34), libcjson1 (>= 1.7.5), libpaho-mqtt1.3 (>= 1.3.0), librtlsdr0 (>= 0.6.0), libsndfile1 (>= 1.0.20), libsoapysdr0.8 (>= 0.8.1)
-Filename: ./arm64/acarsdec_4.4.1_arm64.deb
-Size: 34506
-MD5sum: 6618dd2c035f3a8d6a81c1c399fb3335
-SHA1: f6eb7fbcfce67a04a2a3520fc3569d56356455b4
-SHA256: b5a8e22acf623c4bd5ecc75d5512c4c7c637c96206dc0e4c00b101613539becb
+Installed-Size: 50
+Depends: libacars2 (>= 2.2.1), libasound2 (>= 1.0.16), libc6 (>= 2.34), libcjson1 (>= 1.7.5)
+Filename: ./armhf/acarsdec_4.4.1_armhf.deb
+Size: 25632
+MD5sum: 54a5ef4f3f75c983927e3b2d01f86023
+SHA1: 77a985cd1020e95fe1c3042d579aacf0f2725157
+SHA256: 4ae517a5a3f4804fe183cf45e6911890c40e3efc4054f51aebacda0246974a08
 Section: hamradio
 Priority: optional
 Description: ACARS decoder
@@ -34,15 +34,15 @@ Description: ACARS decoder
 
 Package: acarsdec
 Version: 4.4.1
-Architecture: armhf
+Architecture: arm64
 Maintainer: Thibaut VARÈNE <hacks@slashdirt.org>
-Installed-Size: 50
-Depends: libacars2 (>= 2.2.1), libasound2 (>= 1.0.16), libc6 (>= 2.34), libcjson1 (>= 1.7.5)
-Filename: ./armhf/acarsdec_4.4.1_armhf.deb
-Size: 25632
-MD5sum: 54a5ef4f3f75c983927e3b2d01f86023
-SHA1: 77a985cd1020e95fe1c3042d579aacf0f2725157
-SHA256: 4ae517a5a3f4804fe183cf45e6911890c40e3efc4054f51aebacda0246974a08
+Installed-Size: 79
+Depends: libacars2 (>= 2.2.1), libasound2 (>= 1.0.16), libc6 (>= 2.34), libcjson1 (>= 1.7.5), libpaho-mqtt1.3 (>= 1.3.0), librtlsdr0 (>= 0.6.0), libsndfile1 (>= 1.0.20), libsoapysdr0.8 (>= 0.8.1)
+Filename: ./arm64/acarsdec_4.4.1_arm64.deb
+Size: 34506
+MD5sum: 6618dd2c035f3a8d6a81c1c399fb3335
+SHA1: f6eb7fbcfce67a04a2a3520fc3569d56356455b4
+SHA256: b5a8e22acf623c4bd5ecc75d5512c4c7c637c96206dc0e4c00b101613539becb
 Section: hamradio
 Priority: optional
 Description: ACARS decoder
@@ -50,34 +50,34 @@ Description: ACARS decoder
  Reporting System) decoder.
 
 Package: csdr
-Version: 0.18.38
-Architecture: arm64
+Version: 0.18.39
+Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 525
-Depends: libcsdr0 (= 0.18.38), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
-Recommends: nmux (= 0.18.38)
-Filename: ./arm64/csdr_0.18.38_arm64.deb
-Size: 138972
-MD5sum: b38fdbf926a4f765850206ec4e4433ee
-SHA1: 75b6eb094e4ada2e268f612fe226950a02f805c7
-SHA256: 1f7b3a9e48efa6e7376ed7ae587041806eb872c4afd77e0a98b4c7797928462d
+Installed-Size: 569
+Depends: libcsdr0 (= 0.18.39), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Recommends: nmux (= 0.18.39)
+Filename: ./amd64/csdr_0.18.39_amd64.deb
+Size: 160740
+MD5sum: dbb58ef2d91966c3813def1472b7147b
+SHA1: fa461f6091de66d1db7dc5a141332f5e898fa279
+SHA256: 971b08cd22c897292546f6a3932284471d376d84d99c4ff64580a1acc0c8831a
 Section: hamradio
 Priority: optional
 Description: command-line sdr
  A simple DSP command-line tool for Software Defined Radio.
 
 Package: csdr
-Version: 0.18.38
-Architecture: amd64
+Version: 0.18.39
+Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 569
-Depends: libcsdr0 (= 0.18.38), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
-Recommends: nmux (= 0.18.38)
-Filename: ./amd64/csdr_0.18.38_amd64.deb
-Size: 160556
-MD5sum: ba6ed43aff92b519c843c9d250d1f27f
-SHA1: d8bb01356474694cfd67857b4f16c83a68b1556b
-SHA256: b4d876dba082f25fce42482850d199721735769366980ee46f4741a23ed8785c
+Installed-Size: 525
+Depends: libcsdr0 (= 0.18.39), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Recommends: nmux (= 0.18.39)
+Filename: ./arm64/csdr_0.18.39_arm64.deb
+Size: 139556
+MD5sum: 8edac8688c633ceebcb4d272a4a220d0
+SHA1: 8e8a6394e59df67653a6bd80ef73446e62fa71c8
+SHA256: 55386c8652bdc7d889746d085bb446bffd4627b80d98bfc462e9d71e7becef24
 Section: hamradio
 Priority: optional
 Description: command-line sdr
@@ -85,17 +85,17 @@ Description: command-line sdr
 
 Package: csdr-skimmer
 Version: 1.12
-Architecture: arm64
+Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 54
-Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
+Installed-Size: 44
+Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.5), libstdc++6 (>= 5)
 Replaces: csdr-cwskimmer
 Provides: csdr-cwskimmer
-Filename: ./arm64/csdr-skimmer_1.12_arm64.deb
-Size: 13814
-MD5sum: d6ea0a6f20d9cbdd9cc712064ef100e8
-SHA1: 9dd8cf3652ab78820c4ce9aeab4fbf6c7df99dc5
-SHA256: 6ff0d5e56b45ed2355de3deb51519d53f3b6b1e347aa23ef9f5609e66e8d1278
+Filename: ./armhf/csdr-skimmer_1.12_armhf.deb
+Size: 12860
+MD5sum: 4c9a9f9a2ee15344725490115fd6f857
+SHA1: 283a3c271902358bfdc9629959bf5d9a4bff466e
+SHA256: d4b2bbbf44c56a9e12b17ff17721f91095ae319d23695b683aa6a3ac3fe64c91
 Section: hamradio
 Priority: optional
 Description: Bulk CW and RTTY decoders
@@ -121,40 +121,21 @@ Description: Bulk CW and RTTY decoders
 
 Package: csdr-skimmer
 Version: 1.12
-Architecture: armhf
+Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 44
-Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.5), libstdc++6 (>= 5)
+Installed-Size: 54
+Depends: libc6 (>= 2.34), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
 Replaces: csdr-cwskimmer
 Provides: csdr-cwskimmer
-Filename: ./armhf/csdr-skimmer_1.12_armhf.deb
-Size: 12860
-MD5sum: 4c9a9f9a2ee15344725490115fd6f857
-SHA1: 283a3c271902358bfdc9629959bf5d9a4bff466e
-SHA256: d4b2bbbf44c56a9e12b17ff17721f91095ae319d23695b683aa6a3ac3fe64c91
+Filename: ./arm64/csdr-skimmer_1.12_arm64.deb
+Size: 13814
+MD5sum: d6ea0a6f20d9cbdd9cc712064ef100e8
+SHA1: 9dd8cf3652ab78820c4ce9aeab4fbf6c7df99dc5
+SHA256: 6ff0d5e56b45ed2355de3deb51519d53f3b6b1e347aa23ef9f5609e66e8d1278
 Section: hamradio
 Priority: optional
 Description: Bulk CW and RTTY decoders
  Command line CW and RTTY skimmers based on the CSDR signal processing library.
-
-Package: digiham
-Version: 0.6.11
-Architecture: arm64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 182
-Depends: libdigiham0 (= 0.6.11), libc6 (>= 2.34), libcodecserver, libgcc-s1 (>= 3.3.1), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 6)
-Recommends: codecserver
-Filename: ./arm64/digiham_0.6.11_arm64.deb
-Size: 29340
-MD5sum: f01f1f76af97447e17d25538fa3a8c43
-SHA1: 3b81b7454f19babbd2af4ed977a80201cce8aeb5
-SHA256: 84ea9296b18e2e6f13755c26eaf36b39debe0e7b82b3584804c0887a430f7a75
-Section: hamradio
-Priority: optional
-Description: Tools for decoding digital ham radio communication
- Simple set of command-line tools that is intended to be used to decode
- digital modulations used by ham radio operators. The main focus is on digital
- voice modes.
 
 Package: digiham
 Version: 0.6.11
@@ -175,17 +156,36 @@ Description: Tools for decoding digital ham radio communication
  digital modulations used by ham radio operators. The main focus is on digital
  voice modes.
 
+Package: digiham
+Version: 0.6.11
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 182
+Depends: libdigiham0 (= 0.6.11), libc6 (>= 2.34), libcodecserver, libgcc-s1 (>= 3.3.1), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 6)
+Recommends: codecserver
+Filename: ./arm64/digiham_0.6.11_arm64.deb
+Size: 29340
+MD5sum: f01f1f76af97447e17d25538fa3a8c43
+SHA1: 3b81b7454f19babbd2af4ed977a80201cce8aeb5
+SHA256: 84ea9296b18e2e6f13755c26eaf36b39debe0e7b82b3584804c0887a430f7a75
+Section: hamradio
+Priority: optional
+Description: Tools for decoding digital ham radio communication
+ Simple set of command-line tools that is intended to be used to decode
+ digital modulations used by ham radio operators. The main focus is on digital
+ voice modes.
+
 Package: dream
 Version: 2.2-20251114
-Architecture: arm64
+Architecture: armhf
 Maintainer: Rafael Diniz <rafael@riseup.net>
-Installed-Size: 979
+Installed-Size: 883
 Depends: libc6 (>= 2.34), libfdk-aac2 (>= 2.0.1), libfftw3-double3 (>= 3.3.5), libgcc-s1 (>= 4.0), libhamlib4, libopus0 (>= 1.1), libpcap0.8 (>= 0.9.8), libpulse0 (>= 0.99.1), libspeexdsp1 (>= 1.2~beta3.2-1), libstdc++6 (>= 11), zlib1g (>= 1:1.1.4)
-Filename: ./arm64/dream_2.2-20251114_arm64.deb
-Size: 360202
-MD5sum: 886bf055b582e3f1be76ab057c6fede4
-SHA1: f5d83faa45b05670756c4b231d4887ff3a6a77d4
-SHA256: 9fe827ce11f452646e7db917256a52e3f70288af1b3b54110a7e9aaa103e945e
+Filename: ./armhf/dream_2.2-20251114_armhf.deb
+Size: 442792
+MD5sum: 16025e52e0ba2929d293275a9031124e
+SHA1: ba8a084e634581d6317b09a1d74e3ff7196afd8e
+SHA256: a63ca535fffdd0029747791cd8b2dcaacbccb5f549b7f87fb03c5d4d9ef58c0d
 Section: hamradio
 Priority: optional
 Homepage: https://sourceforge.net/p/drm
@@ -215,15 +215,15 @@ Description: A software radio for AM and Digital Radio Mondiale (DRM)
 
 Package: dream
 Version: 2.2-20251114
-Architecture: armhf
+Architecture: arm64
 Maintainer: Rafael Diniz <rafael@riseup.net>
-Installed-Size: 883
+Installed-Size: 979
 Depends: libc6 (>= 2.34), libfdk-aac2 (>= 2.0.1), libfftw3-double3 (>= 3.3.5), libgcc-s1 (>= 4.0), libhamlib4, libopus0 (>= 1.1), libpcap0.8 (>= 0.9.8), libpulse0 (>= 0.99.1), libspeexdsp1 (>= 1.2~beta3.2-1), libstdc++6 (>= 11), zlib1g (>= 1:1.1.4)
-Filename: ./armhf/dream_2.2-20251114_armhf.deb
-Size: 442792
-MD5sum: 16025e52e0ba2929d293275a9031124e
-SHA1: ba8a084e634581d6317b09a1d74e3ff7196afd8e
-SHA256: a63ca535fffdd0029747791cd8b2dcaacbccb5f549b7f87fb03c5d4d9ef58c0d
+Filename: ./arm64/dream_2.2-20251114_arm64.deb
+Size: 360202
+MD5sum: 886bf055b582e3f1be76ab057c6fede4
+SHA1: f5d83faa45b05670756c4b231d4887ff3a6a77d4
+SHA256: 9fe827ce11f452646e7db917256a52e3f70288af1b3b54110a7e9aaa103e945e
 Section: hamradio
 Priority: optional
 Homepage: https://sourceforge.net/p/drm
@@ -234,16 +234,16 @@ Description: A software radio for AM and Digital Radio Mondiale (DRM)
 
 Package: dump978-fa
 Version: 10.2.1
-Architecture: arm64
+Architecture: armhf
 Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
 Installed-Size: 33
 Depends: adduser, dump978-fa-minimal
 Recommends: skyaware978, soapysdr-module-rtlsdr
-Filename: ./arm64/dump978-fa_10.2.1_arm64.deb
+Filename: ./armhf/dump978-fa_10.2.1_armhf.deb
 Size: 7960
-MD5sum: 83f87f54b7145572f9b6d020e4430ed5
-SHA1: 9c8a760202301a73574b4e0e613ea2a2234e2e6d
-SHA256: bc7eb9fffe1810b5fc2383390aca73c663003502cc5fe6c90bf47e895eda06be
+MD5sum: bcdf20f4f4b7f179f839b2f1a5d29d60
+SHA1: 6b114721500ca6cc339090062a0e545a75f62b4e
+SHA256: d1bcac14abffe743680584d55f2f3f65523c4f5ee8ded40544742f03188557f9
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
@@ -272,16 +272,16 @@ Description: ADS-B UAT Ground Station System
 
 Package: dump978-fa
 Version: 10.2.1
-Architecture: armhf
+Architecture: arm64
 Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
 Installed-Size: 33
 Depends: adduser, dump978-fa-minimal
 Recommends: skyaware978, soapysdr-module-rtlsdr
-Filename: ./armhf/dump978-fa_10.2.1_armhf.deb
+Filename: ./arm64/dump978-fa_10.2.1_arm64.deb
 Size: 7960
-MD5sum: bcdf20f4f4b7f179f839b2f1a5d29d60
-SHA1: 6b114721500ca6cc339090062a0e545a75f62b4e
-SHA256: d1bcac14abffe743680584d55f2f3f65523c4f5ee8ded40544742f03188557f9
+MD5sum: 83f87f54b7145572f9b6d020e4430ed5
+SHA1: 9c8a760202301a73574b4e0e613ea2a2234e2e6d
+SHA256: bc7eb9fffe1810b5fc2383390aca73c663003502cc5fe6c90bf47e895eda06be
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
@@ -292,15 +292,15 @@ Description: ADS-B UAT Ground Station System
 Package: dump978-fa-minimal
 Source: dump978-fa
 Version: 10.2.1
-Architecture: arm64
+Architecture: armhf
 Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 496
-Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
-Filename: ./arm64/dump978-fa-minimal_10.2.1_arm64.deb
-Size: 187434
-MD5sum: 5e124de3f6b376c56e562765c71bb42c
-SHA1: a850d4e7f47404c121e1fc94f1a3d78981d498fa
-SHA256: 6321ec0c1dbc00edad14209195e11e41ed42a889fd6fe52647497d8d43f87235
+Installed-Size: 368
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.5), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
+Filename: ./armhf/dump978-fa-minimal_10.2.1_armhf.deb
+Size: 185294
+MD5sum: c758a267dd5a2b02942ac3be4b040358
+SHA1: 7a75950fa6ad1378d83472388719d8c35d223cb4
+SHA256: cd59522582106dc150748684d22002c59014b611b69b70af25f617f7bea6e41c
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
@@ -330,15 +330,15 @@ Description: ADS-B UAT Ground Station System - decoder only
 Package: dump978-fa-minimal
 Source: dump978-fa
 Version: 10.2.1
-Architecture: armhf
+Architecture: arm64
 Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 368
-Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.5), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
-Filename: ./armhf/dump978-fa-minimal_10.2.1_armhf.deb
-Size: 185294
-MD5sum: c758a267dd5a2b02942ac3be4b040358
-SHA1: 7a75950fa6ad1378d83472388719d8c35d223cb4
-SHA256: cd59522582106dc150748684d22002c59014b611b69b70af25f617f7bea6e41c
+Installed-Size: 496
+Depends: libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
+Filename: ./arm64/dump978-fa-minimal_10.2.1_arm64.deb
+Size: 187434
+MD5sum: 5e124de3f6b376c56e562765c71bb42c
+SHA1: a850d4e7f47404c121e1fc94f1a3d78981d498fa
+SHA256: 6321ec0c1dbc00edad14209195e11e41ed42a889fd6fe52647497d8d43f87235
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
@@ -348,15 +348,15 @@ Description: ADS-B UAT Ground Station System - decoder only
 
 Package: dumphfdl
 Version: 1.7.0
-Architecture: arm64
+Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 144
+Installed-Size: 111
 Depends: libacars2 (>= 2.2.1), libc6 (>= 2.34), libconfig++9v5 (>= 1.5-0.4~), libfftw3-single3 (>= 3.3.5), libglib2.0-0 (>= 2.45.4), libliquid2d, libsoapysdr0.8 (>= 0.8.1)
-Filename: ./arm64/dumphfdl_1.7.0_arm64.deb
-Size: 58278
-MD5sum: d4cb12cf7410860b081b81b1370759a2
-SHA1: 0074bb570d4afdae75bdd6b20833c73cdb016b07
-SHA256: 5184fa429077973f60a6b293a063830d0e6d9b9ad76f5d91d30190cc7d887268
+Filename: ./armhf/dumphfdl_1.7.0_armhf.deb
+Size: 57790
+MD5sum: 5c08de13e183749e8d08f57587c08b7e
+SHA1: dd8d777a4a573cbe85fe8895068f2a3338a88f56
+SHA256: a5bcc12314edc2738adb63c8ff2659c08715dc724a5d5686b484c0f05566d082
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/szpajder/dumphfdl
@@ -380,15 +380,15 @@ Description: HFDL message decoder and protocol analyzer
 
 Package: dumphfdl
 Version: 1.7.0
-Architecture: armhf
+Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 111
+Installed-Size: 144
 Depends: libacars2 (>= 2.2.1), libc6 (>= 2.34), libconfig++9v5 (>= 1.5-0.4~), libfftw3-single3 (>= 3.3.5), libglib2.0-0 (>= 2.45.4), libliquid2d, libsoapysdr0.8 (>= 0.8.1)
-Filename: ./armhf/dumphfdl_1.7.0_armhf.deb
-Size: 57790
-MD5sum: 5c08de13e183749e8d08f57587c08b7e
-SHA1: dd8d777a4a573cbe85fe8895068f2a3338a88f56
-SHA256: a5bcc12314edc2738adb63c8ff2659c08715dc724a5d5686b484c0f05566d082
+Filename: ./arm64/dumphfdl_1.7.0_arm64.deb
+Size: 58278
+MD5sum: d4cb12cf7410860b081b81b1370759a2
+SHA1: 0074bb570d4afdae75bdd6b20833c73cdb016b07
+SHA256: 5184fa429077973f60a6b293a063830d0e6d9b9ad76f5d91d30190cc7d887268
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/szpajder/dumphfdl
@@ -396,15 +396,15 @@ Description: HFDL message decoder and protocol analyzer
 
 Package: dumpvdl2
 Version: 2.6.0
-Architecture: arm64
+Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 1371
+Installed-Size: 780
 Depends: libacars2 (>= 2.2.1), libc6 (>= 2.35), libglib2.0-0 (>= 2.12.0), librtlsdr0 (>= 0.6.0), libsoapysdr0.8 (>= 0.8.1)
-Filename: ./arm64/dumpvdl2_2.6.0_arm64.deb
-Size: 260024
-MD5sum: 4a6b0cc0aca385fa7e0878240a22815c
-SHA1: 43d3bf70987997a9c71557bccfa59e71420f0f0f
-SHA256: 587d27c008ba5db8c9bcc3c51bf6985ce8f84da64ad43de4394ea9e67cdcfc7e
+Filename: ./armhf/dumpvdl2_2.6.0_armhf.deb
+Size: 200000
+MD5sum: 2a15876eb4b36cd4743c8098743eaba2
+SHA1: acd46a838d1e53cb818f1e6b2f2952e60650d474
+SHA256: 18c18120d870faf8c593dbabdc3155802f9b4377902bd2141a18d92fcd73b6a5
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/szpajder/dumpvdl2
@@ -428,15 +428,15 @@ Description: VDL Mode 2 message decoder and protocol analyzer
 
 Package: dumpvdl2
 Version: 2.6.0
-Architecture: armhf
+Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 780
+Installed-Size: 1371
 Depends: libacars2 (>= 2.2.1), libc6 (>= 2.35), libglib2.0-0 (>= 2.12.0), librtlsdr0 (>= 0.6.0), libsoapysdr0.8 (>= 0.8.1)
-Filename: ./armhf/dumpvdl2_2.6.0_armhf.deb
-Size: 200000
-MD5sum: 2a15876eb4b36cd4743c8098743eaba2
-SHA1: acd46a838d1e53cb818f1e6b2f2952e60650d474
-SHA256: 18c18120d870faf8c593dbabdc3155802f9b4377902bd2141a18d92fcd73b6a5
+Filename: ./arm64/dumpvdl2_2.6.0_arm64.deb
+Size: 260024
+MD5sum: 4a6b0cc0aca385fa7e0878240a22815c
+SHA1: 43d3bf70987997a9c71557bccfa59e71420f0f0f
+SHA256: 587d27c008ba5db8c9bcc3c51bf6985ce8f84da64ad43de4394ea9e67cdcfc7e
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/szpajder/dumpvdl2
@@ -444,15 +444,15 @@ Description: VDL Mode 2 message decoder and protocol analyzer
 
 Package: dxlaprs-lora
 Version: 1.0.20260515
-Architecture: arm64
+Architecture: armhf
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
-Installed-Size: 128
+Installed-Size: 104
 Depends: libc6 (>= 2.34)
-Filename: ./arm64/dxlaprs-lora_1.0.20260515_arm64.deb
-Size: 60404
-MD5sum: 4efcacc6523680c7436d67231c465224
-SHA1: 674a4b681c2e37d835e8d025564f76ca70e83a17
-SHA256: 5524518abf00a19bd1cc85bf85171418bcbb50efef8e5bc0b2e57d228340aafe
+Filename: ./armhf/dxlaprs-lora_1.0.20260515_armhf.deb
+Size: 57092
+MD5sum: 3417184a35387e5fb766d4e54ed67871
+SHA1: 6b59fe72dc8eef9d6429e72009b7fdd84b81c33c
+SHA256: 3c6d26a24ef3dd622957fd2a257126e0ed605c9375d79e4e91271f5fc42f3830
 Section: hamradio
 Priority: optional
 Homepage: http://oe5dxl.hamspirit.at:8025/aprs/c/
@@ -496,15 +496,15 @@ Description: LoRa tools from the dxlAPRS Toolchain by Christian Rabler (OE5DXL)
 
 Package: dxlaprs-lora
 Version: 1.0.20260515
-Architecture: armhf
+Architecture: arm64
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
-Installed-Size: 104
+Installed-Size: 128
 Depends: libc6 (>= 2.34)
-Filename: ./armhf/dxlaprs-lora_1.0.20260515_armhf.deb
-Size: 57092
-MD5sum: 3417184a35387e5fb766d4e54ed67871
-SHA1: 6b59fe72dc8eef9d6429e72009b7fdd84b81c33c
-SHA256: 3c6d26a24ef3dd622957fd2a257126e0ed605c9375d79e4e91271f5fc42f3830
+Filename: ./arm64/dxlaprs-lora_1.0.20260515_arm64.deb
+Size: 60404
+MD5sum: 4efcacc6523680c7436d67231c465224
+SHA1: 674a4b681c2e37d835e8d025564f76ca70e83a17
+SHA256: 5524518abf00a19bd1cc85bf85171418bcbb50efef8e5bc0b2e57d228340aafe
 Section: hamradio
 Priority: optional
 Homepage: http://oe5dxl.hamspirit.at:8025/aprs/c/
@@ -522,15 +522,15 @@ Description: LoRa tools from the dxlAPRS Toolchain by Christian Rabler (OE5DXL)
 
 Package: dxlaprs-tetra
 Version: 1.0.20260612
-Architecture: arm64
+Architecture: armhf
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
-Installed-Size: 75
+Installed-Size: 59
 Depends: libc6 (>= 2.34)
-Filename: ./arm64/dxlaprs-tetra_1.0.20260612_arm64.deb
-Size: 38674
-MD5sum: 6a2f3654d8ff15602931a9a4dacbc3c8
-SHA1: 61ef16223e7d5250bc590e9edfce02b5cb55d39c
-SHA256: d74c091c0df62079ebb5ab89574820ea071dd744ffc105c9ed9c7abc2a10aee6
+Filename: ./armhf/dxlaprs-tetra_1.0.20260612_armhf.deb
+Size: 35274
+MD5sum: 34831de4bd085acd3b0eb4aa78c4f363
+SHA1: 8606677c1a275745182e1cbe83bd9d06c1648412
+SHA256: 7a147e44ac816d3a097ed832e434bcb6facfaa2b3626536cd8d2490cb305354c
 Section: hamradio
 Priority: optional
 Homepage: http://oe5dxl.hamspirit.at:8025/aprs/c/
@@ -568,15 +568,15 @@ Description: TETRA tools from the dxlAPRS Toolchain by Christian Rabler (OE5DXL)
 
 Package: dxlaprs-tetra
 Version: 1.0.20260612
-Architecture: armhf
+Architecture: arm64
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
-Installed-Size: 59
+Installed-Size: 75
 Depends: libc6 (>= 2.34)
-Filename: ./armhf/dxlaprs-tetra_1.0.20260612_armhf.deb
-Size: 35274
-MD5sum: 34831de4bd085acd3b0eb4aa78c4f363
-SHA1: 8606677c1a275745182e1cbe83bd9d06c1648412
-SHA256: 7a147e44ac816d3a097ed832e434bcb6facfaa2b3626536cd8d2490cb305354c
+Filename: ./arm64/dxlaprs-tetra_1.0.20260612_arm64.deb
+Size: 38674
+MD5sum: 6a2f3654d8ff15602931a9a4dacbc3c8
+SHA1: 61ef16223e7d5250bc590e9edfce02b5cb55d39c
+SHA256: d74c091c0df62079ebb5ab89574820ea071dd744ffc105c9ed9c7abc2a10aee6
 Section: hamradio
 Priority: optional
 Homepage: http://oe5dxl.hamspirit.at:8025/aprs/c/
@@ -591,18 +591,6 @@ Description: TETRA tools from the dxlAPRS Toolchain by Christian Rabler (OE5DXL)
 
 Package: hpsdrconnector
 Version: 0.11.0
-Architecture: arm64
-Maintainer: Jim Ancona <jim@anconafamily.com>
-Installed-Size: 3291
-Filename: ./arm64/hpsdrconnector_0.11.0_arm64.deb
-Size: 1821290
-MD5sum: a17e2e5b7784869f19421d4d7b50022b
-SHA1: bc633e7c6d4bc3340e80304d2a12febd0fa8aac6
-SHA256: b1b348d84abb855e28f16ef7341354891919f8bb8bec2c4cbf176d0d07d85d6b
-Description: OpenWebRX connector for HPSDR radios
-
-Package: hpsdrconnector
-Version: 0.11.0
 Architecture: amd64
 Maintainer: Jim Ancona <jim@anconafamily.com>
 Installed-Size: 3264
@@ -613,18 +601,30 @@ SHA1: e11a30668f1336c69c607358da2fa2bd85511fe7
 SHA256: 391fbe91185aea8a53c51557c6067bfc37203a5190364c6a219958930a9efa9e
 Description: OpenWebRX connector for HPSDR radios
 
+Package: hpsdrconnector
+Version: 0.11.0
+Architecture: arm64
+Maintainer: Jim Ancona <jim@anconafamily.com>
+Installed-Size: 3291
+Filename: ./arm64/hpsdrconnector_0.11.0_arm64.deb
+Size: 1821290
+MD5sum: a17e2e5b7784869f19421d4d7b50022b
+SHA1: bc633e7c6d4bc3340e80304d2a12febd0fa8aac6
+SHA256: b1b348d84abb855e28f16ef7341354891919f8bb8bec2c4cbf176d0d07d85d6b
+Description: OpenWebRX connector for HPSDR radios
+
 Package: libacars-dev
 Source: libacars2
 Version: 2.2.1
-Architecture: arm64
+Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 535
 Depends: libacars2
-Filename: ./arm64/libacars-dev_2.2.1_arm64.deb
-Size: 51524
-MD5sum: b0b31cf61eada7ce16f5b07a71407298
-SHA1: 625acbf8bc62ff00f8674cc4c67ec8e2f9d75a24
-SHA256: a2e4d91a5bc371c7201cf14942b3411610cfb1ce26cf6160a947590e8f460fb8
+Filename: ./armhf/libacars-dev_2.2.1_armhf.deb
+Size: 51528
+MD5sum: 4d44c683744bf97fb30df9a31c559f7d
+SHA1: 6add20e0e220fe786a0d349da4d90b027d89c7a3
+SHA256: d4c035e9afd3d8b58b2dd342c2743e5b44415416b0e2984388ef9b4ae9bfa97c
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -654,15 +654,15 @@ Description: development includes for libacars
 Package: libacars-dev
 Source: libacars2
 Version: 2.2.1
-Architecture: armhf
+Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 535
 Depends: libacars2
-Filename: ./armhf/libacars-dev_2.2.1_armhf.deb
-Size: 51528
-MD5sum: 4d44c683744bf97fb30df9a31c559f7d
-SHA1: 6add20e0e220fe786a0d349da4d90b027d89c7a3
-SHA256: d4c035e9afd3d8b58b2dd342c2743e5b44415416b0e2984388ef9b4ae9bfa97c
+Filename: ./arm64/libacars-dev_2.2.1_arm64.deb
+Size: 51524
+MD5sum: b0b31cf61eada7ce16f5b07a71407298
+SHA1: 625acbf8bc62ff00f8674cc4c67ec8e2f9d75a24
+SHA256: a2e4d91a5bc371c7201cf14942b3411610cfb1ce26cf6160a947590e8f460fb8
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -673,15 +673,15 @@ Description: development includes for libacars
 Package: libacars-tools
 Source: libacars2
 Version: 2.2.1
-Architecture: arm64
+Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 45
+Installed-Size: 38
 Depends: libacars2
-Filename: ./arm64/libacars-tools_2.2.1_arm64.deb
-Size: 8306
-MD5sum: 07db20bdf3b0a58bf161f4d933470f02
-SHA1: a0308b2dc09f57a63e7b0b809bca1af31ad9215b
-SHA256: 296758d17b0e33435fbb56253722b76604dca99b34e2766b1f56aaf8ef25cdc5
+Filename: ./armhf/libacars-tools_2.2.1_armhf.deb
+Size: 7810
+MD5sum: 80fb4a0882166bb15867ffd81ed4b741
+SHA1: 403e5e225f29dd63263e79c711661a9c1ac3d279
+SHA256: 47967a74de57ea50d192e51b4c7ec37bd834e9b8db48d29bd4e2c791d1c45eb6
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -711,15 +711,15 @@ Description: additional command line tools to decode ACARS messages
 Package: libacars-tools
 Source: libacars2
 Version: 2.2.1
-Architecture: armhf
+Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 38
+Installed-Size: 45
 Depends: libacars2
-Filename: ./armhf/libacars-tools_2.2.1_armhf.deb
-Size: 7810
-MD5sum: 80fb4a0882166bb15867ffd81ed4b741
-SHA1: 403e5e225f29dd63263e79c711661a9c1ac3d279
-SHA256: 47967a74de57ea50d192e51b4c7ec37bd834e9b8db48d29bd4e2c791d1c45eb6
+Filename: ./arm64/libacars-tools_2.2.1_arm64.deb
+Size: 8306
+MD5sum: 07db20bdf3b0a58bf161f4d933470f02
+SHA1: a0308b2dc09f57a63e7b0b809bca1af31ad9215b
+SHA256: 296758d17b0e33435fbb56253722b76604dca99b34e2766b1f56aaf8ef25cdc5
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -729,15 +729,15 @@ Description: additional command line tools to decode ACARS messages
 
 Package: libacars2
 Version: 2.2.1
-Architecture: arm64
+Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 695
-Depends: libc6 (>= 2.17), libjansson4 (>= 2.1), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
-Filename: ./arm64/libacars2_2.2.1_arm64.deb
-Size: 155520
-MD5sum: 3fb1577742af68b517a105353aeda2be
-SHA1: b5d10a3a47f6bc58e561035bef686681147bd99b
-SHA256: cbf3b671ca0181dafea1f5714d8c1432c5754a0defe65a7927003935dddadd33
+Installed-Size: 415
+Depends: libc6 (>= 2.4), libjansson4 (>= 2.1), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Filename: ./armhf/libacars2_2.2.1_armhf.deb
+Size: 126646
+MD5sum: c0830cb0143181d560ed10a3f53fc737
+SHA1: 75031c22b05b14496790b1ab4ac0865405dd1ff7
+SHA256: fb17e96be83a2ec1522604db0b1be890fbbeba1a581133066a4a6556bfbfe24d
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -763,15 +763,15 @@ Description: library for decoding various ACARS message payloads
 
 Package: libacars2
 Version: 2.2.1
-Architecture: armhf
+Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 415
-Depends: libc6 (>= 2.4), libjansson4 (>= 2.1), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
-Filename: ./armhf/libacars2_2.2.1_armhf.deb
-Size: 126646
-MD5sum: c0830cb0143181d560ed10a3f53fc737
-SHA1: 75031c22b05b14496790b1ab4ac0865405dd1ff7
-SHA256: fb17e96be83a2ec1522604db0b1be890fbbeba1a581133066a4a6556bfbfe24d
+Installed-Size: 695
+Depends: libc6 (>= 2.17), libjansson4 (>= 2.1), libxml2 (>= 2.7.4), zlib1g (>= 1:1.1.4)
+Filename: ./arm64/libacars2_2.2.1_arm64.deb
+Size: 155520
+MD5sum: 3fb1577742af68b517a105353aeda2be
+SHA1: b5d10a3a47f6bc58e561035bef686681147bd99b
+SHA256: cbf3b671ca0181dafea1f5714d8c1432c5754a0defe65a7927003935dddadd33
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/szpajder/libacars
@@ -780,16 +780,16 @@ Description: library for decoding various ACARS message payloads
 
 Package: libcsdr-dev
 Source: csdr
-Version: 0.18.38
-Architecture: arm64
+Version: 0.18.39
+Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 231
-Depends: libcsdr0 (= 0.18.38), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
-Filename: ./arm64/libcsdr-dev_0.18.38_arm64.deb
-Size: 30712
-MD5sum: 7f59f6bd407f061b78ec867bc27f0425
-SHA1: f1affa0f25b0c8c2f9279526d5e2d0a6ab84baa5
-SHA256: eae21899469a9f747b9cd2fcf4a163e8cac737d7bd4380cc2cbb51c548011f86
+Installed-Size: 234
+Depends: libcsdr0 (= 0.18.39), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
+Filename: ./amd64/libcsdr-dev_0.18.39_amd64.deb
+Size: 31824
+MD5sum: c1b1159a1422e1b197a31577515ae2c7
+SHA1: 4e74e5f21fb925aac4cffa39b093625df83d64f5
+SHA256: 126e9cc589b38dde80d5a4e3ce6b59378d10ffd60f9b2ee7da19840d2805e052
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
@@ -797,36 +797,20 @@ Description: development dependencies includes for libcsdr
 
 Package: libcsdr-dev
 Source: csdr
-Version: 0.18.38
-Architecture: amd64
+Version: 0.18.39
+Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 231
-Depends: libcsdr0 (= 0.18.38), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
-Filename: ./amd64/libcsdr-dev_0.18.38_amd64.deb
-Size: 30732
-MD5sum: 6846bf9cec51ebe07f610dbd6af8e3a9
-SHA1: 5d48c5db6fded28784245dd866e56379802e9934
-SHA256: e9955486df52981136896c26d4d1dd8e828316f5b9e0c7302e152b101a37dc7c
+Installed-Size: 234
+Depends: libcsdr0 (= 0.18.39), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
+Filename: ./arm64/libcsdr-dev_0.18.39_arm64.deb
+Size: 31780
+MD5sum: 624ef74b578ddfd0bc988df6932ac60e
+SHA1: 17ba9099ffe60abc0a96304a6064e2063a2bb7a4
+SHA256: 36031e895f63d9dc13f0ecd698b62bb48f4afab6b98f1f4af753647e4683d702
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
  A simple DSP library for Software Defined Radio.
-
-Package: libcsdr-eti-dev
-Source: csdr-eti
-Version: 0.0.11
-Architecture: arm64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 21
-Depends: libcsdr-eti0 (= 0.0.11), libfftw3-dev (>= 3.3), libcsdr-dev (>= 0.18.18)
-Filename: ./arm64/libcsdr-eti-dev_0.0.11_arm64.deb
-Size: 3340
-MD5sum: e04ba0841ef7532de9a8f850beb8e1d3
-SHA1: 02a00768a5af53837ff95083e7c25df2e826bb40
-SHA256: d17b5f9463de262140d382d660143c2222829347c966c87475214354fcec30a2
-Section: hamradio
-Priority: optional
-Description: development debendencis for libcsdr-eti
 
 Package: libcsdr-eti-dev
 Source: csdr-eti
@@ -844,24 +828,21 @@ Section: hamradio
 Priority: optional
 Description: development debendencis for libcsdr-eti
 
-Package: libcsdr-eti0
+Package: libcsdr-eti-dev
 Source: csdr-eti
 Version: 0.0.11
 Architecture: arm64
 Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 97
-Depends: libc6 (>= 2.29), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
-Filename: ./arm64/libcsdr-eti0_0.0.11_arm64.deb
-Size: 33454
-MD5sum: cd40be4a5c733a6acfeed4fe0cd77d68
-SHA1: 443d7dac9264c73f22c5a6c5bb5e3d4d1dddbd8a
-SHA256: 8008d4ad0250ae1a1780b03d316c6d945ab2d32578701353a91eecb70095dadc
+Installed-Size: 21
+Depends: libcsdr-eti0 (= 0.0.11), libfftw3-dev (>= 3.3), libcsdr-dev (>= 0.18.18)
+Filename: ./arm64/libcsdr-eti-dev_0.0.11_arm64.deb
+Size: 3340
+MD5sum: e04ba0841ef7532de9a8f850beb8e1d3
+SHA1: 02a00768a5af53837ff95083e7c25df2e826bb40
+SHA256: d17b5f9463de262140d382d660143c2222829347c966c87475214354fcec30a2
 Section: hamradio
 Priority: optional
-Description: DAB ETI decoder as a csdr module
- An implementation of a DAB ETI decoder that can be used as the first stage of
- a DAB receiver pipeline. It cn demodulate a DAB Mode I Mux from IQ data and
- output it as the corresponding ETI stream if successful.
+Description: development debendencis for libcsdr-eti
 
 Package: libcsdr-eti0
 Source: csdr-eti
@@ -882,56 +863,58 @@ Description: DAB ETI decoder as a csdr module
  a DAB receiver pipeline. It cn demodulate a DAB Mode I Mux from IQ data and
  output it as the corresponding ETI stream if successful.
 
-Package: libcsdr0
-Source: csdr
-Version: 0.18.38
+Package: libcsdr-eti0
+Source: csdr-eti
+Version: 0.0.11
 Architecture: arm64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 769
-Depends: libc6 (>= 2.29), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
-Filename: ./arm64/libcsdr0_0.18.38_arm64.deb
-Size: 156008
-MD5sum: f1d0ecd420819ef1955c6d33ee9e1a87
-SHA1: dc339549627b7eda4401fc1e2380f47f6b4db41a
-SHA256: 90c80f8e8c2f78fbbfec3795aa5785bece819413760b73cbda730bb4e21b1b46
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 97
+Depends: libc6 (>= 2.29), libcsdr0, libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Filename: ./arm64/libcsdr-eti0_0.0.11_arm64.deb
+Size: 33454
+MD5sum: cd40be4a5c733a6acfeed4fe0cd77d68
+SHA1: 443d7dac9264c73f22c5a6c5bb5e3d4d1dddbd8a
+SHA256: 8008d4ad0250ae1a1780b03d316c6d945ab2d32578701353a91eecb70095dadc
 Section: hamradio
 Priority: optional
-Description: simple library for software defined radio
- A simple DSP library for Software Defined Radio.
+Description: DAB ETI decoder as a csdr module
+ An implementation of a DAB ETI decoder that can be used as the first stage of
+ a DAB receiver pipeline. It cn demodulate a DAB Mode I Mux from IQ data and
+ output it as the corresponding ETI stream if successful.
 
 Package: libcsdr0
 Source: csdr
-Version: 0.18.38
+Version: 0.18.39
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 801
+Installed-Size: 805
 Depends: libc6 (>= 2.35), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
-Filename: ./amd64/libcsdr0_0.18.38_amd64.deb
-Size: 172468
-MD5sum: bc389aa3843b19489a0986cd9286cae8
-SHA1: 80b3ca18ec3efd108f6beba139e1a468ca50504e
-SHA256: d5dbd7894bc380dcc7c17e9953097551f83cc8dfc0d10bf9c557a2adad760078
+Filename: ./amd64/libcsdr0_0.18.39_amd64.deb
+Size: 173324
+MD5sum: 531c9511288f11ab4c5cfb2bbfba3f83
+SHA1: f614f5ba47aa887858b4bbb116b68d513215b49c
+SHA256: 1ce7e4c91905e6382572b5cdc515f9b10e03e74a3ab8c78a1dfd21fdb3bd23c4
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
  A simple DSP library for Software Defined Radio.
 
-Package: libdigiham-dev
-Source: digiham
-Version: 0.6.11
+Package: libcsdr0
+Source: csdr
+Version: 0.18.39
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 46
-Depends: libdigiham0 (= 0.6.11), libcodecserver-dev, libicu-dev, libcsdr-dev (>= 0.18)
-Filename: ./arm64/libdigiham-dev_0.6.11_arm64.deb
-Size: 7158
-MD5sum: b355612a80e49d4d0483bed7bb7f83d2
-SHA1: ed68c05346554aecad80fc2132155abcb7109a48
-SHA256: c444aa3da27d6bc39a229a827778af8cb683f4bb632586ff12cc228d143e35d9
+Installed-Size: 777
+Depends: libc6 (>= 2.29), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
+Filename: ./arm64/libcsdr0_0.18.39_arm64.deb
+Size: 156660
+MD5sum: 22739f7961c49a2e7603af524d7da863
+SHA1: 88c3f28b39e7e6c167a7d77a6e9fc2ad077b387d
+SHA256: bee23cc94bc78d20141845e9b2227047431f300dc95bbcc6f6c7ecaa64ae63b1
 Section: hamradio
 Priority: optional
-Description: Digiham library development files
- Contains development files for interfacing with libdigiham.
+Description: simple library for software defined radio
+ A simple DSP library for Software Defined Radio.
 
 Package: libdigiham-dev
 Source: digiham
@@ -950,23 +933,22 @@ Priority: optional
 Description: Digiham library development files
  Contains development files for interfacing with libdigiham.
 
-Package: libdigiham0
+Package: libdigiham-dev
 Source: digiham
 Version: 0.6.11
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 317
-Depends: libc6 (>= 2.34), libcodecserver, libcsdr0 (>= 0.18), libgcc-s1 (>= 3.3.1), libicu70 (>= 70.1-1~), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 6)
-Filename: ./arm64/libdigiham0_0.6.11_arm64.deb
-Size: 103286
-MD5sum: 476ef28770f229fba5bfe5199940d753
-SHA1: a8cda272c2b4dcc4922f911db7e8f51c7ae6ad09
-SHA256: d869d56e2d887d3de8d7fc28c687c242be1949948003456aab1df1c1418cb77f
+Installed-Size: 46
+Depends: libdigiham0 (= 0.6.11), libcodecserver-dev, libicu-dev, libcsdr-dev (>= 0.18)
+Filename: ./arm64/libdigiham-dev_0.6.11_arm64.deb
+Size: 7158
+MD5sum: b355612a80e49d4d0483bed7bb7f83d2
+SHA1: ed68c05346554aecad80fc2132155abcb7109a48
+SHA256: c444aa3da27d6bc39a229a827778af8cb683f4bb632586ff12cc228d143e35d9
 Section: hamradio
 Priority: optional
-Description: Digiham base library
- Contains basic pipeline blocks that can be used to decode amateur radio
- digital voice modes.
+Description: Digiham library development files
+ Contains development files for interfacing with libdigiham.
 
 Package: libdigiham0
 Source: digiham
@@ -986,22 +968,23 @@ Description: Digiham base library
  Contains basic pipeline blocks that can be used to decode amateur radio
  digital voice modes.
 
-Package: libowrx-connector
-Source: owrx-connector
-Version: 0.6.5
+Package: libdigiham0
+Source: digiham
+Version: 0.6.11
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 86
-Depends: libcsdr0 (>= 0.18), libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 6)
-Filename: ./arm64/libowrx-connector_0.6.5_arm64.deb
-Size: 24824
-MD5sum: 381e06e3b65de74e53a94d8738175ca0
-SHA1: d2e21130198152f86dfc889e2662210e1c10e1c4
-SHA256: 611cc2cb5dafe125639a02573391f668bef618ead1113f576009e1363575ed8a
+Installed-Size: 317
+Depends: libc6 (>= 2.34), libcodecserver, libcsdr0 (>= 0.18), libgcc-s1 (>= 3.3.1), libicu70 (>= 70.1-1~), libprotobuf23 (>= 3.12.4), libstdc++6 (>= 6)
+Filename: ./arm64/libdigiham0_0.6.11_arm64.deb
+Size: 103286
+MD5sum: 476ef28770f229fba5bfe5199940d753
+SHA1: a8cda272c2b4dcc4922f911db7e8f51c7ae6ad09
+SHA256: d869d56e2d887d3de8d7fc28c687c242be1949948003456aab1df1c1418cb77f
 Section: hamradio
 Priority: optional
-Description: OpenWebRX connector base library
- Base library used to provide basic connector functionality
+Description: Digiham base library
+ Contains basic pipeline blocks that can be used to decode amateur radio
+ digital voice modes.
 
 Package: libowrx-connector
 Source: owrx-connector
@@ -1020,22 +1003,22 @@ Priority: optional
 Description: OpenWebRX connector base library
  Base library used to provide basic connector functionality
 
-Package: libowrx-connector-dev
+Package: libowrx-connector
 Source: owrx-connector
 Version: 0.6.5
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 33
-Depends: libowrx-connector (= 0.6.5), libcsdr-dev (>= 0.18)
-Filename: ./arm64/libowrx-connector-dev_0.6.5_arm64.deb
-Size: 6524
-MD5sum: 1484215099a5770b0af9aa4601824bcd
-SHA1: b8608570355df398d5993473d4a036deb5df14d5
-SHA256: 4e1f9add5260789f98aa5967112793ee0db5b00c4c364c59854b24374244bb03
+Installed-Size: 86
+Depends: libcsdr0 (>= 0.18), libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 6)
+Filename: ./arm64/libowrx-connector_0.6.5_arm64.deb
+Size: 24824
+MD5sum: 381e06e3b65de74e53a94d8738175ca0
+SHA1: d2e21130198152f86dfc889e2662210e1c10e1c4
+SHA256: 611cc2cb5dafe125639a02573391f668bef618ead1113f576009e1363575ed8a
 Section: hamradio
 Priority: optional
-Description: OpenWebRX connector base library - development files
- Provides includes and development files to build custom connectors
+Description: OpenWebRX connector base library
+ Base library used to provide basic connector functionality
 
 Package: libowrx-connector-dev
 Source: owrx-connector
@@ -1054,17 +1037,34 @@ Priority: optional
 Description: OpenWebRX connector base library - development files
  Provides includes and development files to build custom connectors
 
-Package: multimon-ng
-Version: 1.5.0
+Package: libowrx-connector-dev
+Source: owrx-connector
+Version: 0.6.5
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 165
+Installed-Size: 33
+Depends: libowrx-connector (= 0.6.5), libcsdr-dev (>= 0.18)
+Filename: ./arm64/libowrx-connector-dev_0.6.5_arm64.deb
+Size: 6524
+MD5sum: 1484215099a5770b0af9aa4601824bcd
+SHA1: b8608570355df398d5993473d4a036deb5df14d5
+SHA256: 4e1f9add5260789f98aa5967112793ee0db5b00c4c364c59854b24374244bb03
+Section: hamradio
+Priority: optional
+Description: OpenWebRX connector base library - development files
+ Provides includes and development files to build custom connectors
+
+Package: multimon-ng
+Version: 1.5.0
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 139
 Depends: libc6 (>= 2.34), libpulse0 (>= 0.99.1), libx11-6
-Filename: ./arm64/multimon-ng_1.5.0_arm64.deb
-Size: 69976
-MD5sum: 3bacded7d238331f2e2dadd8ef705d41
-SHA1: e8c8b289b4b7eefad69e6fcedda42a916d1471d5
-SHA256: c0e502a81be683de1c38ee62598e23a7683391674c1816ae932aa569cb9fd30e
+Filename: ./armhf/multimon-ng_1.5.0_armhf.deb
+Size: 69870
+MD5sum: 8cde250a36989159049c36ec4a60dfdf
+SHA1: 49b677d0b1c42850009f82d37b59817efc7c5ef0
+SHA256: 72f7aab1e931b351ae8552cbc1ef222fedd2e628e1bb02693510f01125c46260
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/EliasOenal/multimon-ng/
@@ -1090,15 +1090,15 @@ Description: digital radio transmission decoder
 
 Package: multimon-ng
 Version: 1.5.0
-Architecture: armhf
+Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 139
+Installed-Size: 165
 Depends: libc6 (>= 2.34), libpulse0 (>= 0.99.1), libx11-6
-Filename: ./armhf/multimon-ng_1.5.0_armhf.deb
-Size: 69870
-MD5sum: 8cde250a36989159049c36ec4a60dfdf
-SHA1: 49b677d0b1c42850009f82d37b59817efc7c5ef0
-SHA256: 72f7aab1e931b351ae8552cbc1ef222fedd2e628e1bb02693510f01125c46260
+Filename: ./arm64/multimon-ng_1.5.0_arm64.deb
+Size: 69976
+MD5sum: 3bacded7d238331f2e2dadd8ef705d41
+SHA1: e8c8b289b4b7eefad69e6fcedda42a916d1471d5
+SHA256: c0e502a81be683de1c38ee62598e23a7683391674c1816ae932aa569cb9fd30e
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/EliasOenal/multimon-ng/
@@ -1107,17 +1107,17 @@ Description: digital radio transmission decoder
 
 Package: nmux
 Source: csdr
-Version: 0.18.38
-Architecture: arm64
+Version: 0.18.39
+Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 37
+Installed-Size: 41
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
 Conflicts: csdr (<= 0.18.0~133)
-Filename: ./arm64/nmux_0.18.38_arm64.deb
-Size: 12280
-MD5sum: 0a568431d48b5e884da27cf58893eed6
-SHA1: 4cc5eb98787312354ef79f44eef19dee5a34464d
-SHA256: 12d14888c5b4a6692bad05ce6bece56c7a536f2ac133d7d72eaf57ae6fd7a0ce
+Filename: ./amd64/nmux_0.18.39_amd64.deb
+Size: 12752
+MD5sum: 71535fb377bc0e6c4124b199cf969291
+SHA1: 8d858fe78eb957404942938321e92ff33ba6ba91
+SHA256: 89409204a6e10d6e7caf8c3991a773283ff9ddc190924957be4e6b8201a978a8
 Section: hamradio
 Priority: optional
 Description: TCP stream multiplexer
@@ -1126,17 +1126,17 @@ Description: TCP stream multiplexer
 
 Package: nmux
 Source: csdr
-Version: 0.18.38
-Architecture: amd64
+Version: 0.18.39
+Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 41
+Installed-Size: 37
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
 Conflicts: csdr (<= 0.18.0~133)
-Filename: ./amd64/nmux_0.18.38_amd64.deb
-Size: 12680
-MD5sum: 30b5bfb99b85aecb2280d9ad3445b211
-SHA1: 54488c6d565ee6b690404b42acdcf5efc6baa29b
-SHA256: cf797db841b7685625e08999a7ac151a477a2e7fba581051bf4b7cf33d9d900a
+Filename: ./arm64/nmux_0.18.39_arm64.deb
+Size: 12340
+MD5sum: 8f044db75aab70ccf04c8de03752ba1c
+SHA1: 253b7086b50a4a6858be3b320c42f8bd9046d8a0
+SHA256: e73b08299d413780205aaf248e56135e251fa912faeb0666e885731135c144b1
 Section: hamradio
 Priority: optional
 Description: TCP stream multiplexer
@@ -1145,15 +1145,15 @@ Description: TCP stream multiplexer
 
 Package: nrsc5
 Version: 0.3
-Architecture: arm64
+Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 892
+Installed-Size: 768
 Depends: libao4 (>= 1.1.0), libc6 (>= 2.34), libfftw3-single3 (>= 3.3.5), librtlsdr0 (>= 0.6.0)
-Filename: ./arm64/nrsc5_0.3_arm64.deb
-Size: 301806
-MD5sum: b54b3ca93f8e77ae92291346a0aad47c
-SHA1: c7a4214007b3e0e143fa0706a8e97c2cfd15e1ee
-SHA256: 5ffd32c0b4795450e31b4fbf15e0797e0af306c700711166e4a7bf9a748afcd5
+Filename: ./armhf/nrsc5_0.3_armhf.deb
+Size: 255622
+MD5sum: 63dd9adb749df050bfbb328dedd16ad5
+SHA1: 88b087b583bf01833fd5026e7c1c48f0c6183be6
+SHA256: 51fdd319fc0d03540d5fd244ff399e11e5dfacfac5ebc7856bffbbc9409af215
 Section: hamradio
 Priority: optional
 Description: NRSC5 decoder
@@ -1177,19 +1177,37 @@ Description: NRSC5 decoder
 
 Package: nrsc5
 Version: 0.3
-Architecture: armhf
+Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 768
+Installed-Size: 892
 Depends: libao4 (>= 1.1.0), libc6 (>= 2.34), libfftw3-single3 (>= 3.3.5), librtlsdr0 (>= 0.6.0)
-Filename: ./armhf/nrsc5_0.3_armhf.deb
-Size: 255622
-MD5sum: 63dd9adb749df050bfbb328dedd16ad5
-SHA1: 88b087b583bf01833fd5026e7c1c48f0c6183be6
-SHA256: 51fdd319fc0d03540d5fd244ff399e11e5dfacfac5ebc7856bffbbc9409af215
+Filename: ./arm64/nrsc5_0.3_arm64.deb
+Size: 301806
+MD5sum: b54b3ca93f8e77ae92291346a0aad47c
+SHA1: c7a4214007b3e0e143fa0706a8e97c2cfd15e1ee
+SHA256: 5ffd32c0b4795450e31b4fbf15e0797e0af306c700711166e4a7bf9a748afcd5
 Section: hamradio
 Priority: optional
 Description: NRSC5 decoder
  Command-line NRSC5 decoder, with a library.
+
+Package: openwebrx
+Version: 1.2.121
+Architecture: all
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 3822
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.38), python3:any, debconf (>= 0.5) | debconf-2.0
+Recommends: python3-digiham (>= 0.6.11), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, python3-meshtastic, python3-pycryptodome, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, dxlaprs-lora, lame, dream
+Filename: ./amd64/openwebrx_1.2.121_all.deb
+Size: 1057048
+MD5sum: c32f9717de7c511deb81a1cc5292a4c3
+SHA1: 32271ec73c0457122a568146ab59bdafc6982aac
+SHA256: a53056d785ed6cb68bb9e5c8b00d70d6d34d15abd225535f56a9d3d6874b10d9
+Section: hamradio
+Priority: optional
+Homepage: https://www.openwebrx.de/
+Description: multi-user web sdr
+ Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
 Version: 1.2.121
@@ -1210,38 +1228,40 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.121
+Version: 1.2.122
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3822
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.38), python3:any, debconf (>= 0.5) | debconf-2.0
+Installed-Size: 3821
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.39), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6.11), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, python3-meshtastic, python3-pycryptodome, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, dxlaprs-lora, lame, dream
-Filename: ./amd64/openwebrx_1.2.121_all.deb
-Size: 1057048
-MD5sum: c32f9717de7c511deb81a1cc5292a4c3
-SHA1: 32271ec73c0457122a568146ab59bdafc6982aac
-SHA256: a53056d785ed6cb68bb9e5c8b00d70d6d34d15abd225535f56a9d3d6874b10d9
+Filename: ./amd64/openwebrx_1.2.122_all.deb
+Size: 1057408
+MD5sum: 3dc591f040caf8566ee6f2c7bdc07875
+SHA1: ded534e86bd90dc524a8d2f14fc7e8d45276927e
+SHA256: 1c46cc4cdf13a26f6cd72ac775d77ceba5e9c9ac1204da4b47ccd982bb63dad5
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
 Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
-Package: owrx-connector
-Version: 0.6.5
-Architecture: arm64
+Package: openwebrx
+Version: 1.2.122
+Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 10
-Depends: rtl-connector (= 0.6.5), rtl-tcp-connector (= 0.6.5), soapy-connector (= 0.6.5)
-Filename: ./arm64/owrx-connector_0.6.5_arm64.deb
-Size: 2460
-MD5sum: 75ec3ca281cd58c219c70c6de16e4d64
-SHA1: 4dde3a56df699af39d90baeecd16c588b026b881
-SHA256: ccd11c278a14c599f6ae1dc680f2f7d126b49bd6f52c4d8e7ae51c57e2c98546
+Installed-Size: 3821
+Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.39), python3:any, debconf (>= 0.5) | debconf-2.0
+Recommends: python3-digiham (>= 0.6.11), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, python3-meshtastic, python3-pycryptodome, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, dxlaprs-lora, lame, dream
+Filename: ./arm64/openwebrx_1.2.122_all.deb
+Size: 1056676
+MD5sum: 57272d62e684ea380bb11bad9532c45f
+SHA1: e43a8332a379118f2e8f05f56ccedd7a4f28305b
+SHA256: 7d292773e64fa0b5a69b61a19befb075159c509b2a8af5bec06f8d0b400d034f
 Section: hamradio
 Priority: optional
-Description: Virtual bundle dependency package
- This package installs the base connectors for RTL-SDR, SoapySDR and rtl_tcp
+Homepage: https://www.openwebrx.de/
+Description: multi-user web sdr
+ Open source, multi-user SDR receiver with a web interface
 
 Package: owrx-connector
 Version: 0.6.5
@@ -1259,6 +1279,22 @@ Priority: optional
 Description: Virtual bundle dependency package
  This package installs the base connectors for RTL-SDR, SoapySDR and rtl_tcp
 
+Package: owrx-connector
+Version: 0.6.5
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 10
+Depends: rtl-connector (= 0.6.5), rtl-tcp-connector (= 0.6.5), soapy-connector (= 0.6.5)
+Filename: ./arm64/owrx-connector_0.6.5_arm64.deb
+Size: 2460
+MD5sum: 75ec3ca281cd58c219c70c6de16e4d64
+SHA1: 4dde3a56df699af39d90baeecd16c588b026b881
+SHA256: ccd11c278a14c599f6ae1dc680f2f7d126b49bd6f52c4d8e7ae51c57e2c98546
+Section: hamradio
+Priority: optional
+Description: Virtual bundle dependency package
+ This package installs the base connectors for RTL-SDR, SoapySDR and rtl_tcp
+
 Package: python3-bleak
 Version: 0.22.3-1
 Architecture: all
@@ -1267,11 +1303,11 @@ Depends: python3 (>= 3.10), python3-dbus-fast
 Conflicts: python3-bleak (<< 0.22.3)
 Replaces: python3-bleak (<< 0.22.3)
 Provides: python3-bleak
-Filename: ./arm64/python3-bleak_0.22.3-1_all.deb
-Size: 215618
-MD5sum: 051aed71b6ddd16c7260d94d7483b51a
-SHA1: 4a3721d06c257baeb89fd2ff80f0bf0d6bed9791
-SHA256: e6d4eb41a5751b42b6bcf81c0153f27f1ea30b43de8e2be591c6f9a9ac6bd477
+Filename: ./armhf/python3-bleak_0.22.3-1_all.deb
+Size: 215730
+MD5sum: 0e409ea6ef3f0fe40b696a976e60c55a
+SHA1: 3b265970c5ecda518ef5e264e014f82a1f005c52
+SHA256: db26636ee388c2e8eed647aaa5bf368bac2f42bf361bf94484a02c26fcd811e0
 Description: Bluetooth Low Energy platform agnostic client (Python 3)
  An OS independent Bluetooth Low Energy (BLE) client for Python using
  asyncio. Communicates with BLE devices via the OS Bluetooth stack.
@@ -1307,11 +1343,11 @@ Depends: python3 (>= 3.10), python3-dbus-fast
 Conflicts: python3-bleak (<< 0.22.3)
 Replaces: python3-bleak (<< 0.22.3)
 Provides: python3-bleak
-Filename: ./armhf/python3-bleak_0.22.3-1_all.deb
-Size: 215730
-MD5sum: 0e409ea6ef3f0fe40b696a976e60c55a
-SHA1: 3b265970c5ecda518ef5e264e014f82a1f005c52
-SHA256: db26636ee388c2e8eed647aaa5bf368bac2f42bf361bf94484a02c26fcd811e0
+Filename: ./arm64/python3-bleak_0.22.3-1_all.deb
+Size: 215618
+MD5sum: 051aed71b6ddd16c7260d94d7483b51a
+SHA1: 4a3721d06c257baeb89fd2ff80f0bf0d6bed9791
+SHA256: e6d4eb41a5751b42b6bcf81c0153f27f1ea30b43de8e2be591c6f9a9ac6bd477
 Description: Bluetooth Low Energy platform agnostic client (Python 3)
  An OS independent Bluetooth Low Energy (BLE) client for Python using
  asyncio. Communicates with BLE devices via the OS Bluetooth stack.
@@ -1321,16 +1357,16 @@ Description: Bluetooth Low Energy platform agnostic client (Python 3)
 
 Package: python3-csdr
 Source: pycsdr
-Version: 0.18.38
-Architecture: arm64
+Version: 0.18.39
+Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 203
-Depends: libcsdr0 (>= 0.18.38), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
-Filename: ./arm64/python3-csdr_0.18.38_arm64.deb
-Size: 38616
-MD5sum: 9da1ae4921a4f69c7a31c1925a2272e4
-SHA1: 52c445dd11fd5a15a5da090fc693a485a4bddebf
-SHA256: 1d3b8cec55958c6ee3dac3e281642a271bf91d423c6877124a4c28e3a6db40f8
+Installed-Size: 206
+Depends: libcsdr0 (>= 0.18.39), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Filename: ./amd64/python3-csdr_0.18.39_amd64.deb
+Size: 40792
+MD5sum: 298ba4cd1fbcdb526ac8818031a8d524
+SHA1: 3d190a46bf0305e9f992fdc24e90d50dac22bd50
+SHA256: fa08c953bebb2eaec866907acb2d298387e43d311713e52608e19640f988e7d1
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr
@@ -1339,39 +1375,21 @@ Description: Python bindings for libcsdr
 
 Package: python3-csdr
 Source: pycsdr
-Version: 0.18.38
-Architecture: amd64
+Version: 0.18.39
+Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 206
-Depends: libcsdr0 (>= 0.18.38), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
-Filename: ./amd64/python3-csdr_0.18.38_amd64.deb
-Size: 40796
-MD5sum: c7e0930cde1e00d39c02d4ab0454c899
-SHA1: e89202540123a3704c555986170ccb11aca4b9a6
-SHA256: 0139494fda6a18817ee269e5caaecdd81c86045142630466901f8140948e1728
+Installed-Size: 203
+Depends: libcsdr0 (>= 0.18.39), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Filename: ./arm64/python3-csdr_0.18.39_arm64.deb
+Size: 38760
+MD5sum: 0d166817ff76727fadcd86c3f190df19
+SHA1: bc725ce0652c5e1e301a194c8a0099948c2a9f1b
+SHA256: 93b79c6b03ff24a2481cff70b37c3439c70513ac998ccabf16f5977e706950e2
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr
  Offers a variety of modules from the csdr software defined radio library for
  digital processing of radio transmission.
-
-Package: python3-csdr-eti
-Source: pycsdr-eti
-Version: 0.0.11
-Architecture: arm64
-Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
-Installed-Size: 45
-Depends: libcsdr-eti0 (>= 0.0.11), python3 (<< 3.11), python3 (>= 3.10~), python3-csdr, python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
-Filename: ./arm64/python3-csdr-eti_0.0.11_arm64.deb
-Size: 11084
-MD5sum: 58d31c492a3de78a9519efa73a784f57
-SHA1: f051e76e7707c09b2899173727c3ea08dccce16c
-SHA256: 6737aa97b1a989c5ee339ac7bbc82f4ff3d2e597c29201e7608c3747d21960d8
-Section: hamradio
-Priority: optional
-Description: Python bindings for libcsdr-eti
- Python bindings for libcsdr-eti, allowing it's DAB ETI decoder to be used in
- python programs.
 
 Package: python3-csdr-eti
 Source: pycsdr-eti
@@ -1391,16 +1409,34 @@ Description: Python bindings for libcsdr-eti
  Python bindings for libcsdr-eti, allowing it's DAB ETI decoder to be used in
  python programs.
 
+Package: python3-csdr-eti
+Source: pycsdr-eti
+Version: 0.0.11
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 45
+Depends: libcsdr-eti0 (>= 0.0.11), python3 (<< 3.11), python3 (>= 3.10~), python3-csdr, python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
+Filename: ./arm64/python3-csdr-eti_0.0.11_arm64.deb
+Size: 11084
+MD5sum: 58d31c492a3de78a9519efa73a784f57
+SHA1: f051e76e7707c09b2899173727c3ea08dccce16c
+SHA256: 6737aa97b1a989c5ee339ac7bbc82f4ff3d2e597c29201e7608c3747d21960d8
+Section: hamradio
+Priority: optional
+Description: Python bindings for libcsdr-eti
+ Python bindings for libcsdr-eti, allowing it's DAB ETI decoder to be used in
+ python programs.
+
 Package: python3-dbus-fast
 Version: 1.93.0-1
 Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.10)
-Filename: ./arm64/python3-dbus-fast_1.93.0-1_all.deb
-Size: 114662
-MD5sum: c3f8f18106f4ccc78a8143419838711e
-SHA1: 35e34d81617feeb8a494b1127cb2f89e3917f6e9
-SHA256: db4208bad4780ca4fc4e7bf8143ba10c0f891fb922896b6267157a8fff96350c
+Filename: ./armhf/python3-dbus-fast_1.93.0-1_all.deb
+Size: 114640
+MD5sum: 1c12fd1fe6516ea336f5a576525e61dc
+SHA1: fea204823a97f367ef55abd406f06b7eabe37967
+SHA256: f45575e39acd9a44e5f39bed81fabbcb628c62e33c7b39d819c6998dbc033e6a
 Description: faster version of dbus-next (Python 3)
  dbus-fast is a pure Python implementation of the D-Bus protocol.
  It is intended as a faster alternative to dbus-python and dbus-next,
@@ -1430,34 +1466,17 @@ Version: 1.93.0-1
 Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.10)
-Filename: ./armhf/python3-dbus-fast_1.93.0-1_all.deb
-Size: 114640
-MD5sum: 1c12fd1fe6516ea336f5a576525e61dc
-SHA1: fea204823a97f367ef55abd406f06b7eabe37967
-SHA256: f45575e39acd9a44e5f39bed81fabbcb628c62e33c7b39d819c6998dbc033e6a
+Filename: ./arm64/python3-dbus-fast_1.93.0-1_all.deb
+Size: 114662
+MD5sum: c3f8f18106f4ccc78a8143419838711e
+SHA1: 35e34d81617feeb8a494b1127cb2f89e3917f6e9
+SHA256: db4208bad4780ca4fc4e7bf8143ba10c0f891fb922896b6267157a8fff96350c
 Description: faster version of dbus-next (Python 3)
  dbus-fast is a pure Python implementation of the D-Bus protocol.
  It is intended as a faster alternative to dbus-python and dbus-next,
  used by bluetooth libraries such as bleak for BLE communication.
  .
  Backport build from PyPI for distributions without this package.
-
-Package: python3-digiham
-Source: pydigiham
-Version: 0.6.11
-Architecture: arm64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 64
-Depends: libdigiham0 (>= 0.6.11), python3-csdr (>= 0.18), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
-Filename: ./arm64/python3-digiham_0.6.11_arm64.deb
-Size: 15876
-MD5sum: 9b941d3120dd52ffa2a23131cca6ad97
-SHA1: 7deaeb251685f151f20a2b00b2723dcdb41d94a1
-SHA256: 50d4c89b0b4bf5f50093b48513373ec3ceaaa7cae638d06f0230a7665c525909
-Section: hamradio
-Priority: optional
-Description: Python bindings for the digiham library
- Offers a python interface to the various decoders included in digiham
 
 Package: python3-digiham
 Source: pydigiham
@@ -1476,16 +1495,33 @@ Priority: optional
 Description: Python bindings for the digiham library
  Offers a python interface to the various decoders included in digiham
 
+Package: python3-digiham
+Source: pydigiham
+Version: 0.6.11
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 64
+Depends: libdigiham0 (>= 0.6.11), python3-csdr (>= 0.18), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
+Filename: ./arm64/python3-digiham_0.6.11_arm64.deb
+Size: 15876
+MD5sum: 9b941d3120dd52ffa2a23131cca6ad97
+SHA1: 7deaeb251685f151f20a2b00b2723dcdb41d94a1
+SHA256: 50d4c89b0b4bf5f50093b48513373ec3ceaaa7cae638d06f0230a7665c525909
+Section: hamradio
+Priority: optional
+Description: Python bindings for the digiham library
+ Offers a python interface to the various decoders included in digiham
+
 Package: python3-dotmap
 Version: 1.3.30-1
 Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.10)
-Filename: ./arm64/python3-dotmap_1.3.30-1_all.deb
-Size: 23040
-MD5sum: a8d9a3211b719a73431e6ca9059f736a
-SHA1: cc86f804edccb9ced7c5a92b54d64be2bec1d6fc
-SHA256: 838b23d6a065dbb9d774e52ed7a711ed262b02084e2403af161fe174f5eac02a
+Filename: ./armhf/python3-dotmap_1.3.30-1_all.deb
+Size: 23036
+MD5sum: 87de28917081ae22fb13c5b992c08616
+SHA1: b8308e16d0ca5c8d674189f14d220ccb55036b0d
+SHA256: 5196b48b9005332088f52220b16b7d32087c576a823b9baf5b15e7f88edc3cf0
 Description: ordered, dynamically-expandable dot-access dictionary
  DotMap is a dot-access dictionary subclass that has dynamic child
  dot-access map creation, can be initialized with existing dictionaries,
@@ -1517,11 +1553,11 @@ Version: 1.3.30-1
 Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.10)
-Filename: ./armhf/python3-dotmap_1.3.30-1_all.deb
-Size: 23036
-MD5sum: 87de28917081ae22fb13c5b992c08616
-SHA1: b8308e16d0ca5c8d674189f14d220ccb55036b0d
-SHA256: 5196b48b9005332088f52220b16b7d32087c576a823b9baf5b15e7f88edc3cf0
+Filename: ./arm64/python3-dotmap_1.3.30-1_all.deb
+Size: 23040
+MD5sum: a8d9a3211b719a73431e6ca9059f736a
+SHA1: cc86f804edccb9ced7c5a92b54d64be2bec1d6fc
+SHA256: 838b23d6a065dbb9d774e52ed7a711ed262b02084e2403af161fe174f5eac02a
 Description: ordered, dynamically-expandable dot-access dictionary
  DotMap is a dot-access dictionary subclass that has dynamic child
  dot-access map creation, can be initialized with existing dictionaries,
@@ -1535,11 +1571,11 @@ Version: 2.7.7-1
 Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.10), python3-serial, python3-protobuf, python3-tabulate, python3-requests, python3-yaml, python3-bleak, python3-packaging, python3-dotmap
-Filename: ./arm64/python3-meshtastic_2.7.7-1_all.deb
-Size: 451130
-MD5sum: 69cca06122a9fee420486c5d9102fc69
-SHA1: 23c2ce2232a55e963b9550615b6b2e4f609b97db
-SHA256: da317dc0f79f7b49f0f8d7be15fac523c590bff15a335555be12f8217f986c29
+Filename: ./armhf/python3-meshtastic_2.7.7-1_all.deb
+Size: 451192
+MD5sum: 45557a94332d5dcd1b6aeb4fa45d7f3f
+SHA1: e4bbc581dc81bd5beb636e8cda328b638d27d276
+SHA256: 73becf6669009ca6a8e254deefff1bb9e9d9f73fa26cd0cb25dac66c6fa8a94f
 Description: Python API for Meshtastic LoRa radio devices (v2.7.7)
  Python API and command-line tool for interacting with Meshtastic LoRa
  radio mesh networking devices. Supports BLE, serial and network connections.
@@ -1567,11 +1603,11 @@ Version: 2.7.7-1
 Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.10), python3-serial, python3-protobuf, python3-tabulate, python3-requests, python3-yaml, python3-bleak, python3-packaging, python3-dotmap
-Filename: ./armhf/python3-meshtastic_2.7.7-1_all.deb
-Size: 451192
-MD5sum: 45557a94332d5dcd1b6aeb4fa45d7f3f
-SHA1: e4bbc581dc81bd5beb636e8cda328b638d27d276
-SHA256: 73becf6669009ca6a8e254deefff1bb9e9d9f73fa26cd0cb25dac66c6fa8a94f
+Filename: ./arm64/python3-meshtastic_2.7.7-1_all.deb
+Size: 451130
+MD5sum: 69cca06122a9fee420486c5d9102fc69
+SHA1: 23c2ce2232a55e963b9550615b6b2e4f609b97db
+SHA256: da317dc0f79f7b49f0f8d7be15fac523c590bff15a335555be12f8217f986c29
 Description: Python API for Meshtastic LoRa radio devices (v2.7.7)
  Python API and command-line tool for interacting with Meshtastic LoRa
  radio mesh networking devices. Supports BLE, serial and network connections.
@@ -1586,11 +1622,11 @@ Depends: python3 (>= 3.10)
 Conflicts: python3-packaging (<< 24)
 Replaces: python3-packaging (<< 24)
 Provides: python3-packaging
-Filename: ./arm64/python3-packaging_25.0-1_all.deb
-Size: 102810
-MD5sum: fd8421eefa4599f6694ddab8e611fe29
-SHA1: 07ff6a67698a077861c301cdb0743961375d98f6
-SHA256: 013b2e9a416e07c48fc6ed4378a7daedf92cd0574245a41248d49c574fb96b6a
+Filename: ./armhf/python3-packaging_25.0-1_all.deb
+Size: 102814
+MD5sum: 4349b7bb5321dd01cdce65fb3e29cd5f
+SHA1: 8041bed47790ea916c6b42c438f7f4da136b88f4
+SHA256: dd6ad181f7ba1b1e3dfbe972cb32f1dad5e3e30a1d7dca9d6b310caa3205c968
 Description: core utilities for Python packages (v25.0)
  This library provides utilities that implement the interoperability
  specifications which have clearly one correct behaviour (PEP 440 versioning,
@@ -1626,11 +1662,11 @@ Depends: python3 (>= 3.10)
 Conflicts: python3-packaging (<< 24)
 Replaces: python3-packaging (<< 24)
 Provides: python3-packaging
-Filename: ./armhf/python3-packaging_25.0-1_all.deb
-Size: 102814
-MD5sum: 4349b7bb5321dd01cdce65fb3e29cd5f
-SHA1: 8041bed47790ea916c6b42c438f7f4da136b88f4
-SHA256: dd6ad181f7ba1b1e3dfbe972cb32f1dad5e3e30a1d7dca9d6b310caa3205c968
+Filename: ./arm64/python3-packaging_25.0-1_all.deb
+Size: 102810
+MD5sum: fd8421eefa4599f6694ddab8e611fe29
+SHA1: 07ff6a67698a077861c301cdb0743961375d98f6
+SHA256: 013b2e9a416e07c48fc6ed4378a7daedf92cd0574245a41248d49c574fb96b6a
 Description: core utilities for Python packages (v25.0)
  This library provides utilities that implement the interoperability
  specifications which have clearly one correct behaviour (PEP 440 versioning,
@@ -1640,17 +1676,17 @@ Description: core utilities for Python packages (v25.0)
 
 Package: python3-protobuf
 Version: 4.25.8-1
-Architecture: arm64
+Architecture: armhf
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.10)
 Conflicts: python3-protobuf (<< 4.21.12)
 Replaces: python3-protobuf (<< 4.21.12)
 Provides: python3-protobuf
-Filename: ./arm64/python3-protobuf_4.25.8-1_arm64.deb
-Size: 333888
-MD5sum: fb937cb69c3dd197e38acfae4061cd6d
-SHA1: c7d366fca2a31c831ad797cd78fba3374f8db7ae
-SHA256: 279f7532205c72448a72dac0df72914bab6868ef8ae0f293d709f5a2609ba3a8
+Filename: ./armhf/python3-protobuf_4.25.8-1_armhf.deb
+Size: 215356
+MD5sum: ab7c584030c5ac9c186359b4b3a5d190
+SHA1: cf6ad2b14e97ad51c4c0f192833dec8901da048f
+SHA256: 0869fdb6e21e0681cb494b26fd95957d7da2b5d01c256a9df11bdac95da02d54
 Description: Python bindings for protocol buffers (v4.25.8)
  Protocol buffers are Google's language-neutral, platform-neutral,
  extensible mechanism for serializing structured data.
@@ -1678,39 +1714,22 @@ Description: Python bindings for protocol buffers (v4.25.8)
 
 Package: python3-protobuf
 Version: 4.25.8-1
-Architecture: armhf
+Architecture: arm64
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.10)
 Conflicts: python3-protobuf (<< 4.21.12)
 Replaces: python3-protobuf (<< 4.21.12)
 Provides: python3-protobuf
-Filename: ./armhf/python3-protobuf_4.25.8-1_armhf.deb
-Size: 215356
-MD5sum: ab7c584030c5ac9c186359b4b3a5d190
-SHA1: cf6ad2b14e97ad51c4c0f192833dec8901da048f
-SHA256: 0869fdb6e21e0681cb494b26fd95957d7da2b5d01c256a9df11bdac95da02d54
+Filename: ./arm64/python3-protobuf_4.25.8-1_arm64.deb
+Size: 333888
+MD5sum: fb937cb69c3dd197e38acfae4061cd6d
+SHA1: c7d366fca2a31c831ad797cd78fba3374f8db7ae
+SHA256: 279f7532205c72448a72dac0df72914bab6868ef8ae0f293d709f5a2609ba3a8
 Description: Python bindings for protocol buffers (v4.25.8)
  Protocol buffers are Google's language-neutral, platform-neutral,
  extensible mechanism for serializing structured data.
  .
  Backport build from PyPI for distributions with python3-protobuf < 4.21.12.
-
-Package: redsea
-Version: 1.2.0
-Architecture: arm64
-Maintainer: Oona Räisänen <oh2eiq@pm.me>
-Installed-Size: 580
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.0), libliquid2d, libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
-Filename: ./arm64/redsea_1.2.0_arm64.deb
-Size: 213596
-MD5sum: 600e3ece46db865c39b87a2b4a9e21c5
-SHA1: 0d4f92ebcf95eb60c8cfa37cebefed425821eaad
-SHA256: d7e029a4a5a7c7bd45a267ae3a9bca1fdbab9f643d0c97f111061351c6e86781
-Section: hamradio
-Priority: optional
-Description: RDS (Radio Data System) decoder
- A lightweight command-line FM-RDS decoder that supports a
- large subset of RDS features.
 
 Package: redsea
 Version: 1.2.0
@@ -1729,17 +1748,34 @@ Description: RDS (Radio Data System) decoder
  A lightweight command-line FM-RDS decoder that supports a
  large subset of RDS features.
 
+Package: redsea
+Version: 1.2.0
+Architecture: arm64
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 580
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.0), libliquid2d, libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
+Filename: ./arm64/redsea_1.2.0_arm64.deb
+Size: 213596
+MD5sum: 600e3ece46db865c39b87a2b4a9e21c5
+SHA1: 0d4f92ebcf95eb60c8cfa37cebefed425821eaad
+SHA256: d7e029a4a5a7c7bd45a267ae3a9bca1fdbab9f643d0c97f111061351c6e86781
+Section: hamradio
+Priority: optional
+Description: RDS (Radio Data System) decoder
+ A lightweight command-line FM-RDS decoder that supports a
+ large subset of RDS features.
+
 Package: rtl-433
 Version: 25.12-1
-Architecture: arm64
+Architecture: armhf
 Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
-Installed-Size: 1131
+Installed-Size: 871
 Depends: libc6 (>= 2.34), librtlsdr0 (>= 0.6.0), libsoapysdr0.8 (>= 0.8.1), libusb-1.0-0 (>= 2:1.0.16)
-Filename: ./arm64/rtl-433_25.12-1_arm64.deb
-Size: 440976
-MD5sum: 41bc82947230b0f3465c4cd908610fdb
-SHA1: f67d8d8c2b415f39e6d81253ccb343404bc26ff6
-SHA256: dfc4fe9bda34cab071eea6d51c2d432c9e250158ef47f39b145934cd01738016
+Filename: ./armhf/rtl-433_25.12-1_armhf.deb
+Size: 419116
+MD5sum: a080f0e8e1fcb006ee8511f7d544b8e0
+SHA1: 1374c58bb0578682e8eaede8821ac04734588b89
+SHA256: 1b9b5c51aeee3aa8b7cbe8b59880db9e1043ee8cd07ea304f80a14c2890aa278
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/merbanan/rtl_433
@@ -1767,39 +1803,21 @@ Description: Decode 433.9 Mhz data
 
 Package: rtl-433
 Version: 25.12-1
-Architecture: armhf
+Architecture: arm64
 Maintainer: Debian Hamradio Maintainers <debian-hams@lists.debian.org>
-Installed-Size: 871
+Installed-Size: 1131
 Depends: libc6 (>= 2.34), librtlsdr0 (>= 0.6.0), libsoapysdr0.8 (>= 0.8.1), libusb-1.0-0 (>= 2:1.0.16)
-Filename: ./armhf/rtl-433_25.12-1_armhf.deb
-Size: 419116
-MD5sum: a080f0e8e1fcb006ee8511f7d544b8e0
-SHA1: 1374c58bb0578682e8eaede8821ac04734588b89
-SHA256: 1b9b5c51aeee3aa8b7cbe8b59880db9e1043ee8cd07ea304f80a14c2890aa278
+Filename: ./arm64/rtl-433_25.12-1_arm64.deb
+Size: 440976
+MD5sum: 41bc82947230b0f3465c4cd908610fdb
+SHA1: f67d8d8c2b415f39e6d81253ccb343404bc26ff6
+SHA256: dfc4fe9bda34cab071eea6d51c2d432c9e250158ef47f39b145934cd01738016
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/merbanan/rtl_433
 Description: Decode 433.9 Mhz data
  This is a program to decode traffic from devices that are broadcasting on
  433.9 MHz like temperature sensors.
-
-Package: rtl-connector
-Source: owrx-connector
-Version: 0.6.5
-Architecture: arm64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 42
-Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), librtlsdr0 (>= 0.6.0), libstdc++6 (>= 5.2)
-Conflicts: owrx-connector (<< 0.4)
-Filename: ./arm64/rtl-connector_0.6.5_arm64.deb
-Size: 11256
-MD5sum: 42bf9aabb6d69bffe862efdf94f63360
-SHA1: c1d1e907f61b462f660517230f0003740763511e
-SHA256: 6e8a8028b03984193b60ef57bc09be95e9cfce39edde946ccd4a26d5e04db8dc
-Section: hamradio
-Priority: optional
-Description: OpenWebRX connector for RTL-SDR devices
- Provides connector functionality for RTL-SDR based devices
 
 Package: rtl-connector
 Source: owrx-connector
@@ -1819,24 +1837,23 @@ Priority: optional
 Description: OpenWebRX connector for RTL-SDR devices
  Provides connector functionality for RTL-SDR based devices
 
-Package: rtl-tcp-connector
+Package: rtl-connector
 Source: owrx-connector
 Version: 0.6.5
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 38
-Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
+Installed-Size: 42
+Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), librtlsdr0 (>= 0.6.0), libstdc++6 (>= 5.2)
 Conflicts: owrx-connector (<< 0.4)
-Filename: ./arm64/rtl-tcp-connector_0.6.5_arm64.deb
-Size: 10692
-MD5sum: bed8ac6b94338b3649c9a29c333a9dda
-SHA1: c60735c935ad4db71a28ccce8bf29921374fff54
-SHA256: 5904a0ed2c6f2a139726c05f5e0af663c17f50a875aa49789b8b9e85457845aa
+Filename: ./arm64/rtl-connector_0.6.5_arm64.deb
+Size: 11256
+MD5sum: 42bf9aabb6d69bffe862efdf94f63360
+SHA1: c1d1e907f61b462f660517230f0003740763511e
+SHA256: 6e8a8028b03984193b60ef57bc09be95e9cfce39edde946ccd4a26d5e04db8dc
 Section: hamradio
 Priority: optional
-Description: OpenWebRX connector for rtl_tcp remote devices
- Provides connector functionality for (potentially) remote SDR devices that are
- available on the network using the rtl_tcp protocol.
+Description: OpenWebRX connector for RTL-SDR devices
+ Provides connector functionality for RTL-SDR based devices
 
 Package: rtl-tcp-connector
 Source: owrx-connector
@@ -1857,20 +1874,39 @@ Description: OpenWebRX connector for rtl_tcp remote devices
  Provides connector functionality for (potentially) remote SDR devices that are
  available on the network using the rtl_tcp protocol.
 
+Package: rtl-tcp-connector
+Source: owrx-connector
+Version: 0.6.5
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 38
+Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)
+Conflicts: owrx-connector (<< 0.4)
+Filename: ./arm64/rtl-tcp-connector_0.6.5_arm64.deb
+Size: 10692
+MD5sum: bed8ac6b94338b3649c9a29c333a9dda
+SHA1: c60735c935ad4db71a28ccce8bf29921374fff54
+SHA256: 5904a0ed2c6f2a139726c05f5e0af663c17f50a875aa49789b8b9e85457845aa
+Section: hamradio
+Priority: optional
+Description: OpenWebRX connector for rtl_tcp remote devices
+ Provides connector functionality for (potentially) remote SDR devices that are
+ available on the network using the rtl_tcp protocol.
+
 Package: skyaware978
 Source: dump978-fa
 Version: 10.2.1
-Architecture: arm64
+Architecture: armhf
 Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 14348
-Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), adduser, lighttpd
+Installed-Size: 14255
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.5), libstdc++6 (>= 11), adduser, lighttpd
 Breaks: skyview978 (<< 3.7.2~)
 Replaces: skyview978 (<< 3.7.2~)
-Filename: ./arm64/skyaware978_10.2.1_arm64.deb
-Size: 2704438
-MD5sum: d4c4892805a39d378db3784238daf7d8
-SHA1: a590d71919f67bbf01470a994a2356dbf736c6eb
-SHA256: ebd3cc7692b68d0dd44687357233eabd3a4311dacef1c81a2b0a5aef36627152
+Filename: ./armhf/skyaware978_10.2.1_armhf.deb
+Size: 2707850
+MD5sum: 2b420726d982813eb714e4351283ee77
+SHA1: 366207b141e824ad6157fd3e3872528ee6752ee2
+SHA256: 516bdfdaf0d14c307b53c88fa6699a1a5a1d9f1ae077ea3d3564a5b3e06cc211
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
@@ -1902,41 +1938,23 @@ Description: Local web interface for dump978
 Package: skyaware978
 Source: dump978-fa
 Version: 10.2.1
-Architecture: armhf
+Architecture: arm64
 Maintainer: Oliver Jowett <oliver.jowett@flightaware.com>
-Installed-Size: 14255
-Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.5), libstdc++6 (>= 11), adduser, lighttpd
+Installed-Size: 14348
+Depends: libboost-filesystem1.74.0 (>= 1.74.0), libboost-program-options1.74.0 (>= 1.74.0), libboost-regex1.74.0-icu70, libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), adduser, lighttpd
 Breaks: skyview978 (<< 3.7.2~)
 Replaces: skyview978 (<< 3.7.2~)
-Filename: ./armhf/skyaware978_10.2.1_armhf.deb
-Size: 2707850
-MD5sum: 2b420726d982813eb714e4351283ee77
-SHA1: 366207b141e824ad6157fd3e3872528ee6752ee2
-SHA256: 516bdfdaf0d14c307b53c88fa6699a1a5a1d9f1ae077ea3d3564a5b3e06cc211
+Filename: ./arm64/skyaware978_10.2.1_arm64.deb
+Size: 2704438
+MD5sum: d4c4892805a39d378db3784238daf7d8
+SHA1: a590d71919f67bbf01470a994a2356dbf736c6eb
+SHA256: ebd3cc7692b68d0dd44687357233eabd3a4311dacef1c81a2b0a5aef36627152
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
 Description: Local web interface for dump978
  .
  Provides a web interface to display aircraft data received from dump978.
-
-Package: soapy-connector
-Source: owrx-connector
-Version: 0.6.5
-Architecture: arm64
-Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 46
-Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 5.2)
-Conflicts: owrx-connector (<< 0.4)
-Filename: ./arm64/soapy-connector_0.6.5_arm64.deb
-Size: 13972
-MD5sum: 353b0801c68c8dd46c8290144cc53eab
-SHA1: 9ebe2ce7a25fb14dd02b3c70a49b597957bb817a
-SHA256: 4095772f31b351c73af24252a1611e23d3ebc93f79e05979d98817be97b48be1
-Section: hamradio
-Priority: optional
-Description: OpenWebRX connector for SoapySDR devices
- Provides connector functionality for devices supported by the SoapySDR library
 
 Package: soapy-connector
 Source: owrx-connector
@@ -1956,26 +1974,23 @@ Priority: optional
 Description: OpenWebRX connector for SoapySDR devices
  Provides connector functionality for devices supported by the SoapySDR library
 
-Package: soapysdr-module-sdrplay3
-Source: soapysdrplay3
-Version: 0.8.10
-Architecture: all
+Package: soapy-connector
+Source: owrx-connector
+Version: 0.6.5
+Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 11
-Depends: soapysdr0.8-module-sdrplay3
-Filename: ./arm64/soapysdr-module-sdrplay3_0.8.10_all.deb
-Size: 4112
-MD5sum: 6a5c922d8e370645b963473d51b6f26b
-SHA1: 771055919fdd602d1e9c17a9ca9a2495d3061595
-SHA256: 3af713621498c5ab95dd2bea6bd48b2b5fbee8d909a78714c266344a81bc6d0e
-Section: libs
+Installed-Size: 46
+Depends: libowrx-connector (= 0.6.5), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 5.2)
+Conflicts: owrx-connector (<< 0.4)
+Filename: ./arm64/soapy-connector_0.6.5_arm64.deb
+Size: 13972
+MD5sum: 353b0801c68c8dd46c8290144cc53eab
+SHA1: 9ebe2ce7a25fb14dd02b3c70a49b597957bb817a
+SHA256: 4095772f31b351c73af24252a1611e23d3ebc93f79e05979d98817be97b48be1
+Section: hamradio
 Priority: optional
-Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
-Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
- A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
- .
- This is an empty dependency package that pulls in the SDRPlay3 module
- for the default version of libsoapysdr.
+Description: OpenWebRX connector for SoapySDR devices
+ Provides connector functionality for devices supported by the SoapySDR library
 
 Package: soapysdr-module-sdrplay3
 Source: soapysdrplay3
@@ -2000,16 +2015,16 @@ Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.11
+Version: 0.8.10
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 11
 Depends: soapysdr0.8-module-sdrplay3
-Filename: ./arm64/soapysdr-module-sdrplay3_0.8.11_all.deb
-Size: 4196
-MD5sum: 5cb149ad4d1c3b9e08f9d981993f6c10
-SHA1: 24587bdd84c2ed8da48ea0804efac625d56504e4
-SHA256: ff76a35209a7046020ad011718f447cb2f770bd8f0461584ae1ad2917bc86e84
+Filename: ./arm64/soapysdr-module-sdrplay3_0.8.10_all.deb
+Size: 4112
+MD5sum: 6a5c922d8e370645b963473d51b6f26b
+SHA1: 771055919fdd602d1e9c17a9ca9a2495d3061595
+SHA256: 3af713621498c5ab95dd2bea6bd48b2b5fbee8d909a78714c266344a81bc6d0e
 Section: libs
 Priority: optional
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
@@ -2042,20 +2057,20 @@ Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.6
+Version: 0.8.11
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 10
+Installed-Size: 11
 Depends: soapysdr0.8-module-sdrplay3
-Filename: ./arm64/soapysdr-module-sdrplay3_0.8.6_all.deb
-Size: 3528
-MD5sum: 1f499cced010d76607605daca1cb2a51
-SHA1: 620b382ac482cffe3f18f27d484ad11cbc0bb5f0
-SHA256: d8acdd0741da134c3af5c765d7d792f35cc5a2971daddfeb3da84c509ac565ef
+Filename: ./arm64/soapysdr-module-sdrplay3_0.8.11_all.deb
+Size: 4196
+MD5sum: 5cb149ad4d1c3b9e08f9d981993f6c10
+SHA1: 24587bdd84c2ed8da48ea0804efac625d56504e4
+SHA256: ff76a35209a7046020ad011718f447cb2f770bd8f0461584ae1ad2917bc86e84
 Section: libs
 Priority: optional
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
-Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
+Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
  A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
  .
  This is an empty dependency package that pulls in the SDRPlay3 module
@@ -2084,20 +2099,20 @@ Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.7
+Version: 0.8.6
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 10
 Depends: soapysdr0.8-module-sdrplay3
-Filename: ./arm64/soapysdr-module-sdrplay3_0.8.7_all.deb
-Size: 3808
-MD5sum: 4da37d1154df2aff7e5e6f5f4a069327
-SHA1: 3c95ba0a91fbc037d9e1a04d2c5a011944e56557
-SHA256: 49836d062c30aa30d9f40b26e9e2bd9c4981fe82dab662ce92a568c04ef16a34
+Filename: ./arm64/soapysdr-module-sdrplay3_0.8.6_all.deb
+Size: 3528
+MD5sum: 1f499cced010d76607605daca1cb2a51
+SHA1: 620b382ac482cffe3f18f27d484ad11cbc0bb5f0
+SHA256: d8acdd0741da134c3af5c765d7d792f35cc5a2971daddfeb3da84c509ac565ef
 Section: libs
 Priority: optional
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
-Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
+Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
  A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
  .
  This is an empty dependency package that pulls in the SDRPlay3 module
@@ -2126,16 +2141,16 @@ Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.8
+Version: 0.8.7
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 11
+Installed-Size: 10
 Depends: soapysdr0.8-module-sdrplay3
-Filename: ./arm64/soapysdr-module-sdrplay3_0.8.8_all.deb
-Size: 3892
-MD5sum: d495ce2113162c198dafac174a0c441a
-SHA1: b47496e83a2415784631e5de5da12a47046f5ef4
-SHA256: 26de41ac2e966299536c598f251da836afb8cc75ac4d016464451345e898954e
+Filename: ./arm64/soapysdr-module-sdrplay3_0.8.7_all.deb
+Size: 3808
+MD5sum: 4da37d1154df2aff7e5e6f5f4a069327
+SHA1: 3c95ba0a91fbc037d9e1a04d2c5a011944e56557
+SHA256: 49836d062c30aa30d9f40b26e9e2bd9c4981fe82dab662ce92a568c04ef16a34
 Section: libs
 Priority: optional
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
@@ -2168,16 +2183,16 @@ Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.9
+Version: 0.8.8
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 11
 Depends: soapysdr0.8-module-sdrplay3
-Filename: ./arm64/soapysdr-module-sdrplay3_0.8.9_all.deb
-Size: 3984
-MD5sum: 45a2c83be30101b9b59e28ad30728bba
-SHA1: a64da309433a431b1bd0a2aaa1c9807bed7ad444
-SHA256: 099fae6391fb53d597c2f7955e66dd3c5316fb4c50df4aedec368a02591ed63f
+Filename: ./arm64/soapysdr-module-sdrplay3_0.8.8_all.deb
+Size: 3892
+MD5sum: d495ce2113162c198dafac174a0c441a
+SHA1: b47496e83a2415784631e5de5da12a47046f5ef4
+SHA256: 26de41ac2e966299536c598f251da836afb8cc75ac4d016464451345e898954e
 Section: libs
 Priority: optional
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
@@ -2208,24 +2223,26 @@ Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
  This is an empty dependency package that pulls in the SDRPlay3 module
  for the default version of libsoapysdr.
 
-Package: soapysdr0.8-module-sdrplay3
+Package: soapysdr-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.10
-Architecture: arm64
+Version: 0.8.9
+Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 131
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
-Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.10_arm64.deb
-Size: 42680
-MD5sum: 2d7a33e703157d745675c845ea60aba6
-SHA1: 6c2b5225e3fcebd2daf4c7e62dd18e4c6a9c725b
-SHA256: 6841f733cbd0d2585e258f5b0a11d541af6ce4c8aa395608685fbad024dec0ed
+Installed-Size: 11
+Depends: soapysdr0.8-module-sdrplay3
+Filename: ./arm64/soapysdr-module-sdrplay3_0.8.9_all.deb
+Size: 3984
+MD5sum: 45a2c83be30101b9b59e28ad30728bba
+SHA1: a64da309433a431b1bd0a2aaa1c9807bed7ad444
+SHA256: 099fae6391fb53d597c2f7955e66dd3c5316fb4c50df4aedec368a02591ed63f
 Section: libs
 Priority: optional
-Multi-Arch: same
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
 Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
  A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
+ .
+ This is an empty dependency package that pulls in the SDRPlay3 module
+ for the default version of libsoapysdr.
 
 Package: soapysdr0.8-module-sdrplay3
 Source: soapysdrplay3
@@ -2248,16 +2265,16 @@ Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr0.8-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.11
+Version: 0.8.10
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 132
+Installed-Size: 131
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
-Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.11_arm64.deb
-Size: 43612
-MD5sum: 4c4dfb90172da75ec95893806b083f8b
-SHA1: 5c93a19e243317c1c4d6f96d774459d6e9d3a8ab
-SHA256: 5ebc404e0fcf83e4705fc456d87886ada54cbf592bc802e9517ffc8f443486e8
+Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.10_arm64.deb
+Size: 42680
+MD5sum: 2d7a33e703157d745675c845ea60aba6
+SHA1: 6c2b5225e3fcebd2daf4c7e62dd18e4c6a9c725b
+SHA256: 6841f733cbd0d2585e258f5b0a11d541af6ce4c8aa395608685fbad024dec0ed
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2286,21 +2303,21 @@ Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr0.8-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.6
+Version: 0.8.11
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 125
+Installed-Size: 132
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
-Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.6_arm64.deb
-Size: 40832
-MD5sum: 0a6aa2c2105d5bab19f1e06879924bcc
-SHA1: 853ba337a443253c049edef4b75c470094143da2
-SHA256: 453271b65ea6369cee07f45655ab073ee5f8fdc3aa6b8e0db7b775be0480dbdb
+Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.11_arm64.deb
+Size: 43612
+MD5sum: 4c4dfb90172da75ec95893806b083f8b
+SHA1: 5c93a19e243317c1c4d6f96d774459d6e9d3a8ab
+SHA256: 5ebc404e0fcf83e4705fc456d87886ada54cbf592bc802e9517ffc8f443486e8
 Section: libs
 Priority: optional
 Multi-Arch: same
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
-Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
+Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
  A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
 
 Package: soapysdr0.8-module-sdrplay3
@@ -2324,21 +2341,21 @@ Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr0.8-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.7
+Version: 0.8.6
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 125
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
-Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.7_arm64.deb
-Size: 41536
-MD5sum: 5da805a9753ae57d7d481ca72e44ff67
-SHA1: fd808b31b7d46d02339afad944e53428fa1f3536
-SHA256: e8844e34e38b0e6d579cf5f812724033fcb50c40a42b90c5ed626e0247f2895a
+Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.6_arm64.deb
+Size: 40832
+MD5sum: 0a6aa2c2105d5bab19f1e06879924bcc
+SHA1: 853ba337a443253c049edef4b75c470094143da2
+SHA256: 453271b65ea6369cee07f45655ab073ee5f8fdc3aa6b8e0db7b775be0480dbdb
 Section: libs
 Priority: optional
 Multi-Arch: same
 Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
-Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
+Description: Soapy SDRPlay3 - SDRlay device APIv3 support for Soapy SDR.
  A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
 
 Package: soapysdr0.8-module-sdrplay3
@@ -2362,16 +2379,16 @@ Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr0.8-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.8
+Version: 0.8.7
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 126
+Installed-Size: 125
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
-Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.8_arm64.deb
-Size: 41640
-MD5sum: 680c843385eef6d9ba0541ed7a18cfaf
-SHA1: 81b05e85955cfef1f52d6948529bb44ca0ae0d1c
-SHA256: 94fd9623b89383cb35af8953cc8e30b9c23ef7fe12c8b6efc6144ee48ebe62aa
+Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.7_arm64.deb
+Size: 41536
+MD5sum: 5da805a9753ae57d7d481ca72e44ff67
+SHA1: fd808b31b7d46d02339afad944e53428fa1f3536
+SHA256: e8844e34e38b0e6d579cf5f812724033fcb50c40a42b90c5ed626e0247f2895a
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2400,16 +2417,16 @@ Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
 
 Package: soapysdr0.8-module-sdrplay3
 Source: soapysdrplay3
-Version: 0.8.9
+Version: 0.8.8
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 130
+Installed-Size: 126
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
-Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.9_arm64.deb
-Size: 42416
-MD5sum: bfc6c6fd16269bbe2a6e8804224e3d4b
-SHA1: 1697fbd77c7afb0d6f4b4d3c4776292a72ef3408
-SHA256: f471c9b2ee6109774b7a939861bd7893dd269bfba944058a2278f8fe08ab870e
+Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.8_arm64.deb
+Size: 41640
+MD5sum: 680c843385eef6d9ba0541ed7a18cfaf
+SHA1: 81b05e85955cfef1f52d6948529bb44ca0ae0d1c
+SHA256: 94fd9623b89383cb35af8953cc8e30b9c23ef7fe12c8b6efc6144ee48ebe62aa
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -2436,17 +2453,36 @@ Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
 Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
  A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
 
+Package: soapysdr0.8-module-sdrplay3
+Source: soapysdrplay3
+Version: 0.8.9
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 130
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libsoapysdr0.8 (>= 0.8.1), libstdc++6 (>= 11)
+Filename: ./arm64/soapysdr0.8-module-sdrplay3_0.8.9_arm64.deb
+Size: 42416
+MD5sum: bfc6c6fd16269bbe2a6e8804224e3d4b
+SHA1: 1697fbd77c7afb0d6f4b4d3c4776292a72ef3408
+SHA256: f471c9b2ee6109774b7a939861bd7893dd269bfba944058a2278f8fe08ab870e
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/pothosware/SoapySDRPlay/wiki
+Description: Soapy SDRPlay3 - SDRPlay device APIv3 support for Soapy SDR.
+ A Soapy module that supports SDRPlay APIv3 devices within the Soapy API.
+
 Package: sonde-decoders
 Version: 1.8.1
-Architecture: arm64
+Architecture: armhf
 Maintainer: OpenWebRX Builder <builder@openwebrx>
-Installed-Size: 791
+Installed-Size: 587
 Depends: libc6 (>= 2.34)
-Filename: ./arm64/sonde-decoders_1.8.1_arm64.deb
-Size: 217058
-MD5sum: 592e3c2d81b4be5888395ed0a0f4812a
-SHA1: 7aca04fd65b86a2040480cb21c8fac43edaf60ff
-SHA256: e6d36c2951cf37df0df8c453c3b268552d5c82d05e65348b29b48935e418befa
+Filename: ./armhf/sonde-decoders_1.8.1_armhf.deb
+Size: 185516
+MD5sum: 1bcef80614ebb4a4b8879e4e13e8b0f2
+SHA1: 987f02a74e6abc7830a03fc037969aed30cae1c5
+SHA256: b20111c8e90534653a650b494df741b2aaeaf87f5bdc79046d33c8c6972cf2b4
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/projecthorus/radiosonde_auto_rx
@@ -2474,15 +2510,15 @@ Description: Radiosonde decoder binaries from auto_rx
 
 Package: sonde-decoders
 Version: 1.8.1
-Architecture: armhf
+Architecture: arm64
 Maintainer: OpenWebRX Builder <builder@openwebrx>
-Installed-Size: 587
+Installed-Size: 791
 Depends: libc6 (>= 2.34)
-Filename: ./armhf/sonde-decoders_1.8.1_armhf.deb
-Size: 185516
-MD5sum: 1bcef80614ebb4a4b8879e4e13e8b0f2
-SHA1: 987f02a74e6abc7830a03fc037969aed30cae1c5
-SHA256: b20111c8e90534653a650b494df741b2aaeaf87f5bdc79046d33c8c6972cf2b4
+Filename: ./arm64/sonde-decoders_1.8.1_arm64.deb
+Size: 217058
+MD5sum: 592e3c2d81b4be5888395ed0a0f4812a
+SHA1: 7aca04fd65b86a2040480cb21c8fac43edaf60ff
+SHA256: e6d36c2951cf37df0df8c453c3b268552d5c82d05e65348b29b48935e418befa
 Section: hamradio
 Priority: optional
 Homepage: https://github.com/projecthorus/radiosonde_auto_rx
