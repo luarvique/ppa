@@ -1142,10 +1142,10 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 11461
 Depends: dump1090-fa-minimal (= 8.2-1), libc6 (>= 2.38), libncurses6 (>= 6), libtinfo6 (>= 6), adduser, lighttpd
 Filename: ./armhf/dump1090-fa_8.2-1_armhf.deb
-Size: 2136200
-MD5sum: e82a582776aefe5740c084b5604a7b0c
-SHA1: b60d85e46fbdf12a47d5dac63f1b16d3f3b303da
-SHA256: db87da25a7c8410a95dacfc8f2087b71a61ed64d6145877a5dfb65d9c6404dee
+Size: 2130844
+MD5sum: 7ef28c135348adb752b00cafaa29de7c
+SHA1: 8f8847563a7087da1a8efeec012f446b90f37f43
+SHA256: c757ae7c2fe8cc7ea7dcb9956e00438aa70dc38621cbf78b7c439ff14c7d340e
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
@@ -1161,10 +1161,10 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 11513
 Depends: dump1090-fa-minimal (= 8.2-1), libc6 (>= 2.38), libncurses6 (>= 6), libtinfo6 (>= 6), adduser, lighttpd
 Filename: ./amd64/dump1090-fa_8.2-1_amd64.deb
-Size: 2143000
-MD5sum: b81c8190c7bf5d0695578512f501b151
-SHA1: a7eea6a44411cec0d924afacf4025650c22dd9b2
-SHA256: 0d07d4a82a69d6c2bf4ad75facdcc4bba8075dee6eaae9df9c551572ec4b5159
+Size: 2146584
+MD5sum: ddad0ed5fb37c2cba47a8a7ff6006f00
+SHA1: 0dd2ed0800af01266041cd3770d8dca46e651ae7
+SHA256: 0507a6e12c8a4604b45a9301f54bce3f1dc2746d6f160ce44324b778af3de2a5
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
@@ -1180,10 +1180,10 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 11529
 Depends: dump1090-fa-minimal (= 8.2-1), libc6 (>= 2.38), libncurses6 (>= 6), libtinfo6 (>= 6), adduser, lighttpd
 Filename: ./arm64/dump1090-fa_8.2-1_arm64.deb
-Size: 2135856
-MD5sum: 5e343ae847bdc30961092b26b47d3e54
-SHA1: 21a2906629c0ea3e026ae5912eb274ea7176cf75
-SHA256: c5f71637db78b94a6f53eeaf5805200a7970309edca55f944d27749407bb88ef
+Size: 2136764
+MD5sum: 689558fc561ee8c7e5709f51e80a000e
+SHA1: 16f1493b265e5e2881dfed7d46ef7d83c41f9947
+SHA256: d10a046d0865addec67f51fd6f01aaa224ab93449cbb36721a945ef310b337f7
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
@@ -1256,13 +1256,13 @@ Installed-Size: 499
 Depends: dump1090-fa (= 8.2-1)
 Filename: ./armhf/dump1090-fa-dbgsym_8.2-1_armhf.deb
 Size: 307072
-MD5sum: 956a188639d61d9e12445ed7f1f48326
-SHA1: 504ea6e7b6038655631b15441211ad4e90563167
-SHA256: af476e784638034eed584300c9245a654497c3968182ada7bb5220c89a9298f3
+MD5sum: adc3d9c8e74afa6112ad49cce1f624ca
+SHA1: 322d1a128738acb5355cd68361e36e99819994a6
+SHA256: 21a893a913e72866d5b8cdd55975b5b910bef9ec0b9c4617b8dc9841b603a41d
 Section: debug
 Priority: optional
 Description: debug symbols for dump1090-fa
-Build-Ids: 2f585a435d2ca039f78f547f9827d04ca2d2e2ea 6db72b94ba96fa5b08a60f679448a03552032fcb
+Build-Ids: 2f585a435d2ca039f78f547f9827d04ca2d2e2ea 888d87842c3d9b7a9858b4fe333389ed468f5bb9
 
 Package: dump1090-fa-dbgsym
 Source: dump1090-fa
@@ -1273,14 +1273,14 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 389
 Depends: dump1090-fa (= 8.2-1)
 Filename: ./amd64/dump1090-fa-dbgsym_8.2-1_amd64.deb
-Size: 298504
-MD5sum: 552760785e30e27598c30c0361ac2226
-SHA1: 9ae7706d5fcd543ccb7bc85db4d400cea49537b7
-SHA256: ce5e4aa5754683deae455532bb59f3c57200cb7a5e056f23e00f3c92df680e19
+Size: 298496
+MD5sum: 0e7ee489cac49d7ffdbb9e45b9b1c8d5
+SHA1: f79e16805e7beb7b86f29d1d6db2f81b7cc9d2f7
+SHA256: a2c9e1065a33d01393109a00cdb37dade4b4a09e9cef99d38e8c6e7369a5968e
 Section: debug
 Priority: optional
 Description: debug symbols for dump1090-fa
-Build-Ids: 43f72c6a46527049a611580314512b8695424700 f4f13dbc762c02ffa76e7999f399364b4d2c1df0
+Build-Ids: 43f72c6a46527049a611580314512b8695424700 98d990d46ef58b015f2a728a404959f5ff99a9ce
 
 Package: dump1090-fa-dbgsym
 Source: dump1090-fa
@@ -1291,14 +1291,14 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 561
 Depends: dump1090-fa (= 8.2-1)
 Filename: ./arm64/dump1090-fa-dbgsym_8.2-1_arm64.deb
-Size: 304796
-MD5sum: bb26de88af276d6c32dc8a52d6419ea3
-SHA1: 4d6904f076fb2a300c216715e1cf4533b89b69aa
-SHA256: 5a4738953842f6a07eec769b4f7e5be931abc4cd56359dca6ba32aee784b1264
+Size: 305324
+MD5sum: 4923cd4019288e80d8c3870ee21cfff6
+SHA1: a8178eabb39ed9254508cd3a2a1256756b987b45
+SHA256: 5903be0f4b855381e2378362bb3bad24e6aacd1acb2cfe92cb9e8c18075229c0
 Section: debug
 Priority: optional
 Description: debug symbols for dump1090-fa
-Build-Ids: 4ff127344dbb5ebfbe94914b90ed63493041032e bc5af5d7693f701557bc014e895da2d27cf02c3e
+Build-Ids: bc5af5d7693f701557bc014e895da2d27cf02c3e eac765f686b2c6baeb03a82949c7b9d4c1bc9913
 
 Package: dump1090-fa-minimal
 Source: dump1090-fa
@@ -1308,10 +1308,10 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 260
 Depends: libbladerf2 (>= 0.2024.05), libc6 (>= 2.38), libhackrf0 (>= 2024.02.1), liblimesuite23.11-1 (>= 23.11.0+dfsg), libncurses6 (>= 6), librtlsdr0, libtinfo6 (>= 6)
 Filename: ./armhf/dump1090-fa-minimal_8.2-1_armhf.deb
-Size: 103588
-MD5sum: a2911514817d5abfe459db11819621c8
-SHA1: 683969c33680f7fccc86578cc66f15ea3505feee
-SHA256: 99bc22e8a20636e13765ed16cee497e5035dd5519c5c58ffa5fe5ca8e5db3797
+Size: 103640
+MD5sum: 50767c1d1beb607e99c5945b27d3bec8
+SHA1: 9c96693c914ca8645995e6f489dc482542a9dea4
+SHA256: 3f5448ac46d0079ce7573c89de9d4355de0c77fc4bd3a532c424e25f9cf6d4e0
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
@@ -1326,10 +1326,10 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 334
 Depends: libbladerf2 (>= 0.2024.05), libc6 (>= 2.38), libhackrf0 (>= 2024.02.1), liblimesuite23.11-1 (>= 23.11.0+dfsg), libncurses6 (>= 6), librtlsdr0, libtinfo6 (>= 6)
 Filename: ./amd64/dump1090-fa-minimal_8.2-1_amd64.deb
-Size: 116096
-MD5sum: e3f880d735a77d601c31cceaf28babd7
-SHA1: 80c53a85c4f1bdb789fe02943abe733bf62a3969
-SHA256: 7e9778e30f366c6fb3254ff93d219b329508c48228283d9af7ad161175b95632
+Size: 116148
+MD5sum: af52067d5b31438f3504bbc32f3e49e6
+SHA1: df66fa6deb84cdecfdc30d32480be629ad2de8dd
+SHA256: fcf009fc2edb64346feb4a4dee95a256d73d962eb6916efcd965455a0e657af4
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
@@ -1344,10 +1344,10 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 327
 Depends: libbladerf2 (>= 0.2024.05), libc6 (>= 2.38), libhackrf0 (>= 2024.02.1), liblimesuite23.11-1 (>= 23.11.0+dfsg), libncurses6 (>= 6), librtlsdr0, libtinfo6 (>= 6)
 Filename: ./arm64/dump1090-fa-minimal_8.2-1_arm64.deb
-Size: 107048
-MD5sum: 7b38a3afd3f2f8747bbe65cd1965ff21
-SHA1: 5195900ae2ed48f232f60fe2cc6093076a06ecd5
-SHA256: 07605442d00d5f57378e1a179f0ac85ab9d3f91c9cb9dca8a0c1c67f7f76e0f4
+Size: 107096
+MD5sum: 04d3a3946288285505285d65900ea011
+SHA1: 672af890418fb3a0a267fe318ea39379bb7d4562
+SHA256: 20613a39bd2ff7b2f109342dffe30deffd2a902790b3654c260ce2229aefdc72
 Section: embedded
 Priority: extra
 Homepage: http://www.flightaware.com/
@@ -1363,14 +1363,14 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 594
 Depends: dump1090-fa-minimal (= 8.2-1)
 Filename: ./armhf/dump1090-fa-minimal-dbgsym_8.2-1_armhf.deb
-Size: 373748
-MD5sum: f6d0c47029b99e86340631ec090fbb1b
-SHA1: 7dd812b81209619a6fb9284309ea134b63f313b1
-SHA256: 0537b33b1f27a2187cb22f51b36e9bf5677671969ff2b6ac2da06ad5c451206a
+Size: 373704
+MD5sum: 76274bf3b797698c537d236b551c98e3
+SHA1: df7655debac07158a8c06b0cd531504baf5982a0
+SHA256: 97e9b631c1c433a01f93a58eb1187693c1394e7973887658ce7e889da4428b7b
 Section: debug
 Priority: optional
 Description: debug symbols for dump1090-fa-minimal
-Build-Ids: b94d0a1cbeb3258219fa075c58667e23a5d4e2d3
+Build-Ids: e6a16fed6f8b6345b8abe9b8a73a587326910114
 
 Package: dump1090-fa-minimal-dbgsym
 Source: dump1090-fa
@@ -1381,14 +1381,14 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 472
 Depends: dump1090-fa-minimal (= 8.2-1)
 Filename: ./amd64/dump1090-fa-minimal-dbgsym_8.2-1_amd64.deb
-Size: 367232
-MD5sum: 40795a73a3444445e5f4066459a369f7
-SHA1: e3adb04204310d6f7aaa31efafc5720150152c73
-SHA256: 17d71d77a303e08c8a5076fd1d4a0c922d50774d6ab1203c6a39bb2ade2ae7ea
+Size: 367208
+MD5sum: 4711072cb398fe956b24a62b1146f5f8
+SHA1: 2e67db69c6420b4dd2372bc01898956df8b0eed7
+SHA256: dab93fd69705c3688f0fa37ee7af9194fd20a1fbd7b085a1081aa5ae2b7e2ba9
 Section: debug
 Priority: optional
 Description: debug symbols for dump1090-fa-minimal
-Build-Ids: b0f73c68f6d8328652651ffef7aacdcd96dcb48d
+Build-Ids: b4020e3975a500acec8beeb920007485bbf19060
 
 Package: dump1090-fa-minimal-dbgsym
 Source: dump1090-fa
@@ -1399,14 +1399,14 @@ Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
 Installed-Size: 666
 Depends: dump1090-fa-minimal (= 8.2-1)
 Filename: ./arm64/dump1090-fa-minimal-dbgsym_8.2-1_arm64.deb
-Size: 375172
-MD5sum: ac42885af2da051fbdba9871217c36de
-SHA1: 3a7e52fad56b90a2bd81d599fa56263eaa393a18
-SHA256: 2185eae230ba0e15fb278272e642fd0ccb3f4bb1fd61afe6ac592112b2e6c8be
+Size: 375276
+MD5sum: 4f4b7a22c0a2586a85f9e95ce85a08c6
+SHA1: f8f2a978a148f989f3b87f969e2eee4d471e3cf6
+SHA256: 87188857e89b3679725b6e7f1204876cdba0f12da2448096e231332835f28ed8
 Section: debug
 Priority: optional
 Description: debug symbols for dump1090-fa-minimal
-Build-Ids: cb74f4bf7490e5e11a6c2e62d5a977b14792b6a8
+Build-Ids: e487339c14a694c8d248c3fb4510bfee442396c5
 
 Package: dump978-fa
 Version: 10.2.1
@@ -4596,10 +4596,10 @@ Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.13), python3-serial, python3-protobuf, python3-tabulate, python3-requests, python3-yaml, python3-bleak, python3-packaging, python3-dotmap
 Filename: ./armhf/python3-meshtastic_2.7.7-1_all.deb
-Size: 512680
-MD5sum: 1bbc14608ffac01151d0ed638a18849d
-SHA1: 1df1a21c2f47dfc611d3038516b2770b821a9025
-SHA256: 2d5df4cadd76a0464ba949f82feff9301d68b33443506e736770eacbc6e248b1
+Size: 512800
+MD5sum: a238b49c66b4a3f16f1c52a80beea897
+SHA1: a569ea46117b6a37f29bfd6f4080ad32f0c2ca4d
+SHA256: 75979b68babb9cbbf7fcec42affd1a25afd24f6982425432d08f84ee84fae50a
 Description: Python API for Meshtastic LoRa radio devices (v2.7.7)
  Python API and command-line tool for interacting with Meshtastic LoRa
  radio mesh networking devices. Supports BLE, serial and network connections.
@@ -4612,10 +4612,10 @@ Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.13), python3-serial, python3-protobuf, python3-tabulate, python3-requests, python3-yaml, python3-bleak, python3-packaging, python3-dotmap
 Filename: ./amd64/python3-meshtastic_2.7.7-1_all.deb
-Size: 512740
-MD5sum: 52b0e12f80aba5f8434dfcf1e8bd2d2c
-SHA1: e62289034bcf7f0b73c0d522d2ae46941667fd04
-SHA256: c1ac180d36f18375e24762bfc215e88d3b09de02486f1dada3d93c333b8d2c39
+Size: 512720
+MD5sum: e0208fa31a4fa7e604f5b95dac397d62
+SHA1: de8b575a8011d840cbc4cff2f797bce6dde05a6d
+SHA256: 1eec06625b3d38a0c487afaaf3b56301248a4e3bf1279b39d1167f595f2a5126
 Description: Python API for Meshtastic LoRa radio devices (v2.7.7)
  Python API and command-line tool for interacting with Meshtastic LoRa
  radio mesh networking devices. Supports BLE, serial and network connections.
@@ -4628,10 +4628,10 @@ Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.13), python3-serial, python3-protobuf, python3-tabulate, python3-requests, python3-yaml, python3-bleak, python3-packaging, python3-dotmap
 Filename: ./arm64/python3-meshtastic_2.7.7-1_all.deb
-Size: 512796
-MD5sum: 9658c807c2523772da6ac1405a23526f
-SHA1: c1784a354b769082d71c6e3c8e17c01523e06837
-SHA256: 83fb097fed27585254b59417e8085da3f70f43a6b959d2c9882d95518331e665
+Size: 512780
+MD5sum: ebb032a22bae50ad8bc10be6e06dd2e8
+SHA1: 7e2407ed6024f5843fe3522446fe1e63e26a7d50
+SHA256: 6e4dfb6f10c037d2f8510f222f2fac6ad7c76d789140f2d1460ee3b791e65b3f
 Description: Python API for Meshtastic LoRa radio devices (v2.7.7)
  Python API and command-line tool for interacting with Meshtastic LoRa
  radio mesh networking devices. Supports BLE, serial and network connections.
@@ -4647,10 +4647,10 @@ Conflicts: python3-protobuf (<< 4.21.12)
 Replaces: python3-protobuf (<< 4.21.12)
 Provides: python3-protobuf
 Filename: ./armhf/python3-protobuf_4.25.8-1_armhf.deb
-Size: 265932
-MD5sum: fb98ca36fae15eeab61f01374a6028c5
-SHA1: dab439a0b5dc4f4e15d07a82bd8c7e47a74aa03b
-SHA256: 6720ae787bb63a0e154ef6cf61564301d84a8227ed6b3d0df0fe71a26e9f072a
+Size: 266064
+MD5sum: 17a758d9e87a19097ee0aa2dc34e55c3
+SHA1: cdd7ae7621c42914bb04bc16e062ff1c54a569ef
+SHA256: cf8fa5929983d0c4e58857c7c332b169767d51a7ca15c364a3ac2e48cb89496b
 Description: Python bindings for protocol buffers (v4.25.8)
  Protocol buffers are Google's language-neutral, platform-neutral,
  extensible mechanism for serializing structured data.
@@ -4666,10 +4666,10 @@ Conflicts: python3-protobuf (<< 4.21.12)
 Replaces: python3-protobuf (<< 4.21.12)
 Provides: python3-protobuf
 Filename: ./amd64/python3-protobuf_4.25.8-1_amd64.deb
-Size: 373992
-MD5sum: 34b4995cdc3cb0b1b858a18c34753507
-SHA1: e5f87ad024c081b7a0c2db1d5ece6175494744cc
-SHA256: 19b651305c882d8f0d3d180c78deec5648eb21a5a604be0b63383d03ba4482a8
+Size: 373732
+MD5sum: 13899e93426ccda8872123307803146e
+SHA1: c9ee4fe00394da829fb8404d1d54c3e2a6b28b3a
+SHA256: e78f5c802f0eff5e456b37a7642e6b63e8e5a781a69f33536387001dc16a56d8
 Description: Python bindings for protocol buffers (v4.25.8)
  Protocol buffers are Google's language-neutral, platform-neutral,
  extensible mechanism for serializing structured data.
@@ -4685,10 +4685,10 @@ Conflicts: python3-protobuf (<< 4.21.12)
 Replaces: python3-protobuf (<< 4.21.12)
 Provides: python3-protobuf
 Filename: ./arm64/python3-protobuf_4.25.8-1_arm64.deb
-Size: 366376
-MD5sum: ea3b2c0c15256a7b61fb0237036023ab
-SHA1: 41b65b303638c8dcbcd4f7ea41103d694d0096eb
-SHA256: 25ea17f6ec1cfd1a4a33b2f7e9d56c2fca40140a26bee0cbab47be51a59363ff
+Size: 366356
+MD5sum: 2d84baf4c599e0cde71ba9d92f8a83af
+SHA1: 3799f6a71e529f56be3961531342283aa3a8f262
+SHA256: a79ddcf7a6b8c0508335b835dffe6f8dfbe1669bf5b7a1536691c0d2138c2190
 Description: Python bindings for protocol buffers (v4.25.8)
  Protocol buffers are Google's language-neutral, platform-neutral,
  extensible mechanism for serializing structured data.
@@ -4740,6 +4740,57 @@ Size: 209208
 MD5sum: 6227f16de6e7df6c92534b14bd7bd4ef
 SHA1: f6fb7eab7f08231159a08afb6babd358c37c76ef
 SHA256: b9920ca95a5e0aa01145ea1414742cab8b590d90f80494f67db4077e32dae234
+Section: hamradio
+Priority: optional
+Description: RDS (Radio Data System) decoder
+ A lightweight command-line FM-RDS decoder that supports a
+ large subset of RDS features.
+
+Package: redsea
+Version: 1.3.1
+Architecture: armhf
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 462
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.0), libliquid1 (>= 1.7.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 13.1)
+Filename: ./armhf/redsea_1.3.1_armhf.deb
+Size: 166592
+MD5sum: 146933666ab0558a745208c4a831a7f4
+SHA1: 34e26fa29026db369991061252aa061d641d7d0c
+SHA256: 8edc2672bd856c8b1717d1d820ff1dac49f949717dc7b8e5d95f652c5232cddd
+Section: hamradio
+Priority: optional
+Description: RDS (Radio Data System) decoder
+ A lightweight command-line FM-RDS decoder that supports a
+ large subset of RDS features.
+
+Package: redsea
+Version: 1.3.1
+Architecture: amd64
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 682
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.0), libliquid1 (>= 1.7.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 13.1)
+Filename: ./amd64/redsea_1.3.1_amd64.deb
+Size: 198600
+MD5sum: fa60ad796de40b9efea128d22705dfb3
+SHA1: 499cda9616ad0a8648c213615067e4c671973812
+SHA256: eba7824931e8872f915089232f3f9d6d64542a009acb4492f9242305ab6b7c18
+Section: hamradio
+Priority: optional
+Description: RDS (Radio Data System) decoder
+ A lightweight command-line FM-RDS decoder that supports a
+ large subset of RDS features.
+
+Package: redsea
+Version: 1.3.1
+Architecture: arm64
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 658
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.0), libliquid1 (>= 1.7.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 13.1)
+Filename: ./arm64/redsea_1.3.1_arm64.deb
+Size: 174936
+MD5sum: 01313ca19b9ad5cf5ea433bc3b28f8a5
+SHA1: ffcd56eefe5033182b3d525d776bce559ff9c312
+SHA256: 46c9cdfd345000eb11de384ca7b79c2027440c161e738f908aa250029b999b74
 Section: hamradio
 Priority: optional
 Description: RDS (Radio Data System) decoder
@@ -4799,6 +4850,60 @@ Section: debug
 Priority: optional
 Description: debug symbols for redsea
 Build-Ids: 082550fe2abc10f7b9bb7886d1a0111af4b54ae5
+
+Package: redsea-dbgsym
+Source: redsea
+Version: 1.3.1
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 3448
+Depends: redsea (= 1.3.1)
+Filename: ./armhf/redsea-dbgsym_1.3.1_armhf.deb
+Size: 3014312
+MD5sum: 3148fe960fb1e84b403a68030e5620d9
+SHA1: 1320e50ec19fe934f6626b7ec86c8d62857ae3db
+SHA256: 5280becc7e9d8a0df69b3f74d2369d5eeaa50496bc8d1607e6e77fa1c7537b95
+Section: debug
+Priority: optional
+Description: debug symbols for redsea
+Build-Ids: d5ba63e6a3c81fc8daaa32a8fc083c6f3862ae5a
+
+Package: redsea-dbgsym
+Source: redsea
+Version: 1.3.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 3366
+Depends: redsea (= 1.3.1)
+Filename: ./amd64/redsea-dbgsym_1.3.1_amd64.deb
+Size: 3137460
+MD5sum: a432c2a8ba26a9ab13344f5b99248835
+SHA1: 4595b9ffbdc60cb3f62d8fdd6fe71e9da6aaa9b6
+SHA256: 121e9ed705a1986cef293d8085ac762d88c06eb94c3d9d9005f13af3a80cf42c
+Section: debug
+Priority: optional
+Description: debug symbols for redsea
+Build-Ids: 418d70564cae3b14124478e3c486f0a53ce3d574
+
+Package: redsea-dbgsym
+Source: redsea
+Version: 1.3.1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 3637
+Depends: redsea (= 1.3.1)
+Filename: ./arm64/redsea-dbgsym_1.3.1_arm64.deb
+Size: 3043892
+MD5sum: 082be0e36da3a151cc366a571dee3c48
+SHA1: 6c17d362e8c8a4a4861a7c33573fe864eb1bc15e
+SHA256: 81f08d0770e9744ff89bff8374c53d2616ae29ee1dc33ae6ff6f7ff35c1d6dd3
+Section: debug
+Priority: optional
+Description: debug symbols for redsea
+Build-Ids: a5528952219bccc1f5d8c927225136c3b43984df
 
 Package: rtl-433
 Version: 25.12-1

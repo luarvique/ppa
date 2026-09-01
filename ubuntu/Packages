@@ -51,16 +51,33 @@ Description: ACARS decoder
 
 Package: csdr
 Version: 0.18.39
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 328
+Depends: libcsdr0 (= 0.18.39), libc6 (>= 2.34), libgcc-s1 (>= 3.5), libstdc++6 (>= 11)
+Recommends: nmux (= 0.18.39)
+Filename: ./armhf/csdr_0.18.39_armhf.deb
+Size: 131264
+MD5sum: 438880b529755668ecf0de7b56bfc888
+SHA1: 37370d9cd1cf277b672d3252051f7374c91fafa2
+SHA256: c5b12cd66fe0e90cdc579b707433c98b63078956694179d6fe360cded9a3871b
+Section: hamradio
+Priority: optional
+Description: command-line sdr
+ A simple DSP command-line tool for Software Defined Radio.
+
+Package: csdr
+Version: 0.18.39
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 569
 Depends: libcsdr0 (= 0.18.39), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
 Recommends: nmux (= 0.18.39)
 Filename: ./amd64/csdr_0.18.39_amd64.deb
-Size: 160740
-MD5sum: dbb58ef2d91966c3813def1472b7147b
-SHA1: fa461f6091de66d1db7dc5a141332f5e898fa279
-SHA256: 971b08cd22c897292546f6a3932284471d376d84d99c4ff64580a1acc0c8831a
+Size: 160440
+MD5sum: 39f0a30fbeb8c52ea985c89f9510bf74
+SHA1: e83fbb67fdc184225015ef07ffe7b797ea909684
+SHA256: 6e2e22823b827d6f952c55394996a201cf9b5f30740a76eecb0b49ad7c3a6391
 Section: hamradio
 Priority: optional
 Description: command-line sdr
@@ -74,10 +91,10 @@ Installed-Size: 525
 Depends: libcsdr0 (= 0.18.39), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
 Recommends: nmux (= 0.18.39)
 Filename: ./arm64/csdr_0.18.39_arm64.deb
-Size: 139556
-MD5sum: 8edac8688c633ceebcb4d272a4a220d0
-SHA1: 8e8a6394e59df67653a6bd80ef73446e62fa71c8
-SHA256: 55386c8652bdc7d889746d085bb446bffd4627b80d98bfc462e9d71e7becef24
+Size: 139264
+MD5sum: b6c20a14f117003f3dd1b3d897f91a4d
+SHA1: 54ec34c0cb442538ecb7f2f0be9626238ef3f00a
+SHA256: 963ed05b36ce8ed8e98a0af2c769df71d52ffa2b27f78e81dca2e159c093253f
 Section: hamradio
 Priority: optional
 Description: command-line sdr
@@ -231,6 +248,117 @@ Description: A software radio for AM and Digital Radio Mondiale (DRM)
  Dream is a software implementation of a Digital Radio Mondiale (DRM) receiver.
  With Dream, DRM broadcasts can be received with an SDR dongle or
  a modified analog receiver (SW, MW, LW) and a PC with a sound card.
+
+Package: dump1090-fa
+Version: 8.2-1
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 11428
+Depends: dump1090-fa-minimal (= 8.2-1), libc6 (>= 2.34), libncurses6 (>= 6), libtinfo6 (>= 6), adduser, lighttpd
+Filename: ./armhf/dump1090-fa_8.2-1_armhf.deb
+Size: 2312956
+MD5sum: 4105d7d127e2905af0e6bc0f1107c1e1
+SHA1: ba37d894a60a6393be642964cd0d13ba05697c04
+SHA256: 0c228bdd9c3b90283d17e9eaecec80a943f7ce2a72120575b57998eed82707a7
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs
+ Networked Aviation Mode S / ADS-B decoder/translator with support
+ for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
+ device support.
+
+Package: dump1090-fa
+Version: 8.2-1
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 11451
+Depends: dump1090-fa-minimal (= 8.2-1), libc6 (>= 2.34), libncurses6 (>= 6), libtinfo6 (>= 6), adduser, lighttpd
+Filename: ./amd64/dump1090-fa_8.2-1_amd64.deb
+Size: 2314116
+MD5sum: 8015b6631c783729a621b4b61b0418db
+SHA1: d9200f7482d453b52aff1d429e684ffcccf6149c
+SHA256: 7318bbc2ebc187c9691372b8365069287620be8b6ebd5ebc16e719b0a43c9457
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs
+ Networked Aviation Mode S / ADS-B decoder/translator with support
+ for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
+ device support.
+
+Package: dump1090-fa
+Version: 8.2-1
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 11452
+Depends: dump1090-fa-minimal (= 8.2-1), libc6 (>= 2.34), libncurses6 (>= 6), libtinfo6 (>= 6), adduser, lighttpd
+Filename: ./arm64/dump1090-fa_8.2-1_arm64.deb
+Size: 2313738
+MD5sum: 0928da0abdbd8453da2ee9341ecaa86d
+SHA1: 5bf929d92e0b9bdc6616cc54e255c2ed9f83f8a2
+SHA256: 0fd59167dd791644d2ee0bbb57509c369e92d9c8a698d9f558a6a56bf5dc33aa
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs
+ Networked Aviation Mode S / ADS-B decoder/translator with support
+ for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
+ device support.
+
+Package: dump1090-fa-minimal
+Source: dump1090-fa
+Version: 8.2-1
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 247
+Depends: libbladerf2 (>= 0.2021.10), libc6 (>= 2.34), libhackrf0 (>= 2021.03.1), liblimesuite20.10-1 (>= 20.10.0+dfsg), libncurses6 (>= 6), librtlsdr0 (>= 0.6.0), libtinfo6 (>= 6)
+Filename: ./armhf/dump1090-fa-minimal_8.2-1_armhf.deb
+Size: 115452
+MD5sum: 049d4c3fc1157b9c535a86404df3b737
+SHA1: 5322c62a7d4378ee8ff688afb187d1bc99bb5c7c
+SHA256: 7852dcd3dbf15c3755bcbecd5fd0e991ef3b32f9552f3fc7e826dd0936462910
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs - decoder only
+ Just the decoder binary without extras.
+
+Package: dump1090-fa-minimal
+Source: dump1090-fa
+Version: 8.2-1
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 305
+Depends: libbladerf2 (>= 0.2021.10), libc6 (>= 2.34), libhackrf0 (>= 2021.03.1), liblimesuite20.10-1 (>= 20.10.0+dfsg), libncurses6 (>= 6), librtlsdr0 (>= 0.6.0), libtinfo6 (>= 6)
+Filename: ./amd64/dump1090-fa-minimal_8.2-1_amd64.deb
+Size: 120386
+MD5sum: 2e1fe38ed05a888fcc89bb8fe5430979
+SHA1: 29181de2d2c211e064636e5f287fea041d6312fd
+SHA256: afb481c2e64dcc51f90dc1f4e55693428880f709f42284b4d9f78712d1d187ca
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs - decoder only
+ Just the decoder binary without extras.
+
+Package: dump1090-fa-minimal
+Source: dump1090-fa
+Version: 8.2-1
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 302
+Depends: libbladerf2 (>= 0.2021.10), libc6 (>= 2.34), libhackrf0 (>= 2021.03.1), liblimesuite20.10-1 (>= 20.10.0+dfsg), libncurses6 (>= 6), librtlsdr0 (>= 0.6.0), libtinfo6 (>= 6)
+Filename: ./arm64/dump1090-fa-minimal_8.2-1_arm64.deb
+Size: 121216
+MD5sum: 951984e355673d6c4b0c3d1f67961c8b
+SHA1: 59b22599eb9e331aa94cf2afadce2f1e004b8a57
+SHA256: e0775b7f24bc201afc4b25204cb00c2e01937bd19579f32b4714aa215f7cbd52
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs - decoder only
+ Just the decoder binary without extras.
 
 Package: dump978-fa
 Version: 10.2.1
@@ -781,15 +909,32 @@ Description: library for decoding various ACARS message payloads
 Package: libcsdr-dev
 Source: csdr
 Version: 0.18.39
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 234
+Depends: libcsdr0 (= 0.18.39), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
+Filename: ./armhf/libcsdr-dev_0.18.39_armhf.deb
+Size: 31740
+MD5sum: b19080b0e8fdd4460181f52f06faa952
+SHA1: 79503ce7b0153d2146ba607ff558d4161af80237
+SHA256: a3fa656565628c2fce175c431a09689113d6d38079af816f44478e4bbdba5523
+Section: hamradio
+Priority: optional
+Description: development dependencies includes for libcsdr
+ A simple DSP library for Software Defined Radio.
+
+Package: libcsdr-dev
+Source: csdr
+Version: 0.18.39
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 234
 Depends: libcsdr0 (= 0.18.39), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
 Filename: ./amd64/libcsdr-dev_0.18.39_amd64.deb
-Size: 31824
-MD5sum: c1b1159a1422e1b197a31577515ae2c7
-SHA1: 4e74e5f21fb925aac4cffa39b093625df83d64f5
-SHA256: 126e9cc589b38dde80d5a4e3ce6b59378d10ffd60f9b2ee7da19840d2805e052
+Size: 31728
+MD5sum: 06b2e220d1b29968a86086e9598056c2
+SHA1: 9a8ddd8f68c3a09e1389ae96f09751959d4de3df
+SHA256: 5836de39dbada78a99184736373380741529656f5d0219581c5d038443d09a7b
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
@@ -803,10 +948,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 234
 Depends: libcsdr0 (= 0.18.39), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
 Filename: ./arm64/libcsdr-dev_0.18.39_arm64.deb
-Size: 31780
-MD5sum: 624ef74b578ddfd0bc988df6932ac60e
-SHA1: 17ba9099ffe60abc0a96304a6064e2063a2bb7a4
-SHA256: 36031e895f63d9dc13f0ecd698b62bb48f4afab6b98f1f4af753647e4683d702
+Size: 31744
+MD5sum: b90d847192cf8cad429407d33b4251b1
+SHA1: c5cb94a04888224239dc0c45f468626af8eab3b4
+SHA256: 2f4b28ae3745175658cc9c398cddc84ad7ee80105faf1cf42d4479a9c512269e
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
@@ -885,15 +1030,32 @@ Description: DAB ETI decoder as a csdr module
 Package: libcsdr0
 Source: csdr
 Version: 0.18.39
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 513
+Depends: libc6 (>= 2.29), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.5), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
+Filename: ./armhf/libcsdr0_0.18.39_armhf.deb
+Size: 137580
+MD5sum: 8d1784fee2edfc945269c1773eccf944
+SHA1: 770a33e61295e0232348c608a2441ab323ca88c7
+SHA256: eb669dbbac00a29f93d4ec425029993ce1f67f1f7ab92130a2d997f9060bb1ca
+Section: hamradio
+Priority: optional
+Description: simple library for software defined radio
+ A simple DSP library for Software Defined Radio.
+
+Package: libcsdr0
+Source: csdr
+Version: 0.18.39
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 805
 Depends: libc6 (>= 2.35), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
 Filename: ./amd64/libcsdr0_0.18.39_amd64.deb
-Size: 173324
-MD5sum: 531c9511288f11ab4c5cfb2bbfba3f83
-SHA1: f614f5ba47aa887858b4bbb116b68d513215b49c
-SHA256: 1ce7e4c91905e6382572b5cdc515f9b10e03e74a3ab8c78a1dfd21fdb3bd23c4
+Size: 173864
+MD5sum: 7e273275fbd182827e9307e67bdd3061
+SHA1: 8016b53afac632597673666170d3d07dc5a01b94
+SHA256: 6af186a1ba6651f650c8090bd96c872ed1ecd504db4238253f4532ef797cfde6
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
@@ -907,10 +1069,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 777
 Depends: libc6 (>= 2.29), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 12)
 Filename: ./arm64/libcsdr0_0.18.39_arm64.deb
-Size: 156660
-MD5sum: 22739f7961c49a2e7603af524d7da863
-SHA1: 88c3f28b39e7e6c167a7d77a6e9fc2ad077b387d
-SHA256: bee23cc94bc78d20141845e9b2227047431f300dc95bbcc6f6c7ecaa64ae63b1
+Size: 156560
+MD5sum: a78f6d776c7ad3b0d12f244d15ae7d1b
+SHA1: c9634a0b11dd7840734d73f74817297f941fe1f9
+SHA256: d328912dc5a83e8820b98e4137cb59a23adb892ca2f7d9cbec6e7f56c0f60d73
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
@@ -1108,16 +1270,35 @@ Description: digital radio transmission decoder
 Package: nmux
 Source: csdr
 Version: 0.18.39
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 32
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.5), libstdc++6 (>= 4.1.1)
+Conflicts: csdr (<= 0.18.0~133)
+Filename: ./armhf/nmux_0.18.39_armhf.deb
+Size: 11792
+MD5sum: 1a48a9eddae53bf1042d438479a6b631
+SHA1: 3bbbb5eee099c4bb4227bfae5283cb961bcbb536
+SHA256: afb7c42cbac9ef5e77f07b94ec0d734d0afebe1a68639010f5e2a247ae3e4be5
+Section: hamradio
+Priority: optional
+Description: TCP stream multiplexer
+ It reads data from the standard input, and sends it to each client connected
+ through TCP sockets.
+
+Package: nmux
+Source: csdr
+Version: 0.18.39
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 41
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
 Conflicts: csdr (<= 0.18.0~133)
 Filename: ./amd64/nmux_0.18.39_amd64.deb
-Size: 12752
-MD5sum: 71535fb377bc0e6c4124b199cf969291
-SHA1: 8d858fe78eb957404942938321e92ff33ba6ba91
-SHA256: 89409204a6e10d6e7caf8c3991a773283ff9ddc190924957be4e6b8201a978a8
+Size: 12740
+MD5sum: 99c3ad5708ba14f33c44fd64fb666bf8
+SHA1: 221f9b06b6c24a5a4aa7cc37b43f181d4167eba2
+SHA256: ac1672da38581085409e9ce4ee52a7258088d026adbfa7f9fe4accbf74a3dd84
 Section: hamradio
 Priority: optional
 Description: TCP stream multiplexer
@@ -1133,10 +1314,10 @@ Installed-Size: 37
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
 Conflicts: csdr (<= 0.18.0~133)
 Filename: ./arm64/nmux_0.18.39_arm64.deb
-Size: 12340
-MD5sum: 8f044db75aab70ccf04c8de03752ba1c
-SHA1: 253b7086b50a4a6858be3b320c42f8bd9046d8a0
-SHA256: e73b08299d413780205aaf248e56135e251fa912faeb0666e885731135c144b1
+Size: 12336
+MD5sum: 8e5185c9e9b21f3c7d449a7805462a0d
+SHA1: 8524c4853f4550ab9a866588c068773fc0c54a2b
+SHA256: 677712a923c7f96745447363da3e9495397d1a1aaea21ab3e21d83618361c41e
 Section: hamradio
 Priority: optional
 Description: TCP stream multiplexer
@@ -1268,10 +1449,10 @@ Conflicts: python3-bleak (<< 0.22.3)
 Replaces: python3-bleak (<< 0.22.3)
 Provides: python3-bleak
 Filename: ./armhf/python3-bleak_0.22.3-1_all.deb
-Size: 215730
-MD5sum: 0e409ea6ef3f0fe40b696a976e60c55a
-SHA1: 3b265970c5ecda518ef5e264e014f82a1f005c52
-SHA256: db26636ee388c2e8eed647aaa5bf368bac2f42bf361bf94484a02c26fcd811e0
+Size: 215716
+MD5sum: 66b94dce4a8750e245e2a22509ff03f9
+SHA1: 1cae3fd491fe8f7cb87cc08c8593ef9e0e6b7711
+SHA256: 52be2681dadfce0ec0abb7d335211ce4ff45ef1e60e3d7e3d652838f182b4a86
 Description: Bluetooth Low Energy platform agnostic client (Python 3)
  An OS independent Bluetooth Low Energy (BLE) client for Python using
  asyncio. Communicates with BLE devices via the OS Bluetooth stack.
@@ -1288,10 +1469,10 @@ Conflicts: python3-bleak (<< 0.22.3)
 Replaces: python3-bleak (<< 0.22.3)
 Provides: python3-bleak
 Filename: ./amd64/python3-bleak_0.22.3-1_all.deb
-Size: 215600
-MD5sum: 4fa934dce447480fce49a51d7ee95ac0
-SHA1: f9c505f846720addafc56f1b6bc6477ed35a0aa7
-SHA256: 24bf90326cf48dcc09f8d9ff1dbf37cb06c9279619d418ed15fe88acb78bab8e
+Size: 215632
+MD5sum: e19ea5403126ea1a8d5871a14925d3b0
+SHA1: a942975b7306ae22e8ecd2552f84495f8b8b965e
+SHA256: 9a0b594e137cb72c3e26db9c34dd55ceb23e8fe53aeb2acde442cd3796561cc0
 Description: Bluetooth Low Energy platform agnostic client (Python 3)
  An OS independent Bluetooth Low Energy (BLE) client for Python using
  asyncio. Communicates with BLE devices via the OS Bluetooth stack.
@@ -1308,10 +1489,10 @@ Conflicts: python3-bleak (<< 0.22.3)
 Replaces: python3-bleak (<< 0.22.3)
 Provides: python3-bleak
 Filename: ./arm64/python3-bleak_0.22.3-1_all.deb
-Size: 215618
-MD5sum: 051aed71b6ddd16c7260d94d7483b51a
-SHA1: 4a3721d06c257baeb89fd2ff80f0bf0d6bed9791
-SHA256: e6d4eb41a5751b42b6bcf81c0153f27f1ea30b43de8e2be591c6f9a9ac6bd477
+Size: 215638
+MD5sum: 0b31be82f32f4e9628675c7797cbc120
+SHA1: 9e6abe84a8a55839903d9f8da33559415c044553
+SHA256: 11731bf438ffa4e7fcad65506cfa58478b54cc8745df04cb2573c0c6d6d6d045
 Description: Bluetooth Low Energy platform agnostic client (Python 3)
  An OS independent Bluetooth Low Energy (BLE) client for Python using
  asyncio. Communicates with BLE devices via the OS Bluetooth stack.
@@ -1322,15 +1503,33 @@ Description: Bluetooth Low Energy platform agnostic client (Python 3)
 Package: python3-csdr
 Source: pycsdr
 Version: 0.18.39
+Architecture: armhf
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 150
+Depends: libcsdr0 (>= 0.18.39), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.4), libgcc-s1 (>= 3.5), libstdc++6 (>= 11)
+Filename: ./armhf/python3-csdr_0.18.39_armhf.deb
+Size: 39008
+MD5sum: d9a781a24231821bbb9d96c29f690d65
+SHA1: 9cf0961092b113602048257038f1eb2eeb10f76a
+SHA256: 558a58e05e2de42a8287c9f9fa8ffed8bac4fdaeacb41e020be09733c503484d
+Section: hamradio
+Priority: optional
+Description: Python bindings for libcsdr
+ Offers a variety of modules from the csdr software defined radio library for
+ digital processing of radio transmission.
+
+Package: python3-csdr
+Source: pycsdr
+Version: 0.18.39
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 206
 Depends: libcsdr0 (>= 0.18.39), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
 Filename: ./amd64/python3-csdr_0.18.39_amd64.deb
-Size: 40792
-MD5sum: 298ba4cd1fbcdb526ac8818031a8d524
-SHA1: 3d190a46bf0305e9f992fdc24e90d50dac22bd50
-SHA256: fa08c953bebb2eaec866907acb2d298387e43d311713e52608e19640f988e7d1
+Size: 40740
+MD5sum: e0bca2e79b896cb86bfd8add2f034c47
+SHA1: 5cbafd0c97d8781520f204f9c6a2bae83f6bd489
+SHA256: 28f34dc39f72339751545930172589890d89083c18d10a692b5b5e57aa1ee69e
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr
@@ -1345,10 +1544,10 @@ Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 203
 Depends: libcsdr0 (>= 0.18.39), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
 Filename: ./arm64/python3-csdr_0.18.39_arm64.deb
-Size: 38760
-MD5sum: 0d166817ff76727fadcd86c3f190df19
-SHA1: bc725ce0652c5e1e301a194c8a0099948c2a9f1b
-SHA256: 93b79c6b03ff24a2481cff70b37c3439c70513ac998ccabf16f5977e706950e2
+Size: 38752
+MD5sum: f43bd11ba04c2d0bf8b4f57c92c257e8
+SHA1: 48033a663912c17ee11708a942c8e49de8ee3e3a
+SHA256: 3a6cb558b99b228fc0ecbcd0499c4ca77df2881e9a4e829644a11c0d0f32d045
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr
@@ -1397,10 +1596,10 @@ Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.10)
 Filename: ./armhf/python3-dbus-fast_1.93.0-1_all.deb
-Size: 114640
-MD5sum: 1c12fd1fe6516ea336f5a576525e61dc
-SHA1: fea204823a97f367ef55abd406f06b7eabe37967
-SHA256: f45575e39acd9a44e5f39bed81fabbcb628c62e33c7b39d819c6998dbc033e6a
+Size: 114666
+MD5sum: 5fc327143fee2604dc1b365f2d5a2e9c
+SHA1: e9ec1a86c833f14232573ccc9b50cd8bf30339b0
+SHA256: cfed2904ea4b252257152e40b438a8503de79dad538ebbee882b7b8c46b3256e
 Description: faster version of dbus-next (Python 3)
  dbus-fast is a pure Python implementation of the D-Bus protocol.
  It is intended as a faster alternative to dbus-python and dbus-next,
@@ -1414,10 +1613,10 @@ Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.10)
 Filename: ./amd64/python3-dbus-fast_1.93.0-1_all.deb
-Size: 3327442
-MD5sum: 7d74d5e6f37fd9a407873d51f24e8a19
-SHA1: 939e7bc7b442d06d40486a5d05fa9577eae18c54
-SHA256: a7a2bab97b05a992cdddb4d27be5970a3500f2e3b948154eafcaa925c7b84e92
+Size: 3327464
+MD5sum: e46818e595e07d282285d3395f94dd64
+SHA1: 9dd16d0bb8f7e93b566d4f3b22e535dca4321f6e
+SHA256: 51f103eb5f9496500836b0d02c0db10f0bd1e5b4f4f554e4bd0fef24817605d9
 Description: faster version of dbus-next (Python 3)
  dbus-fast is a pure Python implementation of the D-Bus protocol.
  It is intended as a faster alternative to dbus-python and dbus-next,
@@ -1431,10 +1630,10 @@ Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.10)
 Filename: ./arm64/python3-dbus-fast_1.93.0-1_all.deb
-Size: 114662
-MD5sum: c3f8f18106f4ccc78a8143419838711e
-SHA1: 35e34d81617feeb8a494b1127cb2f89e3917f6e9
-SHA256: db4208bad4780ca4fc4e7bf8143ba10c0f891fb922896b6267157a8fff96350c
+Size: 114684
+MD5sum: 6a6219d68a017514858df4e43da8f2eb
+SHA1: 4171c31dec42cf8d725af934ccdfc469f24e9a61
+SHA256: 9b5b143a4ff69dccadee781441e159ed2e98b4c69549dc7d4136c51c94d3e4db
 Description: faster version of dbus-next (Python 3)
  dbus-fast is a pure Python implementation of the D-Bus protocol.
  It is intended as a faster alternative to dbus-python and dbus-next,
@@ -1482,10 +1681,10 @@ Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.10)
 Filename: ./armhf/python3-dotmap_1.3.30-1_all.deb
-Size: 23036
-MD5sum: 87de28917081ae22fb13c5b992c08616
-SHA1: b8308e16d0ca5c8d674189f14d220ccb55036b0d
-SHA256: 5196b48b9005332088f52220b16b7d32087c576a823b9baf5b15e7f88edc3cf0
+Size: 23028
+MD5sum: bf6582280f0841b47947b7f024d149c5
+SHA1: 91ebd70741effe8659615199b29dba4e85a415a4
+SHA256: c7ba0e6da5d2f0576eddf394f76cf638de0e120dfd1d0efc91969ae2a057b434
 Description: ordered, dynamically-expandable dot-access dictionary
  DotMap is a dot-access dictionary subclass that has dynamic child
  dot-access map creation, can be initialized with existing dictionaries,
@@ -1500,10 +1699,10 @@ Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.10)
 Filename: ./amd64/python3-dotmap_1.3.30-1_all.deb
-Size: 23036
-MD5sum: 4a506b604c4fb1679ded42cfdaa52db0
-SHA1: 4479446314e9638ac301e98ea1f58a05fed2719d
-SHA256: c959edafe8dd5aa79d604f186251510625d5b3f51d4ee6ba994e3d7f486b979a
+Size: 23030
+MD5sum: 30fe0270014e6f2a6ad3d771fd13e543
+SHA1: d8a8de018c5255b9d2c94601a71e2c49a306fdcc
+SHA256: afeacd2425ac43d84f0c28326b8a49d0ea3f5de6760e8769517ef06ebd859bb8
 Description: ordered, dynamically-expandable dot-access dictionary
  DotMap is a dot-access dictionary subclass that has dynamic child
  dot-access map creation, can be initialized with existing dictionaries,
@@ -1518,10 +1717,10 @@ Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.10)
 Filename: ./arm64/python3-dotmap_1.3.30-1_all.deb
-Size: 23040
-MD5sum: a8d9a3211b719a73431e6ca9059f736a
-SHA1: cc86f804edccb9ced7c5a92b54d64be2bec1d6fc
-SHA256: 838b23d6a065dbb9d774e52ed7a711ed262b02084e2403af161fe174f5eac02a
+Size: 23042
+MD5sum: 6cca5c911a38d2e91132b32d143d6441
+SHA1: 6986a1d9927ca2e5ddcdbae69eaf59eee5cc408e
+SHA256: e6e3a5029fbe71b850025df075eb1d2eb3ab770342d3437a1b3f5cc612688bf8
 Description: ordered, dynamically-expandable dot-access dictionary
  DotMap is a dot-access dictionary subclass that has dynamic child
  dot-access map creation, can be initialized with existing dictionaries,
@@ -1536,10 +1735,10 @@ Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.10), python3-serial, python3-protobuf, python3-tabulate, python3-requests, python3-yaml, python3-bleak, python3-packaging, python3-dotmap
 Filename: ./armhf/python3-meshtastic_2.7.7-1_all.deb
-Size: 451192
-MD5sum: 45557a94332d5dcd1b6aeb4fa45d7f3f
-SHA1: e4bbc581dc81bd5beb636e8cda328b638d27d276
-SHA256: 73becf6669009ca6a8e254deefff1bb9e9d9f73fa26cd0cb25dac66c6fa8a94f
+Size: 451180
+MD5sum: 102a4689379e38623ba602bb1f9b19a8
+SHA1: e66361870ef711276bd43bd66ff26889da92f7d0
+SHA256: 998a900520c706f39c580ff31c3a4b60e8c6336f6a987c1ff029a9988b83e230
 Description: Python API for Meshtastic LoRa radio devices (v2.7.7)
  Python API and command-line tool for interacting with Meshtastic LoRa
  radio mesh networking devices. Supports BLE, serial and network connections.
@@ -1552,10 +1751,10 @@ Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.10), python3-serial, python3-protobuf, python3-tabulate, python3-requests, python3-yaml, python3-bleak, python3-packaging, python3-dotmap
 Filename: ./amd64/python3-meshtastic_2.7.7-1_all.deb
-Size: 451136
-MD5sum: 657c9c6e0780d0c4e4665159a3fe41c6
-SHA1: 250f81f309836fabb569500bd77acfc43743339e
-SHA256: f4f5a8160da6a62f3a2ded12e698f856e353f83e147257a0144780a587acfcc7
+Size: 451140
+MD5sum: fbfd45bc0f1e7fcef1f8657e328ecf98
+SHA1: 71a0bd5eca17fdeb1ce18b29b2964780aede904c
+SHA256: 9805fc904bce64140dc90f0bcec81a852d8f3c1df8bf414e823dd90b371d44be
 Description: Python API for Meshtastic LoRa radio devices (v2.7.7)
  Python API and command-line tool for interacting with Meshtastic LoRa
  radio mesh networking devices. Supports BLE, serial and network connections.
@@ -1568,10 +1767,10 @@ Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.10), python3-serial, python3-protobuf, python3-tabulate, python3-requests, python3-yaml, python3-bleak, python3-packaging, python3-dotmap
 Filename: ./arm64/python3-meshtastic_2.7.7-1_all.deb
-Size: 451130
-MD5sum: 69cca06122a9fee420486c5d9102fc69
-SHA1: 23c2ce2232a55e963b9550615b6b2e4f609b97db
-SHA256: da317dc0f79f7b49f0f8d7be15fac523c590bff15a335555be12f8217f986c29
+Size: 451136
+MD5sum: 6463dae371b04bb83e9ad7036e686875
+SHA1: 9dd2f32e9ca0c74ec8525040176039e7dc14ad60
+SHA256: e3f51f48921d7975639b925400c1e44002e5b1585d2e1273f23d0c64c8e3035a
 Description: Python API for Meshtastic LoRa radio devices (v2.7.7)
  Python API and command-line tool for interacting with Meshtastic LoRa
  radio mesh networking devices. Supports BLE, serial and network connections.
@@ -1587,10 +1786,10 @@ Conflicts: python3-packaging (<< 24)
 Replaces: python3-packaging (<< 24)
 Provides: python3-packaging
 Filename: ./armhf/python3-packaging_25.0-1_all.deb
-Size: 102814
-MD5sum: 4349b7bb5321dd01cdce65fb3e29cd5f
-SHA1: 8041bed47790ea916c6b42c438f7f4da136b88f4
-SHA256: dd6ad181f7ba1b1e3dfbe972cb32f1dad5e3e30a1d7dca9d6b310caa3205c968
+Size: 102810
+MD5sum: 509abc0dcf6bea8ddb36a4245d6f7ee1
+SHA1: fd523b8c6daa5f32f1ad9a52bd355c455cd435d7
+SHA256: 253bb505802fa1732b4dcf52b62dc0e5648b1fb4905762d76d9aa300ffcd689c
 Description: core utilities for Python packages (v25.0)
  This library provides utilities that implement the interoperability
  specifications which have clearly one correct behaviour (PEP 440 versioning,
@@ -1608,9 +1807,9 @@ Replaces: python3-packaging (<< 24)
 Provides: python3-packaging
 Filename: ./amd64/python3-packaging_25.0-1_all.deb
 Size: 102822
-MD5sum: 941515caa70d28655a1f7ab60e87d98b
-SHA1: b76346cf6b16c0cc5637b7320d98d18c5ee5348e
-SHA256: 298f63f9a78a5bb58cc489f11e01033dda1ff3d86893a5fb0a9481c3f0bf7921
+MD5sum: c97c9574f3a1ab4d838c42bbbedf3447
+SHA1: 99baecccea4bea7fc5160d1f2a88c6541bf3e105
+SHA256: d869fc16e1d4117529327cea7ada3e5192bbfd4dee44d2e52551376cb6bf765b
 Description: core utilities for Python packages (v25.0)
  This library provides utilities that implement the interoperability
  specifications which have clearly one correct behaviour (PEP 440 versioning,
@@ -1627,10 +1826,10 @@ Conflicts: python3-packaging (<< 24)
 Replaces: python3-packaging (<< 24)
 Provides: python3-packaging
 Filename: ./arm64/python3-packaging_25.0-1_all.deb
-Size: 102810
-MD5sum: fd8421eefa4599f6694ddab8e611fe29
-SHA1: 07ff6a67698a077861c301cdb0743961375d98f6
-SHA256: 013b2e9a416e07c48fc6ed4378a7daedf92cd0574245a41248d49c574fb96b6a
+Size: 102812
+MD5sum: 48de70ade7dfe538731a6ba9cb3e34be
+SHA1: eb56b6da40115c25beebf3d697cb78e12fcb5cb8
+SHA256: c52656c5bd06663f02419de273f937921fdcc549b55a5cfae057bfa28a6738b5
 Description: core utilities for Python packages (v25.0)
  This library provides utilities that implement the interoperability
  specifications which have clearly one correct behaviour (PEP 440 versioning,
@@ -1647,10 +1846,10 @@ Conflicts: python3-protobuf (<< 4.21.12)
 Replaces: python3-protobuf (<< 4.21.12)
 Provides: python3-protobuf
 Filename: ./armhf/python3-protobuf_4.25.8-1_armhf.deb
-Size: 215356
-MD5sum: ab7c584030c5ac9c186359b4b3a5d190
-SHA1: cf6ad2b14e97ad51c4c0f192833dec8901da048f
-SHA256: 0869fdb6e21e0681cb494b26fd95957d7da2b5d01c256a9df11bdac95da02d54
+Size: 215376
+MD5sum: ff6ce9310ee28b9be253458daab8aafc
+SHA1: 861d605ac85f4e02805311155d4c247436935b30
+SHA256: efdb59ba39984da0a9f995c17469082b81302b53659f0edd54a6ad2b5ff050ce
 Description: Python bindings for protocol buffers (v4.25.8)
  Protocol buffers are Google's language-neutral, platform-neutral,
  extensible mechanism for serializing structured data.
@@ -1666,10 +1865,10 @@ Conflicts: python3-protobuf (<< 4.21.12)
 Replaces: python3-protobuf (<< 4.21.12)
 Provides: python3-protobuf
 Filename: ./amd64/python3-protobuf_4.25.8-1_amd64.deb
-Size: 336644
-MD5sum: e226b8e4c28a93923e5b79913dcc1408
-SHA1: 5726cedc8e391204927077bbddc327a96f31016d
-SHA256: f7a809e8698d1a2c271e353ac684672dfaf50e4709b4ccc128cd9fb6b9d80dfb
+Size: 336664
+MD5sum: 591c578b202c97c3cf16184b24251883
+SHA1: 9998b5375065f42d76faef8a6b0cf408ae56a42a
+SHA256: 866a760e6feace3b13507d3a64df201e7682090c5cf34752234c5d004c52f281
 Description: Python bindings for protocol buffers (v4.25.8)
  Protocol buffers are Google's language-neutral, platform-neutral,
  extensible mechanism for serializing structured data.
@@ -1685,10 +1884,10 @@ Conflicts: python3-protobuf (<< 4.21.12)
 Replaces: python3-protobuf (<< 4.21.12)
 Provides: python3-protobuf
 Filename: ./arm64/python3-protobuf_4.25.8-1_arm64.deb
-Size: 333888
-MD5sum: fb937cb69c3dd197e38acfae4061cd6d
-SHA1: c7d366fca2a31c831ad797cd78fba3374f8db7ae
-SHA256: 279f7532205c72448a72dac0df72914bab6868ef8ae0f293d709f5a2609ba3a8
+Size: 333854
+MD5sum: c971dffabd316b246629e031c9266b2f
+SHA1: ac470e06a876c0870880cfcf6feb6a163e2eacaf
+SHA256: 5a3d75693f5628888ffbe7e3793a0e44971c5b121fa94b6d619b483aae6eca66
 Description: Python bindings for protocol buffers (v4.25.8)
  Protocol buffers are Google's language-neutral, platform-neutral,
  extensible mechanism for serializing structured data.
@@ -1723,6 +1922,57 @@ Size: 213596
 MD5sum: 600e3ece46db865c39b87a2b4a9e21c5
 SHA1: 0d4f92ebcf95eb60c8cfa37cebefed425821eaad
 SHA256: d7e029a4a5a7c7bd45a267ae3a9bca1fdbab9f643d0c97f111061351c6e86781
+Section: hamradio
+Priority: optional
+Description: RDS (Radio Data System) decoder
+ A lightweight command-line FM-RDS decoder that supports a
+ large subset of RDS features.
+
+Package: redsea
+Version: 1.3.1
+Architecture: armhf
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 429
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.0), libliquid2d, libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
+Filename: ./armhf/redsea_1.3.1_armhf.deb
+Size: 184320
+MD5sum: b7bc6f01d83a86eea285ce0a653c503d
+SHA1: fa9d24282f59b7d90372af53efb6a891d9159285
+SHA256: 4cc38bbffb0ac6fd606fd0949bcbc09d30b16e977091475569b7659995d917cb
+Section: hamradio
+Priority: optional
+Description: RDS (Radio Data System) decoder
+ A lightweight command-line FM-RDS decoder that supports a
+ large subset of RDS features.
+
+Package: redsea
+Version: 1.3.1
+Architecture: amd64
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 577
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.0), libliquid2d, libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
+Filename: ./amd64/redsea_1.3.1_amd64.deb
+Size: 183310
+MD5sum: aa6d26e4b6175ea513d0237e81470d4e
+SHA1: 0a6d2af3894520fcc36bed8565cbd52c10f95aac
+SHA256: 9322f2a38934510b74bfb1bbbd7d3d03ef0e151646c7e592a80d17436346aed9
+Section: hamradio
+Priority: optional
+Description: RDS (Radio Data System) decoder
+ A lightweight command-line FM-RDS decoder that supports a
+ large subset of RDS features.
+
+Package: redsea
+Version: 1.3.1
+Architecture: arm64
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 525
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.0), libliquid2d, libsndfile1 (>= 1.0.20), libstdc++6 (>= 11)
+Filename: ./arm64/redsea_1.3.1_arm64.deb
+Size: 177840
+MD5sum: 45409fb97167b27178dd856b03d58801
+SHA1: e8a23386751950bfe6c561ef0d5752f3026e9cb5
+SHA256: 94088d0ede18f7eed9f40e934fb01b6bb4a8122e634293a020e106f3720e3d50
 Section: hamradio
 Priority: optional
 Description: RDS (Radio Data System) decoder

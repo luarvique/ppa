@@ -538,6 +538,117 @@ Description: A software radio for AM and Digital Radio Mondiale (DRM)
  With Dream, DRM broadcasts can be received with an SDR dongle or
  a modified analog receiver (SW, MW, LW) and a PC with a sound card.
 
+Package: dump1090-fa
+Version: 8.2-1
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 11425
+Depends: dump1090-fa-minimal (= 8.2-1), libc6 (>= 2.38), libncurses6 (>= 6), libtinfo6 (>= 6), adduser, lighttpd
+Filename: ./armhf/dump1090-fa_8.2-1_armhf.deb
+Size: 2296644
+MD5sum: 26d2af7f81ce485ac0b97a13ed829885
+SHA1: 68949f628803b4a262b7b8dd2eff614ebd2bef27
+SHA256: 505e712385473609ae0911e48313ddab7a2ab8565f4c98eb2bf56559537eab89
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs
+ Networked Aviation Mode S / ADS-B decoder/translator with support
+ for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
+ device support.
+
+Package: dump1090-fa
+Version: 8.2-1
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 11456
+Depends: dump1090-fa-minimal (= 8.2-1), libc6 (>= 2.38), libncurses6 (>= 6), libtinfo6 (>= 6), adduser, lighttpd
+Filename: ./amd64/dump1090-fa_8.2-1_amd64.deb
+Size: 2305250
+MD5sum: f69af7ffdaf3c648c306a9989315afe5
+SHA1: 20437faed8bf1d430b3553fceea9deaa07ce6cdb
+SHA256: 10cbe5e63f5c165d23b9fee0ddf395b6a572e270a2a8857ee9486d9ecea75b6d
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs
+ Networked Aviation Mode S / ADS-B decoder/translator with support
+ for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
+ device support.
+
+Package: dump1090-fa
+Version: 8.2-1
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 11529
+Depends: dump1090-fa-minimal (= 8.2-1), libc6 (>= 2.38), libncurses6 (>= 6), libtinfo6 (>= 6), adduser, lighttpd
+Filename: ./arm64/dump1090-fa_8.2-1_arm64.deb
+Size: 2300722
+MD5sum: 3204747e4d3753f2638f22728bc05384
+SHA1: 6ee5bb238d318932be96c8088aeb574864013027
+SHA256: b72315548f605dfae4dfe7e5c7a8b55ccb69821c49f9a6c108eb68d73efe5f5e
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs
+ Networked Aviation Mode S / ADS-B decoder/translator with support
+ for RTL-SDR, BladeRF, HackRF, and LimeSDR software defined radio USB
+ device support.
+
+Package: dump1090-fa-minimal
+Source: dump1090-fa
+Version: 8.2-1
+Architecture: armhf
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 244
+Depends: libbladerf2 (>= 0.2023.02), libc6 (>= 2.38), libhackrf0 (>= 2023.01.1), liblimesuite23.11-1 (>= 23.11.0+dfsg), libncurses6 (>= 6), librtlsdr2 (>= 2.0.1), libtinfo6 (>= 6)
+Filename: ./armhf/dump1090-fa-minimal_8.2-1_armhf.deb
+Size: 111250
+MD5sum: dd2ce7a9a7f0c6e8678d08a5198743cc
+SHA1: 6d96b4accee92dfb771d8f925353faa1f95820f9
+SHA256: d4682fc5bd2c4b164d66cb42481db7170b999d3016b31f348830efcf993cb819
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs - decoder only
+ Just the decoder binary without extras.
+
+Package: dump1090-fa-minimal
+Source: dump1090-fa
+Version: 8.2-1
+Architecture: amd64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 306
+Depends: libbladerf2 (>= 0.2023.02), libc6 (>= 2.38), libhackrf0 (>= 2023.01.1), liblimesuite23.11-1 (>= 23.11.0+dfsg), libncurses6 (>= 6), librtlsdr2 (>= 2.0.1), libtinfo6 (>= 6)
+Filename: ./amd64/dump1090-fa-minimal_8.2-1_amd64.deb
+Size: 115740
+MD5sum: e7d0987366e8b44931f4df9701243436
+SHA1: f6ca2cff76769ddb4460b0b99171b289a376e671
+SHA256: 7e03d3c56013c6439cc25cafd61a0e67430e3bbc467e1c1501d50633af18a6d3
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs - decoder only
+ Just the decoder binary without extras.
+
+Package: dump1090-fa-minimal
+Source: dump1090-fa
+Version: 8.2-1
+Architecture: arm64
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Installed-Size: 327
+Depends: libbladerf2 (>= 0.2023.02), libc6 (>= 2.38), libhackrf0 (>= 2023.01.1), liblimesuite23.11-1 (>= 23.11.0+dfsg), libncurses6 (>= 6), librtlsdr2 (>= 2.0.1), libtinfo6 (>= 6)
+Filename: ./arm64/dump1090-fa-minimal_8.2-1_arm64.deb
+Size: 116624
+MD5sum: 7d3eb1c55c814113c590ad213beded7f
+SHA1: 31576dd026ec66353baa69460c591ec86e4c739f
+SHA256: e013a58b90c7e033b405cb97e851dfd3a8bda6f4a19f359930288d54d140948e
+Section: embedded
+Priority: extra
+Homepage: http://www.flightaware.com/
+Description: FlightAware ADS-B Ground Station System for SDRs - decoder only
+ Just the decoder binary without extras.
+
 Package: dump978-fa
 Version: 10.2.1
 Architecture: armhf
@@ -2146,10 +2257,10 @@ Conflicts: python3-bleak (<< 0.22.3)
 Replaces: python3-bleak (<< 0.22.3)
 Provides: python3-bleak
 Filename: ./armhf/python3-bleak_0.22.3-1_all.deb
-Size: 263426
-MD5sum: a39eea62c422bb871179fe9ffcd6c8d5
-SHA1: c3274c9af77f6a4f7e4b4a75bf9aad2439b6bcbd
-SHA256: 7c3634471588b507e6dd5e8df6bb66f7a1f5ef6e097444758fcdfe5a46142925
+Size: 263510
+MD5sum: 699589122933e01b42357f2b8d08dfd3
+SHA1: 31793523fe9c6dc642cea39eab5d357159430654
+SHA256: b5918f038424a6611052a819a71bececf7f0c8edacc2fff3b4e2b579b925960d
 Description: Bluetooth Low Energy platform agnostic client (Python 3)
  An OS independent Bluetooth Low Energy (BLE) client for Python using
  asyncio. Communicates with BLE devices via the OS Bluetooth stack.
@@ -2166,10 +2277,10 @@ Conflicts: python3-bleak (<< 0.22.3)
 Replaces: python3-bleak (<< 0.22.3)
 Provides: python3-bleak
 Filename: ./amd64/python3-bleak_0.22.3-1_all.deb
-Size: 263428
-MD5sum: d817f4ca60a530a1284312f6b15b0291
-SHA1: 0f140761f466c141676993b3fa57dbb78fed8961
-SHA256: ca0d25f2249c050697c061e4ec762c757073ce5be13b38ab0ce87abf4971b761
+Size: 263456
+MD5sum: 919f124e5e92908dfe25e39a86d42882
+SHA1: 891a4300e2eee00a41471ac22638f224128c6da9
+SHA256: af1bc9c0e88b7a6919a04539f2d78a2cdee3cbd4d777ae90005f5a6c3ac086b7
 Description: Bluetooth Low Energy platform agnostic client (Python 3)
  An OS independent Bluetooth Low Energy (BLE) client for Python using
  asyncio. Communicates with BLE devices via the OS Bluetooth stack.
@@ -2186,10 +2297,10 @@ Conflicts: python3-bleak (<< 0.22.3)
 Replaces: python3-bleak (<< 0.22.3)
 Provides: python3-bleak
 Filename: ./arm64/python3-bleak_0.22.3-1_all.deb
-Size: 263438
-MD5sum: c56ba0bcca80a26cb9e49345e99ee1ff
-SHA1: 8e3912dcd16d318830796aa8b9cc80ecc2b3d665
-SHA256: 34c02b4e23b06e5b40c87f7d40ec383f5419fca1f6282b5a35b75ec1df3c6168
+Size: 263458
+MD5sum: c3006011ef45a52160aba6d9ec57f3e9
+SHA1: 577962020ff46af03e715d83e108a1e0e231f319
+SHA256: 08497324d11239af07c7e6beb5ff2f7e39386a1cd1825b99df2616b087d0a6f4
 Description: Bluetooth Low Energy platform agnostic client (Python 3)
  An OS independent Bluetooth Low Energy (BLE) client for Python using
  asyncio. Communicates with BLE devices via the OS Bluetooth stack.
@@ -2414,9 +2525,9 @@ Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.12)
 Filename: ./armhf/python3-dotmap_1.3.30-1_all.deb
 Size: 31280
-MD5sum: a43076bc2af77bfb5a03cd4890774ec5
-SHA1: a816e8f64dcaac3694640a8cd12423e25cfe24e0
-SHA256: 86bad5692ec27db7ec52bd86621ebe3159a679a046121fe97cc56fed7523b6b3
+MD5sum: d8e016b64a8b43163ecce86a324b5317
+SHA1: cf072a48969a7a506d4b5a4c6bf1f6af6a1fa9f3
+SHA256: f5717323e6c8aacbaf6e9daaada4aea292050bae37f8e355b90fef6e8699d21f
 Description: ordered, dynamically-expandable dot-access dictionary
  DotMap is a dot-access dictionary subclass that has dynamic child
  dot-access map creation, can be initialized with existing dictionaries,
@@ -2431,10 +2542,10 @@ Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.12)
 Filename: ./amd64/python3-dotmap_1.3.30-1_all.deb
-Size: 31276
-MD5sum: 381331f4f18b7443b66bcd8df487cc9e
-SHA1: 65f0b8d09f3230c0ee2c9d4669c3a567bc4cbd1a
-SHA256: faf9ea016e38b80da2ec2a4e2ba71f7bc5f982734ab4a24862621c1aa7c5eaec
+Size: 31278
+MD5sum: 28250329cf035d0bfdb5fbc3ee60a90a
+SHA1: 2abcb11be6a7e74a68d66c5e4d4ab43465f60652
+SHA256: 8ba39478ba4daf102d1d3b44b676ec4b75762cf7671537d2c923bd20290a9e85
 Description: ordered, dynamically-expandable dot-access dictionary
  DotMap is a dot-access dictionary subclass that has dynamic child
  dot-access map creation, can be initialized with existing dictionaries,
@@ -2449,10 +2560,10 @@ Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.12)
 Filename: ./arm64/python3-dotmap_1.3.30-1_all.deb
-Size: 31280
-MD5sum: 43b80ff1c4c04f672fa1c543a6818779
-SHA1: e988a7861ca335512b7ff688029ac84714d7d836
-SHA256: 6d5294276371a65485e2f3f3bf0d077bacb5ffa2582f6eb22d02427709250611
+Size: 31282
+MD5sum: d8a56a4a4d9c91d1a748448a05a49713
+SHA1: 05951b20c6c27df6c8f5d79d6d1509f41aec9eff
+SHA256: 28c865be1b264cc246f57c296bf084f4978f6319cb7a288331573529e3385601
 Description: ordered, dynamically-expandable dot-access dictionary
  DotMap is a dot-access dictionary subclass that has dynamic child
  dot-access map creation, can be initialized with existing dictionaries,
@@ -2518,10 +2629,10 @@ Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.12), python3-serial, python3-protobuf, python3-tabulate, python3-requests, python3-yaml, python3-bleak, python3-packaging, python3-dotmap
 Filename: ./armhf/python3-meshtastic_2.7.7-1_all.deb
-Size: 535694
-MD5sum: 7874846deb658dcd0aff9557e7c26ac7
-SHA1: 16e5959cda8047d33daa45b6948f1b8711496613
-SHA256: 3a4c5025b349274d8ca0716c4f9915804f17a6d2a9d00715c5cb0c41d3a81924
+Size: 535832
+MD5sum: 9c0bd2041ad6ba921c0568ff846d6515
+SHA1: 9486b537cb4f8a3464928efe1e2a0453e0e4635f
+SHA256: c5ea334b3c909eb7be9f4b564587e28e9be73fcac961305bfcc520b33a351b31
 Description: Python API for Meshtastic LoRa radio devices (v2.7.7)
  Python API and command-line tool for interacting with Meshtastic LoRa
  radio mesh networking devices. Supports BLE, serial and network connections.
@@ -2534,10 +2645,10 @@ Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.12), python3-serial, python3-protobuf, python3-tabulate, python3-requests, python3-yaml, python3-bleak, python3-packaging, python3-dotmap
 Filename: ./amd64/python3-meshtastic_2.7.7-1_all.deb
-Size: 535810
-MD5sum: bc8c530e432a26f65bec9ce00b518967
-SHA1: ee1f7865a347d44150f7d88b93c80d3338e55ec4
-SHA256: b3a40b2157d6dad4c3ad3230527abf5c7c3ca01885f75adfebea5080fa9eff98
+Size: 535820
+MD5sum: 56e8beedcd845df52f8b1ee5b6c294ac
+SHA1: 1d2b9ef4292b6052da789662c97174b25d1e7a80
+SHA256: cf182069a961da02b6b0e1796122d137da04235bad4b0b64a436677042f1c5ba
 Description: Python API for Meshtastic LoRa radio devices (v2.7.7)
  Python API and command-line tool for interacting with Meshtastic LoRa
  radio mesh networking devices. Supports BLE, serial and network connections.
@@ -2550,10 +2661,10 @@ Architecture: all
 Maintainer: OpenWebRX DEB Builder <builder@openwebrx>
 Depends: python3 (>= 3.12), python3-serial, python3-protobuf, python3-tabulate, python3-requests, python3-yaml, python3-bleak, python3-packaging, python3-dotmap
 Filename: ./arm64/python3-meshtastic_2.7.7-1_all.deb
-Size: 535686
-MD5sum: 2a691d038737ffb29312f98a34a2d0e8
-SHA1: b2f2337ef9731f74a11ef737585c65029839bff7
-SHA256: 1adcb0ff5ec0296f98cbb37b174de3c53c7cabe7cc7d6db62123df784529e0c5
+Size: 535816
+MD5sum: 5353aecdbcb7b868d7c98f885c13356d
+SHA1: 3bb711302ae17e905cbe804857089acb19ef69eb
+SHA256: 7557837748f9a15f2e024816da17e7904275cd30b4eb38cc439c4a04fa169621
 Description: Python API for Meshtastic LoRa radio devices (v2.7.7)
  Python API and command-line tool for interacting with Meshtastic LoRa
  radio mesh networking devices. Supports BLE, serial and network connections.
@@ -2569,10 +2680,10 @@ Conflicts: python3-protobuf (<< 4.21.12)
 Replaces: python3-protobuf (<< 4.21.12)
 Provides: python3-protobuf
 Filename: ./armhf/python3-protobuf_4.25.8-1_armhf.deb
-Size: 277128
-MD5sum: eeb4d53d50459b5b0f3aa2aa2a880921
-SHA1: 56c761866b712ceeee3224a1e89a96f33d6c0905
-SHA256: 229aa9ce8ac39b38e732fbd5dc4eb20f627bda02a0e40d54e438811df8861443
+Size: 277122
+MD5sum: acc385c94a2905818cabe9c051e0c4ac
+SHA1: 9ac03f75b647c61812a3787a9ee7639a26754843
+SHA256: 8913b0210f84929af761a7f5fe9a60ae36a002e71d7c23c9eb40c07d57ac5678
 Description: Python bindings for protocol buffers (v4.25.8)
  Protocol buffers are Google's language-neutral, platform-neutral,
  extensible mechanism for serializing structured data.
@@ -2588,10 +2699,10 @@ Conflicts: python3-protobuf (<< 4.21.12)
 Replaces: python3-protobuf (<< 4.21.12)
 Provides: python3-protobuf
 Filename: ./amd64/python3-protobuf_4.25.8-1_amd64.deb
-Size: 393842
-MD5sum: 9d275fab9c78f9920de45580b8e82b93
-SHA1: 8ba741535409a0c5b0a5f2a561a0e617671ad3c6
-SHA256: 903bb33cd7d8f3ee002e61b2d20148ffcd25a3c8efddd1afc2a0caf3f6b07dd6
+Size: 393840
+MD5sum: ed3c9f337d156221ccf1a02e669321ac
+SHA1: 9064965605b824a0d9982de270cf8ed5e0220bb5
+SHA256: 2a446b92939f4b7da08bc85fd3e4a5e9a2e64c0615df1e9352c358561607b5f6
 Description: Python bindings for protocol buffers (v4.25.8)
  Protocol buffers are Google's language-neutral, platform-neutral,
  extensible mechanism for serializing structured data.
@@ -2607,10 +2718,10 @@ Conflicts: python3-protobuf (<< 4.21.12)
 Replaces: python3-protobuf (<< 4.21.12)
 Provides: python3-protobuf
 Filename: ./arm64/python3-protobuf_4.25.8-1_arm64.deb
-Size: 391944
-MD5sum: a76b561f4f5f76b9a9ba6d073efa3523
-SHA1: c1e94a3ea8f39ed3234c924dc3c5967c62a6f9b3
-SHA256: ffd0e93445cab0530f2066b916fa70771ed4df64ad679369762d9ca0b339f07f
+Size: 391942
+MD5sum: b5f5ae632346e6aaf2f1365997176163
+SHA1: 70a283aec8b55398eda7cb2df41790776e63dab4
+SHA256: cd659b7e47cede9a861e2ee7c56ea0c9c6f33891066e745531e67ba601b31990
 Description: Python bindings for protocol buffers (v4.25.8)
  Protocol buffers are Google's language-neutral, platform-neutral,
  extensible mechanism for serializing structured data.
@@ -2662,6 +2773,57 @@ Size: 213312
 MD5sum: 61a515b9398c6eed2c5274242315e9b2
 SHA1: 03f8b4be92737f47f86d88505be3f3ab261ec1c6
 SHA256: 4a0e7788d7225cc939191ec24c9ebedb5e52bda74de54f4d12c8a7def7d6728b
+Section: hamradio
+Priority: optional
+Description: RDS (Radio Data System) decoder
+ A lightweight command-line FM-RDS decoder that supports a
+ large subset of RDS features.
+
+Package: redsea
+Version: 1.3.1
+Architecture: armhf
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 429
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.0), libliquid1 (>= 1.6.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 13.1)
+Filename: ./armhf/redsea_1.3.1_armhf.deb
+Size: 181732
+MD5sum: c51bec5b9307da6e14ffdd29d717f34f
+SHA1: 406092d4a480cf7b6b538e052aeba9852f5db56c
+SHA256: 62751c7b039e25a9240c7c806bae0630896451d7b956b7f24821171160e89fae
+Section: hamradio
+Priority: optional
+Description: RDS (Radio Data System) decoder
+ A lightweight command-line FM-RDS decoder that supports a
+ large subset of RDS features.
+
+Package: redsea
+Version: 1.3.1
+Architecture: amd64
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 549
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.0), libliquid1 (>= 1.6.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 13.1)
+Filename: ./amd64/redsea_1.3.1_amd64.deb
+Size: 173984
+MD5sum: d6e4ea605cd0cc2ae0398d8b90d8a63a
+SHA1: e9535e1cbb1c36b90248ee434aeab9b848de7238
+SHA256: c2de81f287dd639aaad655ec093099380e2174a6c80f96cbb2fe32e9bad67e85
+Section: hamradio
+Priority: optional
+Description: RDS (Radio Data System) decoder
+ A lightweight command-line FM-RDS decoder that supports a
+ large subset of RDS features.
+
+Package: redsea
+Version: 1.3.1
+Architecture: arm64
+Maintainer: Oona Räisänen <oh2eiq@pm.me>
+Installed-Size: 529
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 4.0), libliquid1 (>= 1.6.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 13.1)
+Filename: ./arm64/redsea_1.3.1_arm64.deb
+Size: 166390
+MD5sum: e2436f8c6460d65bdeb310c996191d0c
+SHA1: def6e0ffab6dcc06602ddcd26c44fc1b7783b1ed
+SHA256: a699e2ce52df5872504d486cfc24b84e1c9e969decbff095c85d1438c0c9ab9d
 Section: hamradio
 Priority: optional
 Description: RDS (Radio Data System) decoder
