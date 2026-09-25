@@ -1430,6 +1430,42 @@ Description: Bluetooth Low Energy platform agnostic client (Python 3)
  .
  Backport build from PyPI for distributions with older or missing bleak.
 
+Package: python3-csdr
+Source: pycsdr
+Version: 0.18.40
+Architecture: amd64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 206
+Depends: libcsdr0 (>= 0.18.40), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Filename: ./amd64/python3-csdr_0.18.40_amd64.deb
+Size: 40936
+MD5sum: 91ec74ef211b1a43f7e2966fba7e4dd0
+SHA1: b7ec7d91fa93c4d4bf18a24370f723a71bebdfce
+SHA256: ba7d71969f7db47303fe979cfbdfdb8e45c67fb9acb7b88ffb21d82d9cde7926
+Section: hamradio
+Priority: optional
+Description: Python bindings for libcsdr
+ Offers a variety of modules from the csdr software defined radio library for
+ digital processing of radio transmission.
+
+Package: python3-csdr
+Source: pycsdr
+Version: 0.18.40
+Architecture: arm64
+Maintainer: Marat Fayzullin <luarvique@gmail.com>
+Installed-Size: 203
+Depends: libcsdr0 (>= 0.18.40), python3 (<< 3.11), python3 (>= 3.10~), python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11)
+Filename: ./arm64/python3-csdr_0.18.40_arm64.deb
+Size: 38828
+MD5sum: 82205d944d5e98793c781ee6d4fc7a7a
+SHA1: df59130a6d71a2942535df6fd37b634575813063
+SHA256: 1ffe1c035db214edd9cdeb38ac0b5f4bb089d8376089a44f4ee66779aa9b7ac7
+Section: hamradio
+Priority: optional
+Description: Python bindings for libcsdr
+ Offers a variety of modules from the csdr software defined radio library for
+ digital processing of radio transmission.
+
 Package: python3-csdr-eti
 Source: pycsdr-eti
 Version: 0.0.11
