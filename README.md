@@ -37,6 +37,7 @@ This repository contains packages for the following Linux distributions:
 * Ubuntu 24.04 (Noble Numbat) for amd64, arm64, armhf architectures
 * Debian 11 (Bullseye) for amd64, arm64, armhf architectures
 * Debian 12 (Bookworm) for amd64, arm64, armhf architectures
+* Debian 13 (Trixie) for amd64, arm64, armhf architectures
 
 # If you have RaspberryPi and no clue ...
 Stanislav (LZ2SLL) has built [SD card images for RaspberryPi](https://github.com/luarvique/openwebrx/releases/), containing a clean OpenWebRX+ installation. These images should support all common SDR devices out of the box. The RTL-SDR and SDRPlay devices have been confirmed to work with no additional modifications to the image. Please, keep in mind that __this may not be the latest version__ of OpenWebRX+. Read on for the latest version.
@@ -90,13 +91,22 @@ You should also have the original OpenWebRX repository added, since it contains 
     sudo apt update
 
 # If you are a Debian Bookworm user ...
-If you have a **Debian Bookworm** system, there is now an experimental OpenWebRX+ build available for you. Do the following (if asked to type in your password, it is expected - do so):
+If you have a **Debian Bookworm** system, do the following (if asked to type in your password, it is expected - do so):
 
     curl -s https://luarvique.github.io/ppa/openwebrx-plus.gpg | sudo gpg --yes --dearmor -o /etc/apt/trusted.gpg.d/openwebrx-plus.gpg
     sudo tee /etc/apt/sources.list.d/openwebrx-plus.list <<<"deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/bookworm ./"
     sudo apt update
 
 **Debian Bookworm** users **must not** add the original OpenWebRX repository to their system, since it contains Bullseye packages.
+
+# If you are a Debian Trixie user ...
+If you have a **Debian Trixie** system, do the following (if asked to type in your password, it is expected - do so):
+
+    curl -s https://luarvique.github.io/ppa/openwebrx-plus.gpg | sudo gpg --yes --dearmor -o /etc/apt/trusted.gpg.d/openwebrx-plus.gpg
+    sudo tee /etc/apt/sources.list.d/openwebrx-plus.list <<<"deb [signed-by=/etc/apt/trusted.gpg.d/openwebrx-plus.gpg] https://luarvique.github.io/ppa/trixie ./"
+    sudo apt update
+
+**Debian Trixie** users **must not** add the original OpenWebRX repository to their system, since it contains Bullseye packages.
 
 # ... and, finally, ...
 
