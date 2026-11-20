@@ -368,51 +368,51 @@ Description: debug symbols for codecserver-driver-ambe3k
 Build-Ids: 30f2f71e492f814639e689879e796abfc26e7e25
 
 Package: csdr
-Version: 0.18.43
+Version: 0.18.44
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 318
-Depends: libcsdr0 (= 0.18.43), libc6 (>= 2.28), libgcc-s1 (>= 3.5), libstdc++6 (>= 9)
-Recommends: nmux (= 0.18.43)
-Filename: ./armhf/csdr_0.18.43_armhf.deb
-Size: 126748
-MD5sum: 6c60e0c6f834e981e32ba40d6afc5851
-SHA1: da4763c60271de648cd14de1c3a40684f67d9592
-SHA256: f13669d0e9754962384ea931c816f4e5a8ea6ecc6b74d0b6d2afd2254dfd3129
+Depends: libcsdr0 (= 0.18.44), libc6 (>= 2.28), libgcc-s1 (>= 3.5), libstdc++6 (>= 9)
+Recommends: nmux (= 0.18.44)
+Filename: ./armhf/csdr_0.18.44_armhf.deb
+Size: 126420
+MD5sum: 1d33a213b8854c686246028262cc7570
+SHA1: b516bc5bf033869fc0951179bf953f6698590372
+SHA256: af684f372aacea6a98714b40f49b582d35e16927621c9e73960d99c603051334
 Section: hamradio
 Priority: optional
 Description: command-line sdr
  A simple DSP command-line tool for Software Defined Radio.
 
 Package: csdr
-Version: 0.18.43
+Version: 0.18.44
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 546
-Depends: libcsdr0 (= 0.18.43), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
-Recommends: nmux (= 0.18.43)
-Filename: ./amd64/csdr_0.18.43_amd64.deb
-Size: 157516
-MD5sum: b30c48ef37bacac88e7cc5038ca6a1c9
-SHA1: 46b5283a3b1f82870408743517fce8623de690ed
-SHA256: bac928985996f3cafc95100b7b673474719ba996115c74496573c45736f1250a
+Depends: libcsdr0 (= 0.18.44), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Recommends: nmux (= 0.18.44)
+Filename: ./amd64/csdr_0.18.44_amd64.deb
+Size: 157700
+MD5sum: 3b90f7eb0a7681f8a0e951a803a5bae4
+SHA1: 46a4478edc193d7803475fff42a8cabce5bf8d34
+SHA256: 7dee1205d05f23a9425e9b7df029b2dc21ef28e4ad8c395ea9de57edee9e5a2d
 Section: hamradio
 Priority: optional
 Description: command-line sdr
  A simple DSP command-line tool for Software Defined Radio.
 
 Package: csdr
-Version: 0.18.43
+Version: 0.18.44
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 511
-Depends: libcsdr0 (= 0.18.43), libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
-Recommends: nmux (= 0.18.43)
-Filename: ./arm64/csdr_0.18.43_arm64.deb
-Size: 138012
-MD5sum: 33be15049d6dc02401067eddf147ac59
-SHA1: 600a1c1fdb14c8af46629b521b0ac79654a86d7f
-SHA256: 231bf85d11847849a4c2b4854253eacd11402b6854ea82d999c468c4df38e813
+Depends: libcsdr0 (= 0.18.44), libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Recommends: nmux (= 0.18.44)
+Filename: ./arm64/csdr_0.18.44_arm64.deb
+Size: 138084
+MD5sum: bc3a63cdff1cd81d0ef186a0151188a2
+SHA1: 047d1e9572ac2e4398a87240b0d69507e57dd3a6
+SHA256: 726ea0ed1fb2f0821346870f8cf04e25c2929375f5aaaee9ba4f7bcba4903a90
 Section: hamradio
 Priority: optional
 Description: command-line sdr
@@ -420,57 +420,57 @@ Description: command-line sdr
 
 Package: csdr-dbgsym
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 3352
-Depends: csdr (= 0.18.43)
-Filename: ./armhf/csdr-dbgsym_0.18.43_armhf.deb
-Size: 3173488
-MD5sum: ff40f603c53c4b1c20cd7fc9d9bcb59c
-SHA1: 45c2efe20ad194cdee8b496725159f30d207ce83
-SHA256: 7c0b883cdfdfb50b340548261383e882ce310e1ea3152fc3eea36802535f0060
+Depends: csdr (= 0.18.44)
+Filename: ./armhf/csdr-dbgsym_0.18.44_armhf.deb
+Size: 3173388
+MD5sum: 705026cfdcda7d6bb157ea5b4b7e79ee
+SHA1: 9989c2b8906d644de1432789623ba5e0eadf968c
+SHA256: 5a78a6e76171446d62a3c8b70bb7e34d068c0870d664a73f9b3e57b894bfb7a4
 Section: debug
 Priority: optional
 Description: debug symbols for csdr
-Build-Ids: 0a2efac099cbe746f9f6b7428fc87f0c6cdec39f
+Build-Ids: f670d7d7f2d869bf0044faf640cc2ba86c799318
 
 Package: csdr-dbgsym
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3579
-Depends: csdr (= 0.18.43)
-Filename: ./amd64/csdr-dbgsym_0.18.43_amd64.deb
-Size: 3394540
-MD5sum: ffc214aa2d0c7ffd7499e92f78255763
-SHA1: 4b3c3cc2ff9e114c282dc1466aafd67aa5a2f15e
-SHA256: dd150f0d35de3be67ecad671911670bcda29933720a635a433e8d84c09a7eea4
+Installed-Size: 3578
+Depends: csdr (= 0.18.44)
+Filename: ./amd64/csdr-dbgsym_0.18.44_amd64.deb
+Size: 3394008
+MD5sum: 6c0bea305b3cba0bf674e3ed6890b36d
+SHA1: 6ce0254c499d499d7ec095a2eb3a12b166a9a5f5
+SHA256: 9b2405d83586e02ef6dee57a613a86f0f0c307086277fbd2c7a30261e46664ee
 Section: debug
 Priority: optional
 Description: debug symbols for csdr
-Build-Ids: 542b7c2323facf3c071594be7aac2064668be59f
+Build-Ids: 40f83be8bbe02746378747c5a26d670d648c7d64
 
 Package: csdr-dbgsym
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 3531
-Depends: csdr (= 0.18.43)
-Filename: ./arm64/csdr-dbgsym_0.18.43_arm64.deb
-Size: 3330508
-MD5sum: 380742708c1c8e92fbd945da75382ae0
-SHA1: a7d236245f23d2816fa1a75c8b7e159cd6067d98
-SHA256: 6843e927a07317d016bf72e43037db8e8131c5b85feb6045e0c9f0688ffb264e
+Depends: csdr (= 0.18.44)
+Filename: ./arm64/csdr-dbgsym_0.18.44_arm64.deb
+Size: 3330344
+MD5sum: cf67f5328564cf9f4eb80b5b3d38aff5
+SHA1: 2e5a3dbc9a08a7d451c58431a6d27b048e9d14c3
+SHA256: 32ace15d2469fa3893047a1e09d95acb8887df4bc2f0994b4bfe0419db454103
 Section: debug
 Priority: optional
 Description: debug symbols for csdr
-Build-Ids: 3ff51ff4357a32ba4f4d56ab4703f8ff183a1922
+Build-Ids: c028767b6992f3945be0e3525b8541fda7c9c206
 
 Package: csdr-skimmer
 Version: 1.12
@@ -2061,16 +2061,16 @@ Description: Codecserver base library - development files
 
 Package: libcsdr-dev
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 234
-Depends: libcsdr0 (= 0.18.43), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
-Filename: ./armhf/libcsdr-dev_0.18.43_armhf.deb
-Size: 31600
-MD5sum: 4cef010533251758203ba30478bd11e8
-SHA1: 66351f5e47eaffda415776706ba6d1cc8785d5e4
-SHA256: a359ba80b1b8ae1dc3d2657dda877a15d056c4c33ae12807c94a12fc012ddcba
+Installed-Size: 235
+Depends: libcsdr0 (= 0.18.44), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
+Filename: ./armhf/libcsdr-dev_0.18.44_armhf.deb
+Size: 31920
+MD5sum: bd7110c4ed0c75ec383d7db5b13c45b8
+SHA1: 10df7465090183f06b223671557c9f655f04c4c9
+SHA256: ea695297c9d8502e7acb44cf027b82b0602f4a4f3a66431bd8f04701e4588342
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
@@ -2078,16 +2078,16 @@ Description: development dependencies includes for libcsdr
 
 Package: libcsdr-dev
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 234
-Depends: libcsdr0 (= 0.18.43), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
-Filename: ./amd64/libcsdr-dev_0.18.43_amd64.deb
-Size: 31580
-MD5sum: c0695cdb09d558b4248dc137734fe98b
-SHA1: 2605ab3b9c168febfc0726a8a9b364de4aee799d
-SHA256: 9b05cd817b19d57d49521cad325ec5849ad758b404eccdde853dfea8282498b0
+Installed-Size: 235
+Depends: libcsdr0 (= 0.18.44), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
+Filename: ./amd64/libcsdr-dev_0.18.44_amd64.deb
+Size: 31888
+MD5sum: 93b2bb5933f592868bdc9d6cfedf4adc
+SHA1: 955c64fbf028c4475205e9b70584df57956afae7
+SHA256: 4e8d01ec424584c50ded2b8f17d806ea1c621cdc740111a80661a6b3e8432fce
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
@@ -2095,16 +2095,16 @@ Description: development dependencies includes for libcsdr
 
 Package: libcsdr-dev
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 234
-Depends: libcsdr0 (= 0.18.43), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
-Filename: ./arm64/libcsdr-dev_0.18.43_arm64.deb
-Size: 31584
-MD5sum: 9ba32f4509017416546fcc2606434aa5
-SHA1: fa1eecc545dc8ea594a87b98cfab9f339b3101ee
-SHA256: b5d97b20b2b418ff2c5afc56a3d8d4afa6efb300a5b237717f71974b1695e9a8
+Installed-Size: 235
+Depends: libcsdr0 (= 0.18.44), libfftw3-dev (>= 3.3), libsamplerate0-dev (>= 0.1.8)
+Filename: ./arm64/libcsdr-dev_0.18.44_arm64.deb
+Size: 31912
+MD5sum: bc075ef41b5b54d48b9eb309afc04ef0
+SHA1: 21e08717298dccd171acac310268c8bf01830e24
+SHA256: d02b23815d04bc27081a171008bfc5ed92b5f2759a2101eb6be281b71fc79519
 Section: hamradio
 Priority: optional
 Description: development dependencies includes for libcsdr
@@ -2271,16 +2271,16 @@ Build-Ids: c98ae3b22069109236f53fcfac3004f3e799271e
 
 Package: libcsdr0
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 555
+Installed-Size: 559
 Depends: libc6 (>= 2.29), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.5), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 6)
-Filename: ./armhf/libcsdr0_0.18.43_armhf.deb
-Size: 146820
-MD5sum: 9b56e19b23cd9230f7ceb15c82da5b13
-SHA1: cd297e6de752c9f0450ce59f7e86d703d9c978b1
-SHA256: e6ed50e057aa05ad8522528bfce98197b8ef2934c2be36eb75cb13a6970f8bad
+Filename: ./armhf/libcsdr0_0.18.44_armhf.deb
+Size: 148852
+MD5sum: 82df16f016c324d65dd733afc03a71b8
+SHA1: 164acea616fb467c3b847a54d1cf09a0dc532f93
+SHA256: dcdd1685ce74b358fe367413d39f0d4678bb01db4b8454a87d2fcf000eb2467f
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
@@ -2288,16 +2288,16 @@ Description: simple library for software defined radio
 
 Package: libcsdr0
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 877
+Installed-Size: 885
 Depends: libc6 (>= 2.29), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 6)
-Filename: ./amd64/libcsdr0_0.18.43_amd64.deb
-Size: 180632
-MD5sum: 3053caa6cbf8e8b66ab87dac60308830
-SHA1: 2546801ccc1b468b0392d0b148b8b05b8a7edd3c
-SHA256: 7ffdfa8ca5a1e527fd3c5bf18cdb98452a4fbb60c274956bd200efb4863e0d38
+Filename: ./amd64/libcsdr0_0.18.44_amd64.deb
+Size: 182608
+MD5sum: 48def70e408bedec2fd4cf970d07b521
+SHA1: 32d20756e5917177f22b6f52944ef064f2386871
+SHA256: 7e057c9b872fd7fdde13626cb57c9510a8dc0b2cb20460bf706feac4595c83f9
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
@@ -2305,16 +2305,16 @@ Description: simple library for software defined radio
 
 Package: libcsdr0
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 849
+Installed-Size: 853
 Depends: libc6 (>= 2.29), libfftw3-single3 (>= 3.3.5), libgcc-s1 (>= 3.0), libsamplerate0 (>= 0.1.8), libstdc++6 (>= 6)
-Filename: ./arm64/libcsdr0_0.18.43_arm64.deb
-Size: 161524
-MD5sum: 6f3d4bda4353f263510f1b0405cbae19
-SHA1: c03a3ac7947a588a42b3414763fe1aa4049d445b
-SHA256: b1e58786d1f26d9a625f36e774ee82bef9d48f458d4c7b1e1d73bb034305b11d
+Filename: ./arm64/libcsdr0_0.18.44_arm64.deb
+Size: 163732
+MD5sum: 996955d8f70e1dbdbf7eaec9d143ceed
+SHA1: 09de459812e9087aa97acd8731f53d4d97c86d36
+SHA256: 2aa1ce194ce9feca7fd59059e4c3f0e98dea045b76468d3a5ba126357816e9c7
 Section: hamradio
 Priority: optional
 Description: simple library for software defined radio
@@ -2322,57 +2322,57 @@ Description: simple library for software defined radio
 
 Package: libcsdr0-dbgsym
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 1669
-Depends: libcsdr0 (= 0.18.43)
-Filename: ./armhf/libcsdr0-dbgsym_0.18.43_armhf.deb
-Size: 1415596
-MD5sum: a2a7cd4bd67e46713e2fec1a4a5f87b5
-SHA1: 45c24ec9d1282b1f8a26dd440d639ac39cd6be0f
-SHA256: 3e6c064f1fc602febc2d1748b0736bb379e0272a05e8f3faee6a60a241ec189a
+Installed-Size: 1691
+Depends: libcsdr0 (= 0.18.44)
+Filename: ./armhf/libcsdr0-dbgsym_0.18.44_armhf.deb
+Size: 1438064
+MD5sum: 1a9d0e03d66818794ea545e8444e9bf8
+SHA1: 85a0542faf2b186aede3ae103726af2edaf8b6da
+SHA256: ef0cca356daea768443e799b544fe9aa26773f6b368c27764a5632f23ced3424
 Section: debug
 Priority: optional
 Description: debug symbols for libcsdr0
-Build-Ids: d2a859180a7e1fda023cca6805f0fa3e36c0658d
+Build-Ids: 165143bb19d6cf16af01e3b4d3174e5c0666678e
 
 Package: libcsdr0-dbgsym
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 1652
-Depends: libcsdr0 (= 0.18.43)
-Filename: ./amd64/libcsdr0-dbgsym_0.18.43_amd64.deb
-Size: 1439176
-MD5sum: c102b177b837457e3643d11aedfde605
-SHA1: a3f8fad4cd034bd43159dae2cab8b3c7c87128b1
-SHA256: eddf3a06c5ceb1223b6e13b8d4bd4d5ce15ff07a0ae3333cd44659ecd45e1810
+Installed-Size: 1677
+Depends: libcsdr0 (= 0.18.44)
+Filename: ./amd64/libcsdr0-dbgsym_0.18.44_amd64.deb
+Size: 1464344
+MD5sum: f07516e3aa6a998bd9a8dd0b4ff119f9
+SHA1: 8dd6d70b85c915f6742139a319155d0c641d3a03
+SHA256: ebcbc34e43fea0addddadc86f4a98c9fad4b79b7d812f443cf1cb7f3f962b397
 Section: debug
 Priority: optional
 Description: debug symbols for libcsdr0
-Build-Ids: 1d3ecc9f25b6751a7a42bc600f00d58d86d0308f
+Build-Ids: 694a4b53651f0f6f7206466adf2a403955ee6fd6
 
 Package: libcsdr0-dbgsym
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 1672
-Depends: libcsdr0 (= 0.18.43)
-Filename: ./arm64/libcsdr0-dbgsym_0.18.43_arm64.deb
-Size: 1416528
-MD5sum: f09007b30c44c622e8327abd99b2d131
-SHA1: 53b4e76d223c6d9fdad0fc3bda6a8675971b802d
-SHA256: 5940bcbd4bdbb65e282b00a54b583cc2a5e886d7ac8e24c39ce17f11bd26fab0
+Installed-Size: 1696
+Depends: libcsdr0 (= 0.18.44)
+Filename: ./arm64/libcsdr0-dbgsym_0.18.44_arm64.deb
+Size: 1441972
+MD5sum: 1c35bd2b3ec93454de08d250547d2af4
+SHA1: 895700d956d51c06a40cdfc3dda91dc7ffd980c1
+SHA256: fb36f5399ef7f499da2cbfed0fe0e6e3f8617c3feae2049ac95977c86b452e82
 Section: debug
 Priority: optional
 Description: debug symbols for libcsdr0
-Build-Ids: fe2bd19c840b8e8ce7a60ff229824c670ab22468
+Build-Ids: 1f57bcd1b30ed8ae829561a6833183b04a7744ef
 
 Package: libdigiham-dev
 Source: digiham
@@ -2796,17 +2796,17 @@ Build-Ids: 3bb2f9ea86fdd652d471ea7e1b35d94cd0caff3f 87896622aca4708b5d06c23de129
 
 Package: nmux
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 33
 Depends: libc6 (>= 2.28), libgcc-s1 (>= 3.5), libstdc++6 (>= 4.3.0)
 Conflicts: csdr (<= 0.18.0~133)
-Filename: ./armhf/nmux_0.18.43_armhf.deb
-Size: 11928
-MD5sum: 42ff1ee13356d1dcdd50af7f1202476d
-SHA1: 319502b36f4ecec8baf968b32498797ad0028c28
-SHA256: 730ed27c60e567c21b2a436eadb597df51149c70d30ce26fdead2b0494681b40
+Filename: ./armhf/nmux_0.18.44_armhf.deb
+Size: 11968
+MD5sum: e74fb008852246282d79f6f6ca41af9d
+SHA1: abbf245dd0f6ba2f0c9ebee75f90c6430526b159
+SHA256: 81c0c643df1b6c2b33c87c061d309a9ce6e3c5475789655b7588ec0d2e4519ff
 Section: hamradio
 Priority: optional
 Description: TCP stream multiplexer
@@ -2815,17 +2815,17 @@ Description: TCP stream multiplexer
 
 Package: nmux
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 42
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
 Conflicts: csdr (<= 0.18.0~133)
-Filename: ./amd64/nmux_0.18.43_amd64.deb
-Size: 12860
-MD5sum: 87ce248e78cb9b90b96cf8e375d77993
-SHA1: 026dcb77a179140c890768688e1a98b9c80812b3
-SHA256: 6035399455cee22649c5fca7550b7ac0bef3bcdf7ecb016e891eb6bc9560040b
+Filename: ./amd64/nmux_0.18.44_amd64.deb
+Size: 12920
+MD5sum: 294fbbb3d6d5568737d7b9582d9dcc05
+SHA1: ddc596c066c73e1f37bc7d068a039ec93ab64580
+SHA256: 3426981c2e04f7aa203bf341e2c84919342acc8e170758844238225b9eba2b67
 Section: hamradio
 Priority: optional
 Description: TCP stream multiplexer
@@ -2834,17 +2834,17 @@ Description: TCP stream multiplexer
 
 Package: nmux
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 38
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 4.1.1)
 Conflicts: csdr (<= 0.18.0~133)
-Filename: ./arm64/nmux_0.18.43_arm64.deb
-Size: 12544
-MD5sum: 947f5b1c0d40df08f54c9f1534cdaeb0
-SHA1: 632391a83f91d64e349f1fcf69b81d1bf7d831f6
-SHA256: 430ecb3a4809f270bdfdec75081102bc000cdf2a374f1f9be62fcd71cc8f10e4
+Filename: ./arm64/nmux_0.18.44_arm64.deb
+Size: 12588
+MD5sum: 943cdae33827fc456d7dcf1c079fcffa
+SHA1: 4155f6848afde711fc72a8c239947abdd5b6fa7a
+SHA256: 0aec6d2b95485c416d2afcf81dee279bbba00321834e5d87a6e26dffd2c4844e
 Section: hamradio
 Priority: optional
 Description: TCP stream multiplexer
@@ -2853,17 +2853,17 @@ Description: TCP stream multiplexer
 
 Package: nmux-dbgsym
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 70
-Depends: nmux (= 0.18.43)
-Filename: ./armhf/nmux-dbgsym_0.18.43_armhf.deb
-Size: 56412
-MD5sum: 1c50b59346b6916db93a2ac2ce025146
-SHA1: d79b223aaf092a552d87308238c05d0bc1882569
-SHA256: 55892a9e09927447ded68873e3b24e9f423b9f40fa3f91ef80eecf501cffc230
+Depends: nmux (= 0.18.44)
+Filename: ./armhf/nmux-dbgsym_0.18.44_armhf.deb
+Size: 56404
+MD5sum: a1e8d4f6aa98cbef79518f2b1ac80159
+SHA1: fa483a426d8b4be95bf29d09ad0c45ccab32d09c
+SHA256: d7cbe136a03aa95d38ec689df53de740eb4e002f844450569beb2b58772fcf08
 Section: debug
 Priority: optional
 Description: debug symbols for nmux
@@ -2871,17 +2871,17 @@ Build-Ids: 15318578b763779915fb3cb788521ce7d409fae2
 
 Package: nmux-dbgsym
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 72
-Depends: nmux (= 0.18.43)
-Filename: ./amd64/nmux-dbgsym_0.18.43_amd64.deb
-Size: 56720
-MD5sum: e0c38950e4befcf20159b1eef7f154bd
-SHA1: 66dee1ca588dc970a7c1478d3bc8eaa614e91ad0
-SHA256: 1cbe4b21178e0b34fa1dccf19b3933a2c01e20741ece2ada4bcb7a1c2524a6d5
+Depends: nmux (= 0.18.44)
+Filename: ./amd64/nmux-dbgsym_0.18.44_amd64.deb
+Size: 56716
+MD5sum: 1ebd93d60c6972f4d3ec80c6770f6d1e
+SHA1: 584ea36c28e76506cfac24b81a6620cf54a4e8fe
+SHA256: 5a1d3077beb57afb32eaaaa8fe9018fdf2296356392b05cd28745897f402b2fe
 Section: debug
 Priority: optional
 Description: debug symbols for nmux
@@ -2889,17 +2889,17 @@ Build-Ids: 86673e330b902c009ef1b43686b304532c776f62
 
 Package: nmux-dbgsym
 Source: csdr
-Version: 0.18.43
+Version: 0.18.44
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 72
-Depends: nmux (= 0.18.43)
-Filename: ./arm64/nmux-dbgsym_0.18.43_arm64.deb
-Size: 56424
-MD5sum: 789b998ee7d228bd424e46d30d5e8ca9
-SHA1: 2bf0a27c8d49db439b4fbb9327352895de446ce0
-SHA256: 22fd9e214281a995245e0cc405394cea4dd460c6ad2fbf4cc21a47c3e3f9c347
+Depends: nmux (= 0.18.44)
+Filename: ./arm64/nmux-dbgsym_0.18.44_arm64.deb
+Size: 56436
+MD5sum: d1df1b972ce372de1a23c3af2a31c5e7
+SHA1: 6650afc0f8c57cdef9688da2a018af65071cfa39
+SHA256: 58842922a30c69756ea6df62e79e28b2cfdba6d65750c1674409cb538cce8472
 Section: debug
 Priority: optional
 Description: debug symbols for nmux
@@ -3008,17 +3008,17 @@ Description: debug symbols for nrsc5
 Build-Ids: 5dd2515a00885613b9acd820eed660a5061c54fa e44559d293b7db32f4c5fde8c88514f08883dc44
 
 Package: openwebrx
-Version: 1.2.130
+Version: 1.2.131
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3863
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.43), python3:any, debconf (>= 0.5) | debconf-2.0
+Installed-Size: 3866
+Depends: adduser, python3 (>= 3.5), python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.44), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6.11), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, python3-meshtastic, python3-pycryptodome, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, dxlaprs-lora, lame, dream
-Filename: ./armhf/openwebrx_1.2.130_all.deb
-Size: 1064112
-MD5sum: 0256821366cee044324b136916fbb188
-SHA1: aa80c699fc0bda6c461df5a5d0b50211bd6c6518
-SHA256: 564fa385a5e4f4e75fe59dc9f087beeaced6e5b08b1104ea48333620b2a26891
+Filename: ./armhf/openwebrx_1.2.131_all.deb
+Size: 1065144
+MD5sum: ae52d07035daea3800120beda76334fc
+SHA1: ebd36ab706041dad549092792c6aaddae1759af8
+SHA256: f2b90eb545d8f1e547ff146a7718e86241444bdf726da84c5585cedca2ed97a9
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -3026,17 +3026,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.130
+Version: 1.2.131
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3863
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.43), python3:any, debconf (>= 0.5) | debconf-2.0
+Installed-Size: 3866
+Depends: adduser, python3 (>= 3.5), python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.44), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6.11), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, python3-meshtastic, python3-pycryptodome, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, dxlaprs-lora, lame, dream
-Filename: ./amd64/openwebrx_1.2.130_all.deb
-Size: 1064332
-MD5sum: 392181c4143613b8b8c86e251fd7b9fe
-SHA1: 411dec6d7e720efafce64e7caa1ba1803fe6f3b6
-SHA256: e58230edff393c1f7bd26eea750483a28d8e5bb0113bc7ad48d4dce38c58552b
+Filename: ./amd64/openwebrx_1.2.131_all.deb
+Size: 1065020
+MD5sum: e35315994070931e1fbb0b14ac966682
+SHA1: 5d73cf7365414c02339de43e14a5ea6419838ade
+SHA256: f465a88a3bdc46e2332e4ab720b751b62b68c5e9f530ccf61f65fce94b64f06b
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -3044,17 +3044,17 @@ Description: multi-user web sdr
  Open source, multi-user SDR receiver with a web interface
 
 Package: openwebrx
-Version: 1.2.130
+Version: 1.2.131
 Architecture: all
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
-Installed-Size: 3863
-Depends: adduser, python3 (>= 3.5), python3-pkg-resources, python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.43), python3:any, debconf (>= 0.5) | debconf-2.0
+Installed-Size: 3866
+Depends: adduser, python3 (>= 3.5), python3-distutils-extra, owrx-connector (>= 0.6.5), python3-csdr (>= 0.18.44), python3:any, debconf (>= 0.5) | debconf-2.0
 Recommends: python3-digiham (>= 0.6.11), direwolf (>= 1.4), wsjtx, js8call, runds-connector (>= 0.2), hpsdrconnector, aprs-symbols, m17-demod, python3-js8py (>= 0.1), nmux (>= 0.18), codecserver (>= 0.1), msk144decoder, dump1090-fa-minimal, dump978-fa-minimal, dumphfdl, dumpvdl2, acarsdec (>= 4.0), rtl-433, extra-sdr-drivers, perseus-tools, dream-headless, codec2, redsea, python3-csdr-eti, python3-paho-mqtt, python3-meshtastic, python3-pycryptodome, dablin, multimon-ng, imagemagick, nrsc5, libhamlib-utils, csdr-skimmer, sonde-decoders, dxlaprs-lora, lame, dream
-Filename: ./arm64/openwebrx_1.2.130_all.deb
-Size: 1064252
-MD5sum: 061392d50f1f533c3d77b92033af65b2
-SHA1: bf187eba23e9dd6bf4baf6331e40d08a61704710
-SHA256: ae87a7a49c930e0bceb935bf8898085e11a37b46aa714873d65f9c189edee19e
+Filename: ./arm64/openwebrx_1.2.131_all.deb
+Size: 1065028
+MD5sum: 3eb6f9c35030b255538c10d3bb736d4f
+SHA1: 44ea994bd3f8c60e44d9a618a555c62611fc5e9c
+SHA256: 3cfe8dc7ffe07ca2af84ac8252acc47fedcc446bdea998841b14bf47f81587c6
 Section: hamradio
 Priority: optional
 Homepage: https://www.openwebrx.de/
@@ -3171,16 +3171,16 @@ Description: Bluetooth Low Energy platform agnostic client (Python 3)
 
 Package: python3-csdr
 Source: pycsdr
-Version: 0.18.43
+Version: 0.18.44
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 150
-Depends: libcsdr0 (>= 0.18.43), python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.4), libgcc-s1 (>= 3.5), libstdc++6 (>= 5.2)
-Filename: ./armhf/python3-csdr_0.18.43_armhf.deb
-Size: 39756
-MD5sum: bb34c22af3341cca82874f6a603080c4
-SHA1: 7ec0cca54efc0d68a2aef836ab62f029f8175d33
-SHA256: badec6096bdbd201bc59a769c550dacf6b8562f3f36297448a009f41e74525f7
+Depends: libcsdr0 (>= 0.18.44), python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.4), libgcc-s1 (>= 3.5), libstdc++6 (>= 5.2)
+Filename: ./armhf/python3-csdr_0.18.44_armhf.deb
+Size: 39800
+MD5sum: 69f7ee9dfc4046e68ebd5ada98746f6f
+SHA1: c9c3aaf9a94c878eb6f3d2a3e66f271af6315228
+SHA256: c657874639c543d434591f8123d8734ab0c60ee7c0b93dac5087bc1d4486eea9
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr
@@ -3189,16 +3189,16 @@ Description: Python bindings for libcsdr
 
 Package: python3-csdr
 Source: pycsdr
-Version: 0.18.43
+Version: 0.18.44
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 210
-Depends: libcsdr0 (>= 0.18.43), python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
-Filename: ./amd64/python3-csdr_0.18.43_amd64.deb
-Size: 44148
-MD5sum: 0bb0fd74c3bc8cc056d7dec2645532c6
-SHA1: 79f4f3fbb5dcb7bed1507d0ab441dee6f3ed0fae
-SHA256: 7e18fb8f0fd593b1f44deda636afb0215b04c31bba733d5a80a2cfc7c7334df6
+Depends: libcsdr0 (>= 0.18.44), python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Filename: ./amd64/python3-csdr_0.18.44_amd64.deb
+Size: 44236
+MD5sum: f55690923442b0f97faf2c6c2f2acc94
+SHA1: 371d684743419c156282cd5c88b1dce41405ba0c
+SHA256: 37a4d2b1587c53a2eeac7d4521ad9f3f8d700993bb71b1cdf817b7dc5c07c3dc
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr
@@ -3207,16 +3207,16 @@ Description: Python bindings for libcsdr
 
 Package: python3-csdr
 Source: pycsdr
-Version: 0.18.43
+Version: 0.18.44
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 215
-Depends: libcsdr0 (>= 0.18.43), python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
-Filename: ./arm64/python3-csdr_0.18.43_arm64.deb
-Size: 42044
-MD5sum: 8b8e0b11ff1267261fd6d192e57dd5bf
-SHA1: 639a795c59584921d85fb7f92c304e121a42db69
-SHA256: 7ffcacc03477b25a90458fcf8ace09af5b8f788d8183f63445864d1ed19da596
+Depends: libcsdr0 (>= 0.18.44), python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Filename: ./arm64/python3-csdr_0.18.44_arm64.deb
+Size: 42152
+MD5sum: 1adf6e6f11484a73dd7600b8b435cb59
+SHA1: 580294910d5990892979ade585f13231636eaf86
+SHA256: bf8fdf18e84d832c321c6febcd42e164928a0ab3e522318b38b5dd729d04cb3d
 Section: hamradio
 Priority: optional
 Description: Python bindings for libcsdr
@@ -3225,57 +3225,57 @@ Description: Python bindings for libcsdr
 
 Package: python3-csdr-dbgsym
 Source: pycsdr
-Version: 0.18.43
+Version: 0.18.44
 Auto-Built-Package: debug-symbols
 Architecture: armhf
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 817
-Depends: python3-csdr (= 0.18.43)
-Filename: ./armhf/python3-csdr-dbgsym_0.18.43_armhf.deb
-Size: 724240
-MD5sum: 84bc2ea715ee746f4ed9ab7e2183b499
-SHA1: 61fc7643ee25b9fb6671535bc14576359ab0f4a7
-SHA256: cb72814fa93827428d0d43b05c239b98de35d7b7381df71c9f6b49efcd1b162d
+Depends: python3-csdr (= 0.18.44)
+Filename: ./armhf/python3-csdr-dbgsym_0.18.44_armhf.deb
+Size: 724244
+MD5sum: 95efa1fc31f52321c7f33547fe2eb672
+SHA1: 155ecadc9d71bdfd4d6a4a1d533222446fc97d17
+SHA256: d74fce7b15bb9936fe2995da064516348621d764ea55548fc988d74a7f942730
 Section: debug
 Priority: optional
 Description: debug symbols for python3-csdr
-Build-Ids: d151e43d1f2bb1860b3a569eff9eab8a14af272e
+Build-Ids: 67f58fa35e66dcbd13acdbb0f4729351258299a8
 
 Package: python3-csdr-dbgsym
 Source: pycsdr
-Version: 0.18.43
+Version: 0.18.44
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 831
-Depends: python3-csdr (= 0.18.43)
-Filename: ./amd64/python3-csdr-dbgsym_0.18.43_amd64.deb
-Size: 741852
-MD5sum: 76621d34b34645ab87efd03e3626352c
-SHA1: 703176e67e94e2fc597c041cfb68911894c98049
-SHA256: ba05f3ae878e7f66bde74b2ce80ef738c83f6c90c9a4ed6d75393b2ce2ed3c64
+Depends: python3-csdr (= 0.18.44)
+Filename: ./amd64/python3-csdr-dbgsym_0.18.44_amd64.deb
+Size: 741984
+MD5sum: 86e65cb0ac77edbf0328ff6fb936d55f
+SHA1: abd1101b68130e403e20d04a36bc9f06dad52073
+SHA256: 60a414af618bae83a12e153352890b9b15988b1204053c63a25ae904c20e2145
 Section: debug
 Priority: optional
 Description: debug symbols for python3-csdr
-Build-Ids: 1c38cf078a00f975dcaca4fc00ea184bb21f24ba
+Build-Ids: cf800a44d62fdd9f4f590165723101ba2402a244
 
 Package: python3-csdr-dbgsym
 Source: pycsdr
-Version: 0.18.43
+Version: 0.18.44
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Marat Fayzullin <luarvique@gmail.com>
 Installed-Size: 833
-Depends: python3-csdr (= 0.18.43)
-Filename: ./arm64/python3-csdr-dbgsym_0.18.43_arm64.deb
-Size: 734752
-MD5sum: 8a5685966dc0b2e8f55fa3c9a88d50a3
-SHA1: baeabb2b1a17fd61aaa4719238a990f4984f3915
-SHA256: 1e785736d4ec3c7e07b5ee0c18dcf26ed3baaa346de381b12f116b322f17a55c
+Depends: python3-csdr (= 0.18.44)
+Filename: ./arm64/python3-csdr-dbgsym_0.18.44_arm64.deb
+Size: 734852
+MD5sum: 4997d47cca86352409b470e33d457966
+SHA1: 175a31b3eef8aa0f30cd0d545609c9293bc28bb6
+SHA256: 0e78f4da50aaf97e276fb4c4808042bc2c8b9c856430620376fd247615e3b018
 Section: debug
 Priority: optional
 Description: debug symbols for python3-csdr
-Build-Ids: 8e8c1a6e62709c91e3dab7efba26b3566a702e14
+Build-Ids: 725453c64cd1572988a131d31a47b59498b6f903
 
 Package: python3-csdr-eti
 Source: pycsdr-eti
